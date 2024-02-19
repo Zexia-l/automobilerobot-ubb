@@ -1,166 +1,132 @@
 #include <Arduino.h>
-#include <micro_ros_platformio.h>
+#include <MadgwickAHRS.h>
+#include <movingAvg.h>
+#include "Wire.h"
+#include "I2Cdev.h"
+#include "MPU6050.h"
+#include "HMC5883L.h"
 
-#include <rcl/rcl.h>
-#include <rclc/rclc.h>
-#include <rclc/executor.h>
+Madgwick filter;
+HMC5883L mag;
+MPU6050 accelgyro;
 
-#include <std_msgs/msg/int32_multi_array.h>  // Menggunakan array untuk mengirim data encoder
+movingAvg rollAvg(10);
+movingAvg pitchAvg(10);
 
-// Pin definitions for motors
-const int R_EN[] = {22, 26, 30, 34};
-const int L_EN[] = {24, 28, 32, 36};
-const int RPWM[] = {2, 4, 6, 8};
-const int LPWM[] = {3, 5, 7, 9};
-const int ENC_A[] = {27, 31, 35, 39};
-const int ENC_B[] = {29, 33, 37, 41};
+int16_t mx, my, mz;
+int16_t ax, ay, az;
+int16_t gx, gy, gz;
 
-const int motorCount = 4;
-const int speedValue = 150;
-const int delayTime = 2000;
+float ax_offset = 0, ay_offset = 0, az_offset = 0;
+float gx_offset = 0, gy_offset = 0, gz_offset = 0;
 
-volatile long encoderCount[motorCount] = {0, 0, 0, 0};
+#define OUTPUT_READABLE_ACCELGYRO
+//mengatur output keluaran yang dapat dibaca oleh manusia, data yang dihasilkan mungkin akan sulit jika diparsing dan berjalan dengan lambat saat UART
 
-// Micro-ROS variables
-rcl_publisher_t encoder_publisher;
-std_msgs__msg__Int32MultiArray encoder_msg;
 
-rclc_executor_t executor;
-rclc_support_t support;
-rcl_allocator_t allocator;
-rcl_node_t node;
-rcl_timer_t timer;
+#define LED_PIN 13
+bool blinkState = false;
 
-#define RCCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){error_loop();}}
-#define RCSOFTCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){}}
+void calibrate(int samples = 500){
+    long ax_sum = 0, ay_sum = 0, az_sum = 0;
+    long gx_sum = 0, gy_sum = 0, gz_sum = 0;
 
-// Error handling loop
-void error_loop() {
-  while(1) {
-    delay(100);
-  }
-}
-
-// Function to publish encoder data
-void publish_encoder_data() {
-  // Mengisi data encoder ke array
-  for (int i = 0; i < motorCount; i++) {
-    encoder_msg.data.data[i] = encoderCount[i];
-  }
-
-  RCSOFTCHECK(rcl_publish(&encoder_publisher, &encoder_msg, NULL));
-}
-
-// Callback for the timer to publish data periodically
-void timer_callback(rcl_timer_t * timer, int64_t last_call_time) {
-  RCLC_UNUSED(last_call_time);
-  if (timer != NULL) {
-    publish_encoder_data();  // Publish encoder data setiap kali timer dipanggil
-  }
-}
-
-// Encoder read function
-void readEncoder(int motorIndex) {
-  int b = digitalRead(ENC_B[motorIndex]);
-  if (b > 0) {
-    encoderCount[motorIndex]++;  // CW rotation
-  } else {
-    encoderCount[motorIndex]--;  // CCW rotation
-  }
-}
-
-// ISR for each motor
-void encoderISR0() { readEncoder(0); }
-void encoderISR1() { readEncoder(1); }
-void encoderISR2() { readEncoder(2); }
-void encoderISR3() { readEncoder(3); }
-
-// Motor control function
-void controlMotor(int motorIndex, int rpwmValue, int lpwmValue, int duration) {
-  analogWrite(RPWM[motorIndex], rpwmValue);
-  analogWrite(LPWM[motorIndex], lpwmValue);
-
-  delay(duration);
-  RCSOFTCHECK(rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100)))
-}
-
-// Setup function
-void setup() {
-  SerialUSB.begin(115200);  // Initialize SerialUSB communication
-
-  // Set motor pins
-  for (int i = 0; i < motorCount; i++) {
-    pinMode(R_EN[i], OUTPUT);
-    pinMode(L_EN[i], OUTPUT);
-    pinMode(RPWM[i], OUTPUT);
-    pinMode(LPWM[i], OUTPUT);
-    pinMode(ENC_A[i], INPUT);
-    pinMode(ENC_B[i], INPUT);
-
-    digitalWrite(R_EN[i], HIGH);
-    digitalWrite(L_EN[i], HIGH);
-  }
-
-  // Set up interrupt for encoders
-  attachInterrupt(digitalPinToInterrupt(ENC_A[0]), encoderISR0, RISING);
-  attachInterrupt(digitalPinToInterrupt(ENC_A[1]), encoderISR1, RISING);
-  attachInterrupt(digitalPinToInterrupt(ENC_A[2]), encoderISR2, RISING);
-  attachInterrupt(digitalPinToInterrupt(ENC_A[3]), encoderISR3, RISING);
-
-  // Set up Micro-ROS
-  set_microros_serial_transports(SerialUSB);
-  delay(2000);
-
-  allocator = rcl_get_default_allocator();
-  RCCHECK(rclc_support_init(&support, 0, NULL, &allocator));
-
-  RCCHECK(rclc_node_init_default(&node, "encoder_node", "", &support));
-
-  // Set up publisher for encoder data
-  RCCHECK(rclc_publisher_init_default(
-    &encoder_publisher,
-    &node,
-    ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Int32MultiArray),
-    "encoder_data"));
-
-  // Set up timer for periodic publishing
-  const unsigned int timer_timeout = 1000;
-  RCCHECK(rclc_timer_init_default(
-    &timer,
-    &support,
-    RCL_MS_TO_NS(timer_timeout), timer_callback));
-
-  // Set up executor
-  RCCHECK(rclc_executor_init(&executor, &support.context, 1, &allocator));
-  RCCHECK(rclc_executor_add_timer(&executor, &timer));
-
-  // Initialize encoder message array size
-  encoder_msg.data.data = (int32_t*) malloc(motorCount * sizeof(int32_t));
-  encoder_msg.data.size = motorCount;
-  encoder_msg.data.capacity = motorCount;
-}
-
-void loop() {
-  // Control motors
-  for (int i = 0; i < motorCount; i++) {
-    // Motor Forward
-    controlMotor(i, speedValue, 0, delayTime);
-    delay(500);
-    controlMotor(i, 0, 0, delayTime);
-
-    // Motor Reverse
-    controlMotor(i, 0, speedValue, delayTime);
-    delay(500);
-    controlMotor(i, 0, 0, delayTime);
-  }
-
-  // Slow down motors step by step
-  for (int speed = speedValue; speed >= 0; speed -= 10) {
-    for (int i = 0; i < motorCount; i++) {
-      controlMotor(i, speed, 0, 500);
+    for(int i = 0; i < samples; i++){
+        //accelgyro.getRotation(&gx, &gy, &gz);
+        accelgyro.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
+        ax_sum += ax;
+        ay_sum += ay;
+        az_sum += az;
+        gx_sum += gx;
+        gy_sum += gy;
+        gz_sum += gz;
+        delay(2);
     }
-  }
+    ax_offset = ax_sum / samples;
+    ay_offset = ay_sum / samples;
+    az_offset = az_sum / samples;
+    gx_offset = gx_sum / samples;
+    gy_offset = gy_sum / samples;
+    gz_offset = gz_sum / samples;
 
-  // Spin the executor to handle timer callbacks
-  //RCSOFTCHECK(rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100)));
+    SerialUSB.println("MPU6050 calibrated");
+}
+
+void setup(){
+    Wire.begin();
+    SerialUSB.begin(38400);
+    filter.begin(25);
+
+    SerialUSB.println("Memulai I2C....");
+    mag.initialize();
+    accelgyro.initialize();
+
+    SerialUSB.println(mag.testConnection() ? "HMC5883L succes" : "HMC5883L failed");
+    SerialUSB.println(accelgyro.testConnection() ? "MPU6050 succes" : "MPU6050 failed");
+    calibrate();
+    pinMode(LED_PIN, OUTPUT);
+    delay(2000);
+}
+
+void loop(){
+    // read raw heading measurements from device
+    // read raw accel/gyro measurements from device
+    float roll, pitch, yaw;
+    accelgyro.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
+    mag.getHeading(&mx, &my, &mz);
+
+    //ax -= ax_offset;
+    //ay -= ay_offset;
+    //az -= az_offset;
+    gx -= gx_offset;
+    gy -= gy_offset;
+    gz -= gz_offset;
+
+    // display tab-separated gyro x/y/z values 
+    /*
+    SerialUSB.print("mag:\t");
+    SerialUSB.print(mx); SerialUSB.print("\t");
+    SerialUSB.print(my); SerialUSB.print("\t");
+    SerialUSB.print(mz); SerialUSB.print("\t");
+    */
+// To calculate heading in degrees. 0 degree indicates North
+    float heading = atan2(my, mx);
+    if(heading < 0)
+      heading += 2 * M_PI;
+    /*
+    SerialUSB.print("heading:\t");
+    SerialUSB.println(heading * 180/M_PI);
+    */
+
+    filter.update(gx, gy, gz, ax, ay, az, mx, my, mz);
+
+    roll = filter.getRoll();
+    pitch = filter.getPitch();
+    yaw = filter.getYaw();
+    
+    float rollFiltered = rollAvg.reading(roll);
+    float pitchFiltered = pitchAvg.reading(pitch);
+
+    SerialUSB.print("pitch: ");
+    SerialUSB.print(pitch);
+    SerialUSB.print(" roll: ");
+    SerialUSB.print(roll);
+    SerialUSB.print(" yaw: ");
+    SerialUSB.println(yaw);
+    
+    /*
+    SerialUSB.print("a/g:\t");
+    SerialUSB.print(ax); SerialUSB.print("\t");
+    SerialUSB.print(ay); SerialUSB.print("\t");
+    SerialUSB.print(az); SerialUSB.print("\t");
+    SerialUSB.print(gx); SerialUSB.print("\t");
+    SerialUSB.print(gy); SerialUSB.print("\t");
+    SerialUSBUSB.println(gz);
+    */
+    
+
+    // blink LED to indicate activity
+    blinkState = !blinkState;
+    digitalWrite(LED_PIN, blinkState);
+
 }
