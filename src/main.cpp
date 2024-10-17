@@ -81,6 +81,7 @@ void controlMotor(int motorIndex, int rpwmValue, int lpwmValue, int duration) {
   analogWrite(LPWM[motorIndex], lpwmValue);
 
   delay(duration);
+  RCSOFTCHECK(rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100)))
 }
 
 // Setup function
@@ -153,6 +154,13 @@ void loop() {
     controlMotor(i, 0, 0, delayTime);
   }
 
+  // Slow down motors step by step
+  for (int speed = speedValue; speed >= 0; speed -= 10) {
+    for (int i = 0; i < motorCount; i++) {
+      controlMotor(i, speed, 0, 500);
+    }
+  }
+
   // Spin the executor to handle timer callbacks
-  RCSOFTCHECK(rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100)));
+  //RCSOFTCHECK(rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100)));
 }
