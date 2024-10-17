@@ -1,0 +1,467 @@
+[0.333s] Invoking command in '/home/ubuntu/microros_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/micro_ros_demos_rclc:/home/ubuntu/microros_ws/install/common_interfaces:/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/trajectory_msgs:/home/ubuntu/microros_ws/install/stereo_msgs:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble:/home/ubuntu/microros_ws/install/rplidar_ros:/home/ubuntu/microros_ws/install/std_srvs:/home/ubuntu/microros_ws/install/shape_msgs:/home/ubuntu/microros_ws/install/astra_camera_msgs:/home/ubuntu/microros_ws/install/nav_msgs:/home/ubuntu/microros_ws/install/diagnostic_msgs:/home/ubuntu/microros_ws/install/actionlib_msgs:/home/ubuntu/microros_ws/install/statistics_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rosgraph_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/composition_interfaces:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_setup:/home/ubuntu/microros_ws/install/micro_ros_agent:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/lifecycle_msgs:/home/ubuntu/microros_ws/install/complex_msgs LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/home/ubuntu/microros_ws/install/visualization_msgs/lib:/home/ubuntu/microros_ws/install/test_msgs/lib:/home/ubuntu/microros_ws/install/example_interfaces/lib:/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/trajectory_msgs/lib:/home/ubuntu/microros_ws/install/stereo_msgs/lib:/home/ubuntu/microros_ws/install/std_srvs/lib:/home/ubuntu/microros_ws/install/shape_msgs/lib:/home/ubuntu/microros_ws/install/astra_camera_msgs/lib:/home/ubuntu/microros_ws/install/nav_msgs/lib:/home/ubuntu/microros_ws/install/diagnostic_msgs/lib:/home/ubuntu/microros_ws/install/actionlib_msgs/lib:/home/ubuntu/microros_ws/install/statistics_msgs/lib:/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/rosgraph_msgs/lib:/home/ubuntu/microros_ws/install/rclc_parameter/lib:/home/ubuntu/microros_ws/install/rclc/lib:/home/ubuntu/microros_ws/install/composition_interfaces/lib:/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_utilities/lib:/home/ubuntu/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/microros_ws/install/complex_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/microros_ws/build/astra_camera_msgs -- -j4 -l4
+[0.528s] gmake: Warning: File 'Makefile' has modification time 18359885 s in the future
+[0.930s] gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 18359885 s in the future
+[0.984s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__cpp.dir/progress.make' has modification time 18359885 s in the future
+[1.117s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.152s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__cpp.dir/progress.make' has modification time 18359885 s in the future
+[1.159s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.335s] [  0%] Built target astra_camera_msgs__cpp
+[1.351s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_copy_astra_camera_msgs.dir/progress.make' has modification time 18359885 s in the future
+[1.548s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.562s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_copy_astra_camera_msgs.dir/progress.make' has modification time 18359884 s in the future
+[1.829s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.934s] [  0%] Built target ament_cmake_python_copy_astra_camera_msgs
+[1.970s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_microxrcedds_cpp.dir/flags.make' has modification time 18359883 s in the future
+[2.163s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_microxrcedds_cpp[0m
+[2.218s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.267s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_microxrcedds_cpp.dir/flags.make' has modification time 18359883 s in the future
+[2.275s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.387s] [ 10%] Built target astra_camera_msgs__rosidl_typesupport_microxrcedds_cpp
+[2.446s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/flags.make' has modification time 18359883 s in the future
+[2.644s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.703s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.733s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/flags.make' has modification time 18359883 s in the future
+[2.742s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.860s] [ 19%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[2.905s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/flags.make' has modification time 18359883 s in the future
+[3.254s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_introspection_cpp[0m
+[3.340s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[3.376s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/flags.make' has modification time 18359882 s in the future
+[3.391s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[3.528s] [ 28%] Built target astra_camera_msgs__rosidl_typesupport_introspection_cpp
+[3.578s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_build_astra_camera_msgs_egg.dir/progress.make' has modification time 18359882 s in the future
+[3.756s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[3.776s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_build_astra_camera_msgs_egg.dir/progress.make' has modification time 18359882 s in the future
+[6.412s] running egg_info
+[6.420s] writing astra_camera_msgs.egg-info/PKG-INFO
+[6.429s] writing dependency_links to astra_camera_msgs.egg-info/dependency_links.txt
+[6.433s] writing top-level names to astra_camera_msgs.egg-info/top_level.txt
+[6.452s] reading manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'
+[6.460s] writing manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'
+[6.668s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.796s] [ 28%] Built target ament_cmake_python_build_astra_camera_msgs_egg
+[6.854s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/flags.make' has modification time 18359879 s in the future
+[7.027s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_cpp[0m
+[7.083s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.109s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/flags.make' has modification time 18359878 s in the future
+[7.135s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.247s] [ 37%] Built target astra_camera_msgs__rosidl_typesupport_cpp
+[7.293s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/flags.make' has modification time 18359878 s in the future
+[7.455s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_generator_c[0m
+[7.480s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.512s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/flags.make' has modification time 18359878 s in the future
+[7.522s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.666s] [ 46%] Built target astra_camera_msgs__rosidl_generator_c
+[7.718s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_microxrcedds_c.dir/flags.make' has modification time 18359877 s in the future
+[7.875s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_microxrcedds_c[0m
+[7.910s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.941s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_microxrcedds_c.dir/flags.make' has modification time 18359877 s in the future
+[7.956s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[8.147s] [ 56%] Built target astra_camera_msgs__rosidl_typesupport_microxrcedds_c
+[8.249s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/flags.make' has modification time 18359877 s in the future
+[8.424s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_c[0m
+[8.443s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[8.497s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/flags.make' has modification time 18359877 s in the future
+[8.507s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[8.622s] [ 65%] Built target astra_camera_msgs__rosidl_typesupport_c
+[8.677s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/flags.make' has modification time 18359877 s in the future
+[8.861s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_introspection_c[0m
+[8.904s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[8.951s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/flags.make' has modification time 18359876 s in the future
+[8.958s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[9.157s] [ 74%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c
+[9.225s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make' has modification time 18359876 s in the future
+[9.398s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_fastrtps_c[0m
+[9.457s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[9.476s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make' has modification time 18359876 s in the future
+[9.486s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[9.592s] [ 83%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c
+[9.654s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs.dir/progress.make' has modification time 18359876 s in the future
+[9.795s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[9.835s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs.dir/progress.make' has modification time 18359876 s in the future
+[9.848s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[9.988s] [ 83%] Built target astra_camera_msgs
+[10.051s] gmake[2]: Warning: File 'astra_camera_msgs__py/CMakeFiles/astra_camera_msgs__py.dir/progress.make' has modification time 18359876 s in the future
+[10.220s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[10.267s] gmake[2]: Warning: File 'astra_camera_msgs__py/CMakeFiles/astra_camera_msgs__py.dir/progress.make' has modification time 18359876 s in the future
+[10.279s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[10.484s] [ 84%] Built target astra_camera_msgs__py
+[10.519s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/flags.make' has modification time 18359875 s in the future
+[10.685s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_generator_py[0m
+[10.734s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[10.839s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/flags.make' has modification time 18359875 s in the future
+[10.861s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[11.040s] [ 93%] Built target astra_camera_msgs__rosidl_generator_py
+[11.138s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/flags.make' has modification time 18359874 s in the future
+[11.276s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_microxrcedds_c__pyext[0m
+[11.308s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[11.348s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/flags.make' has modification time 18359874 s in the future
+[11.356s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[11.507s] [ 94%] Built target astra_camera_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[11.579s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_c__pyext.dir/flags.make' has modification time 18359874 s in the future
+[11.715s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_c__pyext[0m
+[11.737s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[11.813s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_c__pyext.dir/flags.make' has modification time 18359874 s in the future
+[11.831s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[11.960s] [ 96%] Built target astra_camera_msgs__rosidl_typesupport_c__pyext
+[11.997s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c__pyext.dir/flags.make' has modification time 18359874 s in the future
+[12.159s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[12.196s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[12.233s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c__pyext.dir/flags.make' has modification time 18359874 s in the future
+[12.240s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[12.370s] [ 98%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[12.422s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/flags.make' has modification time 18359873 s in the future
+[12.594s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[12.611s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[12.632s] gmake[2]: Warning: File 'CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/flags.make' has modification time 18359873 s in the future
+[12.639s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[12.790s] [100%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[12.796s] gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+[12.959s] gmake: warning:  Clock skew detected.  Your build may be incomplete.
+[12.991s] Invoked command in '/home/ubuntu/microros_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/micro_ros_demos_rclc:/home/ubuntu/microros_ws/install/common_interfaces:/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/trajectory_msgs:/home/ubuntu/microros_ws/install/stereo_msgs:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble:/home/ubuntu/microros_ws/install/rplidar_ros:/home/ubuntu/microros_ws/install/std_srvs:/home/ubuntu/microros_ws/install/shape_msgs:/home/ubuntu/microros_ws/install/astra_camera_msgs:/home/ubuntu/microros_ws/install/nav_msgs:/home/ubuntu/microros_ws/install/diagnostic_msgs:/home/ubuntu/microros_ws/install/actionlib_msgs:/home/ubuntu/microros_ws/install/statistics_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rosgraph_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/composition_interfaces:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_setup:/home/ubuntu/microros_ws/install/micro_ros_agent:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/lifecycle_msgs:/home/ubuntu/microros_ws/install/complex_msgs LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/home/ubuntu/microros_ws/install/visualization_msgs/lib:/home/ubuntu/microros_ws/install/test_msgs/lib:/home/ubuntu/microros_ws/install/example_interfaces/lib:/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/trajectory_msgs/lib:/home/ubuntu/microros_ws/install/stereo_msgs/lib:/home/ubuntu/microros_ws/install/std_srvs/lib:/home/ubuntu/microros_ws/install/shape_msgs/lib:/home/ubuntu/microros_ws/install/astra_camera_msgs/lib:/home/ubuntu/microros_ws/install/nav_msgs/lib:/home/ubuntu/microros_ws/install/diagnostic_msgs/lib:/home/ubuntu/microros_ws/install/actionlib_msgs/lib:/home/ubuntu/microros_ws/install/statistics_msgs/lib:/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/rosgraph_msgs/lib:/home/ubuntu/microros_ws/install/rclc_parameter/lib:/home/ubuntu/microros_ws/install/rclc/lib:/home/ubuntu/microros_ws/install/composition_interfaces/lib:/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_utilities/lib:/home/ubuntu/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/microros_ws/install/complex_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/microros_ws/build/astra_camera_msgs -- -j4 -l4
+[19.889s] Invoking command in '/home/ubuntu/microros_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/micro_ros_demos_rclc:/home/ubuntu/microros_ws/install/common_interfaces:/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/trajectory_msgs:/home/ubuntu/microros_ws/install/stereo_msgs:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble:/home/ubuntu/microros_ws/install/rplidar_ros:/home/ubuntu/microros_ws/install/std_srvs:/home/ubuntu/microros_ws/install/shape_msgs:/home/ubuntu/microros_ws/install/astra_camera_msgs:/home/ubuntu/microros_ws/install/nav_msgs:/home/ubuntu/microros_ws/install/diagnostic_msgs:/home/ubuntu/microros_ws/install/actionlib_msgs:/home/ubuntu/microros_ws/install/statistics_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rosgraph_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/composition_interfaces:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_setup:/home/ubuntu/microros_ws/install/micro_ros_agent:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/lifecycle_msgs:/home/ubuntu/microros_ws/install/complex_msgs LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/home/ubuntu/microros_ws/install/visualization_msgs/lib:/home/ubuntu/microros_ws/install/test_msgs/lib:/home/ubuntu/microros_ws/install/example_interfaces/lib:/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/trajectory_msgs/lib:/home/ubuntu/microros_ws/install/stereo_msgs/lib:/home/ubuntu/microros_ws/install/std_srvs/lib:/home/ubuntu/microros_ws/install/shape_msgs/lib:/home/ubuntu/microros_ws/install/astra_camera_msgs/lib:/home/ubuntu/microros_ws/install/nav_msgs/lib:/home/ubuntu/microros_ws/install/diagnostic_msgs/lib:/home/ubuntu/microros_ws/install/actionlib_msgs/lib:/home/ubuntu/microros_ws/install/statistics_msgs/lib:/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/rosgraph_msgs/lib:/home/ubuntu/microros_ws/install/rclc_parameter/lib:/home/ubuntu/microros_ws/install/rclc/lib:/home/ubuntu/microros_ws/install/composition_interfaces/lib:/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_utilities/lib:/home/ubuntu/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/microros_ws/install/complex_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/microros_ws/build/astra_camera_msgs
+[19.983s] -- Install configuration: "Release"
+[19.991s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/astra_camera_msgs
+[19.996s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[19.997s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[19.999s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/set_int32.h
+[20.001s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_params.h
+[20.004s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_int32.h
+[20.005s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_info.h
+[20.006s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_string.h
+[20.008s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_device_info.h
+[20.020s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[20.021s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__type_support.h
+[20.023s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__struct.h
+[20.025s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__functions.h
+[20.026s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__type_support.h
+[20.026s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__functions.h
+[20.027s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__struct.h
+[20.027s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__functions.c
+[20.028s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__type_support.h
+[20.028s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__functions.h
+[20.029s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__functions.h
+[20.030s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__functions.c
+[20.031s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__struct.h
+[20.032s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__functions.c
+[20.033s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__struct.h
+[20.035s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__functions.c
+[20.037s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__type_support.h
+[20.038s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__functions.h
+[20.040s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__functions.c
+[20.041s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__struct.h
+[20.042s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__functions.c
+[20.043s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__type_support.h
+[20.043s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__type_support.h
+[20.045s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__struct.h
+[20.046s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__functions.h
+[20.047s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[20.049s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/device_info.h
+[20.053s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/metadata.h
+[20.062s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/extrinsics.h
+[20.067s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[20.073s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__functions.h
+[20.075s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__type_support.h
+[20.076s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__struct.h
+[20.078s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__functions.c
+[20.079s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__functions.h
+[20.081s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__functions.h
+[20.083s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__type_support.h
+[20.084s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__functions.c
+[20.085s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__struct.h
+[20.085s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__type_support.h
+[20.086s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__struct.h
+[20.087s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__functions.c
+[20.088s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[20.088s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.sh
+[20.089s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.dsv
+[20.090s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_c.so
+[20.090s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs
+[20.091s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv
+[20.098s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail
+[20.100s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_microxrcedds_c.h
+[20.101s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_microxrcedds_c.h
+[20.101s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/microxrcedds
+[20.102s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_microxrcedds_c.h
+[20.103s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_microxrcedds_c.h
+[20.104s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_microxrcedds_c.h
+[20.105s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_microxrcedds_c.h
+[20.106s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg
+[20.107s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[20.108s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail
+[20.108s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_microxrcedds_c.h
+[20.109s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_microxrcedds_c.h
+[20.110s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/microxrcedds
+[20.111s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_microxrcedds_c.h
+[20.111s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_microxrcedds_c.so
+[20.112s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[20.113s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[20.114s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[20.115s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_c.h
+[20.116s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_c.h
+[20.117s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_c.h
+[20.119s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_c.h
+[20.120s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_c.h
+[20.122s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_c.h
+[20.123s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[20.125s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[20.128s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[20.136s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h
+[20.144s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h
+[20.146s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_c.h
+[20.147s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[20.148s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[20.152s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[20.155s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[20.156s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__type_support.c
+[20.157s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_c.h
+[20.157s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_c.h
+[20.158s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_c.h
+[20.159s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__type_support.c
+[20.159s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_c.h
+[20.159s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_c.h
+[20.160s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__type_support.c
+[20.160s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__type_support.c
+[20.160s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_c.h
+[20.161s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__type_support.c
+[20.161s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__type_support.c
+[20.162s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[20.162s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[20.163s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h
+[20.164s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__type_support.c
+[20.164s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__type_support.c
+[20.165s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h
+[20.166s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_c.h
+[20.168s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__type_support.c
+[20.169s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[20.169s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_c.so
+[20.170s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_c.so
+[20.171s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[20.171s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[20.172s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_int32.hpp
+[20.172s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_params.hpp
+[20.173s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_device_info.hpp
+[20.173s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_info.hpp
+[20.174s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/set_int32.hpp
+[20.174s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_string.hpp
+[20.175s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[20.175s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__builder.hpp
+[20.176s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__traits.hpp
+[20.176s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__builder.hpp
+[20.177s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__builder.hpp
+[20.177s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__traits.hpp
+[20.178s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__traits.hpp
+[20.178s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__traits.hpp
+[20.179s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__struct.hpp
+[20.180s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__struct.hpp
+[20.180s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__traits.hpp
+[20.181s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__struct.hpp
+[20.182s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__builder.hpp
+[20.183s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__builder.hpp
+[20.184s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__struct.hpp
+[20.185s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__traits.hpp
+[20.185s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__builder.hpp
+[20.186s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__struct.hpp
+[20.186s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__struct.hpp
+[20.187s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[20.187s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/device_info.hpp
+[20.187s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/extrinsics.hpp
+[20.188s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/metadata.hpp
+[20.188s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[20.189s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__builder.hpp
+[20.189s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__traits.hpp
+[20.190s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__struct.hpp
+[20.190s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__struct.hpp
+[20.191s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__traits.hpp
+[20.191s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__struct.hpp
+[20.192s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__builder.hpp
+[20.192s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__builder.hpp
+[20.193s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__traits.hpp
+[20.193s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs
+[20.194s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv
+[20.197s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail
+[20.200s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_microxrcedds_cpp.hpp
+[20.202s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_microxrcedds_cpp.hpp
+[20.203s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_microxrcedds_cpp.hpp
+[20.206s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_microxrcedds_cpp.hpp
+[20.207s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/microxrcedds
+[20.208s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/microxrcedds/get_camera_params__type_support_cpp.cpp
+[20.209s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/microxrcedds/set_int32__type_support_cpp.cpp
+[20.210s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/microxrcedds/get_device_info__type_support_cpp.cpp
+[20.212s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/microxrcedds/get_string__type_support_cpp.cpp
+[20.217s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/microxrcedds/get_camera_info__type_support_cpp.cpp
+[20.222s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/microxrcedds/get_int32__type_support_cpp.cpp
+[20.224s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_microxrcedds_cpp.hpp
+[20.226s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_microxrcedds_cpp.hpp
+[20.238s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg
+[20.238s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[20.239s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail
+[20.240s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_microxrcedds_cpp.hpp
+[20.240s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_microxrcedds_cpp.hpp
+[20.241s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/microxrcedds
+[20.241s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/microxrcedds/metadata__type_support_cpp.cpp
+[20.242s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/microxrcedds/extrinsics__type_support_cpp.cpp
+[20.242s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/microxrcedds/device_info__type_support_cpp.cpp
+[20.243s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_microxrcedds_cpp.hpp
+[20.243s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[20.243s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[20.244s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[20.244s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[20.245s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[20.245s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[20.246s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[20.246s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_cpp.hpp
+[20.246s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_cpp.hpp
+[20.247s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[20.247s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/dds_fastrtps
+[20.248s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[20.248s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[20.261s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[20.262s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[20.269s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[20.270s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+[20.271s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/dds_fastrtps
+[20.271s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[20.272s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[20.273s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[20.273s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[20.274s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__type_support.cpp
+[20.274s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_cpp.hpp
+[20.275s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__type_support.cpp
+[20.281s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__type_support.cpp
+[20.283s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_cpp.hpp
+[20.286s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_cpp.hpp
+[20.287s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_cpp.hpp
+[20.288s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__type_support.cpp
+[20.289s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_cpp.hpp
+[20.293s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__type_support.cpp
+[20.297s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_cpp.hpp
+[20.298s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__type_support.cpp
+[20.298s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[20.299s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[20.299s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_cpp.hpp
+[20.300s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__type_support.cpp
+[20.302s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__type_support.cpp
+[20.303s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__type_support.cpp
+[20.304s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+[20.305s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp
+[20.306s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[20.306s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_cpp.so
+[20.307s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.sh
+[20.308s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.dsv
+[20.310s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info
+[20.311s] -- Installing: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/SOURCES.txt
+[20.311s] -- Installing: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/dependency_links.txt
+[20.312s] -- Installing: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/PKG-INFO
+[20.313s] -- Installing: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/top_level.txt
+[20.314s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs
+[20.315s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[20.316s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/__init__.py
+[20.317s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/libastra_camera_msgs__rosidl_generator_py.so
+[20.317s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[20.318s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[20.318s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv
+[20.319s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_set_int32_s.c
+[20.319s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/__init__.py
+[20.320s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_params.py
+[20.321s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_string.py
+[20.321s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_int32_s.c
+[20.322s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_set_int32.py
+[20.322s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_info_s.c
+[20.323s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_string_s.c
+[20.323s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_device_info.py
+[20.324s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_int32.py
+[20.324s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_device_info_s.c
+[20.325s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_info.py
+[20.325s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_params_s.c
+[20.326s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[20.327s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_c.c
+[20.327s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[20.328s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[20.329s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg
+[20.329s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/__init__.py
+[20.330s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_metadata.py
+[20.331s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_extrinsics_s.c
+[20.331s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_metadata_s.c
+[20.332s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_extrinsics.py
+[20.332s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_device_info_s.c
+[20.333s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_device_info.py
+[20.333s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[20.646s] Listing '/home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs'...
+[20.648s] Listing '/home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg'...
+[20.650s] Listing '/home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv'...
+[20.688s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[20.700s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[20.724s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[20.733s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[20.739s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_py.so
+[20.745s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.idl
+[20.747s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.idl
+[20.752s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.idl
+[20.756s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.idl
+[20.759s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.idl
+[20.760s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.idl
+[20.761s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.idl
+[20.762s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.idl
+[20.763s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.idl
+[20.764s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.msg
+[20.765s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.msg
+[20.766s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.msg
+[20.767s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.srv
+[20.768s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Request.msg
+[20.769s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Response.msg
+[20.770s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.srv
+[20.771s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Request.msg
+[20.772s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Response.msg
+[20.774s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.srv
+[20.775s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Request.msg
+[20.776s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Response.msg
+[20.776s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.srv
+[20.776s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Request.msg
+[20.777s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Response.msg
+[20.777s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.srv
+[20.778s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Request.msg
+[20.778s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Response.msg
+[20.779s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.srv
+[20.779s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Request.msg
+[20.780s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Response.msg
+[20.781s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/ament_index/resource_index/package_run_dependencies/astra_camera_msgs
+[20.781s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/ament_index/resource_index/parent_prefix_path/astra_camera_msgs
+[20.782s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.sh
+[20.782s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.dsv
+[20.783s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.sh
+[20.793s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.dsv
+[20.798s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.bash
+[20.801s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.sh
+[20.806s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.zsh
+[20.811s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.dsv
+[20.833s] -- Installing: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv
+[20.834s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/ament_index/resource_index/packages/astra_camera_msgs
+[20.834s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cExport.cmake
+[20.835s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cExport-release.cmake
+[20.835s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[20.835s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[20.836s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[20.836s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[20.837s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport.cmake
+[20.837s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport-release.cmake
+[20.852s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cppExport.cmake
+[20.858s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[20.859s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[20.862s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[20.863s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[20.868s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport.cmake
+[20.873s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport-release.cmake
+[20.875s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_pyExport.cmake
+[20.876s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_pyExport-release.cmake
+[20.877s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[20.879s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.880s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.881s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[20.881s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[20.882s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.883s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.883s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig.cmake
+[20.884s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig-version.cmake
+[20.884s] -- Up-to-date: /home/ubuntu/microros_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.xml
+[20.909s] Invoked command in '/home/ubuntu/microros_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/micro_ros_demos_rclc:/home/ubuntu/microros_ws/install/common_interfaces:/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/trajectory_msgs:/home/ubuntu/microros_ws/install/stereo_msgs:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble:/home/ubuntu/microros_ws/install/rplidar_ros:/home/ubuntu/microros_ws/install/std_srvs:/home/ubuntu/microros_ws/install/shape_msgs:/home/ubuntu/microros_ws/install/astra_camera_msgs:/home/ubuntu/microros_ws/install/nav_msgs:/home/ubuntu/microros_ws/install/diagnostic_msgs:/home/ubuntu/microros_ws/install/actionlib_msgs:/home/ubuntu/microros_ws/install/statistics_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rosgraph_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/composition_interfaces:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_setup:/home/ubuntu/microros_ws/install/micro_ros_agent:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/lifecycle_msgs:/home/ubuntu/microros_ws/install/complex_msgs LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/home/ubuntu/microros_ws/install/visualization_msgs/lib:/home/ubuntu/microros_ws/install/test_msgs/lib:/home/ubuntu/microros_ws/install/example_interfaces/lib:/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/trajectory_msgs/lib:/home/ubuntu/microros_ws/install/stereo_msgs/lib:/home/ubuntu/microros_ws/install/std_srvs/lib:/home/ubuntu/microros_ws/install/shape_msgs/lib:/home/ubuntu/microros_ws/install/astra_camera_msgs/lib:/home/ubuntu/microros_ws/install/nav_msgs/lib:/home/ubuntu/microros_ws/install/diagnostic_msgs/lib:/home/ubuntu/microros_ws/install/actionlib_msgs/lib:/home/ubuntu/microros_ws/install/statistics_msgs/lib:/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/rosgraph_msgs/lib:/home/ubuntu/microros_ws/install/rclc_parameter/lib:/home/ubuntu/microros_ws/install/rclc/lib:/home/ubuntu/microros_ws/install/composition_interfaces/lib:/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_utilities/lib:/home/ubuntu/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/microros_ws/install/complex_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/microros_ws/build/astra_camera_msgs

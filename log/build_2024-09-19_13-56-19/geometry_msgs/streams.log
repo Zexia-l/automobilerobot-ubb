@@ -1,0 +1,102 @@
+[0.120s] Invoking command in '/home/ubuntu/microros_ws/build/geometry_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/geometry_msgs -- -j4 -l4
+[0.485s] [  0%] Built target geometry_msgs__cpp
+[0.664s] [  0%] Built target ament_cmake_python_symlink_geometry_msgs
+[0.855s] [35m[1mConsolidate compiler generated dependencies of target geometry_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.095s] [ 12%] Built target geometry_msgs__rosidl_typesupport_fastrtps_cpp
+[1.227s] [35m[1mConsolidate compiler generated dependencies of target geometry_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.485s] [ 25%] Built target geometry_msgs__rosidl_typesupport_introspection_cpp
+[3.937s] running egg_info
+[3.947s] writing geometry_msgs.egg-info/PKG-INFO
+[3.949s] writing dependency_links to geometry_msgs.egg-info/dependency_links.txt
+[3.949s] writing top-level names to geometry_msgs.egg-info/top_level.txt
+[3.962s] reading manifest file 'geometry_msgs.egg-info/SOURCES.txt'
+[3.972s] writing manifest file 'geometry_msgs.egg-info/SOURCES.txt'
+[4.188s] [ 25%] Built target ament_cmake_python_build_geometry_msgs_egg
+[4.268s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[13.799s] [35m[1mConsolidate compiler generated dependencies of target geometry_msgs__rosidl_typesupport_cpp[0m
+[13.996s] [ 26%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel__type_support.cpp.o[0m
+[16.437s] [ 27%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel_with_covariance__type_support.cpp.o[0m
+[19.226s] [ 27%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel_with_covariance_stamped__type_support.cpp.o[0m
+[21.838s] [ 27%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/inertia__type_support.cpp.o[0m
+[23.814s] [ 28%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/inertia_stamped__type_support.cpp.o[0m
+[25.201s] [ 28%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/point__type_support.cpp.o[0m
+[26.457s] [ 29%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/point32__type_support.cpp.o[0m
+[27.713s] [ 29%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/point_stamped__type_support.cpp.o[0m
+[28.962s] [ 29%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/polygon__type_support.cpp.o[0m
+[30.237s] [ 30%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/polygon_stamped__type_support.cpp.o[0m
+[31.545s] [ 30%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose__type_support.cpp.o[0m
+[32.860s] [ 30%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose2_d__type_support.cpp.o[0m
+[34.186s] [ 31%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_array__type_support.cpp.o[0m
+[35.463s] [ 31%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_stamped__type_support.cpp.o[0m
+[36.916s] [ 32%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_with_covariance__type_support.cpp.o[0m
+[38.616s] [ 32%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_with_covariance_stamped__type_support.cpp.o[0m
+[39.920s] [ 32%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/quaternion__type_support.cpp.o[0m
+[41.276s] [ 33%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/quaternion_stamped__type_support.cpp.o[0m
+[42.638s] [ 33%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/transform__type_support.cpp.o[0m
+[44.049s] [ 34%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/transform_stamped__type_support.cpp.o[0m
+[45.358s] [ 34%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist__type_support.cpp.o[0m
+[46.723s] [ 34%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist_stamped__type_support.cpp.o[0m
+[48.108s] [ 35%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist_with_covariance__type_support.cpp.o[0m
+[49.428s] [ 35%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist_with_covariance_stamped__type_support.cpp.o[0m
+[50.808s] [ 35%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/vector3__type_support.cpp.o[0m
+[52.078s] [ 36%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/vector3_stamped__type_support.cpp.o[0m
+[53.350s] [ 36%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/velocity_stamped__type_support.cpp.o[0m
+[54.694s] [ 37%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/wrench__type_support.cpp.o[0m
+[56.167s] [ 37%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/wrench_stamped__type_support.cpp.o[0m
+[56.169s] [ 37%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel_stamped__type_support.cpp.o[0m
+[57.706s] [ 37%] [32m[1mLinking CXX shared library libgeometry_msgs__rosidl_typesupport_cpp.so[0m
+[57.931s] [ 37%] Built target geometry_msgs__rosidl_typesupport_cpp
+[58.030s] [35m[1mConsolidate compiler generated dependencies of target geometry_msgs__rosidl_generator_c[0m
+[58.138s] [ 49%] Built target geometry_msgs__rosidl_generator_c
+[58.247s] [35m[1mConsolidate compiler generated dependencies of target geometry_msgs__rosidl_typesupport_introspection_c[0m
+[58.258s] [35m[1mConsolidate compiler generated dependencies of target geometry_msgs__rosidl_typesupport_fastrtps_c[0m
+[58.361s] [ 62%] Built target geometry_msgs__rosidl_typesupport_introspection_c
+[58.422s] [ 63%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[58.443s] [ 75%] Built target geometry_msgs__rosidl_typesupport_fastrtps_c
+[64.457s] [35m[1mConsolidate compiler generated dependencies of target geometry_msgs__rosidl_typesupport_c[0m
+[64.540s] [ 75%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel__type_support.cpp.o[0m
+[64.545s] [ 75%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel_stamped__type_support.cpp.o[0m
+[64.548s] [ 76%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel_with_covariance__type_support.cpp.o[0m
+[64.757s] [ 76%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel_with_covariance_stamped__type_support.cpp.o[0m
+[64.765s] [ 76%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/inertia__type_support.cpp.o[0m
+[64.779s] [ 77%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/inertia_stamped__type_support.cpp.o[0m
+[64.964s] [ 77%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/point__type_support.cpp.o[0m
+[64.972s] [ 77%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/point_stamped__type_support.cpp.o[0m
+[64.986s] [ 78%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/point32__type_support.cpp.o[0m
+[65.010s] [ 78%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/polygon__type_support.cpp.o[0m
+[65.190s] [ 79%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/polygon_stamped__type_support.cpp.o[0m
+[65.225s] [ 80%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose2_d__type_support.cpp.o[0m
+[65.232s] [ 80%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose__type_support.cpp.o[0m
+[65.260s] [ 80%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_array__type_support.cpp.o[0m
+[65.407s] [ 80%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_stamped__type_support.cpp.o[0m
+[65.454s] [ 81%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_with_covariance__type_support.cpp.o[0m
+[65.457s] [ 81%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_with_covariance_stamped__type_support.cpp.o[0m
+[65.477s] [ 81%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/quaternion__type_support.cpp.o[0m
+[65.606s] [ 82%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/quaternion_stamped__type_support.cpp.o[0m
+[65.666s] [ 82%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/transform__type_support.cpp.o[0m
+[65.689s] [ 83%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/transform_stamped__type_support.cpp.o[0m
+[65.718s] [ 83%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist__type_support.cpp.o[0m
+[65.817s] [ 83%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist_stamped__type_support.cpp.o[0m
+[65.870s] [ 84%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist_with_covariance__type_support.cpp.o[0m
+[65.933s] [ 84%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist_with_covariance_stamped__type_support.cpp.o[0m
+[65.950s] [ 84%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/vector3__type_support.cpp.o[0m
+[66.054s] [ 85%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/vector3_stamped__type_support.cpp.o[0m
+[66.068s] [ 85%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/velocity_stamped__type_support.cpp.o[0m
+[66.176s] [ 86%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/wrench__type_support.cpp.o[0m
+[66.193s] [ 86%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/wrench_stamped__type_support.cpp.o[0m
+[66.384s] [ 86%] [32m[1mLinking CXX shared library libgeometry_msgs__rosidl_typesupport_c.so[0m
+[66.613s] [ 86%] Built target geometry_msgs__rosidl_typesupport_c
+[66.712s] [ 86%] Built target geometry_msgs
+[66.823s] [ 86%] Built target geometry_msgs__py
+[66.925s] [35m[1mConsolidate compiler generated dependencies of target geometry_msgs__rosidl_generator_py[0m
+[67.112s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/geometry_msgs/libgeometry_msgs__rosidl_generator_py.so[0m
+[67.466s] [ 98%] Built target geometry_msgs__rosidl_generator_py
+[67.524s] [35m[1mConsolidate compiler generated dependencies of target geometry_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[67.539s] [35m[1mConsolidate compiler generated dependencies of target geometry_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[67.574s] [35m[1mConsolidate compiler generated dependencies of target geometry_msgs__rosidl_typesupport_c__pyext[0m
+[67.633s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/geometry_msgs/geometry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[67.651s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/geometry_msgs/geometry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[67.665s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/geometry_msgs/geometry_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[68.012s] [ 99%] Built target geometry_msgs__rosidl_typesupport_fastrtps_c__pyext
+[68.017s] [ 99%] Built target geometry_msgs__rosidl_typesupport_introspection_c__pyext
+[68.019s] [100%] Built target geometry_msgs__rosidl_typesupport_c__pyext

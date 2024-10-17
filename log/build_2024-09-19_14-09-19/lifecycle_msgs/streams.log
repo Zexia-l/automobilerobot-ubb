@@ -1,0 +1,242 @@
+[0.152s] Invoking command in '/home/ubuntu/microros_ws/build/lifecycle_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/microros_ws/build/lifecycle_msgs -- -j4 -l4
+[0.444s] [ 11%] Built target lifecycle_msgs__rosidl_generator_c
+[0.597s] [ 11%] Built target ament_cmake_python_symlink_lifecycle_msgs
+[0.712s] [ 22%] Built target lifecycle_msgs__rosidl_typesupport_introspection_c
+[0.816s] [ 34%] Built target lifecycle_msgs__rosidl_typesupport_c
+[2.841s] running egg_info
+[2.843s] writing lifecycle_msgs.egg-info/PKG-INFO
+[2.844s] writing dependency_links to lifecycle_msgs.egg-info/dependency_links.txt
+[2.845s] writing top-level names to lifecycle_msgs.egg-info/top_level.txt
+[2.849s] reading manifest file 'lifecycle_msgs.egg-info/SOURCES.txt'
+[2.852s] writing manifest file 'lifecycle_msgs.egg-info/SOURCES.txt'
+[3.054s] [ 34%] Built target ament_cmake_python_build_lifecycle_msgs_egg
+[3.243s] [ 45%] Built target lifecycle_msgs__rosidl_typesupport_fastrtps_c
+[3.407s] [ 47%] Built target lifecycle_msgs__cpp
+[3.544s] [ 58%] Built target lifecycle_msgs__rosidl_typesupport_fastrtps_cpp
+[3.688s] [ 70%] Built target lifecycle_msgs__rosidl_typesupport_cpp
+[3.843s] [ 81%] Built target lifecycle_msgs__rosidl_typesupport_introspection_cpp
+[3.944s] [ 81%] Built target lifecycle_msgs
+[4.076s] [ 82%] Built target lifecycle_msgs__py
+[4.205s] [ 93%] Built target lifecycle_msgs__rosidl_generator_py
+[4.422s] [ 95%] Built target lifecycle_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.515s] [ 97%] Built target lifecycle_msgs__rosidl_typesupport_c__pyext
+[4.629s] [100%] Built target lifecycle_msgs__rosidl_typesupport_introspection_c__pyext
+[4.711s] Invoked command in '/home/ubuntu/microros_ws/build/lifecycle_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/microros_ws/build/lifecycle_msgs -- -j4 -l4
+[6.430s] Invoking command in '/home/ubuntu/microros_ws/build/lifecycle_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/microros_ws/build/lifecycle_msgs
+[6.483s] -- Install configuration: ""
+[6.487s] -- Execute custom install script
+[6.491s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/ament_index/resource_index/rosidl_interfaces/lifecycle_msgs
+[6.500s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__functions.h
+[6.503s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h
+[6.507s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.h
+[6.510s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__functions.h
+[6.512s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h
+[6.515s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.h
+[6.517s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__functions.h
+[6.520s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__struct.h
+[6.524s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__type_support.h
+[6.526s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h
+[6.529s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h
+[6.534s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h
+[6.536s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.539s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/state.h
+[6.541s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition.h
+[6.543s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_description.h
+[6.546s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h
+[6.550s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/change_state.h
+[6.553s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__functions.h
+[6.556s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__struct.h
+[6.559s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__type_support.h
+[6.561s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__functions.h
+[6.564s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__struct.h
+[6.566s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__type_support.h
+[6.569s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__functions.h
+[6.572s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__struct.h
+[6.574s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__type_support.h
+[6.577s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__functions.h
+[6.579s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__struct.h
+[6.582s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__type_support.h
+[6.584s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_states.h
+[6.587s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_transitions.h
+[6.591s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_state.h
+[6.595s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/library_path.sh
+[6.597s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/library_path.dsv
+[6.606s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_fastrtps_c.h
+[6.609s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_fastrtps_c.h
+[6.612s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_fastrtps_c.h
+[6.614s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_fastrtps_c.h
+[6.616s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.618s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_fastrtps_c.h
+[6.623s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_fastrtps_c.h
+[6.625s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_fastrtps_c.h
+[6.629s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_fastrtps_c.h
+[6.635s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_introspection_c.h
+[6.638s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_introspection_c.h
+[6.640s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_introspection_c.h
+[6.643s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_introspection_c.h
+[6.647s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.649s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_introspection_c.h
+[6.652s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_introspection_c.h
+[6.653s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_introspection_c.h
+[6.655s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_introspection_c.h
+[6.660s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__builder.hpp
+[6.661s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.hpp
+[6.662s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__traits.hpp
+[6.663s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp
+[6.664s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp
+[6.666s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp
+[6.667s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__builder.hpp
+[6.668s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__struct.hpp
+[6.669s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__traits.hpp
+[6.670s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__builder.hpp
+[6.672s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.hpp
+[6.673s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__traits.hpp
+[6.674s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp
+[6.675s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp
+[6.676s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_description.hpp
+[6.677s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.hpp
+[6.678s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/change_state.hpp
+[6.680s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__builder.hpp
+[6.681s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__struct.hpp
+[6.682s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__traits.hpp
+[6.683s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__builder.hpp
+[6.685s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__struct.hpp
+[6.686s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__traits.hpp
+[6.689s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__builder.hpp
+[6.689s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__struct.hpp
+[6.690s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__traits.hpp
+[6.691s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__builder.hpp
+[6.692s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__struct.hpp
+[6.694s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__traits.hpp
+[6.695s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_states.hpp
+[6.696s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_transitions.hpp
+[6.697s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_state.hpp
+[6.706s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_fastrtps_cpp.hpp
+[6.707s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_fastrtps_cpp.hpp
+[6.708s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_fastrtps_cpp.hpp
+[6.709s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_fastrtps_cpp.hpp
+[6.711s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.712s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_fastrtps_cpp.hpp
+[6.713s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_fastrtps_cpp.hpp
+[6.715s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_fastrtps_cpp.hpp
+[6.716s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_fastrtps_cpp.hpp
+[6.748s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_introspection_cpp.hpp
+[6.749s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_introspection_cpp.hpp
+[6.750s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_introspection_cpp.hpp
+[6.753s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_introspection_cpp.hpp
+[6.754s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_introspection_cpp.hpp
+[6.755s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_introspection_cpp.hpp
+[6.756s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_introspection_cpp.hpp
+[6.758s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_introspection_cpp.hpp
+[6.759s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/pythonpath.sh
+[6.760s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/pythonpath.dsv
+[6.763s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs-1.2.1-py3.10.egg-info/PKG-INFO
+[6.765s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs-1.2.1-py3.10.egg-info/SOURCES.txt
+[6.765s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs-1.2.1-py3.10.egg-info/dependency_links.txt
+[6.767s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs-1.2.1-py3.10.egg-info/top_level.txt
+[6.776s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/__init__.py
+[6.777s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_c.c
+[6.778s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.779s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.780s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[6.781s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/liblifecycle_msgs__rosidl_generator_py.so
+[6.782s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.783s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.785s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.786s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[6.787s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/__init__.py
+[6.788s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_state.py
+[6.789s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_state_s.c
+[6.791s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition.py
+[6.792s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_description.py
+[6.793s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_description_s.c
+[6.797s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_event.py
+[6.798s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_event_s.c
+[6.799s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_s.c
+[6.800s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/__init__.py
+[6.800s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_change_state.py
+[6.801s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_change_state_s.c
+[6.802s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_available_states.py
+[6.803s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_available_states_s.c
+[6.805s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_available_transitions.py
+[6.807s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_available_transitions_s.c
+[6.809s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_state.py
+[6.809s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_state_s.c
+[6.810s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.813s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.814s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.815s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/State.idl
+[6.816s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/Transition.idl
+[6.816s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionDescription.idl
+[6.817s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionEvent.idl
+[6.818s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState.idl
+[6.820s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates.idl
+[6.821s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions.idl
+[6.824s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState.idl
+[6.825s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/State.msg
+[6.851s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/Transition.msg
+[6.852s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionDescription.msg
+[6.854s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionEvent.msg
+[6.855s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState.srv
+[6.856s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState_Request.msg
+[6.858s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState_Response.msg
+[6.859s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates.srv
+[6.860s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates_Request.msg
+[6.862s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates_Response.msg
+[6.864s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions.srv
+[6.865s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions_Request.msg
+[6.867s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions_Response.msg
+[6.868s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState.srv
+[6.869s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState_Request.msg
+[6.871s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState_Response.msg
+[6.872s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/ament_index/resource_index/package_run_dependencies/lifecycle_msgs
+[6.874s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/ament_index/resource_index/parent_prefix_path/lifecycle_msgs
+[6.875s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/ament_prefix_path.sh
+[6.876s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/ament_prefix_path.dsv
+[6.878s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/path.sh
+[6.879s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/path.dsv
+[6.880s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.bash
+[6.882s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.sh
+[6.883s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.zsh
+[6.884s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.dsv
+[6.885s] -- Symlinking: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/package.dsv
+[6.926s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/ament_index/resource_index/packages/lifecycle_msgs
+[6.927s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/rosidl_cmake-extras.cmake
+[6.929s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.930s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.955s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.956s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.957s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.959s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.965s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgsConfig.cmake
+[6.966s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgsConfig-version.cmake
+[6.968s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/package.xml
+[6.970s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_generator_c.so
+[6.972s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so
+[6.975s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so
+[6.977s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_c.so
+[6.980s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.982s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so
+[6.985s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so
+[7.203s] Listing '/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs'...
+[7.203s] Listing '/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg'...
+[7.204s] Listing '/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv'...
+[7.251s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_generator_py.so
+[7.251s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_cExport.cmake
+[7.251s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.252s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.252s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.253s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.253s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.255s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cExport.cmake
+[7.257s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.260s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_cppExport.cmake
+[7.262s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.263s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.265s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.267s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.268s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cppExport.cmake
+[7.271s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.275s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_pyExport.cmake
+[7.275s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.286s] Invoked command in '/home/ubuntu/microros_ws/build/lifecycle_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/microros_ws/build/lifecycle_msgs

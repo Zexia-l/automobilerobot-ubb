@@ -1,0 +1,10 @@
+[0.218s] Invoking command in '/home/ubuntu/microros_ws/build/unique_identifier_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/microros_ws/build/unique_identifier_msgs -- -j4 -l4
+[0.800s] [35m[1mConsolidate compiler generated dependencies of target unique_identifier_msgs__rosidl_generator_c[0m
+[0.876s] failed to create symbolic link '/home/ubuntu/microros_ws/build/unique_identifier_msgs/ament_cmake_python/unique_identifier_msgs/unique_identifier_msgs' because existing path cannot be removed: Is a directory
+[0.893s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_unique_identifier_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_unique_identifier_msgs] Error 1
+[0.894s] gmake[1]: *** [CMakeFiles/Makefile2:481: CMakeFiles/ament_cmake_python_symlink_unique_identifier_msgs.dir/all] Error 2
+[0.894s] gmake[1]: *** Waiting for unfinished jobs....
+[0.938s] [  2%] Built target unique_identifier_msgs__cpp
+[0.974s] [ 10%] Built target unique_identifier_msgs__rosidl_generator_c
+[0.978s] gmake: *** [Makefile:146: all] Error 2
+[0.988s] Invoked command in '/home/ubuntu/microros_ws/build/unique_identifier_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/microros_ws/build/unique_identifier_msgs -- -j4 -l4

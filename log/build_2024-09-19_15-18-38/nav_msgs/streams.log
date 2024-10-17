@@ -1,0 +1,448 @@
+[0.224s] Invoking command in '/home/ubuntu/microros_ws/build/nav_msgs': CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/micro_ros_demos_rclc:/home/ubuntu/microros_ws/install/common_interfaces:/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/trajectory_msgs:/home/ubuntu/microros_ws/install/stereo_msgs:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble:/home/ubuntu/microros_ws/install/rplidar_ros:/home/ubuntu/microros_ws/install/std_srvs:/home/ubuntu/microros_ws/install/shape_msgs:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/nav_msgs:/home/ubuntu/microros_ws/install/diagnostic_msgs:/home/ubuntu/microros_ws/install/actionlib_msgs:/home/ubuntu/microros_ws/install/statistics_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rosgraph_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/composition_interfaces:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_setup:/home/ubuntu/microros_ws/install/micro_ros_agent:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/lifecycle_msgs:/home/ubuntu/microros_ws/install/complex_msgs LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/home/ubuntu/microros_ws/install/visualization_msgs/lib:/home/ubuntu/microros_ws/install/test_msgs/lib:/home/ubuntu/microros_ws/install/example_interfaces/lib:/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/trajectory_msgs/lib:/home/ubuntu/microros_ws/install/stereo_msgs/lib:/home/ubuntu/microros_ws/install/std_srvs/lib:/home/ubuntu/microros_ws/install/shape_msgs/lib:/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/nav_msgs/lib:/home/ubuntu/microros_ws/install/diagnostic_msgs/lib:/home/ubuntu/microros_ws/install/actionlib_msgs/lib:/home/ubuntu/microros_ws/install/statistics_msgs/lib:/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/rosgraph_msgs/lib:/home/ubuntu/microros_ws/install/rclc_parameter/lib:/home/ubuntu/microros_ws/install/rclc/lib:/home/ubuntu/microros_ws/install/composition_interfaces/lib:/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_utilities/lib:/home/ubuntu/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/microros_ws/install/complex_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ubuntu/microros_ws/src/ros2/common_interfaces/nav_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/nav_msgs
+[0.364s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.908s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.957s] -- Found builtin_interfaces: 1.2.1 (/home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[2.231s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.250s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.303s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.391s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.556s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.714s] -- Found geometry_msgs: 4.2.4 (/home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[3.287s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[7.732s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[13.422s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[16.397s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.744s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[17.182s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[17.183s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[17.184s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[17.877s] -- Configuring done
+[18.540s] -- Generating done
+[18.575s] -- Build files have been written to: /home/ubuntu/microros_ws/build/nav_msgs
+[18.632s] Invoked command in '/home/ubuntu/microros_ws/build/nav_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/micro_ros_demos_rclc:/home/ubuntu/microros_ws/install/common_interfaces:/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/trajectory_msgs:/home/ubuntu/microros_ws/install/stereo_msgs:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble:/home/ubuntu/microros_ws/install/rplidar_ros:/home/ubuntu/microros_ws/install/std_srvs:/home/ubuntu/microros_ws/install/shape_msgs:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/nav_msgs:/home/ubuntu/microros_ws/install/diagnostic_msgs:/home/ubuntu/microros_ws/install/actionlib_msgs:/home/ubuntu/microros_ws/install/statistics_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rosgraph_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/composition_interfaces:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_setup:/home/ubuntu/microros_ws/install/micro_ros_agent:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/lifecycle_msgs:/home/ubuntu/microros_ws/install/complex_msgs LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/home/ubuntu/microros_ws/install/visualization_msgs/lib:/home/ubuntu/microros_ws/install/test_msgs/lib:/home/ubuntu/microros_ws/install/example_interfaces/lib:/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/trajectory_msgs/lib:/home/ubuntu/microros_ws/install/stereo_msgs/lib:/home/ubuntu/microros_ws/install/std_srvs/lib:/home/ubuntu/microros_ws/install/shape_msgs/lib:/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/nav_msgs/lib:/home/ubuntu/microros_ws/install/diagnostic_msgs/lib:/home/ubuntu/microros_ws/install/actionlib_msgs/lib:/home/ubuntu/microros_ws/install/statistics_msgs/lib:/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/rosgraph_msgs/lib:/home/ubuntu/microros_ws/install/rclc_parameter/lib:/home/ubuntu/microros_ws/install/rclc/lib:/home/ubuntu/microros_ws/install/composition_interfaces/lib:/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_utilities/lib:/home/ubuntu/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/microros_ws/install/complex_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ubuntu/microros_ws/src/ros2/common_interfaces/nav_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/nav_msgs
+[18.634s] Invoking command in '/home/ubuntu/microros_ws/build/nav_msgs': CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/micro_ros_demos_rclc:/home/ubuntu/microros_ws/install/common_interfaces:/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/trajectory_msgs:/home/ubuntu/microros_ws/install/stereo_msgs:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble:/home/ubuntu/microros_ws/install/rplidar_ros:/home/ubuntu/microros_ws/install/std_srvs:/home/ubuntu/microros_ws/install/shape_msgs:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/nav_msgs:/home/ubuntu/microros_ws/install/diagnostic_msgs:/home/ubuntu/microros_ws/install/actionlib_msgs:/home/ubuntu/microros_ws/install/statistics_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rosgraph_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/composition_interfaces:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_setup:/home/ubuntu/microros_ws/install/micro_ros_agent:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/lifecycle_msgs:/home/ubuntu/microros_ws/install/complex_msgs LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/home/ubuntu/microros_ws/install/visualization_msgs/lib:/home/ubuntu/microros_ws/install/test_msgs/lib:/home/ubuntu/microros_ws/install/example_interfaces/lib:/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/trajectory_msgs/lib:/home/ubuntu/microros_ws/install/stereo_msgs/lib:/home/ubuntu/microros_ws/install/std_srvs/lib:/home/ubuntu/microros_ws/install/shape_msgs/lib:/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/nav_msgs/lib:/home/ubuntu/microros_ws/install/diagnostic_msgs/lib:/home/ubuntu/microros_ws/install/actionlib_msgs/lib:/home/ubuntu/microros_ws/install/statistics_msgs/lib:/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/rosgraph_msgs/lib:/home/ubuntu/microros_ws/install/rclc_parameter/lib:/home/ubuntu/microros_ws/install/rclc/lib:/home/ubuntu/microros_ws/install/composition_interfaces/lib:/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_utilities/lib:/home/ubuntu/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/microros_ws/install/complex_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/microros_ws/build/nav_msgs -- -j4 -l4
+[19.369s] [  0%] Built target nav_msgs__cpp
+[19.987s] [  0%] Built target ament_cmake_python_symlink_nav_msgs
+[20.290s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[20.512s] [  1%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/grid_cells__type_support.cpp.o[0m
+[25.388s] [  1%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/map_meta_data__type_support.cpp.o[0m
+[29.471s] [  2%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/occupancy_grid__type_support.cpp.o[0m
+[33.900s] [  3%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/odometry__type_support.cpp.o[0m
+[38.416s] [  4%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/path__type_support.cpp.o[0m
+[43.073s] [  5%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/get_map__type_support.cpp.o[0m
+[47.524s] [  6%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/get_plan__type_support.cpp.o[0m
+[52.330s] [  6%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/load_map__type_support.cpp.o[0m
+[57.161s] [  7%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/set_map__type_support.cpp.o[0m
+[61.623s] [  8%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[62.364s] [  9%] Built target nav_msgs__rosidl_typesupport_fastrtps_cpp
+[62.598s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_typesupport_microxrcedds_cpp[0m
+[62.809s] [ 10%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/grid_cells__type_support_cpp.cpp.o[0m
+[66.594s] [ 11%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/map_meta_data__type_support_cpp.cpp.o[0m
+[69.940s] [ 12%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/occupancy_grid__type_support_cpp.cpp.o[0m
+[73.727s] [ 12%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/odometry__type_support_cpp.cpp.o[0m
+[77.001s] [ 13%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/path__type_support_cpp.cpp.o[0m
+[80.846s] [ 14%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_map__type_support_cpp.cpp.o[0m
+[84.401s] [ 15%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_cpp.cpp.o[0m
+[88.105s] [ 16%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/load_map__type_support_cpp.cpp.o[0m
+[91.592s] [ 17%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/set_map__type_support_cpp.cpp.o[0m
+[95.414s] [ 18%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[96.178s] [ 19%] Built target nav_msgs__rosidl_typesupport_microxrcedds_cpp
+[96.308s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_typesupport_introspection_cpp[0m
+[96.520s] [ 20%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/grid_cells__type_support.cpp.o[0m
+[100.727s] [ 21%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/map_meta_data__type_support.cpp.o[0m
+[104.826s] [ 21%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/occupancy_grid__type_support.cpp.o[0m
+[109.678s] [ 22%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/odometry__type_support.cpp.o[0m
+[114.164s] [ 23%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/path__type_support.cpp.o[0m
+[118.975s] [ 24%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/get_map__type_support.cpp.o[0m
+[122.977s] [ 25%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/get_plan__type_support.cpp.o[0m
+[127.089s] [ 26%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/load_map__type_support.cpp.o[0m
+[131.477s] [ 26%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/set_map__type_support.cpp.o[0m
+[135.723s] [ 27%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[136.485s] [ 28%] Built target nav_msgs__rosidl_typesupport_introspection_cpp
+[139.695s] running egg_info
+[139.700s] writing nav_msgs.egg-info/PKG-INFO
+[139.702s] writing dependency_links to nav_msgs.egg-info/dependency_links.txt
+[139.706s] writing top-level names to nav_msgs.egg-info/top_level.txt
+[139.726s] reading manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[139.730s] writing manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[140.040s] [ 28%] Built target ament_cmake_python_build_nav_msgs_egg
+[140.232s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[147.279s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_typesupport_cpp[0m
+[147.503s] [ 29%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/grid_cells__type_support.cpp.o[0m
+[150.548s] [ 30%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/occupancy_grid__type_support.cpp.o[0m
+[153.417s] [ 31%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/odometry__type_support.cpp.o[0m
+[155.972s] [ 32%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/path__type_support.cpp.o[0m
+[158.739s] [ 33%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/get_map__type_support.cpp.o[0m
+[161.788s] [ 33%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/get_plan__type_support.cpp.o[0m
+[164.786s] [ 34%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/load_map__type_support.cpp.o[0m
+[168.028s] [ 35%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/set_map__type_support.cpp.o[0m
+[171.110s] [ 36%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/map_meta_data__type_support.cpp.o[0m
+[174.359s] [ 37%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_cpp.so[0m
+[174.866s] [ 37%] Built target nav_msgs__rosidl_typesupport_cpp
+[175.080s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_generator_c[0m
+[175.274s] [ 38%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/grid_cells__functions.c.o[0m
+[176.164s] [ 38%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/odometry__functions.c.o[0m
+[177.288s] [ 39%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/path__functions.c.o[0m
+[178.390s] [ 40%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_map__functions.c.o[0m
+[179.875s] [ 41%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_plan__functions.c.o[0m
+[181.334s] [ 42%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/load_map__functions.c.o[0m
+[182.565s] [ 43%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/set_map__functions.c.o[0m
+[184.032s] [ 44%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/occupancy_grid__functions.c.o[0m
+[185.442s] [ 45%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/map_meta_data__functions.c.o[0m
+[190.121s] [ 45%] [32m[1mLinking C shared library libnav_msgs__rosidl_generator_c.so[0m
+[190.628s] [ 46%] Built target nav_msgs__rosidl_generator_c
+[190.789s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_typesupport_fastrtps_c[0m
+[191.020s] [ 47%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/grid_cells__type_support_c.cpp.o[0m
+[195.085s] [ 48%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/map_meta_data__type_support_c.cpp.o[0m
+[198.391s] [ 48%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/occupancy_grid__type_support_c.cpp.o[0m
+[201.404s] [ 49%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/odometry__type_support_c.cpp.o[0m
+[204.823s] [ 50%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/path__type_support_c.cpp.o[0m
+[207.545s] [ 51%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/get_map__type_support_c.cpp.o[0m
+[210.317s] [ 52%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/get_plan__type_support_c.cpp.o[0m
+[213.608s] [ 53%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/load_map__type_support_c.cpp.o[0m
+[216.962s] [ 53%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/set_map__type_support_c.cpp.o[0m
+[220.099s] [ 54%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[220.760s] [ 55%] Built target nav_msgs__rosidl_typesupport_fastrtps_c
+[220.950s] [ 56%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[226.943s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_typesupport_c[0m
+[227.087s] [ 57%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/grid_cells__type_support.cpp.o[0m
+[227.532s] [ 57%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/map_meta_data__type_support.cpp.o[0m
+[227.892s] [ 58%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/occupancy_grid__type_support.cpp.o[0m
+[228.353s] [ 59%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/odometry__type_support.cpp.o[0m
+[228.672s] [ 60%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/path__type_support.cpp.o[0m
+[229.070s] [ 61%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/get_map__type_support.cpp.o[0m
+[229.477s] [ 62%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/get_plan__type_support.cpp.o[0m
+[229.885s] [ 62%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/load_map__type_support.cpp.o[0m
+[230.257s] [ 63%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/set_map__type_support.cpp.o[0m
+[230.674s] [ 64%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_c.so[0m
+[231.119s] [ 64%] Built target nav_msgs__rosidl_typesupport_c
+[231.262s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_typesupport_introspection_c[0m
+[231.430s] [ 65%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/grid_cells__type_support.c.o[0m
+[231.903s] [ 66%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/occupancy_grid__type_support.c.o[0m
+[232.446s] [ 66%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/odometry__type_support.c.o[0m
+[232.924s] [ 67%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/path__type_support.c.o[0m
+[233.429s] [ 68%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/get_map__type_support.c.o[0m
+[234.109s] [ 69%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/get_plan__type_support.c.o[0m
+[234.558s] [ 70%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/load_map__type_support.c.o[0m
+[234.994s] [ 71%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/set_map__type_support.c.o[0m
+[235.525s] [ 72%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/map_meta_data__type_support.c.o[0m
+[235.981s] [ 72%] [32m[1mLinking C shared library libnav_msgs__rosidl_typesupport_introspection_c.so[0m
+[236.362s] [ 73%] Built target nav_msgs__rosidl_typesupport_introspection_c
+[236.503s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_typesupport_microxrcedds_c[0m
+[236.665s] [ 74%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/msg/detail/microxrcedds/grid_cells__type_support_c.c.o[0m
+[237.383s] [ 75%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/msg/detail/microxrcedds/odometry__type_support_c.c.o[0m
+[237.964s] [ 75%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/msg/detail/microxrcedds/path__type_support_c.c.o[0m
+[238.680s] [ 76%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/srv/detail/microxrcedds/get_map__type_support_c.c.o[0m
+[239.317s] [ 77%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_c.c.o[0m
+[239.991s] [ 78%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/srv/detail/microxrcedds/load_map__type_support_c.c.o[0m
+[240.766s] [ 79%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/srv/detail/microxrcedds/set_map__type_support_c.c.o[0m
+[241.521s] [ 80%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/msg/detail/microxrcedds/occupancy_grid__type_support_c.c.o[0m
+[242.248s] [ 81%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/msg/detail/microxrcedds/map_meta_data__type_support_c.c.o[0m
+[242.928s] [ 82%] [32m[1mLinking C shared library libnav_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[243.399s] [ 83%] Built target nav_msgs__rosidl_typesupport_microxrcedds_c
+[243.660s] [ 83%] Built target nav_msgs
+[243.955s] [ 84%] Built target nav_msgs__py
+[244.109s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_generator_py[0m
+[244.320s] [ 85%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_grid_cells_s.c.o[0m
+[245.583s] [ 86%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_odometry_s.c.o[0m
+[246.616s] [ 87%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_path_s.c.o[0m
+[247.715s] [ 87%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_get_map_s.c.o[0m
+[248.785s] [ 88%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_get_plan_s.c.o[0m
+[249.907s] [ 89%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_load_map_s.c.o[0m
+[251.119s] [ 90%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_set_map_s.c.o[0m
+[252.202s] [ 91%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_occupancy_grid_s.c.o[0m
+[253.396s] [ 92%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_map_meta_data_s.c.o[0m
+[254.450s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/nav_msgs/libnav_msgs__rosidl_generator_py.so[0m
+[254.985s] [ 93%] Built target nav_msgs__rosidl_generator_py
+[255.159s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_typesupport_microxrcedds_c__pyext[0m
+[255.298s] [ 93%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[257.473s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so[0m
+[258.027s] [ 94%] Built target nav_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[258.144s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_typesupport_c__pyext[0m
+[258.331s] [ 95%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[260.643s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[261.125s] [ 96%] Built target nav_msgs__rosidl_typesupport_c__pyext
+[261.278s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[261.472s] [ 97%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[263.808s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[264.327s] [ 98%] Built target nav_msgs__rosidl_typesupport_introspection_c__pyext
+[264.458s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[264.627s] [ 99%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[266.749s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[267.272s] [100%] Built target nav_msgs__rosidl_typesupport_fastrtps_c__pyext
+[267.424s] Invoked command in '/home/ubuntu/microros_ws/build/nav_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/micro_ros_demos_rclc:/home/ubuntu/microros_ws/install/common_interfaces:/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/trajectory_msgs:/home/ubuntu/microros_ws/install/stereo_msgs:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble:/home/ubuntu/microros_ws/install/rplidar_ros:/home/ubuntu/microros_ws/install/std_srvs:/home/ubuntu/microros_ws/install/shape_msgs:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/nav_msgs:/home/ubuntu/microros_ws/install/diagnostic_msgs:/home/ubuntu/microros_ws/install/actionlib_msgs:/home/ubuntu/microros_ws/install/statistics_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rosgraph_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/composition_interfaces:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_setup:/home/ubuntu/microros_ws/install/micro_ros_agent:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/lifecycle_msgs:/home/ubuntu/microros_ws/install/complex_msgs LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/home/ubuntu/microros_ws/install/visualization_msgs/lib:/home/ubuntu/microros_ws/install/test_msgs/lib:/home/ubuntu/microros_ws/install/example_interfaces/lib:/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/trajectory_msgs/lib:/home/ubuntu/microros_ws/install/stereo_msgs/lib:/home/ubuntu/microros_ws/install/std_srvs/lib:/home/ubuntu/microros_ws/install/shape_msgs/lib:/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/nav_msgs/lib:/home/ubuntu/microros_ws/install/diagnostic_msgs/lib:/home/ubuntu/microros_ws/install/actionlib_msgs/lib:/home/ubuntu/microros_ws/install/statistics_msgs/lib:/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/rosgraph_msgs/lib:/home/ubuntu/microros_ws/install/rclc_parameter/lib:/home/ubuntu/microros_ws/install/rclc/lib:/home/ubuntu/microros_ws/install/composition_interfaces/lib:/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_utilities/lib:/home/ubuntu/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/microros_ws/install/complex_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/microros_ws/build/nav_msgs -- -j4 -l4
+[272.717s] Invoking command in '/home/ubuntu/microros_ws/build/nav_msgs': CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/micro_ros_demos_rclc:/home/ubuntu/microros_ws/install/common_interfaces:/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/trajectory_msgs:/home/ubuntu/microros_ws/install/stereo_msgs:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble:/home/ubuntu/microros_ws/install/rplidar_ros:/home/ubuntu/microros_ws/install/std_srvs:/home/ubuntu/microros_ws/install/shape_msgs:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/nav_msgs:/home/ubuntu/microros_ws/install/diagnostic_msgs:/home/ubuntu/microros_ws/install/actionlib_msgs:/home/ubuntu/microros_ws/install/statistics_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rosgraph_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/composition_interfaces:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_setup:/home/ubuntu/microros_ws/install/micro_ros_agent:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/lifecycle_msgs:/home/ubuntu/microros_ws/install/complex_msgs LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/home/ubuntu/microros_ws/install/visualization_msgs/lib:/home/ubuntu/microros_ws/install/test_msgs/lib:/home/ubuntu/microros_ws/install/example_interfaces/lib:/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/trajectory_msgs/lib:/home/ubuntu/microros_ws/install/stereo_msgs/lib:/home/ubuntu/microros_ws/install/std_srvs/lib:/home/ubuntu/microros_ws/install/shape_msgs/lib:/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/nav_msgs/lib:/home/ubuntu/microros_ws/install/diagnostic_msgs/lib:/home/ubuntu/microros_ws/install/actionlib_msgs/lib:/home/ubuntu/microros_ws/install/statistics_msgs/lib:/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/rosgraph_msgs/lib:/home/ubuntu/microros_ws/install/rclc_parameter/lib:/home/ubuntu/microros_ws/install/rclc/lib:/home/ubuntu/microros_ws/install/composition_interfaces/lib:/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_utilities/lib:/home/ubuntu/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/microros_ws/install/complex_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/microros_ws/build/nav_msgs
+[272.832s] -- Install configuration: "Release"
+[272.836s] -- Execute custom install script
+[272.839s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_msgs
+[272.853s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__functions.h
+[272.856s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__struct.h
+[272.859s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.h
+[272.864s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__functions.h
+[272.865s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__struct.h
+[272.866s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.h
+[272.869s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__functions.h
+[272.873s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.h
+[272.874s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.h
+[272.875s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__functions.h
+[272.878s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.h
+[272.879s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.h
+[272.883s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__functions.h
+[272.885s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__struct.h
+[272.886s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.h
+[272.887s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/grid_cells.h
+[272.888s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/map_meta_data.h
+[272.894s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/occupancy_grid.h
+[272.895s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/odometry.h
+[272.896s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/path.h
+[272.897s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_generator_c__visibility_control.h
+[272.902s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__functions.h
+[272.909s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__struct.h
+[272.910s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.h
+[272.911s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__functions.h
+[272.912s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__struct.h
+[272.913s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.h
+[272.919s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__functions.h
+[272.920s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__struct.h
+[272.922s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.h
+[272.922s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__functions.h
+[272.929s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__struct.h
+[272.931s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.h
+[272.931s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_map.h
+[272.932s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_plan.h
+[272.933s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/load_map.h
+[272.934s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/set_map.h
+[272.935s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/environment/library_path.sh
+[272.936s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/environment/library_path.dsv
+[272.965s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_fastrtps_c.h
+[272.967s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_fastrtps_c.h
+[272.977s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_fastrtps_c.h
+[272.981s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_c.h
+[272.982s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_fastrtps_c.h
+[272.983s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[272.997s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_fastrtps_c.h
+[272.999s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_c.h
+[273.001s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_c.h
+[273.002s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_fastrtps_c.h
+[273.012s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__builder.hpp
+[273.021s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__struct.hpp
+[273.022s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__traits.hpp
+[273.035s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__builder.hpp
+[273.036s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__struct.hpp
+[273.038s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__traits.hpp
+[273.040s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__builder.hpp
+[273.044s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp
+[273.048s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__traits.hpp
+[273.050s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__builder.hpp
+[273.053s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp
+[273.055s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__traits.hpp
+[273.058s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp
+[273.061s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp
+[273.063s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp
+[273.067s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/grid_cells.hpp
+[273.071s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/map_meta_data.hpp
+[273.078s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp
+[273.094s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/odometry.hpp
+[273.096s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/path.hpp
+[273.098s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__builder.hpp
+[273.100s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__struct.hpp
+[273.105s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__traits.hpp
+[273.110s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__builder.hpp
+[273.112s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__struct.hpp
+[273.115s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__traits.hpp
+[273.118s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__builder.hpp
+[273.121s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__struct.hpp
+[273.123s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__traits.hpp
+[273.126s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__builder.hpp
+[273.131s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__struct.hpp
+[273.134s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__traits.hpp
+[273.138s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_map.hpp
+[273.143s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_plan.hpp
+[273.161s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/load_map.hpp
+[273.162s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/set_map.hpp
+[273.163s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_fastrtps_cpp.hpp
+[273.165s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_fastrtps_cpp.hpp
+[273.168s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_fastrtps_cpp.hpp
+[273.170s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_cpp.hpp
+[273.171s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_fastrtps_cpp.hpp
+[273.173s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[273.185s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_fastrtps_cpp.hpp
+[273.185s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[273.186s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_cpp.hpp
+[273.186s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_fastrtps_cpp.hpp
+[273.196s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_microxrcedds_c.h
+[273.289s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_microxrcedds_c.h
+[273.383s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_microxrcedds_c.h
+[273.475s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/odometry__rosidl_typesupport_microxrcedds_c.h
+[273.584s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/path__rosidl_typesupport_microxrcedds_c.h
+[273.696s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[273.804s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_map__rosidl_typesupport_microxrcedds_c.h
+[273.895s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_plan__rosidl_typesupport_microxrcedds_c.h
+[274.000s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/load_map__rosidl_typesupport_microxrcedds_c.h
+[274.124s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/set_map__rosidl_typesupport_microxrcedds_c.h
+[274.232s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_microxrcedds_c.so
+[274.354s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_introspection_c.h
+[274.360s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_introspection_c.h
+[274.363s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_introspection_c.h
+[274.370s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_introspection_c.h
+[274.371s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_introspection_c.h
+[274.372s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[274.373s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_introspection_c.h
+[274.374s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_c.h
+[274.375s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_introspection_c.h
+[274.376s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_introspection_c.h
+[274.385s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_microxrcedds_cpp.hpp
+[274.497s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_microxrcedds_cpp.hpp
+[274.610s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds/grid_cells__type_support_cpp.cpp
+[274.703s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds/map_meta_data__type_support_cpp.cpp
+[274.854s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds/occupancy_grid__type_support_cpp.cpp
+[274.974s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds/odometry__type_support_cpp.cpp
+[275.070s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds/path__type_support_cpp.cpp
+[275.177s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_microxrcedds_cpp.hpp
+[275.259s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/odometry__rosidl_typesupport_microxrcedds_cpp.hpp
+[275.368s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/path__rosidl_typesupport_microxrcedds_cpp.hpp
+[275.479s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[275.568s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_map__rosidl_typesupport_microxrcedds_cpp.hpp
+[275.675s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_plan__rosidl_typesupport_microxrcedds_cpp.hpp
+[275.780s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/load_map__rosidl_typesupport_microxrcedds_cpp.hpp
+[275.886s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/microxrcedds/get_map__type_support_cpp.cpp
+[275.974s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_cpp.cpp
+[276.074s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/microxrcedds/load_map__type_support_cpp.cpp
+[276.176s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/microxrcedds/set_map__type_support_cpp.cpp
+[276.274s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/set_map__rosidl_typesupport_microxrcedds_cpp.hpp
+[276.380s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[276.476s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_introspection_cpp.hpp
+[276.480s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_introspection_cpp.hpp
+[276.483s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_introspection_cpp.hpp
+[276.485s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_introspection_cpp.hpp
+[276.487s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_introspection_cpp.hpp
+[276.490s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_introspection_cpp.hpp
+[276.492s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_cpp.hpp
+[276.495s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_introspection_cpp.hpp
+[276.497s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_introspection_cpp.hpp
+[276.499s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/environment/pythonpath.sh
+[276.500s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/environment/pythonpath.dsv
+[276.503s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs-4.2.4-py3.10.egg-info/PKG-INFO
+[276.526s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs-4.2.4-py3.10.egg-info/SOURCES.txt
+[276.527s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs-4.2.4-py3.10.egg-info/dependency_links.txt
+[276.529s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs-4.2.4-py3.10.egg-info/top_level.txt
+[276.530s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/__init__.py
+[276.531s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_c.c
+[276.533s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[276.543s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[276.545s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[276.547s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/libnav_msgs__rosidl_generator_py.so
+[276.557s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/__init__.py
+[276.559s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_grid_cells.py
+[276.560s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_grid_cells_s.c
+[276.562s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_map_meta_data.py
+[276.563s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_map_meta_data_s.c
+[276.564s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_occupancy_grid.py
+[276.566s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_occupancy_grid_s.c
+[276.567s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_odometry.py
+[276.568s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_odometry_s.c
+[276.569s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_path.py
+[276.570s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_path_s.c
+[276.575s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[276.576s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[276.578s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[276.594s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[276.599s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/__init__.py
+[276.600s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_get_map.py
+[276.601s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_get_map_s.c
+[276.602s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_get_plan.py
+[276.603s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_get_plan_s.c
+[276.604s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_load_map.py
+[276.605s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_load_map_s.c
+[276.607s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_set_map.py
+[276.608s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_set_map_s.c
+[276.610s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[276.617s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[276.622s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[276.623s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[276.625s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/msg/GridCells.idl
+[276.626s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/msg/MapMetaData.idl
+[276.628s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/msg/OccupancyGrid.idl
+[276.629s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/msg/Odometry.idl
+[276.630s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/msg/Path.idl
+[276.632s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/srv/GetMap.idl
+[276.635s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/srv/GetPlan.idl
+[276.637s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/srv/LoadMap.idl
+[276.638s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/srv/SetMap.idl
+[276.643s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/msg/GridCells.msg
+[276.645s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/msg/MapMetaData.msg
+[276.646s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/msg/OccupancyGrid.msg
+[276.648s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/msg/Odometry.msg
+[276.650s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/msg/Path.msg
+[276.651s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/srv/GetMap.srv
+[276.652s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/srv/GetMap_Request.msg
+[276.654s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/srv/GetMap_Response.msg
+[276.656s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/srv/GetPlan.srv
+[276.658s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/srv/GetPlan_Request.msg
+[276.660s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/srv/GetPlan_Response.msg
+[276.663s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/srv/LoadMap.srv
+[276.671s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/srv/LoadMap_Request.msg
+[276.677s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/srv/LoadMap_Response.msg
+[276.680s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/srv/SetMap.srv
+[276.683s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/srv/SetMap_Request.msg
+[276.686s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/srv/SetMap_Response.msg
+[276.689s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/ament_index/resource_index/package_run_dependencies/nav_msgs
+[276.692s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/ament_index/resource_index/parent_prefix_path/nav_msgs
+[276.695s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/environment/ament_prefix_path.sh
+[276.711s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/environment/ament_prefix_path.dsv
+[276.712s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/environment/path.sh
+[276.714s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/environment/path.dsv
+[276.716s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/local_setup.bash
+[276.717s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/local_setup.sh
+[276.719s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/local_setup.zsh
+[276.720s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/local_setup.dsv
+[276.722s] -- Symlinking: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/package.dsv
+[276.829s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/ament_index/resource_index/packages/nav_msgs
+[276.829s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake-extras.cmake
+[276.837s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[276.837s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[276.838s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[276.839s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[276.840s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[276.841s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[276.841s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgsConfig.cmake
+[276.842s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgsConfig-version.cmake
+[276.842s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/package.xml
+[276.843s] -- Installing: /home/ubuntu/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_generator_c.so
+[276.857s] -- Set runtime path of "/home/ubuntu/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_generator_c.so" to ""
+[276.858s] -- Installing: /home/ubuntu/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so
+[276.859s] -- Set runtime path of "/home/ubuntu/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[276.859s] -- Installing: /home/ubuntu/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so
+[276.868s] -- Set runtime path of "/home/ubuntu/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[276.870s] -- Installing: /home/ubuntu/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_c.so
+[276.873s] -- Set runtime path of "/home/ubuntu/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_c.so" to ""
+[276.874s] -- Installing: /home/ubuntu/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_c.so
+[276.880s] -- Set runtime path of "/home/ubuntu/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_c.so" to ""
+[276.881s] -- Installing: /home/ubuntu/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
+[276.885s] -- Set runtime path of "/home/ubuntu/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[276.887s] -- Installing: /home/ubuntu/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_cpp.so
+[276.890s] -- Set runtime path of "/home/ubuntu/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_cpp.so" to ""
+[277.322s] Listing '/home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs'...
+[277.324s] Compiling '/home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/__init__.py'...
+[277.326s] Listing '/home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg'...
+[277.335s] Listing '/home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv'...
+[277.365s] -- Installing: /home/ubuntu/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_generator_py.so
+[277.371s] -- Set runtime path of "/home/ubuntu/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_generator_py.so" to ""
+[277.372s] -- Up-to-date: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cExport.cmake
+[277.373s] -- Installing: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cExport-release.cmake
+[277.376s] -- Up-to-date: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[277.377s] -- Installing: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[277.405s] -- Up-to-date: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cppExport.cmake
+[277.406s] -- Up-to-date: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[277.408s] -- Installing: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[277.409s] -- Up-to-date: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cExport.cmake
+[277.412s] -- Installing: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[277.414s] -- Up-to-date: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cExport.cmake
+[277.419s] -- Installing: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cExport-release.cmake
+[277.421s] -- Up-to-date: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[277.443s] -- Installing: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[277.448s] -- Up-to-date: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cppExport.cmake
+[277.451s] -- Installing: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cppExport-release.cmake
+[277.452s] -- Up-to-date: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_pyExport.cmake
+[277.454s] -- Installing: /home/ubuntu/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_pyExport-release.cmake
+[277.455s] Invoked command in '/home/ubuntu/microros_ws/build/nav_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/micro_ros_demos_rclc:/home/ubuntu/microros_ws/install/common_interfaces:/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/trajectory_msgs:/home/ubuntu/microros_ws/install/stereo_msgs:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble:/home/ubuntu/microros_ws/install/rplidar_ros:/home/ubuntu/microros_ws/install/std_srvs:/home/ubuntu/microros_ws/install/shape_msgs:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/nav_msgs:/home/ubuntu/microros_ws/install/diagnostic_msgs:/home/ubuntu/microros_ws/install/actionlib_msgs:/home/ubuntu/microros_ws/install/statistics_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rosgraph_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/composition_interfaces:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_setup:/home/ubuntu/microros_ws/install/micro_ros_agent:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/lifecycle_msgs:/home/ubuntu/microros_ws/install/complex_msgs LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/home/ubuntu/microros_ws/install/visualization_msgs/lib:/home/ubuntu/microros_ws/install/test_msgs/lib:/home/ubuntu/microros_ws/install/example_interfaces/lib:/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/trajectory_msgs/lib:/home/ubuntu/microros_ws/install/stereo_msgs/lib:/home/ubuntu/microros_ws/install/std_srvs/lib:/home/ubuntu/microros_ws/install/shape_msgs/lib:/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/nav_msgs/lib:/home/ubuntu/microros_ws/install/diagnostic_msgs/lib:/home/ubuntu/microros_ws/install/actionlib_msgs/lib:/home/ubuntu/microros_ws/install/statistics_msgs/lib:/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/rosgraph_msgs/lib:/home/ubuntu/microros_ws/install/rclc_parameter/lib:/home/ubuntu/microros_ws/install/rclc/lib:/home/ubuntu/microros_ws/install/composition_interfaces/lib:/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_utilities/lib:/home/ubuntu/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/microros_ws/install/complex_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/microros_ws/build/nav_msgs

@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/build/trajectory_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

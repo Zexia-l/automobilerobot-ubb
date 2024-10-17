@@ -1,0 +1,54 @@
+[0.114s] Invoking command in '/home/ubuntu/microros_ws/build/statistics_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/statistics_msgs -- -j4 -l4
+[0.460s] [  2%] Built target statistics_msgs__cpp
+[0.665s] [  2%] Built target ament_cmake_python_symlink_statistics_msgs
+[0.788s] [35m[1mConsolidate compiler generated dependencies of target statistics_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.914s] [ 12%] Built target statistics_msgs__rosidl_typesupport_fastrtps_cpp
+[1.019s] [35m[1mConsolidate compiler generated dependencies of target statistics_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.133s] [ 23%] Built target statistics_msgs__rosidl_typesupport_introspection_cpp
+[3.125s] running egg_info
+[3.134s] writing statistics_msgs.egg-info/PKG-INFO
+[3.136s] writing dependency_links to statistics_msgs.egg-info/dependency_links.txt
+[3.137s] writing top-level names to statistics_msgs.egg-info/top_level.txt
+[3.153s] reading manifest file 'statistics_msgs.egg-info/SOURCES.txt'
+[3.189s] writing manifest file 'statistics_msgs.egg-info/SOURCES.txt'
+[3.437s] [ 23%] Built target ament_cmake_python_build_statistics_msgs_egg
+[3.501s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.381s] [35m[1mConsolidate compiler generated dependencies of target statistics_msgs__rosidl_typesupport_cpp[0m
+[6.489s] [ 27%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/statistics_msgs/msg/metrics_message__type_support.cpp.o[0m
+[8.695s] [ 29%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/statistics_msgs/msg/statistic_data_type__type_support.cpp.o[0m
+[10.799s] [ 31%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/statistics_msgs/msg/statistic_data_point__type_support.cpp.o[0m
+[13.002s] [ 34%] [32m[1mLinking CXX shared library libstatistics_msgs__rosidl_typesupport_cpp.so[0m
+[13.308s] [ 34%] Built target statistics_msgs__rosidl_typesupport_cpp
+[13.391s] [35m[1mConsolidate compiler generated dependencies of target statistics_msgs__rosidl_generator_c[0m
+[13.486s] [ 44%] Built target statistics_msgs__rosidl_generator_c
+[13.584s] [35m[1mConsolidate compiler generated dependencies of target statistics_msgs__rosidl_typesupport_fastrtps_c[0m
+[13.692s] [ 55%] Built target statistics_msgs__rosidl_typesupport_fastrtps_c
+[13.744s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[16.543s] [35m[1mConsolidate compiler generated dependencies of target statistics_msgs__rosidl_typesupport_c[0m
+[16.605s] [ 59%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/statistics_msgs/msg/metrics_message__type_support.cpp.o[0m
+[16.871s] [ 61%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/statistics_msgs/msg/statistic_data_type__type_support.cpp.o[0m
+[17.187s] [ 63%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/statistics_msgs/msg/statistic_data_point__type_support.cpp.o[0m
+[17.416s] [ 65%] [32m[1mLinking CXX shared library libstatistics_msgs__rosidl_typesupport_c.so[0m
+[17.756s] [ 65%] Built target statistics_msgs__rosidl_typesupport_c
+[17.879s] [35m[1mConsolidate compiler generated dependencies of target statistics_msgs__rosidl_typesupport_introspection_c[0m
+[17.969s] [ 76%] Built target statistics_msgs__rosidl_typesupport_introspection_c
+[18.113s] [ 76%] Built target statistics_msgs
+[18.669s] [ 78%] Built target statistics_msgs__py
+[18.748s] [35m[1mConsolidate compiler generated dependencies of target statistics_msgs__rosidl_generator_py[0m
+[18.878s] [ 80%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_py.dir/rosidl_generator_py/statistics_msgs/msg/_metrics_message_s.c.o[0m
+[19.630s] [ 82%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_py.dir/rosidl_generator_py/statistics_msgs/msg/_statistic_data_type_s.c.o[0m
+[20.328s] [ 85%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_py.dir/rosidl_generator_py/statistics_msgs/msg/_statistic_data_point_s.c.o[0m
+[20.957s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/statistics_msgs/libstatistics_msgs__rosidl_generator_py.so[0m
+[21.254s] [ 87%] Built target statistics_msgs__rosidl_generator_py
+[21.353s] [35m[1mConsolidate compiler generated dependencies of target statistics_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[21.431s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/statistics_msgs/statistics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[21.793s] [ 91%] Built target statistics_msgs__rosidl_typesupport_fastrtps_c__pyext
+[21.858s] [35m[1mConsolidate compiler generated dependencies of target statistics_msgs__rosidl_typesupport_c__pyext[0m
+[21.951s] [ 93%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[22.838s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/statistics_msgs/statistics_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[23.149s] [ 95%] Built target statistics_msgs__rosidl_typesupport_c__pyext
+[23.210s] [35m[1mConsolidate compiler generated dependencies of target statistics_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[23.287s] [ 97%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[24.030s] [100%] [32m[1mLinking C shared library rosidl_generator_py/statistics_msgs/statistics_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[24.347s] [100%] Built target statistics_msgs__rosidl_typesupport_introspection_c__pyext
+[24.418s] Invoked command in '/home/ubuntu/microros_ws/build/statistics_msgs' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/statistics_msgs -- -j4 -l4

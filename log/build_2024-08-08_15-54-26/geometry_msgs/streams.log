@@ -1,0 +1,1212 @@
+[0.072s] Invoking command in '/home/ubuntu/microros_ws/build/geometry_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/microros_ws/src/ros2/common_interfaces/geometry_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/geometry_msgs
+[0.437s] -- The C compiler identification is GNU 11.4.0
+[0.758s] -- The CXX compiler identification is GNU 11.4.0
+[0.791s] -- Detecting C compiler ABI info
+[1.232s] -- Detecting C compiler ABI info - done
+[1.266s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.268s] -- Detecting C compile features
+[1.271s] -- Detecting C compile features - done
+[1.289s] -- Detecting CXX compiler ABI info
+[1.770s] -- Detecting CXX compiler ABI info - done
+[1.798s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.799s] -- Detecting CXX compile features
+[1.801s] -- Detecting CXX compile features - done
+[1.835s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.911s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.727s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.767s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.863s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.387s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.719s] -- Found std_msgs: 4.2.4 (/home/ubuntu/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[7.669s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[9.681s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.094s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.243s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[12.271s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[12.477s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[12.478s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.479s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[12.481s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[12.627s] -- Found PythonExtra: .so  
+[13.050s] -- Configuring done
+[13.733s] -- Generating done
+[13.755s] -- Build files have been written to: /home/ubuntu/microros_ws/build/geometry_msgs
+[13.819s] Invoked command in '/home/ubuntu/microros_ws/build/geometry_msgs' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/microros_ws/src/ros2/common_interfaces/geometry_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/geometry_msgs
+[13.821s] Invoking command in '/home/ubuntu/microros_ws/build/geometry_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/geometry_msgs -- -j4 -l4
+[14.212s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[29.851s] [  0%] Built target geometry_msgs__cpp
+[30.027s] [  0%] Built target ament_cmake_python_copy_geometry_msgs
+[30.093s] [  0%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[42.252s] [  0%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/accel__type_support_cpp.cpp.o[0m
+[44.245s] [  1%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/accel_stamped__type_support_cpp.cpp.o[0m
+[46.218s] [  1%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/accel_with_covariance__type_support_cpp.cpp.o[0m
+[48.227s] [  1%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/accel_with_covariance_stamped__type_support_cpp.cpp.o[0m
+[50.287s] [  2%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/inertia__type_support_cpp.cpp.o[0m
+[52.298s] [  2%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/inertia_stamped__type_support_cpp.cpp.o[0m
+[54.354s] [  2%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/point__type_support_cpp.cpp.o[0m
+[56.311s] [  3%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/point32__type_support_cpp.cpp.o[0m
+[58.212s] [  3%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/point_stamped__type_support_cpp.cpp.o[0m
+[60.310s] [  3%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/polygon__type_support_cpp.cpp.o[0m
+[62.492s] [  3%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/polygon_stamped__type_support_cpp.cpp.o[0m
+[64.468s] [  4%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/pose__type_support_cpp.cpp.o[0m
+[66.510s] [  4%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/pose2_d__type_support_cpp.cpp.o[0m
+[68.579s] [  4%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/pose_array__type_support_cpp.cpp.o[0m
+[70.810s] [  5%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/pose_stamped__type_support_cpp.cpp.o[0m
+[72.842s] [  5%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/pose_with_covariance__type_support_cpp.cpp.o[0m
+[74.936s] [  5%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/pose_with_covariance_stamped__type_support_cpp.cpp.o[0m
+[77.006s] [  6%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/quaternion__type_support_cpp.cpp.o[0m
+[79.115s] [  6%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/quaternion_stamped__type_support_cpp.cpp.o[0m
+[81.179s] [  6%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/transform__type_support_cpp.cpp.o[0m
+[83.162s] [  6%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/transform_stamped__type_support_cpp.cpp.o[0m
+[85.202s] [  7%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/twist__type_support_cpp.cpp.o[0m
+[87.268s] [  7%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/twist_stamped__type_support_cpp.cpp.o[0m
+[89.286s] [  7%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/twist_with_covariance__type_support_cpp.cpp.o[0m
+[91.397s] [  8%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/twist_with_covariance_stamped__type_support_cpp.cpp.o[0m
+[93.436s] [  8%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/vector3__type_support_cpp.cpp.o[0m
+[95.428s] [  8%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/vector3_stamped__type_support_cpp.cpp.o[0m
+[97.456s] [  9%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/velocity_stamped__type_support_cpp.cpp.o[0m
+[99.472s] [  9%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/wrench__type_support_cpp.cpp.o[0m
+[101.467s] [  9%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/wrench_stamped__type_support_cpp.cpp.o[0m
+[103.568s] [ 10%] [32m[1mLinking CXX shared library libgeometry_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[104.157s] [ 10%] Built target geometry_msgs__rosidl_typesupport_microxrcedds_cpp
+[104.225s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[116.487s] [ 10%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/accel__type_support.cpp.o[0m
+[119.283s] [ 11%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/accel_stamped__type_support.cpp.o[0m
+[121.917s] [ 11%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/accel_with_covariance__type_support.cpp.o[0m
+[124.569s] [ 11%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/accel_with_covariance_stamped__type_support.cpp.o[0m
+[127.273s] [ 11%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/inertia__type_support.cpp.o[0m
+[129.989s] [ 12%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/inertia_stamped__type_support.cpp.o[0m
+[132.675s] [ 12%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/point__type_support.cpp.o[0m
+[135.326s] [ 12%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/point32__type_support.cpp.o[0m
+[137.972s] [ 13%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/point_stamped__type_support.cpp.o[0m
+[140.639s] [ 13%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/polygon__type_support.cpp.o[0m
+[143.613s] [ 13%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/polygon_stamped__type_support.cpp.o[0m
+[146.322s] [ 14%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose__type_support.cpp.o[0m
+[148.952s] [ 14%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose2_d__type_support.cpp.o[0m
+[151.532s] [ 14%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose_array__type_support.cpp.o[0m
+[154.477s] [ 15%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose_stamped__type_support.cpp.o[0m
+[157.334s] [ 15%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose_with_covariance__type_support.cpp.o[0m
+[159.969s] [ 15%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose_with_covariance_stamped__type_support.cpp.o[0m
+[162.491s] [ 15%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/quaternion__type_support.cpp.o[0m
+[165.180s] [ 16%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/quaternion_stamped__type_support.cpp.o[0m
+[167.645s] [ 16%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/transform__type_support.cpp.o[0m
+[170.438s] [ 16%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/transform_stamped__type_support.cpp.o[0m
+[173.245s] [ 17%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/twist__type_support.cpp.o[0m
+[175.818s] [ 17%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/twist_stamped__type_support.cpp.o[0m
+[178.410s] [ 17%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/twist_with_covariance__type_support.cpp.o[0m
+[181.107s] [ 18%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/twist_with_covariance_stamped__type_support.cpp.o[0m
+[184.030s] [ 18%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/vector3__type_support.cpp.o[0m
+[186.651s] [ 18%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/vector3_stamped__type_support.cpp.o[0m
+[189.523s] [ 18%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/velocity_stamped__type_support.cpp.o[0m
+[192.348s] [ 19%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/wrench__type_support.cpp.o[0m
+[195.014s] [ 19%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/wrench_stamped__type_support.cpp.o[0m
+[197.650s] [ 19%] [32m[1mLinking CXX shared library libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[198.214s] [ 19%] Built target geometry_msgs__rosidl_typesupport_fastrtps_cpp
+[198.286s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[208.758s] [ 19%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/accel__type_support.cpp.o[0m
+[211.369s] [ 20%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/accel_stamped__type_support.cpp.o[0m
+[214.229s] [ 20%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/accel_with_covariance__type_support.cpp.o[0m
+[216.828s] [ 20%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.cpp.o[0m
+[219.545s] [ 21%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/inertia__type_support.cpp.o[0m
+[221.888s] [ 21%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/inertia_stamped__type_support.cpp.o[0m
+[224.538s] [ 21%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/point__type_support.cpp.o[0m
+[227.222s] [ 21%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/point32__type_support.cpp.o[0m
+[229.997s] [ 22%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/point_stamped__type_support.cpp.o[0m
+[232.373s] [ 22%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/polygon__type_support.cpp.o[0m
+[235.121s] [ 22%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/polygon_stamped__type_support.cpp.o[0m
+[237.776s] [ 23%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose__type_support.cpp.o[0m
+[240.408s] [ 23%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose2_d__type_support.cpp.o[0m
+[242.762s] [ 23%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose_array__type_support.cpp.o[0m
+[245.362s] [ 24%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose_stamped__type_support.cpp.o[0m
+[248.007s] [ 24%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose_with_covariance__type_support.cpp.o[0m
+[250.442s] [ 24%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.cpp.o[0m
+[253.141s] [ 24%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/quaternion__type_support.cpp.o[0m
+[255.704s] [ 25%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/quaternion_stamped__type_support.cpp.o[0m
+[258.322s] [ 25%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/transform__type_support.cpp.o[0m
+[260.939s] [ 25%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/transform_stamped__type_support.cpp.o[0m
+[263.490s] [ 26%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/twist__type_support.cpp.o[0m
+[266.024s] [ 26%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/twist_stamped__type_support.cpp.o[0m
+[268.667s] [ 26%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/twist_with_covariance__type_support.cpp.o[0m
+[270.955s] [ 27%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.cpp.o[0m
+[272.978s] [ 27%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/vector3__type_support.cpp.o[0m
+[274.923s] [ 27%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/vector3_stamped__type_support.cpp.o[0m
+[276.789s] [ 28%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/velocity_stamped__type_support.cpp.o[0m
+[278.686s] [ 28%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/wrench__type_support.cpp.o[0m
+[280.542s] [ 28%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/wrench_stamped__type_support.cpp.o[0m
+[282.394s] [ 28%] [32m[1mLinking CXX shared library libgeometry_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[282.803s] [ 28%] Built target geometry_msgs__rosidl_typesupport_introspection_cpp
+[282.860s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[284.508s] running egg_info
+[284.511s] creating geometry_msgs.egg-info
+[284.512s] writing geometry_msgs.egg-info/PKG-INFO
+[284.513s] writing dependency_links to geometry_msgs.egg-info/dependency_links.txt
+[284.514s] writing top-level names to geometry_msgs.egg-info/top_level.txt
+[284.516s] writing manifest file 'geometry_msgs.egg-info/SOURCES.txt'
+[284.525s] reading manifest file 'geometry_msgs.egg-info/SOURCES.txt'
+[284.528s] writing manifest file 'geometry_msgs.egg-info/SOURCES.txt'
+[284.713s] [ 28%] Built target ament_cmake_python_build_geometry_msgs_egg
+[284.784s] [ 28%] [34m[1mGenerating C code for ROS interfaces[0m
+[290.061s] [ 28%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel__type_support.cpp.o[0m
+[290.088s] [ 29%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel_stamped__type_support.cpp.o[0m
+[291.255s] [ 29%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel_with_covariance__type_support.cpp.o[0m
+[292.607s] [ 29%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel_with_covariance_stamped__type_support.cpp.o[0m
+[294.844s] [ 30%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/inertia_stamped__type_support.cpp.o[0m
+[296.349s] [ 30%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/point__type_support.cpp.o[0m
+[297.965s] [ 30%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/point32__type_support.cpp.o[0m
+[299.564s] [ 31%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/point_stamped__type_support.cpp.o[0m
+[301.105s] [ 31%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/polygon__type_support.cpp.o[0m
+[302.622s] [ 32%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/accel__functions.c.o[0m
+[302.644s] [ 32%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/polygon_stamped__type_support.cpp.o[0m
+[302.657s] [ 32%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/accel_stamped__functions.c.o[0m
+[302.924s] [ 32%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/accel_with_covariance__functions.c.o[0m
+[302.950s] [ 33%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/accel_with_covariance_stamped__functions.c.o[0m
+[303.223s] [ 33%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/inertia__functions.c.o[0m
+[303.259s] [ 33%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/inertia_stamped__functions.c.o[0m
+[303.533s] [ 34%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/point__functions.c.o[0m
+[303.593s] [ 34%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/point32__functions.c.o[0m
+[303.829s] [ 34%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/point_stamped__functions.c.o[0m
+[303.908s] [ 34%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/polygon__functions.c.o[0m
+[304.151s] [ 35%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/polygon_stamped__functions.c.o[0m
+[304.234s] [ 35%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose__functions.c.o[0m
+[304.483s] [ 35%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/inertia__type_support.cpp.o[0m
+[304.563s] [ 36%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose_array__functions.c.o[0m
+[304.845s] [ 36%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose2_d__functions.c.o[0m
+[305.139s] [ 36%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose_stamped__functions.c.o[0m
+[305.478s] [ 36%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose_with_covariance__functions.c.o[0m
+[305.757s] [ 37%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose_with_covariance_stamped__functions.c.o[0m
+[305.853s] [ 37%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose2_d__type_support.cpp.o[0m
+[306.071s] [ 37%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/quaternion__functions.c.o[0m
+[306.177s] [ 38%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose__type_support.cpp.o[0m
+[306.374s] [ 38%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/quaternion_stamped__functions.c.o[0m
+[306.831s] [ 38%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/transform__functions.c.o[0m
+[307.367s] [ 39%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/transform_stamped__functions.c.o[0m
+[307.864s] [ 39%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_array__type_support.cpp.o[0m
+[307.874s] [ 39%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/twist__functions.c.o[0m
+[307.996s] [ 39%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/twist_stamped__functions.c.o[0m
+[308.168s] [ 39%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_stamped__type_support.cpp.o[0m
+[308.413s] [ 40%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/twist_with_covariance__functions.c.o[0m
+[308.875s] [ 40%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/twist_with_covariance_stamped__functions.c.o[0m
+[309.402s] [ 40%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/vector3__functions.c.o[0m
+[309.732s] [ 41%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/vector3_stamped__functions.c.o[0m
+[310.039s] [ 41%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/velocity_stamped__functions.c.o[0m
+[310.066s] [ 41%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_with_covariance_stamped__type_support.cpp.o[0m
+[310.316s] [ 41%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/wrench__functions.c.o[0m
+[310.591s] [ 42%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/wrench_stamped__functions.c.o[0m
+[310.891s] [ 42%] [32m[1mLinking C shared library libgeometry_msgs__rosidl_generator_c.so[0m
+[311.179s] [ 42%] Built target geometry_msgs__rosidl_generator_c
+[311.611s] [ 43%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/quaternion_stamped__type_support.cpp.o[0m
+[312.804s] [ 43%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/quaternion__type_support.cpp.o[0m
+[313.819s] [ 44%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[314.003s] [ 45%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_with_covariance__type_support.cpp.o[0m
+[315.319s] [ 45%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/transform__type_support.cpp.o[0m
+[316.025s] [ 46%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[316.762s] [ 46%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/transform_stamped__type_support.cpp.o[0m
+[318.032s] [ 47%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[318.282s] [ 48%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist__type_support.cpp.o[0m
+[319.989s] [ 48%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist_stamped__type_support.cpp.o[0m
+[321.724s] [ 48%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist_with_covariance__type_support.cpp.o[0m
+[323.541s] [ 48%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist_with_covariance_stamped__type_support.cpp.o[0m
+[324.488s] [ 48%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/accel__type_support_c.cpp.o[0m
+[325.310s] [ 49%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/vector3__type_support.cpp.o[0m
+[326.338s] [ 49%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/accel__type_support.c.o[0m
+[326.595s] [ 49%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/accel_stamped__type_support.c.o[0m
+[326.712s] [ 49%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/accel_stamped__type_support_c.cpp.o[0m
+[326.860s] [ 50%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/accel_with_covariance__type_support.c.o[0m
+[327.099s] [ 50%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.c.o[0m
+[327.123s] [ 50%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/vector3_stamped__type_support.cpp.o[0m
+[327.349s] [ 50%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/inertia__type_support.c.o[0m
+[327.601s] [ 51%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/inertia_stamped__type_support.c.o[0m
+[327.869s] [ 51%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/point__type_support.c.o[0m
+[328.129s] [ 51%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/point32__type_support.c.o[0m
+[328.388s] [ 51%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/point_stamped__type_support.c.o[0m
+[328.670s] [ 52%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/polygon__type_support.c.o[0m
+[328.829s] [ 53%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/accel_with_covariance__type_support_c.cpp.o[0m
+[328.896s] [ 53%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/velocity_stamped__type_support.cpp.o[0m
+[328.910s] [ 53%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/polygon_stamped__type_support.c.o[0m
+[329.140s] [ 53%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose__type_support.c.o[0m
+[329.374s] [ 54%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose2_d__type_support.c.o[0m
+[329.526s] [ 54%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/accel__type_support_c.c.o[0m
+[329.626s] [ 54%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose_array__type_support.c.o[0m
+[329.858s] [ 54%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/accel_stamped__type_support_c.c.o[0m
+[329.896s] [ 54%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose_stamped__type_support.c.o[0m
+[330.155s] [ 55%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose_with_covariance__type_support.c.o[0m
+[330.210s] [ 56%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/accel_with_covariance__type_support_c.c.o[0m
+[330.404s] [ 56%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.c.o[0m
+[330.544s] [ 56%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/accel_with_covariance_stamped__type_support_c.c.o[0m
+[330.634s] [ 57%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/wrench__type_support.cpp.o[0m
+[330.654s] [ 57%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/quaternion__type_support.c.o[0m
+[330.867s] [ 57%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/inertia__type_support_c.c.o[0m
+[330.876s] [ 57%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/quaternion_stamped__type_support.c.o[0m
+[330.914s] [ 57%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support_c.cpp.o[0m
+[331.097s] [ 58%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/transform__type_support.c.o[0m
+[331.181s] [ 59%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/inertia_stamped__type_support_c.c.o[0m
+[331.321s] [ 59%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/transform_stamped__type_support.c.o[0m
+[331.506s] [ 59%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/point__type_support_c.c.o[0m
+[331.576s] [ 59%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/twist__type_support.c.o[0m
+[331.809s] [ 60%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/twist_stamped__type_support.c.o[0m
+[331.839s] [ 60%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/point32__type_support_c.c.o[0m
+[332.057s] [ 60%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/twist_with_covariance__type_support.c.o[0m
+[332.161s] [ 60%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/point_stamped__type_support_c.c.o[0m
+[332.303s] [ 60%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.c.o[0m
+[332.320s] [ 60%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/wrench_stamped__type_support.cpp.o[0m
+[332.487s] [ 61%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/polygon__type_support_c.c.o[0m
+[332.545s] [ 62%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/vector3__type_support.c.o[0m
+[332.772s] [ 62%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/vector3_stamped__type_support.c.o[0m
+[332.810s] [ 62%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/polygon_stamped__type_support_c.c.o[0m
+[333.041s] [ 62%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/inertia__type_support_c.cpp.o[0m
+[333.042s] [ 62%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/velocity_stamped__type_support.c.o[0m
+[333.171s] [ 62%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/pose__type_support_c.c.o[0m
+[333.288s] [ 62%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/wrench__type_support.c.o[0m
+[333.479s] [ 63%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/pose2_d__type_support_c.c.o[0m
+[333.509s] [ 64%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/wrench_stamped__type_support.c.o[0m
+[333.756s] [ 64%] [32m[1mLinking C shared library libgeometry_msgs__rosidl_typesupport_introspection_c.so[0m
+[333.802s] [ 64%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/pose_array__type_support_c.c.o[0m
+[334.007s] [ 64%] Built target geometry_msgs__rosidl_typesupport_introspection_c
+[334.030s] [ 64%] [32m[1mLinking CXX shared library libgeometry_msgs__rosidl_typesupport_cpp.so[0m
+[334.138s] [ 64%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/pose_stamped__type_support_c.c.o[0m
+[334.280s] [ 64%] Built target geometry_msgs__rosidl_typesupport_cpp
+[334.439s] [ 65%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/pose_with_covariance__type_support_c.c.o[0m
+[334.726s] [ 65%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/pose_with_covariance_stamped__type_support_c.c.o[0m
+[334.920s] [ 66%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/point__type_support_c.cpp.o[0m
+[335.008s] [ 66%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/quaternion__type_support_c.c.o[0m
+[335.282s] [ 67%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/quaternion_stamped__type_support_c.c.o[0m
+[335.566s] [ 67%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/transform__type_support_c.c.o[0m
+[335.851s] [ 67%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/transform_stamped__type_support_c.c.o[0m
+[336.154s] [ 67%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/twist__type_support_c.c.o[0m
+[336.436s] [ 68%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/twist_stamped__type_support_c.c.o[0m
+[336.509s] [ 68%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/inertia_stamped__type_support_c.cpp.o[0m
+[336.709s] [ 68%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/twist_with_covariance__type_support_c.c.o[0m
+[336.976s] [ 68%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/twist_with_covariance_stamped__type_support_c.c.o[0m
+[337.267s] [ 69%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/vector3__type_support_c.c.o[0m
+[337.549s] [ 69%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/vector3_stamped__type_support_c.c.o[0m
+[337.842s] [ 69%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/velocity_stamped__type_support_c.c.o[0m
+[338.115s] [ 69%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/point32__type_support_c.cpp.o[0m
+[338.140s] [ 70%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/wrench__type_support_c.c.o[0m
+[338.402s] [ 70%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/wrench_stamped__type_support_c.c.o[0m
+[338.685s] [ 70%] [32m[1mLinking C shared library libgeometry_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[338.964s] [ 70%] Built target geometry_msgs__rosidl_typesupport_microxrcedds_c
+[339.010s] [ 71%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/polygon__type_support_c.cpp.o[0m
+[339.026s] [ 72%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[339.915s] [ 72%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/point_stamped__type_support_c.cpp.o[0m
+[340.903s] [ 72%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/polygon_stamped__type_support_c.cpp.o[0m
+[341.808s] [ 72%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose__type_support_c.cpp.o[0m
+[342.778s] [ 73%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose2_d__type_support_c.cpp.o[0m
+[343.667s] [ 73%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose_array__type_support_c.cpp.o[0m
+[344.644s] [ 73%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose_stamped__type_support_c.cpp.o[0m
+[345.644s] [ 73%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose_with_covariance__type_support_c.cpp.o[0m
+[346.020s] [ 73%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel__type_support.cpp.o[0m
+[346.208s] [ 73%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel_stamped__type_support.cpp.o[0m
+[346.405s] [ 73%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel_with_covariance__type_support.cpp.o[0m
+[346.596s] [ 74%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel_with_covariance_stamped__type_support.cpp.o[0m
+[346.601s] [ 75%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support_c.cpp.o[0m
+[346.607s] [ 75%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/inertia__type_support.cpp.o[0m
+[346.794s] [ 76%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/point__type_support.cpp.o[0m
+[346.803s] [ 76%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/inertia_stamped__type_support.cpp.o[0m
+[346.987s] [ 76%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/point32__type_support.cpp.o[0m
+[347.007s] [ 76%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/point_stamped__type_support.cpp.o[0m
+[347.187s] [ 77%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/polygon__type_support.cpp.o[0m
+[347.218s] [ 77%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/polygon_stamped__type_support.cpp.o[0m
+[347.391s] [ 77%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose__type_support.cpp.o[0m
+[347.438s] [ 78%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose2_d__type_support.cpp.o[0m
+[347.594s] [ 78%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/quaternion__type_support_c.cpp.o[0m
+[347.639s] [ 78%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_array__type_support.cpp.o[0m
+[347.674s] [ 78%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/quaternion_stamped__type_support_c.cpp.o[0m
+[347.829s] [ 78%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_stamped__type_support.cpp.o[0m
+[348.017s] [ 78%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_with_covariance__type_support.cpp.o[0m
+[348.219s] [ 79%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_with_covariance_stamped__type_support.cpp.o[0m
+[348.437s] [ 79%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/quaternion__type_support.cpp.o[0m
+[348.650s] [ 79%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/quaternion_stamped__type_support.cpp.o[0m
+[348.722s] [ 80%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/transform__type_support_c.cpp.o[0m
+[348.862s] [ 81%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/transform__type_support.cpp.o[0m
+[349.060s] [ 81%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/transform_stamped__type_support.cpp.o[0m
+[349.271s] [ 81%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist__type_support.cpp.o[0m
+[349.489s] [ 82%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist_stamped__type_support.cpp.o[0m
+[349.704s] [ 82%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist_with_covariance__type_support.cpp.o[0m
+[349.770s] [ 82%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist_with_covariance_stamped__type_support.cpp.o[0m
+[349.901s] [ 82%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/vector3__type_support.cpp.o[0m
+[349.902s] [ 82%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/transform_stamped__type_support_c.cpp.o[0m
+[349.974s] [ 83%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/vector3_stamped__type_support.cpp.o[0m
+[350.090s] [ 83%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/velocity_stamped__type_support.cpp.o[0m
+[350.173s] [ 83%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/wrench__type_support.cpp.o[0m
+[350.295s] [ 84%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/wrench_stamped__type_support.cpp.o[0m
+[350.499s] [ 84%] [32m[1mLinking CXX shared library libgeometry_msgs__rosidl_typesupport_c.so[0m
+[350.770s] [ 84%] Built target geometry_msgs__rosidl_typesupport_c
+[350.825s] [ 85%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/twist_stamped__type_support_c.cpp.o[0m
+[350.843s] [ 85%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/twist__type_support_c.cpp.o[0m
+[351.849s] [ 85%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/twist_with_covariance__type_support_c.cpp.o[0m
+[352.716s] [ 85%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support_c.cpp.o[0m
+[352.727s] [ 86%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/vector3__type_support_c.cpp.o[0m
+[353.761s] [ 86%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/vector3_stamped__type_support_c.cpp.o[0m
+[354.591s] [ 86%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/velocity_stamped__type_support_c.cpp.o[0m
+[354.618s] [ 86%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/wrench__type_support_c.cpp.o[0m
+[355.662s] [ 87%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/wrench_stamped__type_support_c.cpp.o[0m
+[357.308s] [ 87%] [32m[1mLinking CXX shared library libgeometry_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[357.688s] [ 87%] Built target geometry_msgs__rosidl_typesupport_fastrtps_c
+[357.789s] [ 87%] Built target geometry_msgs
+[357.898s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[372.535s] [ 87%] Built target geometry_msgs__py
+[372.648s] [ 87%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_accel_stamped_s.c.o[0m
+[372.649s] [ 87%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_accel_s.c.o[0m
+[372.655s] [ 88%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_accel_with_covariance_s.c.o[0m
+[372.657s] [ 88%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_accel_with_covariance_stamped_s.c.o[0m
+[373.216s] [ 89%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_inertia_stamped_s.c.o[0m
+[373.216s] [ 89%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_inertia_s.c.o[0m
+[373.236s] [ 89%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_point_s.c.o[0m
+[373.263s] [ 89%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_point32_s.c.o[0m
+[373.791s] [ 90%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_point_stamped_s.c.o[0m
+[373.807s] [ 90%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_polygon_s.c.o[0m
+[373.833s] [ 90%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_polygon_stamped_s.c.o[0m
+[373.859s] [ 90%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_pose_s.c.o[0m
+[374.370s] [ 91%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_pose2_d_s.c.o[0m
+[374.389s] [ 91%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_pose_array_s.c.o[0m
+[374.406s] [ 91%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_pose_stamped_s.c.o[0m
+[374.425s] [ 92%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_pose_with_covariance_s.c.o[0m
+[374.940s] [ 92%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_pose_with_covariance_stamped_s.c.o[0m
+[374.979s] [ 92%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_quaternion_s.c.o[0m
+[374.986s] [ 93%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_quaternion_stamped_s.c.o[0m
+[375.032s] [ 93%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_transform_s.c.o[0m
+[375.509s] [ 93%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_transform_stamped_s.c.o[0m
+[375.562s] [ 94%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_twist_s.c.o[0m
+[375.590s] [ 94%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_twist_stamped_s.c.o[0m
+[375.599s] [ 94%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_twist_with_covariance_s.c.o[0m
+[376.097s] [ 94%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_twist_with_covariance_stamped_s.c.o[0m
+[376.135s] [ 95%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_vector3_s.c.o[0m
+[376.169s] [ 95%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_vector3_stamped_s.c.o[0m
+[376.202s] [ 95%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_velocity_stamped_s.c.o[0m
+[376.664s] [ 96%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_wrench_s.c.o[0m
+[376.739s] [ 96%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_py.dir/rosidl_generator_py/geometry_msgs/msg/_wrench_stamped_s.c.o[0m
+[377.237s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/geometry_msgs/libgeometry_msgs__rosidl_generator_py.so[0m
+[377.494s] [ 96%] Built target geometry_msgs__rosidl_generator_py
+[377.606s] [ 96%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[377.615s] [ 96%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[377.616s] [ 96%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[377.621s] [ 96%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[378.689s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/geometry_msgs/geometry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[378.696s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/geometry_msgs/geometry_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[378.724s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/geometry_msgs/geometry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[378.732s] [100%] [32m[1mLinking C shared library rosidl_generator_py/geometry_msgs/geometry_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so[0m
+[379.072s] [100%] Built target geometry_msgs__rosidl_typesupport_fastrtps_c__pyext
+[379.077s] [100%] Built target geometry_msgs__rosidl_typesupport_c__pyext
+[379.092s] [100%] Built target geometry_msgs__rosidl_typesupport_introspection_c__pyext
+[379.108s] [100%] Built target geometry_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[379.165s] Invoked command in '/home/ubuntu/microros_ws/build/geometry_msgs' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/geometry_msgs -- -j4 -l4
+[385.115s] Invoking command in '/home/ubuntu/microros_ws/build/geometry_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/microros_ws/build/geometry_msgs
+[385.150s] -- Install configuration: ""
+[385.151s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/ament_index/resource_index/rosidl_interfaces/geometry_msgs
+[385.152s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs
+[385.153s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg
+[385.154s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist.h
+[385.155s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_with_covariance_stamped.h
+[385.156s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance.h
+[385.157s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/vector3.h
+[385.158s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/quaternion_stamped.h
+[385.159s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/polygon.h
+[385.160s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/inertia.h
+[385.161s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_stamped.h
+[385.162s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose.h
+[385.163s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/quaternion.h
+[385.164s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose2_d.h
+[385.165s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point32.h
+[385.166s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/inertia_stamped.h
+[385.167s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point.h
+[385.168s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point_stamped.h
+[385.169s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.h
+[385.170s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_with_covariance.h
+[385.171s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_stamped.h
+[385.172s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/transform_stamped.h
+[385.173s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_with_covariance_stamped.h
+[385.174s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/wrench_stamped.h
+[385.176s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel.h
+[385.177s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/wrench.h
+[385.178s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_with_covariance.h
+[385.179s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail
+[385.181s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__functions.c
+[385.182s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.h
+[385.183s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__functions.h
+[385.184s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__functions.c
+[385.186s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__functions.h
+[385.187s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__functions.c
+[385.188s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__type_support.h
+[385.189s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__functions.h
+[385.190s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__functions.c
+[385.191s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__functions.h
+[385.192s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__functions.c
+[385.193s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.h
+[385.194s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.h
+[385.196s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.h
+[385.197s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__functions.h
+[385.198s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.h
+[385.199s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.h
+[385.200s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__functions.h
+[385.201s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h
+[385.202s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__type_support.h
+[385.203s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__functions.c
+[385.204s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__functions.h
+[385.205s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__functions.h
+[385.207s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__functions.h
+[385.208s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.h
+[385.209s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.h
+[385.210s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__functions.c
+[385.212s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__functions.c
+[385.212s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__struct.h
+[385.213s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__functions.h
+[385.215s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__type_support.h
+[385.216s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__type_support.h
+[385.217s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.h
+[385.218s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__functions.c
+[385.219s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.h
+[385.220s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__functions.c
+[385.221s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__functions.c
+[385.222s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__functions.c
+[385.224s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.h
+[385.225s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__functions.h
+[385.226s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__functions.c
+[385.227s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__functions.c
+[385.228s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__functions.c
+[385.229s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__struct.h
+[385.230s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__functions.h
+[385.231s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__type_support.h
+[385.232s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.h
+[385.233s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__functions.h
+[385.235s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__functions.h
+[385.236s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__functions.h
+[385.237s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__functions.h
+[385.238s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__functions.c
+[385.239s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.h
+[385.240s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__type_support.h
+[385.241s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.h
+[385.242s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.h
+[385.243s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.h
+[385.244s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__functions.h
+[385.246s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__type_support.h
+[385.247s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__functions.h
+[385.248s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__functions.h
+[385.249s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.h
+[385.250s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.h
+[385.251s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__functions.c
+[385.252s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.h
+[385.253s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__functions.c
+[385.255s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__type_support.h
+[385.256s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__functions.c
+[385.257s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__type_support.h
+[385.258s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__functions.h
+[385.259s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.h
+[385.260s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__struct.h
+[385.261s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__struct.h
+[385.262s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__functions.c
+[385.264s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__struct.h
+[385.265s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.h
+[385.266s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__struct.h
+[385.267s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.h
+[385.268s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__functions.c
+[385.269s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.h
+[385.271s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__functions.h
+[385.272s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__functions.h
+[385.273s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__functions.h
+[385.274s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__struct.h
+[385.275s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.h
+[385.276s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__functions.c
+[385.277s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__struct.h
+[385.278s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__struct.h
+[385.279s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.c
+[385.280s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.h
+[385.281s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__functions.h
+[385.283s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__functions.c
+[385.284s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.h
+[385.285s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__functions.h
+[385.286s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__type_support.h
+[385.287s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__functions.c
+[385.288s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h
+[385.289s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__type_support.h
+[385.291s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__functions.c
+[385.292s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__type_support.h
+[385.293s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.h
+[385.294s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__functions.c
+[385.295s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__type_support.h
+[385.296s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__functions.c
+[385.297s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__functions.h
+[385.298s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__functions.h
+[385.300s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__struct.h
+[385.301s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.h
+[385.302s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__functions.h
+[385.303s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__type_support.h
+[385.304s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.h
+[385.305s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.h
+[385.306s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.h
+[385.307s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.h
+[385.308s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__functions.c
+[385.310s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.h
+[385.311s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__functions.h
+[385.312s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.h
+[385.313s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.h
+[385.314s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__functions.c
+[385.315s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_stamped.h
+[385.316s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h
+[385.317s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/transform.h
+[385.318s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_array.h
+[385.319s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.h
+[385.320s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.h
+[385.321s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/polygon_stamped.h
+[385.323s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/library_path.sh
+[385.324s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/library_path.dsv
+[385.326s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_generator_c.so
+[385.330s] -- Set runtime path of "/home/ubuntu/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_generator_c.so" to ""
+[385.330s] -- Up-to-date: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs
+[385.330s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg
+[385.331s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[385.332s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail
+[385.333s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_microxrcedds_c.h
+[385.334s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_microxrcedds_c.h
+[385.336s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_microxrcedds_c.h
+[385.337s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_microxrcedds_c.h
+[385.338s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_microxrcedds_c.h
+[385.339s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_microxrcedds_c.h
+[385.340s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_microxrcedds_c.h
+[385.341s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/point__rosidl_typesupport_microxrcedds_c.h
+[385.343s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_microxrcedds_c.h
+[385.344s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia__rosidl_typesupport_microxrcedds_c.h
+[385.345s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3__rosidl_typesupport_microxrcedds_c.h
+[385.346s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_microxrcedds_c.h
+[385.347s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_microxrcedds_c.h
+[385.348s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_microxrcedds_c.h
+[385.349s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_microxrcedds_c.h
+[385.351s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon__rosidl_typesupport_microxrcedds_c.h
+[385.352s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds
+[385.353s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_microxrcedds_c.h
+[385.354s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/accel__rosidl_typesupport_microxrcedds_c.h
+[385.355s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_microxrcedds_c.h
+[385.356s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/pose__rosidl_typesupport_microxrcedds_c.h
+[385.357s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_microxrcedds_c.h
+[385.359s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_microxrcedds_c.h
+[385.360s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_microxrcedds_c.h
+[385.361s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_microxrcedds_c.h
+[385.362s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/twist__rosidl_typesupport_microxrcedds_c.h
+[385.363s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/transform__rosidl_typesupport_microxrcedds_c.h
+[385.364s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/point32__rosidl_typesupport_microxrcedds_c.h
+[385.366s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench__rosidl_typesupport_microxrcedds_c.h
+[385.367s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/velocity_stamped__rosidl_typesupport_microxrcedds_c.h
+[385.368s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_microxrcedds_c.h
+[385.369s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_microxrcedds_c.so
+[385.373s] -- Set runtime path of "/home/ubuntu/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[385.373s] -- Up-to-date: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs
+[385.374s] -- Up-to-date: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg
+[385.374s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[385.375s] -- Up-to-date: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail
+[385.376s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[385.377s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__rosidl_typesupport_fastrtps_c.h
+[385.378s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__rosidl_typesupport_fastrtps_c.h
+[385.380s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[385.381s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__rosidl_typesupport_fastrtps_c.h
+[385.382s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_fastrtps_c.h
+[385.383s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_fastrtps_c.h
+[385.384s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_fastrtps_c.h
+[385.386s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_fastrtps_c.h
+[385.387s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_fastrtps_c.h
+[385.388s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_fastrtps_c.h
+[385.389s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h
+[385.391s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_fastrtps_c.h
+[385.392s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_fastrtps_c.h
+[385.393s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_fastrtps_c.h
+[385.394s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_fastrtps_c.h
+[385.395s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_fastrtps_c.h
+[385.397s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__rosidl_typesupport_fastrtps_c.h
+[385.398s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_fastrtps_c.h
+[385.399s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_fastrtps_c.h
+[385.400s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_fastrtps_c.h
+[385.401s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_fastrtps_c.h
+[385.403s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__rosidl_typesupport_fastrtps_c.h
+[385.404s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__rosidl_typesupport_fastrtps_c.h
+[385.405s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__rosidl_typesupport_fastrtps_c.h
+[385.406s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_fastrtps_c.h
+[385.407s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_fastrtps_c.h
+[385.409s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_fastrtps_c.h
+[385.410s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__rosidl_typesupport_fastrtps_c.h
+[385.411s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__rosidl_typesupport_fastrtps_c.h
+[385.412s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+[385.416s] -- Set runtime path of "/home/ubuntu/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[385.417s] -- Up-to-date: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs
+[385.417s] -- Up-to-date: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg
+[385.417s] -- Up-to-date: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail
+[385.418s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__type_support.c
+[385.420s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__type_support.c
+[385.421s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__type_support.c
+[385.422s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.c
+[385.423s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__rosidl_typesupport_introspection_c.h
+[385.424s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__type_support.c
+[385.425s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.c
+[385.427s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.c
+[385.428s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__type_support.c
+[385.429s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_introspection_c.h
+[385.430s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.c
+[385.431s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__type_support.c
+[385.433s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_introspection_c.h
+[385.434s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_introspection_c.h
+[385.435s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.c
+[385.436s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_introspection_c.h
+[385.437s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__type_support.c
+[385.438s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[385.440s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__rosidl_typesupport_introspection_c.h
+[385.441s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h
+[385.442s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_introspection_c.h
+[385.443s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.c
+[385.445s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.c
+[385.446s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_introspection_c.h
+[385.447s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__type_support.c
+[385.448s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.c
+[385.449s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.c
+[385.451s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_introspection_c.h
+[385.452s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__rosidl_typesupport_introspection_c.h
+[385.453s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__type_support.c
+[385.454s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_introspection_c.h
+[385.455s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.c
+[385.457s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.c
+[385.458s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_introspection_c.h
+[385.459s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__rosidl_typesupport_introspection_c.h
+[385.460s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_introspection_c.h
+[385.461s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__type_support.c
+[385.463s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_introspection_c.h
+[385.464s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.c
+[385.465s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__type_support.c
+[385.466s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__type_support.c
+[385.468s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_introspection_c.h
+[385.469s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_introspection_c.h
+[385.470s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.c
+[385.471s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h
+[385.472s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.c
+[385.474s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__rosidl_typesupport_introspection_c.h
+[385.475s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_introspection_c.h
+[385.476s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__rosidl_typesupport_introspection_c.h
+[385.477s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_introspection_c.h
+[385.479s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_introspection_c.h
+[385.480s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_introspection_c.h
+[385.481s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__type_support.c
+[385.482s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__rosidl_typesupport_introspection_c.h
+[385.484s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__type_support.c
+[385.485s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__rosidl_typesupport_introspection_c.h
+[385.486s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_introspection_c.h
+[385.487s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.c
+[385.488s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.c
+[385.489s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__rosidl_typesupport_introspection_c.h
+[385.491s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[385.492s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+[385.495s] -- Set runtime path of "/home/ubuntu/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so" to ""
+[385.496s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_c.so
+[385.499s] -- Set runtime path of "/home/ubuntu/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_c.so" to ""
+[385.499s] -- Up-to-date: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs
+[385.500s] -- Up-to-date: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg
+[385.500s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_with_covariance_stamped.hpp
+[385.501s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/inertia.hpp
+[385.502s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point.hpp
+[385.503s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp
+[385.504s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp
+[385.505s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_with_covariance.hpp
+[385.507s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_with_covariance_stamped.hpp
+[385.508s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp
+[385.509s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/quaternion_stamped.hpp
+[385.510s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp
+[385.511s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_array.hpp
+[385.512s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose.hpp
+[385.512s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/wrench_stamped.hpp
+[385.514s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist_with_covariance.hpp
+[385.515s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/quaternion.hpp
+[385.516s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp
+[385.517s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/transform.hpp
+[385.518s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel.hpp
+[385.519s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance.hpp
+[385.520s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/polygon_stamped.hpp
+[385.521s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp
+[385.522s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/inertia_stamped.hpp
+[385.523s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/accel_stamped.hpp
+[385.524s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/point32.hpp
+[385.525s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/twist.hpp
+[385.526s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/polygon.hpp
+[385.527s] -- Up-to-date: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail
+[385.528s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp
+[385.530s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__traits.hpp
+[385.531s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__traits.hpp
+[385.532s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__builder.hpp
+[385.533s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__builder.hpp
+[385.534s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp
+[385.535s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__struct.hpp
+[385.536s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__traits.hpp
+[385.538s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__builder.hpp
+[385.539s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__traits.hpp
+[385.540s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp
+[385.541s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp
+[385.542s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__struct.hpp
+[385.543s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp
+[385.544s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__traits.hpp
+[385.545s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__builder.hpp
+[385.547s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.hpp
+[385.548s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__builder.hpp
+[385.549s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp
+[385.550s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp
+[385.551s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__builder.hpp
+[385.552s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp
+[385.553s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__traits.hpp
+[385.554s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp
+[385.555s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__traits.hpp
+[385.556s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp
+[385.557s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__struct.hpp
+[385.559s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp
+[385.560s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__builder.hpp
+[385.561s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__struct.hpp
+[385.562s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__builder.hpp
+[385.563s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__builder.hpp
+[385.564s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__struct.hpp
+[385.566s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp
+[385.567s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp
+[385.568s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp
+[385.569s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__traits.hpp
+[385.570s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__struct.hpp
+[385.572s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__struct.hpp
+[385.573s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__builder.hpp
+[385.574s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__builder.hpp
+[385.575s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp
+[385.576s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp
+[385.577s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp
+[385.578s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__traits.hpp
+[385.579s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__struct.hpp
+[385.581s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp
+[385.582s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp
+[385.583s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp
+[385.584s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp
+[385.585s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp
+[385.586s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp
+[385.587s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp
+[385.588s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__traits.hpp
+[385.590s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp
+[385.591s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp
+[385.592s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__builder.hpp
+[385.593s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__builder.hpp
+[385.594s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__builder.hpp
+[385.595s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.hpp
+[385.596s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp
+[385.597s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__traits.hpp
+[385.598s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp
+[385.600s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__builder.hpp
+[385.601s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__traits.hpp
+[385.602s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp
+[385.603s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__struct.hpp
+[385.604s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp
+[385.605s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp
+[385.606s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp
+[385.607s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__builder.hpp
+[385.608s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp
+[385.610s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp
+[385.611s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp
+[385.612s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__builder.hpp
+[385.613s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__traits.hpp
+[385.614s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__builder.hpp
+[385.615s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp
+[385.616s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp
+[385.617s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp
+[385.619s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp
+[385.620s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp
+[385.621s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp
+[385.622s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp
+[385.623s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__struct.hpp
+[385.624s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__builder.hpp
+[385.626s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp
+[385.627s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__traits.hpp
+[385.628s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp
+[385.630s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp
+[385.631s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/vector3.hpp
+[385.632s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose2_d.hpp
+[385.633s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp
+[385.634s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/wrench.hpp
+[385.635s] -- Up-to-date: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs
+[385.636s] -- Up-to-date: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg
+[385.636s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[385.637s] -- Up-to-date: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail
+[385.638s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.639s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/point32__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.640s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.642s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.643s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.644s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/transform__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.645s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.647s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.648s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.649s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.650s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.651s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.652s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/twist__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.654s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.655s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.656s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.657s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.658s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.659s] -- Up-to-date: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds
+[385.660s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/vector3_stamped__type_support_cpp.cpp
+[385.661s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/accel_with_covariance__type_support_cpp.cpp
+[385.663s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/accel_with_covariance_stamped__type_support_cpp.cpp
+[385.664s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/velocity_stamped__type_support_cpp.cpp
+[385.665s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/wrench__type_support_cpp.cpp
+[385.666s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/accel_stamped__type_support_cpp.cpp
+[385.668s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/polygon_stamped__type_support_cpp.cpp
+[385.669s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/point32__type_support_cpp.cpp
+[385.670s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/point__type_support_cpp.cpp
+[385.671s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/pose_with_covariance__type_support_cpp.cpp
+[385.673s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/pose_stamped__type_support_cpp.cpp
+[385.674s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/inertia__type_support_cpp.cpp
+[385.675s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/transform__type_support_cpp.cpp
+[385.676s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/wrench_stamped__type_support_cpp.cpp
+[385.677s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/transform_stamped__type_support_cpp.cpp
+[385.679s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/quaternion__type_support_cpp.cpp
+[385.680s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/twist_with_covariance__type_support_cpp.cpp
+[385.681s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/twist__type_support_cpp.cpp
+[385.682s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/pose_with_covariance_stamped__type_support_cpp.cpp
+[385.684s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/pose2_d__type_support_cpp.cpp
+[385.685s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/inertia_stamped__type_support_cpp.cpp
+[385.686s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/pose__type_support_cpp.cpp
+[385.687s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/twist_stamped__type_support_cpp.cpp
+[385.688s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/accel__type_support_cpp.cpp
+[385.690s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/pose_array__type_support_cpp.cpp
+[385.691s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/point_stamped__type_support_cpp.cpp
+[385.692s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/twist_with_covariance_stamped__type_support_cpp.cpp
+[385.693s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/quaternion_stamped__type_support_cpp.cpp
+[385.695s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/polygon__type_support_cpp.cpp
+[385.696s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/vector3__type_support_cpp.cpp
+[385.697s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.698s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.699s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.701s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.702s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/point__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.703s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/velocity_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.704s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.705s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.706s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/accel__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.708s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/pose__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.709s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.710s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[385.712s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[385.716s] -- Set runtime path of "/home/ubuntu/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[385.717s] -- Up-to-date: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs
+[385.717s] -- Up-to-date: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg
+[385.718s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[385.719s] -- Up-to-date: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail
+[385.719s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_fastrtps_cpp.hpp
+[385.721s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__rosidl_typesupport_fastrtps_cpp.hpp
+[385.722s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_fastrtps_cpp.hpp
+[385.723s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__rosidl_typesupport_fastrtps_cpp.hpp
+[385.724s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__rosidl_typesupport_fastrtps_cpp.hpp
+[385.726s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[385.727s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_fastrtps_cpp.hpp
+[385.728s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__rosidl_typesupport_fastrtps_cpp.hpp
+[385.729s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[385.731s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[385.732s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[385.733s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__rosidl_typesupport_fastrtps_cpp.hpp
+[385.734s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_fastrtps_cpp.hpp
+[385.736s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[385.737s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[385.738s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[385.739s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[385.740s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[385.742s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_fastrtps_cpp.hpp
+[385.743s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[385.744s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[385.745s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/dds_fastrtps
+[385.746s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[385.748s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[385.749s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__rosidl_typesupport_fastrtps_cpp.hpp
+[385.750s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[385.751s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[385.753s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[385.754s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__rosidl_typesupport_fastrtps_cpp.hpp
+[385.755s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[385.756s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__rosidl_typesupport_fastrtps_cpp.hpp
+[385.758s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+[385.763s] -- Set runtime path of "/home/ubuntu/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[385.763s] -- Up-to-date: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs
+[385.764s] -- Up-to-date: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg
+[385.764s] -- Up-to-date: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail
+[385.765s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_introspection_cpp.hpp
+[385.766s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_introspection_cpp.hpp
+[385.768s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_introspection_cpp.hpp
+[385.769s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__type_support.cpp
+[385.770s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__type_support.cpp
+[385.772s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__rosidl_typesupport_introspection_cpp.hpp
+[385.773s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[385.774s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.cpp
+[385.775s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.cpp
+[385.776s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__rosidl_typesupport_introspection_cpp.hpp
+[385.777s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_introspection_cpp.hpp
+[385.779s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__type_support.cpp
+[385.780s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__rosidl_typesupport_introspection_cpp.hpp
+[385.781s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_introspection_cpp.hpp
+[385.783s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.cpp
+[385.784s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.cpp
+[385.785s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__type_support.cpp
+[385.786s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_introspection_cpp.hpp
+[385.787s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_introspection_cpp.hpp
+[385.789s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel__type_support.cpp
+[385.790s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__rosidl_typesupport_introspection_cpp.hpp
+[385.791s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.cpp
+[385.792s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon__type_support.cpp
+[385.793s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_introspection_cpp.hpp
+[385.795s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/transform__rosidl_typesupport_introspection_cpp.hpp
+[385.796s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_introspection_cpp.hpp
+[385.797s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__rosidl_typesupport_introspection_cpp.hpp
+[385.798s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp
+[385.800s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_introspection_cpp.hpp
+[385.801s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[385.802s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_introspection_cpp.hpp
+[385.803s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_introspection_cpp.hpp
+[385.805s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.cpp
+[385.806s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_introspection_cpp.hpp
+[385.807s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.cpp
+[385.808s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.cpp
+[385.809s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia__rosidl_typesupport_introspection_cpp.hpp
+[385.811s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_introspection_cpp.hpp
+[385.812s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.cpp
+[385.813s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.cpp
+[385.815s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.cpp
+[385.816s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__type_support.cpp
+[385.817s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.cpp
+[385.818s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/inertia_stamped__type_support.cpp
+[385.820s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_introspection_cpp.hpp
+[385.821s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point32__type_support.cpp
+[385.822s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__type_support.cpp
+[385.823s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__rosidl_typesupport_introspection_cpp.hpp
+[385.824s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_stamped__type_support.cpp
+[385.826s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_introspection_cpp.hpp
+[385.843s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.cpp
+[385.858s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/wrench__type_support.cpp
+[385.860s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.cpp
+[385.862s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__type_support.cpp
+[385.864s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.cpp
+[385.867s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.cpp
+[385.869s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_introspection_cpp.hpp
+[385.870s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__type_support.cpp
+[385.872s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/twist__rosidl_typesupport_introspection_cpp.hpp
+[385.873s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_introspection_cpp.hpp
+[385.875s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+[385.879s] -- Set runtime path of "/home/ubuntu/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[385.880s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+[385.883s] -- Set runtime path of "/home/ubuntu/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_cpp.so" to ""
+[385.884s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/pythonpath.sh
+[385.885s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/pythonpath.dsv
+[385.887s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs-4.2.4-py3.10.egg-info
+[385.888s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs-4.2.4-py3.10.egg-info/SOURCES.txt
+[385.889s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs-4.2.4-py3.10.egg-info/dependency_links.txt
+[385.890s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs-4.2.4-py3.10.egg-info/PKG-INFO
+[385.891s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs-4.2.4-py3.10.egg-info/top_level.txt
+[385.893s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs
+[385.893s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/__init__.py
+[385.895s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[385.896s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[385.899s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[385.901s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[385.904s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_c.c
+[385.906s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[385.908s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[385.910s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[385.912s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg
+[385.913s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_array.py
+[385.915s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/__init__.py
+[385.915s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose2_d.py
+[385.916s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_s.c
+[385.917s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_stamped.py
+[385.918s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_array_s.c
+[385.920s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_inertia_s.c
+[385.921s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_stamped_s.c
+[385.922s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_inertia_stamped_s.c
+[385.923s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_with_covariance.py
+[385.924s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_quaternion_stamped.py
+[385.925s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_vector3_stamped.py
+[385.926s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_polygon_s.c
+[385.927s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_transform_stamped_s.c
+[385.928s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_stamped.py
+[385.929s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_wrench_stamped_s.c
+[385.930s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_with_covariance_stamped.py
+[385.932s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point_stamped.py
+[385.933s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_with_covariance_stamped.py
+[385.934s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_with_covariance_stamped_s.c
+[385.935s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_vector3_s.c
+[385.936s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_wrench.py
+[385.937s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_with_covariance.py
+[385.938s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_transform_stamped.py
+[385.939s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_polygon_stamped_s.c
+[385.940s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_transform_s.c
+[385.942s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_velocity_stamped_s.c
+[385.943s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point32.py
+[385.944s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_vector3.py
+[385.945s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_polygon.py
+[385.946s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_quaternion.py
+[385.947s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_inertia_stamped.py
+[385.948s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel.py
+[385.949s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose2_d_s.c
+[385.950s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist.py
+[385.951s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_stamped_s.c
+[385.952s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_with_covariance_s.c
+[385.953s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_transform.py
+[385.954s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_stamped.py
+[385.955s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_wrench_stamped.py
+[385.957s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point.py
+[385.958s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_wrench_s.c
+[385.959s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_s.c
+[385.960s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_velocity_stamped.py
+[385.961s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_polygon_stamped.py
+[385.962s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_with_covariance_stamped.py
+[385.964s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point_stamped_s.c
+[385.965s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_vector3_stamped_s.c
+[385.966s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point_s.c
+[385.967s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_with_covariance_s.c
+[385.968s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_with_covariance.py
+[385.969s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_with_covariance_stamped_s.c
+[385.970s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose.py
+[385.972s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_quaternion_stamped_s.c
+[385.973s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_s.c
+[385.974s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_inertia.py
+[385.975s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_with_covariance_s.c
+[385.976s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_quaternion_s.c
+[385.977s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_stamped_s.c
+[385.978s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point32_s.c
+[385.979s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_with_covariance_stamped_s.c
+[385.980s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/libgeometry_msgs__rosidl_generator_py.so
+[386.258s] Listing '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs'...
+[386.259s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/__init__.py'...
+[386.260s] Listing '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg'...
+[386.261s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/__init__.py'...
+[386.262s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel.py'...
+[386.263s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_stamped.py'...
+[386.264s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_with_covariance.py'...
+[386.265s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_accel_with_covariance_stamped.py'...
+[386.266s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_inertia.py'...
+[386.267s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_inertia_stamped.py'...
+[386.268s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point.py'...
+[386.269s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point32.py'...
+[386.271s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_point_stamped.py'...
+[386.271s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_polygon.py'...
+[386.272s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_polygon_stamped.py'...
+[386.272s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose.py'...
+[386.273s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose2_d.py'...
+[386.273s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_array.py'...
+[386.274s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_stamped.py'...
+[386.274s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_with_covariance.py'...
+[386.275s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_pose_with_covariance_stamped.py'...
+[386.275s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_quaternion.py'...
+[386.276s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_quaternion_stamped.py'...
+[386.276s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_transform.py'...
+[386.278s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_transform_stamped.py'...
+[386.279s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist.py'...
+[386.279s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_stamped.py'...
+[386.280s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_with_covariance.py'...
+[386.281s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_twist_with_covariance_stamped.py'...
+[386.281s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_vector3.py'...
+[386.282s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_vector3_stamped.py'...
+[386.283s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_velocity_stamped.py'...
+[386.283s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_wrench.py'...
+[386.284s] Compiling '/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/msg/_wrench_stamped.py'...
+[386.287s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[386.290s] -- Set runtime path of "/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so" to ""
+[386.292s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[386.296s] -- Set runtime path of "/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[386.297s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[386.301s] -- Set runtime path of "/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[386.303s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[386.307s] -- Set runtime path of "/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[386.307s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_generator_py.so
+[386.311s] -- Set runtime path of "/home/ubuntu/microros_ws/install/geometry_msgs/lib/libgeometry_msgs__rosidl_generator_py.so" to ""
+[386.312s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Accel.idl
+[386.313s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelStamped.idl
+[386.315s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelWithCovariance.idl
+[386.316s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
+[386.318s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Inertia.idl
+[386.319s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/InertiaStamped.idl
+[386.321s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Point.idl
+[386.323s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Point32.idl
+[386.324s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PointStamped.idl
+[386.326s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Polygon.idl
+[386.327s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PolygonStamped.idl
+[386.328s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Pose.idl
+[386.330s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Pose2D.idl
+[386.331s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseArray.idl
+[386.333s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseStamped.idl
+[386.334s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseWithCovariance.idl
+[386.336s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
+[386.337s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Quaternion.idl
+[386.339s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/QuaternionStamped.idl
+[386.340s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Transform.idl
+[386.342s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TransformStamped.idl
+[386.343s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Twist.idl
+[386.345s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistStamped.idl
+[386.346s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistWithCovariance.idl
+[386.348s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
+[386.349s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Vector3.idl
+[386.351s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Vector3Stamped.idl
+[386.352s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/VelocityStamped.idl
+[386.353s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Wrench.idl
+[386.355s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/WrenchStamped.idl
+[386.357s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Accel.msg
+[386.358s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelStamped.msg
+[386.360s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelWithCovariance.msg
+[386.361s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/AccelWithCovarianceStamped.msg
+[386.362s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Inertia.msg
+[386.364s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/InertiaStamped.msg
+[386.365s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Point.msg
+[386.367s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Point32.msg
+[386.368s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PointStamped.msg
+[386.370s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Polygon.msg
+[386.372s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PolygonStamped.msg
+[386.373s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Pose.msg
+[386.374s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Pose2D.msg
+[386.376s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseArray.msg
+[386.377s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseStamped.msg
+[386.379s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseWithCovariance.msg
+[386.380s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
+[386.382s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Quaternion.msg
+[386.383s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/QuaternionStamped.msg
+[386.385s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Transform.msg
+[386.386s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TransformStamped.msg
+[386.388s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Twist.msg
+[386.389s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistStamped.msg
+[386.391s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistWithCovariance.msg
+[386.392s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/TwistWithCovarianceStamped.msg
+[386.394s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Vector3.msg
+[386.395s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Vector3Stamped.msg
+[386.397s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/VelocityStamped.msg
+[386.398s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/Wrench.msg
+[386.400s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/msg/WrenchStamped.msg
+[386.402s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/ament_index/resource_index/package_run_dependencies/geometry_msgs
+[386.404s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/ament_index/resource_index/parent_prefix_path/geometry_msgs
+[386.405s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/ament_prefix_path.sh
+[386.407s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/ament_prefix_path.dsv
+[386.408s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/path.sh
+[386.410s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/environment/path.dsv
+[386.411s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/local_setup.bash
+[386.413s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/local_setup.sh
+[386.414s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/local_setup.zsh
+[386.416s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/local_setup.dsv
+[386.417s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/package.dsv
+[386.419s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/ament_index/resource_index/packages/geometry_msgs
+[386.421s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_generator_cExport.cmake
+[386.423s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_generator_cExport-noconfig.cmake
+[386.425s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[386.426s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[386.428s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cExport.cmake
+[386.430s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[386.432s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cExport.cmake
+[386.434s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[386.435s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_generator_cppExport.cmake
+[386.437s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[386.439s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[386.441s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[386.443s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[386.445s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cppExport.cmake
+[386.446s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[386.448s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_generator_pyExport.cmake
+[386.450s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/export_geometry_msgs__rosidl_generator_pyExport-noconfig.cmake
+[386.452s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/rosidl_cmake-extras.cmake
+[386.453s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[386.455s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[386.457s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[386.458s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[386.460s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[386.462s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[386.464s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgsConfig.cmake
+[386.465s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgsConfig-version.cmake
+[386.466s] -- Installing: /home/ubuntu/microros_ws/install/geometry_msgs/share/geometry_msgs/package.xml
+[386.477s] Invoked command in '/home/ubuntu/microros_ws/build/geometry_msgs' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/microros_ws/build/geometry_msgs

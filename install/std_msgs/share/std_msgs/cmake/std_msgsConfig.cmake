@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/build/std_msgs/ament_cmake_core/std_msgsConfig.cmake

@@ -1,0 +1,56 @@
+[0.186s] Invoking command in '/home/ubuntu/microros_ws/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/trajectory_msgs -- -j4 -l4
+[0.518s] [  1%] Built target trajectory_msgs__cpp
+[0.755s] [  1%] Built target ament_cmake_python_symlink_trajectory_msgs
+[0.885s] [35m[1mConsolidate compiler generated dependencies of target trajectory_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.982s] [ 12%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_cpp
+[1.032s] [35m[1mConsolidate compiler generated dependencies of target trajectory_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.185s] [ 23%] Built target trajectory_msgs__rosidl_typesupport_introspection_cpp
+[3.250s] running egg_info
+[3.254s] writing trajectory_msgs.egg-info/PKG-INFO
+[3.256s] writing dependency_links to trajectory_msgs.egg-info/dependency_links.txt
+[3.258s] writing top-level names to trajectory_msgs.egg-info/top_level.txt
+[3.273s] reading manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[3.310s] writing manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[3.544s] [ 23%] Built target ament_cmake_python_build_trajectory_msgs_egg
+[3.605s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.552s] [35m[1mConsolidate compiler generated dependencies of target trajectory_msgs__rosidl_typesupport_cpp[0m
+[6.632s] [ 27%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp.o[0m
+[8.678s] [ 29%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[10.675s] [ 30%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[12.332s] [ 32%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp.o[0m
+[13.838s] [ 34%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_cpp.so[0m
+[14.023s] [ 34%] Built target trajectory_msgs__rosidl_typesupport_cpp
+[14.085s] [35m[1mConsolidate compiler generated dependencies of target trajectory_msgs__rosidl_generator_c[0m
+[14.150s] [ 45%] Built target trajectory_msgs__rosidl_generator_c
+[14.207s] [35m[1mConsolidate compiler generated dependencies of target trajectory_msgs__rosidl_typesupport_fastrtps_c[0m
+[14.288s] [ 56%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_c
+[14.345s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[16.596s] [35m[1mConsolidate compiler generated dependencies of target trajectory_msgs__rosidl_typesupport_c[0m
+[16.672s] [ 60%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory__type_support.cpp.o[0m
+[16.853s] [ 61%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[17.058s] [ 63%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[17.270s] [ 65%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp.o[0m
+[17.452s] [ 67%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_c.so[0m
+[17.660s] [ 67%] Built target trajectory_msgs__rosidl_typesupport_c
+[17.721s] [35m[1mConsolidate compiler generated dependencies of target trajectory_msgs__rosidl_typesupport_introspection_c[0m
+[17.790s] [ 78%] Built target trajectory_msgs__rosidl_typesupport_introspection_c
+[17.898s] [ 78%] Built target trajectory_msgs
+[18.405s] [ 80%] Built target trajectory_msgs__py
+[18.473s] [35m[1mConsolidate compiler generated dependencies of target trajectory_msgs__rosidl_generator_py[0m
+[18.558s] [ 81%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_joint_trajectory_s.c.o[0m
+[19.179s] [ 83%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_multi_dof_joint_trajectory_point_s.c.o[0m
+[19.776s] [ 85%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c.o[0m
+[20.410s] [ 87%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_joint_trajectory_point_s.c.o[0m
+[21.068s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/libtrajectory_msgs__rosidl_generator_py.so[0m
+[21.300s] [ 89%] Built target trajectory_msgs__rosidl_generator_py
+[21.351s] [35m[1mConsolidate compiler generated dependencies of target trajectory_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[21.423s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[21.663s] [ 92%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_c__pyext
+[21.716s] [35m[1mConsolidate compiler generated dependencies of target trajectory_msgs__rosidl_typesupport_c__pyext[0m
+[21.789s] [ 94%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[22.398s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[22.623s] [ 96%] Built target trajectory_msgs__rosidl_typesupport_c__pyext
+[22.683s] [35m[1mConsolidate compiler generated dependencies of target trajectory_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[22.747s] [ 98%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[23.361s] [100%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[23.600s] [100%] Built target trajectory_msgs__rosidl_typesupport_introspection_c__pyext

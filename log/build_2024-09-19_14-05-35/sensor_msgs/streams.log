@@ -1,0 +1,25 @@
+[0.122s] Invoking command in '/home/ubuntu/microros_ws/build/sensor_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/sensor_msgs -- -j4 -l4
+[0.491s] [  0%] Built target sensor_msgs__cpp
+[0.655s] [  0%] Built target ament_cmake_python_symlink_sensor_msgs
+[0.931s] [ 12%] Built target sensor_msgs__rosidl_typesupport_fastrtps_cpp
+[1.126s] [ 25%] Built target sensor_msgs__rosidl_typesupport_introspection_cpp
+[3.102s] running egg_info
+[3.106s] writing sensor_msgs.egg-info/PKG-INFO
+[3.111s] writing dependency_links to sensor_msgs.egg-info/dependency_links.txt
+[3.111s] writing top-level names to sensor_msgs.egg-info/top_level.txt
+[3.132s] reading manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[3.137s] writing manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[3.374s] [ 25%] Built target ament_cmake_python_build_sensor_msgs_egg
+[3.533s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_typesupport_cpp[0m
+[3.841s] [ 37%] Built target sensor_msgs__rosidl_typesupport_cpp
+[4.037s] [ 49%] Built target sensor_msgs__rosidl_generator_c
+[4.251s] [ 61%] Built target sensor_msgs__rosidl_typesupport_fastrtps_c
+[4.329s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_typesupport_c[0m
+[4.441s] [ 73%] Built target sensor_msgs__rosidl_typesupport_c
+[4.631s] [ 86%] Built target sensor_msgs__rosidl_typesupport_introspection_c
+[4.780s] [ 86%] Built target sensor_msgs
+[4.946s] [ 86%] Built target sensor_msgs__py
+[5.174s] [ 98%] Built target sensor_msgs__rosidl_generator_py
+[5.386s] [ 99%] Built target sensor_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.534s] [100%] Built target sensor_msgs__rosidl_typesupport_c__pyext
+[5.663s] [100%] Built target sensor_msgs__rosidl_typesupport_introspection_c__pyext

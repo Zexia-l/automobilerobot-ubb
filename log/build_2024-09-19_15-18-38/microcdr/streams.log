@@ -1,0 +1,23 @@
+[0.203s] Invoking command in '/home/ubuntu/microros_ws/build/microcdr': /usr/bin/cmake /home/ubuntu/microros_ws/src/eProsima/Micro-CDR -DCMAKE_BUILD_TYPE=Release -DUCDR_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/microcdr
+[0.346s] -- Configuring done
+[0.413s] -- Generating done
+[0.420s] -- Build files have been written to: /home/ubuntu/microros_ws/build/microcdr
+[0.434s] Invoked command in '/home/ubuntu/microros_ws/build/microcdr' returned '0': /usr/bin/cmake /home/ubuntu/microros_ws/src/eProsima/Micro-CDR -DCMAKE_BUILD_TYPE=Release -DUCDR_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/microcdr
+[0.436s] Invoking command in '/home/ubuntu/microros_ws/build/microcdr': /usr/bin/cmake --build /home/ubuntu/microros_ws/build/microcdr -- -j4 -l4
+[0.978s] [35m[1mConsolidate compiler generated dependencies of target microcdr[0m
+[1.156s] [100%] Built target microcdr
+[1.293s] Invoked command in '/home/ubuntu/microros_ws/build/microcdr' returned '0': /usr/bin/cmake --build /home/ubuntu/microros_ws/build/microcdr -- -j4 -l4
+[1.943s] Invoking command in '/home/ubuntu/microros_ws/build/microcdr': /usr/bin/cmake --install /home/ubuntu/microros_ws/build/microcdr
+[2.027s] -- Install configuration: "Release"
+[2.029s] -- Up-to-date: /home/ubuntu/microros_ws/install/microcdr/lib/libmicrocdr.so.2.0.1
+[2.030s] -- Up-to-date: /home/ubuntu/microros_ws/install/microcdr/lib/libmicrocdr.so.2.0
+[2.031s] -- Up-to-date: /home/ubuntu/microros_ws/install/microcdr/lib/libmicrocdr.so
+[2.032s] -- Up-to-date: /home/ubuntu/microros_ws/install/microcdr/include/ucdr
+[2.033s] -- Up-to-date: /home/ubuntu/microros_ws/install/microcdr/include/ucdr/visibility.h
+[2.034s] -- Up-to-date: /home/ubuntu/microros_ws/install/microcdr/include/ucdr/microcdr.h
+[2.035s] -- Up-to-date: /home/ubuntu/microros_ws/install/microcdr/include/ucdr/config.h
+[2.035s] -- Up-to-date: /home/ubuntu/microros_ws/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+[2.036s] -- Up-to-date: /home/ubuntu/microros_ws/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
+[2.041s] -- Up-to-date: /home/ubuntu/microros_ws/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+[2.060s] -- Up-to-date: /home/ubuntu/microros_ws/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake
+[2.062s] Invoked command in '/home/ubuntu/microros_ws/build/microcdr' returned '0': /usr/bin/cmake --install /home/ubuntu/microros_ws/build/microcdr

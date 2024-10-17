@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/build/rcl_interfaces/rosidl_cmake/srv/GetParameterTypes_Request.msg

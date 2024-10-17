@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/build/stereo_msgs/rosidl_generator_py/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_introspection_c.c

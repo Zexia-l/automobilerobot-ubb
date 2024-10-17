@@ -1,0 +1,33 @@
+[01m[K/home/ubuntu/microros_ws/src/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_microros/init_options.c:[m[K In function ‘[01m[Krmw_uros_options_set_udp_address[m[K’:
+[01m[K/home/ubuntu/microros_ws/src/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_microros/init_options.c:94:80:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin_snprintf[m[K’ output may be truncated before the last format character [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-truncation=-Wformat-truncation=]8;;[m[K]
+   94 |     snprintf(rmw_options->impl->transport_params.agent_address, MAX_IP_LEN, "%s[01;35m[K"[m[K, ip);
+      |                                                                                [01;35m[K^[m[K
+In file included from [01m[K/usr/include/stdio.h:894[m[K,
+                 from [01m[K/opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rcutils/rcutils/macros.h:146[m[K,
+                 from [01m[K/opt/ros/humble/include/rcutils/rcutils/allocator.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/rmw.h:94[m[K,
+                 from [01m[K/home/ubuntu/microros_ws/src/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_microros/init_options.c:16[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/bits/stdio2.h:71:10:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin_snprintf[m[K’ output between 1 and 17 bytes into a destination of size 16
+   71 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   72 | [01;36m[K                                   __glibc_objsize (__s), __fmt,[m[K
+      |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   73 | [01;36m[K                                   __va_arg_pack ())[m[K;
+      |                                    [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/microros_ws/src/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_microros/init_options.c:101:79:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin_snprintf[m[K’ output may be truncated before the last format character [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-truncation=-Wformat-truncation=]8;;[m[K]
+  101 |     snprintf(rmw_options->impl->transport_params.agent_port, MAX_PORT_LEN, "%s[01;35m[K"[m[K, port);
+      |                                                                               [01;35m[K^[m[K
+In file included from [01m[K/usr/include/stdio.h:894[m[K,
+                 from [01m[K/opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rcutils/rcutils/macros.h:146[m[K,
+                 from [01m[K/opt/ros/humble/include/rcutils/rcutils/allocator.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/rmw.h:94[m[K,
+                 from [01m[K/home/ubuntu/microros_ws/src/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_microros/init_options.c:16[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/bits/stdio2.h:71:10:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin_snprintf[m[K’ output between 1 and 6 bytes into a destination of size 5
+   71 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   72 | [01;36m[K                                   __glibc_objsize (__s), __fmt,[m[K
+      |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   73 | [01;36m[K                                   __va_arg_pack ())[m[K;
+      |                                    [01;36m[K~~~~~~~~~~~~~~~~~[m[K

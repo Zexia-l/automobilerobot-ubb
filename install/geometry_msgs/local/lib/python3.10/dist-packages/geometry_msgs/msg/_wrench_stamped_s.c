@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/build/geometry_msgs/rosidl_generator_py/geometry_msgs/msg/_wrench_stamped_s.c

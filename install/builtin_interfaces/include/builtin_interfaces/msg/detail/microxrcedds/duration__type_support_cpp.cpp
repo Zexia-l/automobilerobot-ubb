@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/build/builtin_interfaces/rosidl_typesupport_microxrcedds_cpp/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_cpp.cpp

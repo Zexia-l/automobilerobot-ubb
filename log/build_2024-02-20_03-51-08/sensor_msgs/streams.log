@@ -1,0 +1,750 @@
+[0.234s] Invoking command in '/home/ubuntu/microros_ws/build/sensor_msgs': CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/micro_ros_demos_rclc:/home/ubuntu/microros_ws/install/common_interfaces:/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/trajectory_msgs:/home/ubuntu/microros_ws/install/stereo_msgs:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble:/home/ubuntu/microros_ws/install/rplidar_ros:/home/ubuntu/microros_ws/install/std_srvs:/home/ubuntu/microros_ws/install/shape_msgs:/home/ubuntu/microros_ws/install/astra_camera_msgs:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/nav_msgs:/home/ubuntu/microros_ws/install/diagnostic_msgs:/home/ubuntu/microros_ws/install/actionlib_msgs:/home/ubuntu/microros_ws/install/statistics_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rosgraph_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/composition_interfaces:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_setup:/home/ubuntu/microros_ws/install/micro_ros_agent:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/lifecycle_msgs:/home/ubuntu/microros_ws/install/complex_msgs LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/home/ubuntu/microros_ws/install/visualization_msgs/lib:/home/ubuntu/microros_ws/install/test_msgs/lib:/home/ubuntu/microros_ws/install/example_interfaces/lib:/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/trajectory_msgs/lib:/home/ubuntu/microros_ws/install/stereo_msgs/lib:/home/ubuntu/microros_ws/install/std_srvs/lib:/home/ubuntu/microros_ws/install/shape_msgs/lib:/home/ubuntu/microros_ws/install/astra_camera_msgs/lib:/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/nav_msgs/lib:/home/ubuntu/microros_ws/install/diagnostic_msgs/lib:/home/ubuntu/microros_ws/install/actionlib_msgs/lib:/home/ubuntu/microros_ws/install/statistics_msgs/lib:/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/rosgraph_msgs/lib:/home/ubuntu/microros_ws/install/rclc_parameter/lib:/home/ubuntu/microros_ws/install/rclc/lib:/home/ubuntu/microros_ws/install/composition_interfaces/lib:/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_utilities/lib:/home/ubuntu/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/microros_ws/install/complex_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/microros_ws/build/sensor_msgs -- -j4 -l4
+[0.477s] gmake: Warning: File 'Makefile' has modification time 18359405 s in the future
+[0.860s] gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 18359405 s in the future
+[0.889s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__cpp.dir/progress.make' has modification time 18359405 s in the future
+[1.105s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.127s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__cpp.dir/progress.make' has modification time 18359405 s in the future
+[1.137s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.238s] [  0%] Built target sensor_msgs__cpp
+[1.280s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_symlink_sensor_msgs.dir/progress.make' has modification time 18359404 s in the future
+[1.407s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.429s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_symlink_sensor_msgs.dir/progress.make' has modification time 18359404 s in the future
+[1.571s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.696s] [  0%] Built target ament_cmake_python_symlink_sensor_msgs
+[1.765s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/flags.make' has modification time 18359403 s in the future
+[2.033s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.195s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.297s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/flags.make' has modification time 18359403 s in the future
+[2.312s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.405s] [  9%] Built target sensor_msgs__rosidl_typesupport_fastrtps_cpp
+[2.500s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/flags.make' has modification time 18359403 s in the future
+[2.774s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_typesupport_microxrcedds_cpp[0m
+[2.882s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.936s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/flags.make' has modification time 18359402 s in the future
+[2.953s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[3.118s] [ 19%] Built target sensor_msgs__rosidl_typesupport_microxrcedds_cpp
+[3.195s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/flags.make' has modification time 18359402 s in the future
+[3.399s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_typesupport_introspection_cpp[0m
+[3.537s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[3.605s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/flags.make' has modification time 18359402 s in the future
+[3.616s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[3.745s] [ 28%] Built target sensor_msgs__rosidl_typesupport_introspection_cpp
+[3.799s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_build_sensor_msgs_egg.dir/progress.make' has modification time 18359402 s in the future
+[4.023s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[4.040s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_build_sensor_msgs_egg.dir/progress.make' has modification time 18359402 s in the future
+[7.280s] running egg_info
+[7.284s] writing sensor_msgs.egg-info/PKG-INFO
+[7.288s] writing dependency_links to sensor_msgs.egg-info/dependency_links.txt
+[7.291s] writing top-level names to sensor_msgs.egg-info/top_level.txt
+[7.330s] reading manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[7.346s] writing manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[7.541s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.646s] [ 28%] Built target ament_cmake_python_build_sensor_msgs_egg
+[7.719s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/flags.make' has modification time 18359398 s in the future
+[7.988s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_typesupport_cpp[0m
+[8.099s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[8.165s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/flags.make' has modification time 18359397 s in the future
+[8.176s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[8.303s] [ 37%] Built target sensor_msgs__rosidl_typesupport_cpp
+[8.400s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_generator_c.dir/flags.make' has modification time 18359396 s in the future
+[8.645s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_generator_c[0m
+[8.696s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[8.737s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_generator_c.dir/flags.make' has modification time 18359396 s in the future
+[8.745s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[8.843s] [ 47%] Built target sensor_msgs__rosidl_generator_c
+[8.917s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make' has modification time 18359396 s in the future
+[9.180s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_typesupport_fastrtps_c[0m
+[9.379s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[9.489s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make' has modification time 18359395 s in the future
+[9.502s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[9.728s] [ 57%] Built target sensor_msgs__rosidl_typesupport_fastrtps_c
+[9.798s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/flags.make' has modification time 18359395 s in the future
+[10.000s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_typesupport_c[0m
+[10.042s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[10.105s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/flags.make' has modification time 18359395 s in the future
+[10.121s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[10.226s] [ 67%] Built target sensor_msgs__rosidl_typesupport_c
+[10.301s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/flags.make' has modification time 18359395 s in the future
+[10.589s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_typesupport_introspection_c[0m
+[10.660s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[10.691s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/flags.make' has modification time 18359394 s in the future
+[10.702s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[10.842s] [ 77%] Built target sensor_msgs__rosidl_typesupport_introspection_c
+[10.916s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/flags.make' has modification time 18359394 s in the future
+[11.427s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_typesupport_microxrcedds_c[0m
+[11.507s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[11.549s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/flags.make' has modification time 18359393 s in the future
+[11.562s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[11.677s] [ 87%] Built target sensor_msgs__rosidl_typesupport_microxrcedds_c
+[11.716s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs.dir/progress.make' has modification time 18359394 s in the future
+[11.896s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[11.897s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs.dir/progress.make' has modification time 18359394 s in the future
+[11.918s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[12.043s] [ 87%] Built target sensor_msgs
+[12.104s] gmake[2]: Warning: File 'sensor_msgs__py/CMakeFiles/sensor_msgs__py.dir/progress.make' has modification time 18359394 s in the future
+[12.310s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[12.341s] gmake[2]: Warning: File 'sensor_msgs__py/CMakeFiles/sensor_msgs__py.dir/progress.make' has modification time 18359393 s in the future
+[12.345s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[12.522s] [ 87%] Built target sensor_msgs__py
+[12.588s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_generator_py.dir/flags.make' has modification time 18359393 s in the future
+[12.823s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_generator_py[0m
+[12.972s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[13.014s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_generator_py.dir/flags.make' has modification time 18359392 s in the future
+[13.024s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[13.198s] [ 96%] Built target sensor_msgs__rosidl_generator_py
+[13.269s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/flags.make' has modification time 18359392 s in the future
+[13.453s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_typesupport_microxrcedds_c__pyext[0m
+[13.501s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[13.534s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/flags.make' has modification time 18359392 s in the future
+[13.543s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[13.662s] [ 97%] Built target sensor_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[13.694s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_c__pyext.dir/flags.make' has modification time 18359392 s in the future
+[13.884s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_typesupport_c__pyext[0m
+[13.918s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[13.941s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_c__pyext.dir/flags.make' has modification time 18359392 s in the future
+[13.949s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[14.043s] [ 98%] Built target sensor_msgs__rosidl_typesupport_c__pyext
+[14.095s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c__pyext.dir/flags.make' has modification time 18359391 s in the future
+[14.218s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[14.243s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[14.266s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c__pyext.dir/flags.make' has modification time 18359391 s in the future
+[14.277s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[14.421s] [ 99%] Built target sensor_msgs__rosidl_typesupport_introspection_c__pyext
+[14.502s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/flags.make' has modification time 18359391 s in the future
+[14.621s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[14.675s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[14.720s] gmake[2]: Warning: File 'CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/flags.make' has modification time 18359391 s in the future
+[14.733s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[14.883s] [100%] Built target sensor_msgs__rosidl_typesupport_fastrtps_c__pyext
+[14.895s] gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+[15.003s] gmake: warning:  Clock skew detected.  Your build may be incomplete.
+[15.027s] Invoked command in '/home/ubuntu/microros_ws/build/sensor_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/micro_ros_demos_rclc:/home/ubuntu/microros_ws/install/common_interfaces:/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/trajectory_msgs:/home/ubuntu/microros_ws/install/stereo_msgs:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble:/home/ubuntu/microros_ws/install/rplidar_ros:/home/ubuntu/microros_ws/install/std_srvs:/home/ubuntu/microros_ws/install/shape_msgs:/home/ubuntu/microros_ws/install/astra_camera_msgs:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/nav_msgs:/home/ubuntu/microros_ws/install/diagnostic_msgs:/home/ubuntu/microros_ws/install/actionlib_msgs:/home/ubuntu/microros_ws/install/statistics_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rosgraph_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/composition_interfaces:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_setup:/home/ubuntu/microros_ws/install/micro_ros_agent:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/lifecycle_msgs:/home/ubuntu/microros_ws/install/complex_msgs LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/home/ubuntu/microros_ws/install/visualization_msgs/lib:/home/ubuntu/microros_ws/install/test_msgs/lib:/home/ubuntu/microros_ws/install/example_interfaces/lib:/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/trajectory_msgs/lib:/home/ubuntu/microros_ws/install/stereo_msgs/lib:/home/ubuntu/microros_ws/install/std_srvs/lib:/home/ubuntu/microros_ws/install/shape_msgs/lib:/home/ubuntu/microros_ws/install/astra_camera_msgs/lib:/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/nav_msgs/lib:/home/ubuntu/microros_ws/install/diagnostic_msgs/lib:/home/ubuntu/microros_ws/install/actionlib_msgs/lib:/home/ubuntu/microros_ws/install/statistics_msgs/lib:/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/rosgraph_msgs/lib:/home/ubuntu/microros_ws/install/rclc_parameter/lib:/home/ubuntu/microros_ws/install/rclc/lib:/home/ubuntu/microros_ws/install/composition_interfaces/lib:/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_utilities/lib:/home/ubuntu/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/microros_ws/install/complex_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/microros_ws/build/sensor_msgs -- -j4 -l4
+[33.137s] Invoking command in '/home/ubuntu/microros_ws/build/sensor_msgs': CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/micro_ros_demos_rclc:/home/ubuntu/microros_ws/install/common_interfaces:/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/trajectory_msgs:/home/ubuntu/microros_ws/install/stereo_msgs:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble:/home/ubuntu/microros_ws/install/rplidar_ros:/home/ubuntu/microros_ws/install/std_srvs:/home/ubuntu/microros_ws/install/shape_msgs:/home/ubuntu/microros_ws/install/astra_camera_msgs:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/nav_msgs:/home/ubuntu/microros_ws/install/diagnostic_msgs:/home/ubuntu/microros_ws/install/actionlib_msgs:/home/ubuntu/microros_ws/install/statistics_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rosgraph_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/composition_interfaces:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_setup:/home/ubuntu/microros_ws/install/micro_ros_agent:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/lifecycle_msgs:/home/ubuntu/microros_ws/install/complex_msgs LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/home/ubuntu/microros_ws/install/visualization_msgs/lib:/home/ubuntu/microros_ws/install/test_msgs/lib:/home/ubuntu/microros_ws/install/example_interfaces/lib:/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/trajectory_msgs/lib:/home/ubuntu/microros_ws/install/stereo_msgs/lib:/home/ubuntu/microros_ws/install/std_srvs/lib:/home/ubuntu/microros_ws/install/shape_msgs/lib:/home/ubuntu/microros_ws/install/astra_camera_msgs/lib:/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/nav_msgs/lib:/home/ubuntu/microros_ws/install/diagnostic_msgs/lib:/home/ubuntu/microros_ws/install/actionlib_msgs/lib:/home/ubuntu/microros_ws/install/statistics_msgs/lib:/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/rosgraph_msgs/lib:/home/ubuntu/microros_ws/install/rclc_parameter/lib:/home/ubuntu/microros_ws/install/rclc/lib:/home/ubuntu/microros_ws/install/composition_interfaces/lib:/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_utilities/lib:/home/ubuntu/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/microros_ws/install/complex_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/microros_ws/build/sensor_msgs
+[33.220s] -- Install configuration: "Release"
+[33.229s] -- Execute custom install script
+[33.241s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/ament_index/resource_index/rosidl_interfaces/sensor_msgs
+[33.273s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/battery_state.h
+[33.276s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/camera_info.h
+[33.285s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/channel_float32.h
+[33.289s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/compressed_image.h
+[33.293s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__functions.h
+[33.301s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__struct.h
+[33.304s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.h
+[33.306s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__functions.h
+[33.308s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.h
+[33.309s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.h
+[33.311s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__functions.h
+[33.313s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__struct.h
+[33.315s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.h
+[33.353s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__functions.h
+[33.358s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.h
+[33.359s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.h
+[33.389s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__functions.h
+[33.393s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__struct.h
+[33.396s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.h
+[33.397s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__functions.h
+[33.403s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__struct.h
+[33.408s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.h
+[33.413s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__functions.h
+[33.417s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h
+[33.419s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.h
+[33.421s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__functions.h
+[33.424s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.h
+[33.426s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.h
+[33.428s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__functions.h
+[33.431s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.h
+[33.433s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.h
+[33.435s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__functions.h
+[33.439s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.h
+[33.440s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.h
+[33.442s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__functions.h
+[33.444s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__struct.h
+[33.446s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.h
+[33.454s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__functions.h
+[33.456s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__struct.h
+[33.457s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.h
+[33.462s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__functions.h
+[33.466s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__struct.h
+[33.472s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.h
+[33.476s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__functions.h
+[33.493s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.h
+[33.497s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.h
+[33.519s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__functions.h
+[33.522s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.h
+[33.522s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.h
+[33.525s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__functions.h
+[33.529s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__struct.h
+[33.533s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.h
+[33.536s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.h
+[33.539s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__struct.h
+[33.542s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.h
+[33.545s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__functions.h
+[33.547s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__struct.h
+[33.549s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.h
+[33.551s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__functions.h
+[33.553s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__struct.h
+[33.558s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.h
+[33.561s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__functions.h
+[33.566s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.h
+[33.574s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.h
+[33.592s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__functions.h
+[33.601s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__struct.h
+[33.605s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.h
+[33.619s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__functions.h
+[33.624s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__struct.h
+[33.627s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.h
+[33.631s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__functions.h
+[33.636s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.h
+[33.639s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.h
+[33.641s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__functions.h
+[33.644s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.h
+[33.646s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.h
+[33.653s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__functions.h
+[33.654s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__struct.h
+[33.655s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.h
+[33.656s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__functions.h
+[33.659s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__struct.h
+[33.662s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.h
+[33.665s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__functions.h
+[33.669s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__struct.h
+[33.672s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.h
+[33.676s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/fluid_pressure.h
+[33.683s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/illuminance.h
+[33.697s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/image.h
+[33.698s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/imu.h
+[33.698s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joint_state.h
+[33.699s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy.h
+[33.700s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback.h
+[33.702s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback_array.h
+[33.706s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_echo.h
+[33.707s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_scan.h
+[33.707s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/magnetic_field.h
+[33.708s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_dof_joint_state.h
+[33.709s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_echo_laser_scan.h
+[33.713s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_fix.h
+[33.715s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_status.h
+[33.717s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud.h
+[33.720s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud2.h
+[33.722s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_field.h
+[33.725s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/range.h
+[33.727s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/region_of_interest.h
+[33.743s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/relative_humidity.h
+[33.751s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_c__visibility_control.h
+[33.754s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/temperature.h
+[33.756s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/time_reference.h
+[33.764s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__functions.h
+[33.765s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__struct.h
+[33.767s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.h
+[33.769s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/set_camera_info.h
+[33.771s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/environment/library_path.sh
+[33.773s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/environment/library_path.dsv
+[33.792s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_fastrtps_c.h
+[33.802s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_fastrtps_c.h
+[33.821s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_fastrtps_c.h
+[33.822s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_fastrtps_c.h
+[33.836s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_fastrtps_c.h
+[33.836s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_fastrtps_c.h
+[33.837s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_fastrtps_c.h
+[33.849s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_c.h
+[33.853s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_c.h
+[33.859s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_fastrtps_c.h
+[33.860s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_fastrtps_c.h
+[33.861s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_fastrtps_c.h
+[33.864s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_fastrtps_c.h
+[33.871s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_fastrtps_c.h
+[33.872s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_fastrtps_c.h
+[33.873s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_fastrtps_c.h
+[33.873s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_fastrtps_c.h
+[33.875s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_fastrtps_c.h
+[33.877s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_fastrtps_c.h
+[33.879s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_fastrtps_c.h
+[33.881s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_fastrtps_c.h
+[33.884s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_fastrtps_c.h
+[33.885s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_fastrtps_c.h
+[33.887s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_fastrtps_c.h
+[33.889s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_fastrtps_c.h
+[33.893s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_c.h
+[33.898s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_fastrtps_c.h
+[33.901s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[33.906s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_fastrtps_c.h
+[33.925s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/battery_state.hpp
+[33.938s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp
+[33.960s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/channel_float32.hpp
+[33.961s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp
+[33.961s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__builder.hpp
+[33.964s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__struct.hpp
+[33.968s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__traits.hpp
+[33.974s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__builder.hpp
+[33.977s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.hpp
+[33.980s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__traits.hpp
+[33.983s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__builder.hpp
+[33.986s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__struct.hpp
+[33.989s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__traits.hpp
+[33.992s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp
+[33.994s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp
+[33.997s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp
+[34.000s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__builder.hpp
+[34.003s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__struct.hpp
+[34.006s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__traits.hpp
+[34.012s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__builder.hpp
+[34.016s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__struct.hpp
+[34.021s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__traits.hpp
+[34.033s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp
+[34.049s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp
+[34.056s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp
+[34.058s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp
+[34.060s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp
+[34.062s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp
+[34.064s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp
+[34.066s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp
+[34.070s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp
+[34.073s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__builder.hpp
+[34.078s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.hpp
+[34.082s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__traits.hpp
+[34.085s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__builder.hpp
+[34.088s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__struct.hpp
+[34.090s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__traits.hpp
+[34.092s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__builder.hpp
+[34.094s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__struct.hpp
+[34.097s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__traits.hpp
+[34.098s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__builder.hpp
+[34.100s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__struct.hpp
+[34.102s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__traits.hpp
+[34.104s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__builder.hpp
+[34.106s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp
+[34.108s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__traits.hpp
+[34.110s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__builder.hpp
+[34.112s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp
+[34.114s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__traits.hpp
+[34.116s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__builder.hpp
+[34.118s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__struct.hpp
+[34.120s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__traits.hpp
+[34.135s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__builder.hpp
+[34.145s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__struct.hpp
+[34.146s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__traits.hpp
+[34.147s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__builder.hpp
+[34.148s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__struct.hpp
+[34.149s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__traits.hpp
+[34.150s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__builder.hpp
+[34.151s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__struct.hpp
+[34.152s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__traits.hpp
+[34.153s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__builder.hpp
+[34.154s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp
+[34.156s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__traits.hpp
+[34.158s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__builder.hpp
+[34.160s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__struct.hpp
+[34.173s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__traits.hpp
+[34.177s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__builder.hpp
+[34.179s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__struct.hpp
+[34.181s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__traits.hpp
+[34.183s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__builder.hpp
+[34.185s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp
+[34.201s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__traits.hpp
+[34.208s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__builder.hpp
+[34.212s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.hpp
+[34.214s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__traits.hpp
+[34.216s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__builder.hpp
+[34.218s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__struct.hpp
+[34.221s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__traits.hpp
+[34.222s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__builder.hpp
+[34.224s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__struct.hpp
+[34.226s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__traits.hpp
+[34.228s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__builder.hpp
+[34.230s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__struct.hpp
+[34.232s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__traits.hpp
+[34.234s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/fluid_pressure.hpp
+[34.237s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/illuminance.hpp
+[34.239s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/image.hpp
+[34.244s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/imu.hpp
+[34.246s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp
+[34.251s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy.hpp
+[34.259s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback.hpp
+[34.262s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback_array.hpp
+[34.263s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_echo.hpp
+[34.266s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp
+[34.268s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/magnetic_field.hpp
+[34.283s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_dof_joint_state.hpp
+[34.287s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_echo_laser_scan.hpp
+[34.293s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_fix.hpp
+[34.297s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_status.hpp
+[34.299s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud.hpp
+[34.302s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp
+[34.305s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_field.hpp
+[34.311s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/range.hpp
+[34.318s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/region_of_interest.hpp
+[34.320s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/relative_humidity.hpp
+[34.323s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/temperature.hpp
+[34.325s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/time_reference.hpp
+[34.328s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__builder.hpp
+[34.331s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__struct.hpp
+[34.334s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__traits.hpp
+[34.335s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/set_camera_info.hpp
+[34.354s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_fastrtps_cpp.hpp
+[34.356s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[34.361s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_fastrtps_cpp.hpp
+[34.367s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_fastrtps_cpp.hpp
+[34.373s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_fastrtps_cpp.hpp
+[34.374s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_fastrtps_cpp.hpp
+[34.377s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_fastrtps_cpp.hpp
+[34.380s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp
+[34.392s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[34.396s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_fastrtps_cpp.hpp
+[34.398s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[34.400s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_fastrtps_cpp.hpp
+[34.402s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_fastrtps_cpp.hpp
+[34.408s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[34.410s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_fastrtps_cpp.hpp
+[34.411s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[34.412s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[34.417s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_fastrtps_cpp.hpp
+[34.422s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_fastrtps_cpp.hpp
+[34.425s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_fastrtps_cpp.hpp
+[34.430s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_fastrtps_cpp.hpp
+[34.434s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_fastrtps_cpp.hpp
+[34.437s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_fastrtps_cpp.hpp
+[34.439s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_fastrtps_cpp.hpp
+[34.443s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_fastrtps_cpp.hpp
+[34.447s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_cpp.hpp
+[34.449s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_fastrtps_cpp.hpp
+[34.451s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[34.453s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[34.473s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_microxrcedds_c.h
+[34.478s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_microxrcedds_c.h
+[34.485s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_microxrcedds_c.h
+[34.495s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_microxrcedds_c.h
+[34.496s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_microxrcedds_c.h
+[34.512s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_microxrcedds_c.h
+[34.518s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/image__rosidl_typesupport_microxrcedds_c.h
+[34.521s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/imu__rosidl_typesupport_microxrcedds_c.h
+[34.523s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_microxrcedds_c.h
+[34.526s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/joy__rosidl_typesupport_microxrcedds_c.h
+[34.531s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_microxrcedds_c.h
+[34.538s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_microxrcedds_c.h
+[34.541s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_microxrcedds_c.h
+[34.543s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_microxrcedds_c.h
+[34.545s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_microxrcedds_c.h
+[34.549s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_microxrcedds_c.h
+[34.552s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_microxrcedds_c.h
+[34.556s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_microxrcedds_c.h
+[34.558s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_microxrcedds_c.h
+[34.560s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_microxrcedds_c.h
+[34.562s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_microxrcedds_c.h
+[34.564s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/point_field__rosidl_typesupport_microxrcedds_c.h
+[34.566s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/range__rosidl_typesupport_microxrcedds_c.h
+[34.568s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_microxrcedds_c.h
+[34.570s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_microxrcedds_c.h
+[34.572s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/temperature__rosidl_typesupport_microxrcedds_c.h
+[34.576s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_microxrcedds_c.h
+[34.579s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[34.585s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_microxrcedds_c.h
+[34.598s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_microxrcedds_c.so
+[34.613s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_introspection_c.h
+[34.615s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_introspection_c.h
+[34.617s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_introspection_c.h
+[34.619s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_introspection_c.h
+[34.621s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_introspection_c.h
+[34.625s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_introspection_c.h
+[34.627s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_introspection_c.h
+[34.635s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_introspection_c.h
+[34.638s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_c.h
+[34.641s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_introspection_c.h
+[34.648s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_introspection_c.h
+[34.651s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_introspection_c.h
+[34.653s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_introspection_c.h
+[34.654s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_introspection_c.h
+[34.656s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_introspection_c.h
+[34.658s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_introspection_c.h
+[34.661s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_introspection_c.h
+[34.663s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_introspection_c.h
+[34.671s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_introspection_c.h
+[34.672s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_introspection_c.h
+[34.672s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_introspection_c.h
+[34.673s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_introspection_c.h
+[34.675s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_introspection_c.h
+[34.678s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_introspection_c.h
+[34.680s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_introspection_c.h
+[34.682s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_introspection_c.h
+[34.684s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_introspection_c.h
+[34.686s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[34.691s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_introspection_c.h
+[34.722s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.727s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.730s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.733s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.748s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.751s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.761s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/image__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.765s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/imu__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.767s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.769s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/joy__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.771s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.774s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.775s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.777s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.779s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.781s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/battery_state__type_support_cpp.cpp
+[34.783s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/camera_info__type_support_cpp.cpp
+[34.785s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/channel_float32__type_support_cpp.cpp
+[34.788s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/compressed_image__type_support_cpp.cpp
+[34.790s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/fluid_pressure__type_support_cpp.cpp
+[34.792s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/illuminance__type_support_cpp.cpp
+[34.794s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/image__type_support_cpp.cpp
+[34.797s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/imu__type_support_cpp.cpp
+[34.800s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/joint_state__type_support_cpp.cpp
+[34.801s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/joy__type_support_cpp.cpp
+[34.803s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/joy_feedback__type_support_cpp.cpp
+[34.808s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/joy_feedback_array__type_support_cpp.cpp
+[34.810s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/laser_echo__type_support_cpp.cpp
+[34.814s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/laser_scan__type_support_cpp.cpp
+[34.822s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/magnetic_field__type_support_cpp.cpp
+[34.827s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/multi_dof_joint_state__type_support_cpp.cpp
+[34.829s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/multi_echo_laser_scan__type_support_cpp.cpp
+[34.842s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/nav_sat_fix__type_support_cpp.cpp
+[34.857s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/nav_sat_status__type_support_cpp.cpp
+[34.862s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/point_cloud2__type_support_cpp.cpp
+[34.866s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/point_cloud__type_support_cpp.cpp
+[34.875s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/point_field__type_support_cpp.cpp
+[34.884s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/range__type_support_cpp.cpp
+[34.885s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/region_of_interest__type_support_cpp.cpp
+[34.887s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/relative_humidity__type_support_cpp.cpp
+[34.890s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/temperature__type_support_cpp.cpp
+[34.892s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/time_reference__type_support_cpp.cpp
+[34.895s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.897s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.899s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.902s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.904s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.910s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.912s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/point_field__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.914s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/range__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.917s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.922s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.924s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/temperature__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.930s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.936s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[34.941s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/srv/detail/microxrcedds/set_camera_info__type_support_cpp.cpp
+[34.949s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_microxrcedds_cpp.hpp
+[34.968s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[34.970s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_introspection_cpp.hpp
+[34.973s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_introspection_cpp.hpp
+[34.974s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_introspection_cpp.hpp
+[34.983s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_introspection_cpp.hpp
+[34.992s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_introspection_cpp.hpp
+[34.994s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_introspection_cpp.hpp
+[34.996s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_introspection_cpp.hpp
+[34.999s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp
+[35.002s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_cpp.hpp
+[35.004s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_introspection_cpp.hpp
+[35.005s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_introspection_cpp.hpp
+[35.007s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_introspection_cpp.hpp
+[35.009s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_introspection_cpp.hpp
+[35.012s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_introspection_cpp.hpp
+[35.015s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_introspection_cpp.hpp
+[35.017s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_introspection_cpp.hpp
+[35.018s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_introspection_cpp.hpp
+[35.020s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_introspection_cpp.hpp
+[35.022s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_introspection_cpp.hpp
+[35.025s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_introspection_cpp.hpp
+[35.027s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_introspection_cpp.hpp
+[35.029s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_introspection_cpp.hpp
+[35.031s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_introspection_cpp.hpp
+[35.034s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_introspection_cpp.hpp
+[35.038s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_introspection_cpp.hpp
+[35.039s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_introspection_cpp.hpp
+[35.044s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_introspection_cpp.hpp
+[35.050s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_introspection_cpp.hpp
+[35.055s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/environment/pythonpath.sh
+[35.058s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/environment/pythonpath.dsv
+[35.059s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.2.4-py3.10.egg-info/PKG-INFO
+[35.072s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.2.4-py3.10.egg-info/SOURCES.txt
+[35.077s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.2.4-py3.10.egg-info/dependency_links.txt
+[35.081s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.2.4-py3.10.egg-info/top_level.txt
+[35.100s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/__init__.py
+[35.102s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_c.c
+[35.104s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[35.106s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[35.108s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[35.109s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/libsensor_msgs__rosidl_generator_py.so
+[35.112s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/__init__.py
+[35.114s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_battery_state.py
+[35.118s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_battery_state_s.c
+[35.124s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_camera_info.py
+[35.126s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_camera_info_s.c
+[35.129s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_channel_float32.py
+[35.131s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_channel_float32_s.c
+[35.133s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_compressed_image.py
+[35.135s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_compressed_image_s.c
+[35.138s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_fluid_pressure.py
+[35.141s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_fluid_pressure_s.c
+[35.143s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_illuminance.py
+[35.145s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_illuminance_s.c
+[35.147s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_image.py
+[35.149s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_image_s.c
+[35.151s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_imu.py
+[35.153s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_imu_s.c
+[35.155s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joint_state.py
+[35.157s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joint_state_s.c
+[35.159s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy.py
+[35.170s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback.py
+[35.171s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback_array.py
+[35.172s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback_array_s.c
+[35.173s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback_s.c
+[35.177s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_s.c
+[35.185s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_echo.py
+[35.200s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_echo_s.c
+[35.228s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_scan.py
+[35.233s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_scan_s.c
+[35.242s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_magnetic_field.py
+[35.243s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_magnetic_field_s.c
+[35.243s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_dof_joint_state.py
+[35.246s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_dof_joint_state_s.c
+[35.248s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_echo_laser_scan.py
+[35.250s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_echo_laser_scan_s.c
+[35.251s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_fix.py
+[35.253s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_fix_s.c
+[35.256s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_status.py
+[35.258s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_status_s.c
+[35.260s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud.py
+[35.262s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud2.py
+[35.264s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud2_s.c
+[35.265s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud_s.c
+[35.267s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_field.py
+[35.269s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_field_s.c
+[35.271s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_range.py
+[35.274s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_range_s.c
+[35.277s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_region_of_interest.py
+[35.281s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_region_of_interest_s.c
+[35.285s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_relative_humidity.py
+[35.288s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_relative_humidity_s.c
+[35.293s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_temperature.py
+[35.298s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_temperature_s.c
+[35.304s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_time_reference.py
+[35.305s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_time_reference_s.c
+[35.306s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[35.325s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[35.329s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[35.331s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[35.333s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv/__init__.py
+[35.335s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv/_set_camera_info.py
+[35.337s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv/_set_camera_info_s.c
+[35.340s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[35.342s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[35.347s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[35.349s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[35.354s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/BatteryState.idl
+[35.357s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/CameraInfo.idl
+[35.360s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/ChannelFloat32.idl
+[35.361s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/CompressedImage.idl
+[35.363s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/FluidPressure.idl
+[35.365s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Illuminance.idl
+[35.367s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Image.idl
+[35.370s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Imu.idl
+[35.371s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/JointState.idl
+[35.373s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Joy.idl
+[35.375s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedback.idl
+[35.378s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedbackArray.idl
+[35.380s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/LaserEcho.idl
+[35.381s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/LaserScan.idl
+[35.387s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/MagneticField.idl
+[35.390s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/MultiDOFJointState.idl
+[35.392s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/MultiEchoLaserScan.idl
+[35.393s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/NavSatFix.idl
+[35.394s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/NavSatStatus.idl
+[35.396s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/PointCloud.idl
+[35.400s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/PointCloud2.idl
+[35.402s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/PointField.idl
+[35.407s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Range.idl
+[35.414s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/RegionOfInterest.idl
+[35.418s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/RelativeHumidity.idl
+[35.432s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Temperature.idl
+[35.433s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/TimeReference.idl
+[35.434s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo.idl
+[35.435s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/BatteryState.msg
+[35.445s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/CameraInfo.msg
+[35.450s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/ChannelFloat32.msg
+[35.451s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/CompressedImage.msg
+[35.453s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/FluidPressure.msg
+[35.455s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Illuminance.msg
+[35.460s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Image.msg
+[35.462s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Imu.msg
+[35.469s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/JointState.msg
+[35.471s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Joy.msg
+[35.472s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedback.msg
+[35.473s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedbackArray.msg
+[35.476s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/LaserEcho.msg
+[35.480s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/LaserScan.msg
+[35.482s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/MagneticField.msg
+[35.485s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/MultiDOFJointState.msg
+[35.487s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/MultiEchoLaserScan.msg
+[35.489s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/NavSatFix.msg
+[35.491s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/NavSatStatus.msg
+[35.493s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/PointCloud.msg
+[35.495s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/PointCloud2.msg
+[35.497s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/PointField.msg
+[35.499s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Range.msg
+[35.507s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/RegionOfInterest.msg
+[35.510s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/RelativeHumidity.msg
+[35.517s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/Temperature.msg
+[35.523s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/msg/TimeReference.msg
+[35.541s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo.srv
+[35.543s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo_Request.msg
+[35.546s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo_Response.msg
+[35.557s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/distortion_models.hpp
+[35.558s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/fill_image.hpp
+[35.565s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/image_encodings.hpp
+[35.568s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/impl/point_cloud2_iterator.hpp
+[35.580s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_cloud2_iterator.hpp
+[35.581s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp
+[35.582s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_field_conversion.hpp
+[35.584s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/ament_index/resource_index/package_run_dependencies/sensor_msgs
+[35.584s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/ament_index/resource_index/parent_prefix_path/sensor_msgs
+[35.585s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/environment/ament_prefix_path.sh
+[35.586s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/environment/ament_prefix_path.dsv
+[35.587s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/environment/path.sh
+[35.588s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/environment/path.dsv
+[35.589s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/local_setup.bash
+[35.591s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/local_setup.sh
+[35.592s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/local_setup.zsh
+[35.593s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/local_setup.dsv
+[35.594s] -- Symlinking: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/package.dsv
+[35.689s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/ament_index/resource_index/packages/sensor_msgs
+[35.692s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake-extras.cmake
+[35.694s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.697s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.699s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[35.701s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[35.703s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[35.705s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[35.707s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgsConfig.cmake
+[35.713s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake
+[35.718s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/package.xml
+[35.731s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_c.so
+[35.758s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
+[35.765s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[35.769s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+[35.774s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_c.so
+[35.783s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+[35.793s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+[36.216s] Listing '/home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs'...
+[36.217s] Listing '/home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg'...
+[36.218s] Listing '/home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv'...
+[36.256s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_py.so
+[36.262s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cExport.cmake
+[36.263s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cExport-release.cmake
+[36.266s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[36.266s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[36.269s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cppExport.cmake
+[36.274s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[36.275s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[36.278s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[36.279s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[36.286s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cExport.cmake
+[36.287s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cExport-release.cmake
+[36.294s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[36.295s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[36.324s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cppExport.cmake
+[36.325s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cppExport-release.cmake
+[36.328s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_pyExport.cmake
+[36.329s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_pyExport-release.cmake
+[36.336s] -- Up-to-date: /home/ubuntu/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgsExport.cmake
+[36.349s] Invoked command in '/home/ubuntu/microros_ws/build/sensor_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/micro_ros_demos_rclc:/home/ubuntu/microros_ws/install/common_interfaces:/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/trajectory_msgs:/home/ubuntu/microros_ws/install/stereo_msgs:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble:/home/ubuntu/microros_ws/install/rplidar_ros:/home/ubuntu/microros_ws/install/std_srvs:/home/ubuntu/microros_ws/install/shape_msgs:/home/ubuntu/microros_ws/install/astra_camera_msgs:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/nav_msgs:/home/ubuntu/microros_ws/install/diagnostic_msgs:/home/ubuntu/microros_ws/install/actionlib_msgs:/home/ubuntu/microros_ws/install/statistics_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rosgraph_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/composition_interfaces:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_setup:/home/ubuntu/microros_ws/install/micro_ros_agent:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/lifecycle_msgs:/home/ubuntu/microros_ws/install/complex_msgs LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/home/ubuntu/microros_ws/install/visualization_msgs/lib:/home/ubuntu/microros_ws/install/test_msgs/lib:/home/ubuntu/microros_ws/install/example_interfaces/lib:/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/trajectory_msgs/lib:/home/ubuntu/microros_ws/install/stereo_msgs/lib:/home/ubuntu/microros_ws/install/std_srvs/lib:/home/ubuntu/microros_ws/install/shape_msgs/lib:/home/ubuntu/microros_ws/install/astra_camera_msgs/lib:/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/nav_msgs/lib:/home/ubuntu/microros_ws/install/diagnostic_msgs/lib:/home/ubuntu/microros_ws/install/actionlib_msgs/lib:/home/ubuntu/microros_ws/install/statistics_msgs/lib:/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/rosgraph_msgs/lib:/home/ubuntu/microros_ws/install/rclc_parameter/lib:/home/ubuntu/microros_ws/install/rclc/lib:/home/ubuntu/microros_ws/install/composition_interfaces/lib:/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_utilities/lib:/home/ubuntu/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/microros_ws/install/complex_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/microros_ws/build/sensor_msgs

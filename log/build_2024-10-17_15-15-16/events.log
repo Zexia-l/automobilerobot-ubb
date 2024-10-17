@@ -1,0 +1,616 @@
+[0.000000] (-) TimerEvent: {}
+[0.001572] (-) JobUnselected: {'identifier': 'action_msgs'}
+[0.002111] (-) JobUnselected: {'identifier': 'actionlib_msgs'}
+[0.002197] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.002274] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.002351] (-) JobUnselected: {'identifier': 'builtin_interfaces'}
+[0.002427] (-) JobUnselected: {'identifier': 'common_interfaces'}
+[0.002501] (-) JobUnselected: {'identifier': 'complex_msgs'}
+[0.002575] (-) JobUnselected: {'identifier': 'composition_interfaces'}
+[0.002649] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.002721] (-) JobUnselected: {'identifier': 'cpp_pushsub'}
+[0.002794] (-) JobUnselected: {'identifier': 'diagnostic_msgs'}
+[0.002867] (-) JobUnselected: {'identifier': 'example_interfaces'}
+[0.002938] (-) JobUnselected: {'identifier': 'geometry_msgs'}
+[0.003010] (-) JobUnselected: {'identifier': 'lifecycle_msgs'}
+[0.003082] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.003154] (-) JobUnselected: {'identifier': 'micro_ros_demos_rclc'}
+[0.003226] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.003299] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.003371] (-) JobUnselected: {'identifier': 'micro_ros_utilities'}
+[0.003479] (-) JobUnselected: {'identifier': 'microcdr'}
+[0.003551] (-) JobUnselected: {'identifier': 'microxrcedds_client'}
+[0.003623] (-) JobUnselected: {'identifier': 'nav_msgs'}
+[0.003694] (-) JobUnselected: {'identifier': 'rcl_interfaces'}
+[0.003765] (-) JobUnselected: {'identifier': 'rclc'}
+[0.003837] (-) JobUnselected: {'identifier': 'rclc_parameter'}
+[0.003908] (-) JobUnselected: {'identifier': 'rmw_microxrcedds'}
+[0.003978] (-) JobUnselected: {'identifier': 'rosgraph_msgs'}
+[0.004050] (-) JobUnselected: {'identifier': 'rosidl_typesupport_microxrcedds_c'}
+[0.004122] (-) JobUnselected: {'identifier': 'rosidl_typesupport_microxrcedds_c_tests'}
+[0.004194] (-) JobUnselected: {'identifier': 'rosidl_typesupport_microxrcedds_cpp'}
+[0.004266] (-) JobUnselected: {'identifier': 'rosidl_typesupport_microxrcedds_cpp_tests'}
+[0.004339] (-) JobUnselected: {'identifier': 'rosidl_typesupport_microxrcedds_test_msg'}
+[0.004411] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.004483] (-) JobUnselected: {'identifier': 'sensor_msgs'}
+[0.004588] (-) JobUnselected: {'identifier': 'sensor_msgs_py'}
+[0.005098] (-) JobUnselected: {'identifier': 'shape_msgs'}
+[0.005276] (-) JobUnselected: {'identifier': 'statistics_msgs'}
+[0.005354] (-) JobUnselected: {'identifier': 'std_msgs'}
+[0.005428] (-) JobUnselected: {'identifier': 'std_srvs'}
+[0.005501] (-) JobUnselected: {'identifier': 'stereo_msgs'}
+[0.005573] (-) JobUnselected: {'identifier': 'test_msgs'}
+[0.005646] (-) JobUnselected: {'identifier': 'trajectory_msgs'}
+[0.005717] (-) JobUnselected: {'identifier': 'unique_identifier_msgs'}
+[0.005789] (-) JobUnselected: {'identifier': 'visualization_msgs'}
+[0.005869] (robotsub) JobQueued: {'identifier': 'robotsub', 'dependencies': OrderedDict()}
+[0.005953] (robotsub) JobStarted: {'identifier': 'robotsub'}
+[0.098655] (-) TimerEvent: {}
+[0.100182] (robotsub) JobProgress: {'identifier': 'robotsub', 'progress': 'cmake'}
+[0.101002] (robotsub) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/microros_ws/src/robotsub', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/robotsub'], 'cwd': '/home/ubuntu/microros_ws/build/robotsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/microros_ws/install/visualization_msgs/lib:/home/ubuntu/microros_ws/install/test_msgs/lib:/home/ubuntu/microros_ws/install/example_interfaces/lib:/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/trajectory_msgs/lib:/home/ubuntu/microros_ws/install/stereo_msgs/lib:/home/ubuntu/microros_ws/install/astra_camera/lib:/home/ubuntu/microros_ws/install/std_srvs/lib:/home/ubuntu/microros_ws/install/shape_msgs/lib:/home/ubuntu/microros_ws/install/astra_camera_msgs/lib:/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/nav_msgs/lib:/home/ubuntu/microros_ws/install/diagnostic_msgs/lib:/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/actionlib_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/statistics_msgs/lib:/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/rosgraph_msgs/lib:/home/ubuntu/microros_ws/install/rclc_parameter/lib:/home/ubuntu/microros_ws/install/rclc/lib:/home/ubuntu/microros_ws/install/composition_interfaces/lib:/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_utilities/lib:/home/ubuntu/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/microros_ws/install/complex_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/microros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1876'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/microros_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1702,unix/ubuntu:/tmp/.ICE-unix/1702'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8bbb2dc3_4ece_46f1_82f9_a9e674090ed6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/microros_ws/install/cpp_pubsub:/home/ubuntu/microros_ws/install/micro_ros_demos_rclc:/home/ubuntu/microros_ws/install/common_interfaces:/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/trajectory_msgs:/home/ubuntu/microros_ws/install/stereo_msgs:/home/ubuntu/microros_ws/install/rplidar_ros:/home/ubuntu/microros_ws/install/astra_camera:/home/ubuntu/microros_ws/install/std_srvs:/home/ubuntu/microros_ws/install/shape_msgs:/home/ubuntu/microros_ws/install/sensor_msgs_py:/home/ubuntu/microros_ws/install/astra_camera_msgs:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/nav_msgs:/home/ubuntu/microros_ws/install/diagnostic_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/actionlib_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/statistics_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rosgraph_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/composition_interfaces:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_setup:/home/ubuntu/microros_ws/install/micro_ros_agent:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/lifecycle_msgs:/home/ubuntu/microros_ws/install/complex_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/microros_ws/build/robotsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/ubuntu/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/microros_ws/install/cpp_pubsub:/home/ubuntu/microros_ws/install/micro_ros_demos_rclc:/home/ubuntu/microros_ws/install/common_interfaces:/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/trajectory_msgs:/home/ubuntu/microros_ws/install/stereo_msgs:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble:/home/ubuntu/microros_ws/install/rplidar_ros:/home/ubuntu/microros_ws/install/astra_camera:/home/ubuntu/microros_ws/install/std_srvs:/home/ubuntu/microros_ws/install/shape_msgs:/home/ubuntu/microros_ws/install/astra_camera_msgs:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/nav_msgs:/home/ubuntu/microros_ws/install/diagnostic_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/actionlib_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/statistics_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rosgraph_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/composition_interfaces:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_setup:/home/ubuntu/microros_ws/install/micro_ros_agent:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/lifecycle_msgs:/home/ubuntu/microros_ws/install/complex_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces')]), 'shell': False}
+[0.198919] (-) TimerEvent: {}
+[0.299676] (-) TimerEvent: {}
+[0.400362] (-) TimerEvent: {}
+[0.501155] (-) TimerEvent: {}
+[0.557833] (robotsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.601324] (-) TimerEvent: {}
+[0.702079] (-) TimerEvent: {}
+[0.802845] (-) TimerEvent: {}
+[0.883861] (robotsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.903044] (-) TimerEvent: {}
+[0.922392] (robotsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.003281] (-) TimerEvent: {}
+[1.103994] (-) TimerEvent: {}
+[1.204683] (-) TimerEvent: {}
+[1.305393] (-) TimerEvent: {}
+[1.406161] (-) TimerEvent: {}
+[1.497605] (robotsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.506309] (-) TimerEvent: {}
+[1.525002] (robotsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.525821] (robotsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.527175] (robotsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.539177] (robotsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.606505] (-) TimerEvent: {}
+[1.707248] (-) TimerEvent: {}
+[1.807918] (-) TimerEvent: {}
+[1.908623] (-) TimerEvent: {}
+[2.009348] (-) TimerEvent: {}
+[2.110230] (-) TimerEvent: {}
+[2.122591] (robotsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.154525] (robotsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.156212] (robotsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.157681] (robotsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.191754] (robotsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.210466] (-) TimerEvent: {}
+[2.311178] (-) TimerEvent: {}
+[2.411889] (-) TimerEvent: {}
+[2.512667] (-) TimerEvent: {}
+[2.613363] (-) TimerEvent: {}
+[2.714012] (-) TimerEvent: {}
+[2.814943] (-) TimerEvent: {}
+[2.915591] (-) TimerEvent: {}
+[3.016367] (-) TimerEvent: {}
+[3.117067] (-) TimerEvent: {}
+[3.217893] (-) TimerEvent: {}
+[3.318942] (-) TimerEvent: {}
+[3.419627] (-) TimerEvent: {}
+[3.442291] (robotsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.519828] (-) TimerEvent: {}
+[3.620498] (-) TimerEvent: {}
+[3.721183] (-) TimerEvent: {}
+[3.821980] (-) TimerEvent: {}
+[3.923198] (-) TimerEvent: {}
+[4.026124] (-) TimerEvent: {}
+[4.126838] (-) TimerEvent: {}
+[4.227520] (-) TimerEvent: {}
+[4.328173] (-) TimerEvent: {}
+[4.418876] (robotsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.428341] (-) TimerEvent: {}
+[4.529034] (-) TimerEvent: {}
+[4.629695] (-) TimerEvent: {}
+[4.730377] (-) TimerEvent: {}
+[4.831139] (-) TimerEvent: {}
+[4.931832] (-) TimerEvent: {}
+[4.949609] (robotsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.025441] (robotsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.034220] (-) TimerEvent: {}
+[5.135222] (-) TimerEvent: {}
+[5.149679] (robotsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.235449] (-) TimerEvent: {}
+[5.278323] (robotsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.335701] (-) TimerEvent: {}
+[5.436597] (-) TimerEvent: {}
+[5.537393] (-) TimerEvent: {}
+[5.637111] (robotsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.637845] (-) TimerEvent: {}
+[5.739234] (-) TimerEvent: {}
+[5.839935] (-) TimerEvent: {}
+[5.940647] (-) TimerEvent: {}
+[6.041340] (-) TimerEvent: {}
+[6.142078] (-) TimerEvent: {}
+[6.242764] (-) TimerEvent: {}
+[6.264566] (robotsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.311505] (robotsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.342997] (-) TimerEvent: {}
+[6.447255] (-) TimerEvent: {}
+[6.548677] (-) TimerEvent: {}
+[6.650533] (-) TimerEvent: {}
+[6.751222] (-) TimerEvent: {}
+[6.851970] (-) TimerEvent: {}
+[6.952681] (-) TimerEvent: {}
+[7.053422] (-) TimerEvent: {}
+[7.154249] (-) TimerEvent: {}
+[7.255094] (-) TimerEvent: {}
+[7.355944] (-) TimerEvent: {}
+[7.441634] (robotsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.456143] (-) TimerEvent: {}
+[7.556841] (-) TimerEvent: {}
+[7.657558] (-) TimerEvent: {}
+[7.758316] (-) TimerEvent: {}
+[7.780265] (robotsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.858488] (-) TimerEvent: {}
+[7.959263] (-) TimerEvent: {}
+[8.059981] (-) TimerEvent: {}
+[8.160721] (-) TimerEvent: {}
+[8.261400] (-) TimerEvent: {}
+[8.362086] (-) TimerEvent: {}
+[8.365663] (robotsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.462255] (-) TimerEvent: {}
+[8.528661] (robotsub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.562463] (-) TimerEvent: {}
+[8.663211] (-) TimerEvent: {}
+[8.763972] (-) TimerEvent: {}
+[8.864793] (-) TimerEvent: {}
+[8.965545] (-) TimerEvent: {}
+[9.066305] (-) TimerEvent: {}
+[9.095197] (robotsub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.096812] (robotsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.166488] (-) TimerEvent: {}
+[9.267246] (-) TimerEvent: {}
+[9.367972] (-) TimerEvent: {}
+[9.468763] (-) TimerEvent: {}
+[9.569603] (-) TimerEvent: {}
+[9.670382] (-) TimerEvent: {}
+[9.673167] (robotsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.678737] (robotsub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.770629] (-) TimerEvent: {}
+[9.871370] (-) TimerEvent: {}
+[9.972121] (-) TimerEvent: {}
+[10.072847] (-) TimerEvent: {}
+[10.173558] (-) TimerEvent: {}
+[10.274310] (-) TimerEvent: {}
+[10.375048] (-) TimerEvent: {}
+[10.475743] (-) TimerEvent: {}
+[10.496014] (robotsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[10.575935] (-) TimerEvent: {}
+[10.676705] (-) TimerEvent: {}
+[10.777428] (-) TimerEvent: {}
+[10.878274] (-) TimerEvent: {}
+[10.979255] (-) TimerEvent: {}
+[11.079936] (-) TimerEvent: {}
+[11.174899] (robotsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.175630] (robotsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[11.175963] (robotsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.180099] (-) TimerEvent: {}
+[11.181856] (robotsub) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[11.191071] (robotsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.197711] (robotsub) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[11.223211] (robotsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.223828] (robotsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.231102] (robotsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.251880] (robotsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.280299] (-) TimerEvent: {}
+[11.308689] (robotsub) StdoutLine: {'line': b'-- Generating done\n'}
+[11.318484] (robotsub) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/microros_ws/build/robotsub\n'}
+[11.362121] (robotsub) CommandEnded: {'returncode': 0}
+[11.364144] (robotsub) JobProgress: {'identifier': 'robotsub', 'progress': 'build'}
+[11.367046] (robotsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/microros_ws/build/robotsub', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/microros_ws/build/robotsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/microros_ws/install/visualization_msgs/lib:/home/ubuntu/microros_ws/install/test_msgs/lib:/home/ubuntu/microros_ws/install/example_interfaces/lib:/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/trajectory_msgs/lib:/home/ubuntu/microros_ws/install/stereo_msgs/lib:/home/ubuntu/microros_ws/install/astra_camera/lib:/home/ubuntu/microros_ws/install/std_srvs/lib:/home/ubuntu/microros_ws/install/shape_msgs/lib:/home/ubuntu/microros_ws/install/astra_camera_msgs/lib:/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/nav_msgs/lib:/home/ubuntu/microros_ws/install/diagnostic_msgs/lib:/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/actionlib_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/statistics_msgs/lib:/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/rosgraph_msgs/lib:/home/ubuntu/microros_ws/install/rclc_parameter/lib:/home/ubuntu/microros_ws/install/rclc/lib:/home/ubuntu/microros_ws/install/composition_interfaces/lib:/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_utilities/lib:/home/ubuntu/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/microros_ws/install/complex_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/microros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1876'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/microros_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1702,unix/ubuntu:/tmp/.ICE-unix/1702'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8bbb2dc3_4ece_46f1_82f9_a9e674090ed6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/microros_ws/install/cpp_pubsub:/home/ubuntu/microros_ws/install/micro_ros_demos_rclc:/home/ubuntu/microros_ws/install/common_interfaces:/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/trajectory_msgs:/home/ubuntu/microros_ws/install/stereo_msgs:/home/ubuntu/microros_ws/install/rplidar_ros:/home/ubuntu/microros_ws/install/astra_camera:/home/ubuntu/microros_ws/install/std_srvs:/home/ubuntu/microros_ws/install/shape_msgs:/home/ubuntu/microros_ws/install/sensor_msgs_py:/home/ubuntu/microros_ws/install/astra_camera_msgs:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/nav_msgs:/home/ubuntu/microros_ws/install/diagnostic_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/actionlib_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/statistics_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rosgraph_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/composition_interfaces:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_setup:/home/ubuntu/microros_ws/install/micro_ros_agent:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/lifecycle_msgs:/home/ubuntu/microros_ws/install/complex_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/microros_ws/build/robotsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/ubuntu/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/microros_ws/install/cpp_pubsub:/home/ubuntu/microros_ws/install/micro_ros_demos_rclc:/home/ubuntu/microros_ws/install/common_interfaces:/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/trajectory_msgs:/home/ubuntu/microros_ws/install/stereo_msgs:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble:/home/ubuntu/microros_ws/install/rplidar_ros:/home/ubuntu/microros_ws/install/astra_camera:/home/ubuntu/microros_ws/install/std_srvs:/home/ubuntu/microros_ws/install/shape_msgs:/home/ubuntu/microros_ws/install/astra_camera_msgs:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/nav_msgs:/home/ubuntu/microros_ws/install/diagnostic_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/actionlib_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/statistics_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rosgraph_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/composition_interfaces:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_setup:/home/ubuntu/microros_ws/install/micro_ros_agent:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/lifecycle_msgs:/home/ubuntu/microros_ws/install/complex_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces')]), 'shell': False}
+[11.380422] (-) TimerEvent: {}
+[11.481216] (-) TimerEvent: {}
+[11.582216] (-) TimerEvent: {}
+[11.682964] (-) TimerEvent: {}
+[11.783709] (-) TimerEvent: {}
+[11.858594] (robotsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/encoder_subscriber.dir/src/encoder_subscriber.cpp.o\x1b[0m\n'}
+[11.883983] (-) TimerEvent: {}
+[11.984915] (-) TimerEvent: {}
+[12.085609] (-) TimerEvent: {}
+[12.186306] (-) TimerEvent: {}
+[12.287019] (-) TimerEvent: {}
+[12.387702] (-) TimerEvent: {}
+[12.488389] (-) TimerEvent: {}
+[12.589140] (-) TimerEvent: {}
+[12.689895] (-) TimerEvent: {}
+[12.790578] (-) TimerEvent: {}
+[12.891257] (-) TimerEvent: {}
+[12.991997] (-) TimerEvent: {}
+[13.092955] (-) TimerEvent: {}
+[13.193718] (-) TimerEvent: {}
+[13.294398] (-) TimerEvent: {}
+[13.395208] (-) TimerEvent: {}
+[13.495967] (-) TimerEvent: {}
+[13.596718] (-) TimerEvent: {}
+[13.697510] (-) TimerEvent: {}
+[13.798295] (-) TimerEvent: {}
+[13.899123] (-) TimerEvent: {}
+[13.999944] (-) TimerEvent: {}
+[14.100725] (-) TimerEvent: {}
+[14.201495] (-) TimerEvent: {}
+[14.302240] (-) TimerEvent: {}
+[14.403029] (-) TimerEvent: {}
+[14.503882] (-) TimerEvent: {}
+[14.604709] (-) TimerEvent: {}
+[14.705615] (-) TimerEvent: {}
+[14.806672] (-) TimerEvent: {}
+[14.907480] (-) TimerEvent: {}
+[15.008322] (-) TimerEvent: {}
+[15.109109] (-) TimerEvent: {}
+[15.209903] (-) TimerEvent: {}
+[15.310626] (-) TimerEvent: {}
+[15.411429] (-) TimerEvent: {}
+[15.512152] (-) TimerEvent: {}
+[15.612958] (-) TimerEvent: {}
+[15.713778] (-) TimerEvent: {}
+[15.814597] (-) TimerEvent: {}
+[15.915501] (-) TimerEvent: {}
+[16.016297] (-) TimerEvent: {}
+[16.117168] (-) TimerEvent: {}
+[16.217952] (-) TimerEvent: {}
+[16.318706] (-) TimerEvent: {}
+[16.419472] (-) TimerEvent: {}
+[16.520242] (-) TimerEvent: {}
+[16.621061] (-) TimerEvent: {}
+[16.721874] (-) TimerEvent: {}
+[16.822626] (-) TimerEvent: {}
+[16.923383] (-) TimerEvent: {}
+[17.024143] (-) TimerEvent: {}
+[17.124992] (-) TimerEvent: {}
+[17.225787] (-) TimerEvent: {}
+[17.326536] (-) TimerEvent: {}
+[17.427303] (-) TimerEvent: {}
+[17.528192] (-) TimerEvent: {}
+[17.629486] (-) TimerEvent: {}
+[17.730332] (-) TimerEvent: {}
+[17.831111] (-) TimerEvent: {}
+[17.931863] (-) TimerEvent: {}
+[18.032740] (-) TimerEvent: {}
+[18.133712] (-) TimerEvent: {}
+[18.234494] (-) TimerEvent: {}
+[18.335316] (-) TimerEvent: {}
+[18.436081] (-) TimerEvent: {}
+[18.537303] (-) TimerEvent: {}
+[18.638058] (-) TimerEvent: {}
+[18.738803] (-) TimerEvent: {}
+[18.839623] (-) TimerEvent: {}
+[18.940394] (-) TimerEvent: {}
+[19.041300] (-) TimerEvent: {}
+[19.142159] (-) TimerEvent: {}
+[19.242983] (-) TimerEvent: {}
+[19.343800] (-) TimerEvent: {}
+[19.444608] (-) TimerEvent: {}
+[19.545389] (-) TimerEvent: {}
+[19.646339] (-) TimerEvent: {}
+[19.747102] (-) TimerEvent: {}
+[19.847970] (-) TimerEvent: {}
+[19.948798] (-) TimerEvent: {}
+[20.049560] (-) TimerEvent: {}
+[20.150318] (-) TimerEvent: {}
+[20.251132] (-) TimerEvent: {}
+[20.351927] (-) TimerEvent: {}
+[20.452829] (-) TimerEvent: {}
+[20.553579] (-) TimerEvent: {}
+[20.654342] (-) TimerEvent: {}
+[20.755111] (-) TimerEvent: {}
+[20.855871] (-) TimerEvent: {}
+[20.956664] (-) TimerEvent: {}
+[21.057481] (-) TimerEvent: {}
+[21.158262] (-) TimerEvent: {}
+[21.259178] (-) TimerEvent: {}
+[21.360001] (-) TimerEvent: {}
+[21.460866] (-) TimerEvent: {}
+[21.561615] (-) TimerEvent: {}
+[21.662354] (-) TimerEvent: {}
+[21.763147] (-) TimerEvent: {}
+[21.863942] (-) TimerEvent: {}
+[21.964717] (-) TimerEvent: {}
+[22.065515] (-) TimerEvent: {}
+[22.166272] (-) TimerEvent: {}
+[22.267074] (-) TimerEvent: {}
+[22.367850] (-) TimerEvent: {}
+[22.468675] (-) TimerEvent: {}
+[22.569511] (-) TimerEvent: {}
+[22.670289] (-) TimerEvent: {}
+[22.771055] (-) TimerEvent: {}
+[22.871823] (-) TimerEvent: {}
+[22.972652] (-) TimerEvent: {}
+[23.073461] (-) TimerEvent: {}
+[23.174233] (-) TimerEvent: {}
+[23.275126] (-) TimerEvent: {}
+[23.375948] (-) TimerEvent: {}
+[23.476720] (-) TimerEvent: {}
+[23.577522] (-) TimerEvent: {}
+[23.678324] (-) TimerEvent: {}
+[23.779072] (-) TimerEvent: {}
+[23.879877] (-) TimerEvent: {}
+[23.980814] (-) TimerEvent: {}
+[24.081614] (-) TimerEvent: {}
+[24.182399] (-) TimerEvent: {}
+[24.283175] (-) TimerEvent: {}
+[24.383945] (-) TimerEvent: {}
+[24.484716] (-) TimerEvent: {}
+[24.585517] (-) TimerEvent: {}
+[24.686282] (-) TimerEvent: {}
+[24.787084] (-) TimerEvent: {}
+[24.887858] (-) TimerEvent: {}
+[24.988691] (-) TimerEvent: {}
+[25.089497] (-) TimerEvent: {}
+[25.190260] (-) TimerEvent: {}
+[25.291072] (-) TimerEvent: {}
+[25.391854] (-) TimerEvent: {}
+[25.492635] (-) TimerEvent: {}
+[25.593422] (-) TimerEvent: {}
+[25.694147] (-) TimerEvent: {}
+[25.794967] (-) TimerEvent: {}
+[25.895765] (-) TimerEvent: {}
+[25.996643] (-) TimerEvent: {}
+[26.097443] (-) TimerEvent: {}
+[26.198198] (-) TimerEvent: {}
+[26.298987] (-) TimerEvent: {}
+[26.399757] (-) TimerEvent: {}
+[26.500616] (-) TimerEvent: {}
+[26.601453] (-) TimerEvent: {}
+[26.702247] (-) TimerEvent: {}
+[26.803004] (-) TimerEvent: {}
+[26.903785] (-) TimerEvent: {}
+[27.004572] (-) TimerEvent: {}
+[27.105372] (-) TimerEvent: {}
+[27.206122] (-) TimerEvent: {}
+[27.306875] (-) TimerEvent: {}
+[27.407633] (-) TimerEvent: {}
+[27.508392] (-) TimerEvent: {}
+[27.609206] (-) TimerEvent: {}
+[27.710129] (-) TimerEvent: {}
+[27.811308] (-) TimerEvent: {}
+[27.912082] (-) TimerEvent: {}
+[28.012873] (-) TimerEvent: {}
+[28.113708] (-) TimerEvent: {}
+[28.214483] (-) TimerEvent: {}
+[28.315273] (-) TimerEvent: {}
+[28.420322] (-) TimerEvent: {}
+[28.521148] (-) TimerEvent: {}
+[28.621934] (-) TimerEvent: {}
+[28.722800] (-) TimerEvent: {}
+[28.823665] (-) TimerEvent: {}
+[28.924504] (-) TimerEvent: {}
+[29.025367] (-) TimerEvent: {}
+[29.126202] (-) TimerEvent: {}
+[29.226983] (-) TimerEvent: {}
+[29.327767] (-) TimerEvent: {}
+[29.428592] (-) TimerEvent: {}
+[29.529397] (-) TimerEvent: {}
+[29.630225] (-) TimerEvent: {}
+[29.731037] (-) TimerEvent: {}
+[29.831840] (-) TimerEvent: {}
+[29.932630] (-) TimerEvent: {}
+[30.033353] (-) TimerEvent: {}
+[30.134207] (-) TimerEvent: {}
+[30.234976] (-) TimerEvent: {}
+[30.335792] (-) TimerEvent: {}
+[30.436759] (-) TimerEvent: {}
+[30.537459] (-) TimerEvent: {}
+[30.638207] (-) TimerEvent: {}
+[30.738971] (-) TimerEvent: {}
+[30.839753] (-) TimerEvent: {}
+[30.940622] (-) TimerEvent: {}
+[31.041396] (-) TimerEvent: {}
+[31.142260] (-) TimerEvent: {}
+[31.243173] (-) TimerEvent: {}
+[31.344096] (-) TimerEvent: {}
+[31.444912] (-) TimerEvent: {}
+[31.545660] (-) TimerEvent: {}
+[31.646836] (-) TimerEvent: {}
+[31.747707] (-) TimerEvent: {}
+[31.848496] (-) TimerEvent: {}
+[31.949386] (-) TimerEvent: {}
+[32.050330] (-) TimerEvent: {}
+[32.151112] (-) TimerEvent: {}
+[32.251925] (-) TimerEvent: {}
+[32.353223] (-) TimerEvent: {}
+[32.454227] (-) TimerEvent: {}
+[32.555222] (-) TimerEvent: {}
+[32.655976] (-) TimerEvent: {}
+[32.756747] (-) TimerEvent: {}
+[32.857562] (-) TimerEvent: {}
+[32.958353] (-) TimerEvent: {}
+[33.059153] (-) TimerEvent: {}
+[33.159933] (-) TimerEvent: {}
+[33.260691] (-) TimerEvent: {}
+[33.361499] (-) TimerEvent: {}
+[33.462245] (-) TimerEvent: {}
+[33.563014] (-) TimerEvent: {}
+[33.663818] (-) TimerEvent: {}
+[33.764678] (-) TimerEvent: {}
+[33.865385] (-) TimerEvent: {}
+[33.966197] (-) TimerEvent: {}
+[34.066950] (-) TimerEvent: {}
+[34.167822] (-) TimerEvent: {}
+[34.268635] (-) TimerEvent: {}
+[34.369413] (-) TimerEvent: {}
+[34.470205] (-) TimerEvent: {}
+[34.571008] (-) TimerEvent: {}
+[34.671892] (-) TimerEvent: {}
+[34.772752] (-) TimerEvent: {}
+[34.873555] (-) TimerEvent: {}
+[34.974314] (-) TimerEvent: {}
+[35.075076] (-) TimerEvent: {}
+[35.175856] (-) TimerEvent: {}
+[35.276662] (-) TimerEvent: {}
+[35.377418] (-) TimerEvent: {}
+[35.478205] (-) TimerEvent: {}
+[35.578944] (-) TimerEvent: {}
+[35.679687] (-) TimerEvent: {}
+[35.780439] (-) TimerEvent: {}
+[35.881206] (-) TimerEvent: {}
+[35.982033] (-) TimerEvent: {}
+[36.082865] (-) TimerEvent: {}
+[36.183616] (-) TimerEvent: {}
+[36.284367] (-) TimerEvent: {}
+[36.385161] (-) TimerEvent: {}
+[36.485949] (-) TimerEvent: {}
+[36.586703] (-) TimerEvent: {}
+[36.687462] (-) TimerEvent: {}
+[36.788223] (-) TimerEvent: {}
+[36.889043] (-) TimerEvent: {}
+[36.989836] (-) TimerEvent: {}
+[37.090578] (-) TimerEvent: {}
+[37.191403] (-) TimerEvent: {}
+[37.292196] (-) TimerEvent: {}
+[37.393030] (-) TimerEvent: {}
+[37.493861] (-) TimerEvent: {}
+[37.594590] (-) TimerEvent: {}
+[37.695338] (-) TimerEvent: {}
+[37.796145] (-) TimerEvent: {}
+[37.896941] (-) TimerEvent: {}
+[37.997690] (-) TimerEvent: {}
+[38.098442] (-) TimerEvent: {}
+[38.199197] (-) TimerEvent: {}
+[38.299995] (-) TimerEvent: {}
+[38.400732] (-) TimerEvent: {}
+[38.501554] (-) TimerEvent: {}
+[38.602314] (-) TimerEvent: {}
+[38.703052] (-) TimerEvent: {}
+[38.803777] (-) TimerEvent: {}
+[38.904580] (-) TimerEvent: {}
+[39.005318] (-) TimerEvent: {}
+[39.106035] (-) TimerEvent: {}
+[39.206874] (-) TimerEvent: {}
+[39.307741] (-) TimerEvent: {}
+[39.408544] (-) TimerEvent: {}
+[39.509906] (-) TimerEvent: {}
+[39.610650] (-) TimerEvent: {}
+[39.711400] (-) TimerEvent: {}
+[39.812081] (-) TimerEvent: {}
+[39.912824] (-) TimerEvent: {}
+[40.013578] (-) TimerEvent: {}
+[40.114438] (-) TimerEvent: {}
+[40.215248] (-) TimerEvent: {}
+[40.316020] (-) TimerEvent: {}
+[40.416819] (-) TimerEvent: {}
+[40.517610] (-) TimerEvent: {}
+[40.618439] (-) TimerEvent: {}
+[40.719221] (-) TimerEvent: {}
+[40.819982] (-) TimerEvent: {}
+[40.920715] (-) TimerEvent: {}
+[41.021478] (-) TimerEvent: {}
+[41.122216] (-) TimerEvent: {}
+[41.223053] (-) TimerEvent: {}
+[41.323806] (-) TimerEvent: {}
+[41.424617] (-) TimerEvent: {}
+[41.525318] (-) TimerEvent: {}
+[41.626073] (-) TimerEvent: {}
+[41.726900] (-) TimerEvent: {}
+[41.827656] (-) TimerEvent: {}
+[41.928427] (-) TimerEvent: {}
+[42.029195] (-) TimerEvent: {}
+[42.130014] (-) TimerEvent: {}
+[42.230839] (-) TimerEvent: {}
+[42.331657] (-) TimerEvent: {}
+[42.432438] (-) TimerEvent: {}
+[42.533218] (-) TimerEvent: {}
+[42.633973] (-) TimerEvent: {}
+[42.734811] (-) TimerEvent: {}
+[42.835545] (-) TimerEvent: {}
+[42.936351] (-) TimerEvent: {}
+[43.037269] (-) TimerEvent: {}
+[43.138003] (-) TimerEvent: {}
+[43.238815] (-) TimerEvent: {}
+[43.339629] (-) TimerEvent: {}
+[43.440419] (-) TimerEvent: {}
+[43.541245] (-) TimerEvent: {}
+[43.642133] (-) TimerEvent: {}
+[43.743221] (-) TimerEvent: {}
+[43.844146] (-) TimerEvent: {}
+[43.945304] (-) TimerEvent: {}
+[44.046638] (-) TimerEvent: {}
+[44.147739] (-) TimerEvent: {}
+[44.248464] (-) TimerEvent: {}
+[44.349208] (-) TimerEvent: {}
+[44.449960] (-) TimerEvent: {}
+[44.550682] (-) TimerEvent: {}
+[44.651410] (-) TimerEvent: {}
+[44.752132] (-) TimerEvent: {}
+[44.852907] (-) TimerEvent: {}
+[44.953666] (-) TimerEvent: {}
+[45.054448] (-) TimerEvent: {}
+[45.155182] (-) TimerEvent: {}
+[45.255903] (-) TimerEvent: {}
+[45.356678] (-) TimerEvent: {}
+[45.457414] (-) TimerEvent: {}
+[45.558222] (-) TimerEvent: {}
+[45.658997] (-) TimerEvent: {}
+[45.759745] (-) TimerEvent: {}
+[45.860558] (-) TimerEvent: {}
+[45.961587] (-) TimerEvent: {}
+[46.063228] (-) TimerEvent: {}
+[46.164148] (-) TimerEvent: {}
+[46.264995] (-) TimerEvent: {}
+[46.365971] (-) TimerEvent: {}
+[46.467061] (-) TimerEvent: {}
+[46.567996] (-) TimerEvent: {}
+[46.669012] (-) TimerEvent: {}
+[46.769810] (-) TimerEvent: {}
+[46.784263] (robotsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable encoder_subscriber\x1b[0m\n'}
+[46.869991] (-) TimerEvent: {}
+[46.970869] (-) TimerEvent: {}
+[47.071871] (-) TimerEvent: {}
+[47.172710] (-) TimerEvent: {}
+[47.273571] (-) TimerEvent: {}
+[47.374456] (-) TimerEvent: {}
+[47.475561] (-) TimerEvent: {}
+[47.576568] (-) TimerEvent: {}
+[47.677688] (-) TimerEvent: {}
+[47.778756] (-) TimerEvent: {}
+[47.879576] (-) TimerEvent: {}
+[47.980406] (-) TimerEvent: {}
+[48.081115] (-) TimerEvent: {}
+[48.181961] (-) TimerEvent: {}
+[48.282977] (-) TimerEvent: {}
+[48.383697] (-) TimerEvent: {}
+[48.484633] (-) TimerEvent: {}
+[48.585401] (-) TimerEvent: {}
+[48.686092] (-) TimerEvent: {}
+[48.779276] (robotsub) StdoutLine: {'line': b'[100%] Built target encoder_subscriber\n'}
+[48.786329] (-) TimerEvent: {}
+[48.866547] (robotsub) CommandEnded: {'returncode': 0}
+[48.886538] (-) TimerEvent: {}
+[48.987241] (-) TimerEvent: {}
+[49.087949] (-) TimerEvent: {}
+[49.188869] (-) TimerEvent: {}
+[49.199875] (robotsub) JobProgress: {'identifier': 'robotsub', 'progress': 'install'}
+[49.284272] (robotsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/microros_ws/build/robotsub'], 'cwd': '/home/ubuntu/microros_ws/build/robotsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/microros_ws/install/visualization_msgs/lib:/home/ubuntu/microros_ws/install/test_msgs/lib:/home/ubuntu/microros_ws/install/example_interfaces/lib:/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/trajectory_msgs/lib:/home/ubuntu/microros_ws/install/stereo_msgs/lib:/home/ubuntu/microros_ws/install/astra_camera/lib:/home/ubuntu/microros_ws/install/std_srvs/lib:/home/ubuntu/microros_ws/install/shape_msgs/lib:/home/ubuntu/microros_ws/install/astra_camera_msgs/lib:/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/nav_msgs/lib:/home/ubuntu/microros_ws/install/diagnostic_msgs/lib:/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/actionlib_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/statistics_msgs/lib:/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/rosgraph_msgs/lib:/home/ubuntu/microros_ws/install/rclc_parameter/lib:/home/ubuntu/microros_ws/install/rclc/lib:/home/ubuntu/microros_ws/install/composition_interfaces/lib:/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_utilities/lib:/home/ubuntu/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/microros_ws/install/complex_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/microros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1876'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/microros_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1702,unix/ubuntu:/tmp/.ICE-unix/1702'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8bbb2dc3_4ece_46f1_82f9_a9e674090ed6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/microros_ws/install/cpp_pubsub:/home/ubuntu/microros_ws/install/micro_ros_demos_rclc:/home/ubuntu/microros_ws/install/common_interfaces:/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/trajectory_msgs:/home/ubuntu/microros_ws/install/stereo_msgs:/home/ubuntu/microros_ws/install/rplidar_ros:/home/ubuntu/microros_ws/install/astra_camera:/home/ubuntu/microros_ws/install/std_srvs:/home/ubuntu/microros_ws/install/shape_msgs:/home/ubuntu/microros_ws/install/sensor_msgs_py:/home/ubuntu/microros_ws/install/astra_camera_msgs:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/nav_msgs:/home/ubuntu/microros_ws/install/diagnostic_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/actionlib_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/statistics_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rosgraph_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/composition_interfaces:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_setup:/home/ubuntu/microros_ws/install/micro_ros_agent:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/lifecycle_msgs:/home/ubuntu/microros_ws/install/complex_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/microros_ws/build/robotsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/ubuntu/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/ubuntu/microros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/microros_ws/install/cpp_pubsub:/home/ubuntu/microros_ws/install/micro_ros_demos_rclc:/home/ubuntu/microros_ws/install/common_interfaces:/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/trajectory_msgs:/home/ubuntu/microros_ws/install/stereo_msgs:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble:/home/ubuntu/microros_ws/install/rplidar_ros:/home/ubuntu/microros_ws/install/astra_camera:/home/ubuntu/microros_ws/install/std_srvs:/home/ubuntu/microros_ws/install/shape_msgs:/home/ubuntu/microros_ws/install/astra_camera_msgs:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/nav_msgs:/home/ubuntu/microros_ws/install/diagnostic_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/actionlib_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/statistics_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rosgraph_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/composition_interfaces:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_setup:/home/ubuntu/microros_ws/install/micro_ros_agent:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/lifecycle_msgs:/home/ubuntu/microros_ws/install/complex_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces')]), 'shell': False}
+[49.291314] (-) TimerEvent: {}
+[49.361474] (robotsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[49.362217] (robotsub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/microros_ws/install/robotsub/lib/robotsub/encoder_subscriber\n'}
+[49.389207] (robotsub) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/microros_ws/install/robotsub/lib/robotsub/encoder_subscriber" to ""\n'}
+[49.390081] (robotsub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/microros_ws/install/robotsub/share/ament_index/resource_index/package_run_dependencies/robotsub\n'}
+[49.391435] (-) TimerEvent: {}
+[49.391937] (robotsub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/microros_ws/install/robotsub/share/ament_index/resource_index/parent_prefix_path/robotsub\n'}
+[49.393436] (robotsub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/microros_ws/install/robotsub/share/robotsub/environment/ament_prefix_path.sh\n'}
+[49.394503] (robotsub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/microros_ws/install/robotsub/share/robotsub/environment/ament_prefix_path.dsv\n'}
+[49.395658] (robotsub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/microros_ws/install/robotsub/share/robotsub/environment/path.sh\n'}
+[49.396687] (robotsub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/microros_ws/install/robotsub/share/robotsub/environment/path.dsv\n'}
+[49.397751] (robotsub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/microros_ws/install/robotsub/share/robotsub/local_setup.bash\n'}
+[49.398832] (robotsub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/microros_ws/install/robotsub/share/robotsub/local_setup.sh\n'}
+[49.399910] (robotsub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/microros_ws/install/robotsub/share/robotsub/local_setup.zsh\n'}
+[49.400977] (robotsub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/microros_ws/install/robotsub/share/robotsub/local_setup.dsv\n'}
+[49.402027] (robotsub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/microros_ws/install/robotsub/share/robotsub/package.dsv\n'}
+[49.403552] (robotsub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/microros_ws/install/robotsub/share/ament_index/resource_index/packages/robotsub\n'}
+[49.404920] (robotsub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/microros_ws/install/robotsub/share/robotsub/cmake/robotsubConfig.cmake\n'}
+[49.405878] (robotsub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/microros_ws/install/robotsub/share/robotsub/cmake/robotsubConfig-version.cmake\n'}
+[49.406944] (robotsub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/microros_ws/install/robotsub/share/robotsub/package.xml\n'}
+[49.412713] (robotsub) CommandEnded: {'returncode': 0}
+[49.491662] (-) TimerEvent: {}
+[49.592368] (-) TimerEvent: {}
+[49.693151] (-) TimerEvent: {}
+[49.794095] (-) TimerEvent: {}
+[49.834486] (robotsub) JobEnded: {'identifier': 'robotsub', 'rc': 0}
+[49.836033] (-) EventReactorShutdown: {}

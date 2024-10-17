@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/build/sensor_msgs/rosidl_cmake/srv/SetCameraInfo_Response.msg

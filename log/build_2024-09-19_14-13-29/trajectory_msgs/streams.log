@@ -1,0 +1,182 @@
+[0.163s] Invoking command in '/home/ubuntu/microros_ws/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/trajectory_msgs -- -j4 -l4
+[0.513s] [  1%] Built target trajectory_msgs__cpp
+[0.727s] [  1%] Built target ament_cmake_python_symlink_trajectory_msgs
+[0.878s] [ 12%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_cpp
+[1.035s] [ 23%] Built target trajectory_msgs__rosidl_typesupport_introspection_cpp
+[3.061s] running egg_info
+[3.061s] writing trajectory_msgs.egg-info/PKG-INFO
+[3.061s] writing dependency_links to trajectory_msgs.egg-info/dependency_links.txt
+[3.062s] writing top-level names to trajectory_msgs.egg-info/top_level.txt
+[3.069s] reading manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[3.087s] writing manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[3.310s] [ 23%] Built target ament_cmake_python_build_trajectory_msgs_egg
+[3.397s] [35m[1mConsolidate compiler generated dependencies of target trajectory_msgs__rosidl_typesupport_cpp[0m
+[3.442s] [ 34%] Built target trajectory_msgs__rosidl_typesupport_cpp
+[3.587s] [ 45%] Built target trajectory_msgs__rosidl_generator_c
+[3.786s] [ 56%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_c
+[3.836s] [35m[1mConsolidate compiler generated dependencies of target trajectory_msgs__rosidl_typesupport_c[0m
+[3.923s] [ 67%] Built target trajectory_msgs__rosidl_typesupport_c
+[4.083s] [ 78%] Built target trajectory_msgs__rosidl_typesupport_introspection_c
+[4.202s] [ 78%] Built target trajectory_msgs
+[4.327s] [ 80%] Built target trajectory_msgs__py
+[4.415s] [35m[1mConsolidate compiler generated dependencies of target trajectory_msgs__rosidl_generator_py[0m
+[4.518s] [ 89%] Built target trajectory_msgs__rosidl_generator_py
+[4.665s] [ 92%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.721s] [35m[1mConsolidate compiler generated dependencies of target trajectory_msgs__rosidl_typesupport_c__pyext[0m
+[4.806s] [ 96%] Built target trajectory_msgs__rosidl_typesupport_c__pyext
+[4.877s] [35m[1mConsolidate compiler generated dependencies of target trajectory_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[4.955s] [100%] Built target trajectory_msgs__rosidl_typesupport_introspection_c__pyext
+[5.043s] Invoked command in '/home/ubuntu/microros_ws/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/trajectory_msgs -- -j4 -l4
+[6.091s] Invoking command in '/home/ubuntu/microros_ws/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/microros_ws/build/trajectory_msgs
+[6.136s] -- Install configuration: ""
+[6.153s] -- Execute custom install script
+[6.154s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/ament_index/resource_index/rosidl_interfaces/trajectory_msgs
+[6.211s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__functions.h
+[6.263s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.h
+[6.315s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.h
+[6.369s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__functions.h
+[6.419s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.h
+[6.470s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.h
+[6.518s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.h
+[6.578s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.h
+[6.635s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.h
+[6.702s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.h
+[6.747s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.h
+[6.805s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.h
+[6.843s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.h
+[6.895s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.h
+[6.942s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory.h
+[6.997s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory_point.h
+[7.040s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.088s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/library_path.sh
+[7.128s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/library_path.dsv
+[7.173s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[7.215s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[7.267s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[7.302s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[7.342s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.390s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__builder.hpp
+[7.432s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp
+[7.486s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__traits.hpp
+[7.526s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__builder.hpp
+[7.579s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp
+[7.624s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__traits.hpp
+[7.679s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__builder.hpp
+[7.719s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.hpp
+[7.771s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__traits.hpp
+[7.808s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__builder.hpp
+[7.849s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.hpp
+[7.899s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__traits.hpp
+[7.938s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp
+[7.992s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.hpp
+[8.033s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory.hpp
+[8.078s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory_point.hpp
+[8.119s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[8.178s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[8.224s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[8.270s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[8.308s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.346s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_c.h
+[8.387s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[8.425s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_c.h
+[8.467s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[8.504s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.543s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[8.585s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[8.624s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[8.665s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[8.706s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/pythonpath.sh
+[8.745s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/pythonpath.dsv
+[8.817s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.2.4-py3.10.egg-info/PKG-INFO
+[8.877s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.2.4-py3.10.egg-info/SOURCES.txt
+[8.928s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.2.4-py3.10.egg-info/dependency_links.txt
+[8.985s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.2.4-py3.10.egg-info/top_level.txt
+[9.080s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/__init__.py
+[9.167s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_c.c
+[9.211s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.269s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[9.324s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[9.413s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/libtrajectory_msgs__rosidl_generator_py.so
+[9.472s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/__init__.py
+[9.520s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory.py
+[9.586s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory_point.py
+[9.638s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory_point_s.c
+[9.719s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory_s.c
+[9.798s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory.py
+[9.850s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point.py
+[9.901s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point_s.c
+[9.944s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c
+[9.998s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[10.048s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[10.117s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[10.191s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[10.245s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[10.248s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[10.250s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[10.257s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.idl
+[10.315s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.idl
+[10.389s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.idl
+[10.443s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.idl
+[10.497s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.msg
+[10.561s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.msg
+[10.617s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.msg
+[10.668s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg
+[10.721s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/ament_index/resource_index/package_run_dependencies/trajectory_msgs
+[10.810s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/ament_index/resource_index/parent_prefix_path/trajectory_msgs
+[10.885s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/ament_prefix_path.sh
+[10.988s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/ament_prefix_path.dsv
+[11.053s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/path.sh
+[11.154s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/path.dsv
+[11.273s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/local_setup.bash
+[11.380s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/local_setup.sh
+[11.486s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/local_setup.zsh
+[11.596s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/local_setup.dsv
+[11.711s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/package.dsv
+[11.757s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/ament_index/resource_index/packages/trajectory_msgs
+[11.815s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake-extras.cmake
+[11.911s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.000s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.137s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[12.210s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[12.265s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.339s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.429s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgsConfig.cmake
+[12.481s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgsConfig-version.cmake
+[12.557s] -- Symlinking: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/package.xml
+[12.936s] -- Up-to-date: /home/ubuntu/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_c.so
+[12.938s] -- Up-to-date: /home/ubuntu/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so
+[12.947s] -- Up-to-date: /home/ubuntu/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so
+[12.959s] -- Up-to-date: /home/ubuntu/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so
+[12.965s] -- Installing: /home/ubuntu/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_c.so
+[12.970s] -- Set runtime path of "/home/ubuntu/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_c.so" to ""
+[12.976s] -- Up-to-date: /home/ubuntu/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so
+[12.992s] -- Installing: /home/ubuntu/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so
+[13.006s] -- Set runtime path of "/home/ubuntu/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so" to ""
+[13.321s] Listing '/home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs'...
+[13.323s] Compiling '/home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/__init__.py'...
+[13.324s] Listing '/home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg'...
+[13.326s] Compiling '/home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/__init__.py'...
+[13.327s] Compiling '/home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory.py'...
+[13.328s] Compiling '/home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory_point.py'...
+[13.329s] Compiling '/home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory.py'...
+[13.330s] Compiling '/home/ubuntu/microros_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point.py'...
+[13.372s] -- Installing: /home/ubuntu/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_py.so
+[13.372s] -- Set runtime path of "/home/ubuntu/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_py.so" to ""
+[13.375s] -- Up-to-date: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cExport.cmake
+[13.376s] -- Up-to-date: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cExport-noconfig.cmake
+[13.379s] -- Up-to-date: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[13.384s] -- Up-to-date: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.393s] -- Up-to-date: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cppExport.cmake
+[13.397s] -- Up-to-date: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.398s] -- Up-to-date: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.414s] -- Up-to-date: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport.cmake
+[13.414s] -- Up-to-date: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.415s] -- Up-to-date: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport.cmake
+[13.415s] -- Up-to-date: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[13.417s] -- Up-to-date: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[13.420s] -- Up-to-date: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.421s] -- Up-to-date: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport.cmake
+[13.422s] -- Up-to-date: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[13.422s] -- Up-to-date: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_pyExport.cmake
+[13.441s] -- Up-to-date: /home/ubuntu/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_pyExport-noconfig.cmake
+[13.442s] Invoked command in '/home/ubuntu/microros_ws/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/microros_ws/build/trajectory_msgs

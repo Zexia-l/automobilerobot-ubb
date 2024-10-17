@@ -1,0 +1,10 @@
+[0.075s] Invoking command in '/home/ubuntu/microros_ws/build/std_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/std_msgs -- -j4 -l4
+[0.505s] [35m[1mConsolidate compiler generated dependencies of target std_msgs__rosidl_generator_c[0m
+[0.543s] failed to create symbolic link '/home/ubuntu/microros_ws/build/std_msgs/ament_cmake_python/std_msgs/std_msgs' because existing path cannot be removed: Is a directory
+[0.556s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_std_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_std_msgs] Error 1
+[0.559s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_std_msgs.dir/all] Error 2
+[0.559s] gmake[1]: *** Waiting for unfinished jobs....
+[0.582s] [  0%] Built target std_msgs__cpp
+[0.702s] [ 12%] Built target std_msgs__rosidl_generator_c
+[0.706s] gmake: *** [Makefile:146: all] Error 2
+[0.729s] Invoked command in '/home/ubuntu/microros_ws/build/std_msgs' returned '2': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/std_msgs -- -j4 -l4

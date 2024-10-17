@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/trigger__rosidl_typesupport_microxrcedds_c.h

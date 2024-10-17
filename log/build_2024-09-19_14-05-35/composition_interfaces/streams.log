@@ -1,0 +1,48 @@
+[0.167s] Invoking command in '/home/ubuntu/microros_ws/build/composition_interfaces': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/composition_interfaces -- -j4 -l4
+[0.494s] [  2%] Built target composition_interfaces__cpp
+[0.655s] [  2%] Built target ament_cmake_python_symlink_composition_interfaces
+[0.726s] [35m[1mConsolidate compiler generated dependencies of target composition_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.979s] [ 12%] Built target composition_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.055s] [35m[1mConsolidate compiler generated dependencies of target composition_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.141s] [ 23%] Built target composition_interfaces__rosidl_typesupport_introspection_cpp
+[3.462s] running egg_info
+[3.468s] writing composition_interfaces.egg-info/PKG-INFO
+[3.473s] writing dependency_links to composition_interfaces.egg-info/dependency_links.txt
+[3.476s] writing top-level names to composition_interfaces.egg-info/top_level.txt
+[3.495s] reading manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+[3.504s] writing manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+[3.779s] [ 23%] Built target ament_cmake_python_build_composition_interfaces_egg
+[3.842s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.481s] [35m[1mConsolidate compiler generated dependencies of target composition_interfaces__rosidl_typesupport_cpp[0m
+[6.551s] [ 27%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/load_node__type_support.cpp.o[0m
+[8.016s] [ 29%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/unload_node__type_support.cpp.o[0m
+[9.435s] [ 31%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/list_nodes__type_support.cpp.o[0m
+[10.934s] [ 34%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_cpp.so[0m
+[11.142s] [ 34%] Built target composition_interfaces__rosidl_typesupport_cpp
+[11.204s] [35m[1mConsolidate compiler generated dependencies of target composition_interfaces__rosidl_generator_c[0m
+[11.264s] [ 44%] Built target composition_interfaces__rosidl_generator_c
+[11.328s] [35m[1mConsolidate compiler generated dependencies of target composition_interfaces__rosidl_typesupport_fastrtps_c[0m
+[11.406s] [ 55%] Built target composition_interfaces__rosidl_typesupport_fastrtps_c
+[11.451s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[13.952s] [35m[1mConsolidate compiler generated dependencies of target composition_interfaces__rosidl_typesupport_c[0m
+[14.039s] [ 59%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/load_node__type_support.cpp.o[0m
+[14.240s] [ 61%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/unload_node__type_support.cpp.o[0m
+[14.438s] [ 63%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/list_nodes__type_support.cpp.o[0m
+[14.630s] [ 65%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_c.so[0m
+[14.829s] [ 65%] Built target composition_interfaces__rosidl_typesupport_c
+[14.882s] [35m[1mConsolidate compiler generated dependencies of target composition_interfaces__rosidl_typesupport_introspection_c[0m
+[14.948s] [ 76%] Built target composition_interfaces__rosidl_typesupport_introspection_c
+[15.053s] [ 76%] Built target composition_interfaces
+[15.163s] [ 78%] Built target composition_interfaces__py
+[15.222s] [35m[1mConsolidate compiler generated dependencies of target composition_interfaces__rosidl_generator_py[0m
+[15.308s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/composition_interfaces/libcomposition_interfaces__rosidl_generator_py.so[0m
+[15.567s] [ 87%] Built target composition_interfaces__rosidl_generator_py
+[15.645s] [35m[1mConsolidate compiler generated dependencies of target composition_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[15.718s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[15.966s] [ 91%] Built target composition_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[16.039s] [35m[1mConsolidate compiler generated dependencies of target composition_interfaces__rosidl_typesupport_c__pyext[0m
+[16.109s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[16.355s] [ 95%] Built target composition_interfaces__rosidl_typesupport_c__pyext
+[16.404s] [35m[1mConsolidate compiler generated dependencies of target composition_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[16.470s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[16.722s] [100%] Built target composition_interfaces__rosidl_typesupport_introspection_c__pyext

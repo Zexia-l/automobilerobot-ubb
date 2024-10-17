@@ -1,0 +1,56 @@
+[0.111s] Invoking command in '/home/ubuntu/microros_ws/build/shape_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/shape_msgs -- -j4 -l4
+[0.440s] [  1%] Built target shape_msgs__cpp
+[0.602s] [  1%] Built target ament_cmake_python_symlink_shape_msgs
+[0.682s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.891s] [ 12%] Built target shape_msgs__rosidl_typesupport_fastrtps_cpp
+[1.009s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.144s] [ 23%] Built target shape_msgs__rosidl_typesupport_introspection_cpp
+[3.282s] running egg_info
+[3.287s] writing shape_msgs.egg-info/PKG-INFO
+[3.288s] writing dependency_links to shape_msgs.egg-info/dependency_links.txt
+[3.290s] writing top-level names to shape_msgs.egg-info/top_level.txt
+[3.308s] reading manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[3.315s] writing manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[3.524s] [ 23%] Built target ament_cmake_python_build_shape_msgs_egg
+[3.610s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.617s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_typesupport_cpp[0m
+[6.697s] [ 27%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/mesh__type_support.cpp.o[0m
+[8.960s] [ 29%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/plane__type_support.cpp.o[0m
+[11.361s] [ 30%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/solid_primitive__type_support.cpp.o[0m
+[13.576s] [ 32%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/mesh_triangle__type_support.cpp.o[0m
+[15.509s] [ 34%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_cpp.so[0m
+[15.757s] [ 34%] Built target shape_msgs__rosidl_typesupport_cpp
+[15.835s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_generator_c[0m
+[15.920s] [ 45%] Built target shape_msgs__rosidl_generator_c
+[15.995s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_typesupport_fastrtps_c[0m
+[16.080s] [ 56%] Built target shape_msgs__rosidl_typesupport_fastrtps_c
+[16.130s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[19.373s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_typesupport_c[0m
+[19.474s] [ 60%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/mesh__type_support.cpp.o[0m
+[19.731s] [ 61%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/plane__type_support.cpp.o[0m
+[19.951s] [ 63%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/solid_primitive__type_support.cpp.o[0m
+[20.183s] [ 65%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/mesh_triangle__type_support.cpp.o[0m
+[20.384s] [ 67%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_c.so[0m
+[20.613s] [ 67%] Built target shape_msgs__rosidl_typesupport_c
+[20.720s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_typesupport_introspection_c[0m
+[20.812s] [ 78%] Built target shape_msgs__rosidl_typesupport_introspection_c
+[20.939s] [ 78%] Built target shape_msgs
+[21.464s] [ 80%] Built target shape_msgs__py
+[21.519s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_generator_py[0m
+[21.617s] [ 81%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_mesh_s.c.o[0m
+[22.275s] [ 83%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_solid_primitive_s.c.o[0m
+[22.886s] [ 85%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_plane_s.c.o[0m
+[23.532s] [ 87%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_mesh_triangle_s.c.o[0m
+[24.218s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/shape_msgs/libshape_msgs__rosidl_generator_py.so[0m
+[24.477s] [ 89%] Built target shape_msgs__rosidl_generator_py
+[24.527s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[24.605s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[24.907s] [ 92%] Built target shape_msgs__rosidl_typesupport_fastrtps_c__pyext
+[24.965s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_typesupport_c__pyext[0m
+[25.030s] [ 94%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[25.651s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[25.901s] [ 96%] Built target shape_msgs__rosidl_typesupport_c__pyext
+[25.954s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[26.024s] [ 98%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[26.761s] [100%] [32m[1mLinking C shared library rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[27.047s] [100%] Built target shape_msgs__rosidl_typesupport_introspection_c__pyext

@@ -1,0 +1,9 @@
+[0.127s] Invoking command in '/home/ubuntu/microros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/microros_ws/build/micro_ros_msgs -- -j4 -l4
+[0.500s] [  1%] Built target micro_ros_msgs__cpp
+[0.506s] failed to create symbolic link '/home/ubuntu/microros_ws/build/micro_ros_msgs/ament_cmake_python/micro_ros_msgs/micro_ros_msgs' because existing path cannot be removed: Is a directory
+[0.515s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_micro_ros_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_micro_ros_msgs] Error 1
+[0.516s] gmake[1]: *** [CMakeFiles/Makefile2:481: CMakeFiles/ament_cmake_python_symlink_micro_ros_msgs.dir/all] Error 2
+[0.517s] gmake[1]: *** Waiting for unfinished jobs....
+[0.545s] [ 10%] Built target micro_ros_msgs__rosidl_generator_c
+[0.556s] gmake: *** [Makefile:146: all] Error 2
+[0.567s] Invoked command in '/home/ubuntu/microros_ws/build/micro_ros_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/microros_ws/build/micro_ros_msgs -- -j4 -l4

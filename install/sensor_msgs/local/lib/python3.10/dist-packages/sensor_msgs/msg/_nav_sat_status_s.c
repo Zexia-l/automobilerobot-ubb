@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/build/sensor_msgs/rosidl_generator_py/sensor_msgs/msg/_nav_sat_status_s.c

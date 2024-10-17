@@ -1,0 +1,76 @@
+[0.140s] Invoking command in '/home/ubuntu/microros_ws/build/rcl_interfaces': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/rcl_interfaces -- -j4 -l4
+[0.580s] [35m[1mConsolidate compiler generated dependencies of target rcl_interfaces__rosidl_generator_c[0m
+[0.668s] [  0%] Built target rcl_interfaces__cpp
+[0.730s] [ 12%] Built target rcl_interfaces__rosidl_generator_c
+[0.913s] [ 12%] Built target ament_cmake_python_symlink_rcl_interfaces
+[0.930s] [35m[1mConsolidate compiler generated dependencies of target rcl_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.067s] [35m[1mConsolidate compiler generated dependencies of target rcl_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.270s] [ 24%] Built target rcl_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.284s] [ 36%] Built target rcl_interfaces__rosidl_typesupport_introspection_cpp
+[1.391s] [35m[1mConsolidate compiler generated dependencies of target rcl_interfaces__rosidl_typesupport_introspection_c[0m
+[1.459s] [35m[1mConsolidate compiler generated dependencies of target rcl_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.499s] [ 48%] Built target rcl_interfaces__rosidl_typesupport_introspection_c
+[1.599s] [ 49%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.631s] [ 61%] Built target rcl_interfaces__rosidl_typesupport_fastrtps_c
+[4.000s] running egg_info
+[4.005s] writing rcl_interfaces.egg-info/PKG-INFO
+[4.007s] writing dependency_links to rcl_interfaces.egg-info/dependency_links.txt
+[4.011s] writing top-level names to rcl_interfaces.egg-info/top_level.txt
+[4.039s] reading manifest file 'rcl_interfaces.egg-info/SOURCES.txt'
+[4.063s] writing manifest file 'rcl_interfaces.egg-info/SOURCES.txt'
+[4.378s] [ 61%] Built target ament_cmake_python_build_rcl_interfaces_egg
+[10.105s] [35m[1mConsolidate compiler generated dependencies of target rcl_interfaces__rosidl_typesupport_c[0m
+[10.176s] [ 62%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rcl_interfaces/msg/floating_point_range__type_support.cpp.o[0m
+[10.177s] [ 62%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rcl_interfaces/msg/integer_range__type_support.cpp.o[0m
+[10.341s] [ 63%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rcl_interfaces/msg/list_parameters_result__type_support.cpp.o[0m
+[10.512s] [ 64%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rcl_interfaces/msg/parameter_descriptor__type_support.cpp.o[0m
+[10.681s] [ 64%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rcl_interfaces/msg/parameter_event_descriptors__type_support.cpp.o[0m
+[10.848s] [ 65%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rcl_interfaces/msg/parameter_event__type_support.cpp.o[0m
+[11.018s] [ 66%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rcl_interfaces/msg/parameter__type_support.cpp.o[0m
+[11.185s] [ 66%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rcl_interfaces/msg/parameter_type__type_support.cpp.o[0m
+[11.345s] [ 67%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rcl_interfaces/msg/parameter_value__type_support.cpp.o[0m
+[11.514s] [ 68%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rcl_interfaces/msg/set_parameters_result__type_support.cpp.o[0m
+[11.684s] [ 68%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rcl_interfaces/srv/describe_parameters__type_support.cpp.o[0m
+[11.856s] [ 69%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rcl_interfaces/srv/get_parameters__type_support.cpp.o[0m
+[12.029s] [ 69%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rcl_interfaces/srv/get_parameter_types__type_support.cpp.o[0m
+[12.204s] [ 70%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rcl_interfaces/srv/list_parameters__type_support.cpp.o[0m
+[12.383s] [ 71%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rcl_interfaces/srv/set_parameters_atomically__type_support.cpp.o[0m
+[12.554s] [ 71%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rcl_interfaces/srv/set_parameters__type_support.cpp.o[0m
+[12.729s] [ 71%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rcl_interfaces/msg/log__type_support.cpp.o[0m
+[12.898s] [ 72%] [32m[1mLinking CXX shared library librcl_interfaces__rosidl_typesupport_c.so[0m
+[13.101s] [ 72%] Built target rcl_interfaces__rosidl_typesupport_c
+[13.151s] [ 73%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[19.941s] [35m[1mConsolidate compiler generated dependencies of target rcl_interfaces__rosidl_typesupport_cpp[0m
+[20.069s] [ 73%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rcl_interfaces/msg/floating_point_range__type_support.cpp.o[0m
+[20.074s] [ 74%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rcl_interfaces/msg/list_parameters_result__type_support.cpp.o[0m
+[20.077s] [ 75%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rcl_interfaces/msg/integer_range__type_support.cpp.o[0m
+[21.220s] [ 75%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rcl_interfaces/msg/log__type_support.cpp.o[0m
+[22.321s] [ 76%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rcl_interfaces/msg/parameter_descriptor__type_support.cpp.o[0m
+[22.427s] [ 77%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rcl_interfaces/msg/parameter_event_descriptors__type_support.cpp.o[0m
+[22.656s] [ 77%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rcl_interfaces/msg/parameter_event__type_support.cpp.o[0m
+[23.609s] [ 78%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rcl_interfaces/msg/parameter__type_support.cpp.o[0m
+[24.402s] [ 79%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rcl_interfaces/msg/parameter_type__type_support.cpp.o[0m
+[24.586s] [ 79%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rcl_interfaces/msg/parameter_value__type_support.cpp.o[0m
+[24.993s] [ 80%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rcl_interfaces/msg/set_parameters_result__type_support.cpp.o[0m
+[25.813s] [ 80%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rcl_interfaces/srv/describe_parameters__type_support.cpp.o[0m
+[26.772s] [ 81%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rcl_interfaces/srv/get_parameters__type_support.cpp.o[0m
+[26.963s] [ 82%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rcl_interfaces/srv/get_parameter_types__type_support.cpp.o[0m
+[27.876s] [ 82%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rcl_interfaces/srv/list_parameters__type_support.cpp.o[0m
+[30.187s] [ 83%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rcl_interfaces/srv/set_parameters__type_support.cpp.o[0m
+[32.130s] [ 84%] [32mBuilding CXX object CMakeFiles/rcl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rcl_interfaces/srv/set_parameters_atomically__type_support.cpp.o[0m
+[33.494s] [ 84%] [32m[1mLinking CXX shared library librcl_interfaces__rosidl_typesupport_cpp.so[0m
+[33.698s] [ 84%] Built target rcl_interfaces__rosidl_typesupport_cpp
+[33.790s] [ 84%] Built target rcl_interfaces
+[33.893s] [ 85%] Built target rcl_interfaces__py
+[33.973s] [35m[1mConsolidate compiler generated dependencies of target rcl_interfaces__rosidl_generator_py[0m
+[34.100s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/rcl_interfaces/librcl_interfaces__rosidl_generator_py.so[0m
+[34.358s] [ 96%] Built target rcl_interfaces__rosidl_generator_py
+[34.406s] [35m[1mConsolidate compiler generated dependencies of target rcl_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[34.477s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/rcl_interfaces/rcl_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[34.686s] [ 97%] Built target rcl_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[34.739s] [35m[1mConsolidate compiler generated dependencies of target rcl_interfaces__rosidl_typesupport_c__pyext[0m
+[34.804s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/rcl_interfaces/rcl_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[35.007s] [ 98%] Built target rcl_interfaces__rosidl_typesupport_c__pyext
+[35.057s] [35m[1mConsolidate compiler generated dependencies of target rcl_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[35.128s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/rcl_interfaces/rcl_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[35.365s] [100%] Built target rcl_interfaces__rosidl_typesupport_introspection_c__pyext

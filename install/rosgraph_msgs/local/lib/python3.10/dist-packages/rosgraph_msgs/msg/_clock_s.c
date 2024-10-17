@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/build/rosgraph_msgs/rosidl_generator_py/rosgraph_msgs/msg/_clock_s.c

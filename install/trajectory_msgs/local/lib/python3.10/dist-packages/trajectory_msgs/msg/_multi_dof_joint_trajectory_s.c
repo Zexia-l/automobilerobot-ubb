@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/build/trajectory_msgs/rosidl_generator_py/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c

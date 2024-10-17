@@ -1,0 +1,46 @@
+[0.067s] Invoking command in '/home/ubuntu/microros_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/micro_ros_agent
+[0.137s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.192s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.649s] -- Found rosidl_cmake: 3.1.5 (/opt/ros/humble/share/rosidl_cmake/cmake)
+[1.651s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.923s] -- Found fastrtps_cmake_module: 2.2.2 (/opt/ros/humble/share/fastrtps_cmake_module/cmake)
+[1.926s] -- Found rmw_dds_common: 1.6.0 (/opt/ros/humble/share/rmw_dds_common/cmake)
+[2.167s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.228s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.294s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.380s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.487s] -- Found rmw_fastrtps_shared_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_shared_cpp/cmake)
+[3.165s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.184s] -- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.205s] -- Found micro_ros_msgs: 3.0.1 (/home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)
+[3.865s] -- Configuring done
+[3.991s] -- Generating done
+[4.015s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_agent
+[4.054s] Invoked command in '/home/ubuntu/microros_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/micro_ros_agent
+[4.115s] Invoking command in '/home/ubuntu/microros_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/micro_ros_agent -- -j4 -l4
+[4.402s] [35m[1mConsolidate compiler generated dependencies of target micro_ros_agent[0m
+[4.656s] [ 16%] [32m[1mLinking CXX executable micro_ros_agent[0m
+[7.842s] [100%] Built target micro_ros_agent
+[7.902s] Invoked command in '/home/ubuntu/microros_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/micro_ros_agent -- -j4 -l4
+[8.240s] Invoking command in '/home/ubuntu/microros_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/microros_ws/build/micro_ros_agent
+[8.292s] -- Install configuration: ""
+[8.294s] -- Execute custom install script
+[8.299s] -- Symlinking: /home/ubuntu/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[8.358s] -- Symlinking: /home/ubuntu/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[8.428s] -- Symlinking: /home/ubuntu/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[8.470s] -- Symlinking: /home/ubuntu/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[8.525s] -- Symlinking: /home/ubuntu/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[8.575s] -- Symlinking: /home/ubuntu/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[8.628s] -- Symlinking: /home/ubuntu/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[8.678s] -- Symlinking: /home/ubuntu/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[8.731s] -- Symlinking: /home/ubuntu/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[8.774s] -- Symlinking: /home/ubuntu/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[8.860s] -- Symlinking: /home/ubuntu/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[8.919s] -- Symlinking: /home/ubuntu/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[8.973s] -- Symlinking: /home/ubuntu/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.014s] -- Symlinking: /home/ubuntu/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[9.078s] -- Symlinking: /home/ubuntu/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[9.145s] -- Symlinking: /home/ubuntu/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[9.201s] -- Symlinking: /home/ubuntu/microros_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[9.263s] -- Symlinking: /home/ubuntu/microros_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[9.323s] Invoked command in '/home/ubuntu/microros_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/microros_ws/build/micro_ros_agent

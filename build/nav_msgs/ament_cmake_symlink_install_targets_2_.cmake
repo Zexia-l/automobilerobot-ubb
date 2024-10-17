@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/microros_ws/build/nav_msgs/rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" "TARGETS" "nav_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/nav_msgs")

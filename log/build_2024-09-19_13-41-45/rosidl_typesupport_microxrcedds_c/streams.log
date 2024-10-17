@@ -1,0 +1,8 @@
+[0.179s] Invoking command in '/home/ubuntu/microros_ws/build/rosidl_typesupport_microxrcedds_c': CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/microcdr:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/rosidl_typesupport_microxrcedds_c -- -j4 -l4
+[0.785s] failed to create symbolic link '/home/ubuntu/microros_ws/build/rosidl_typesupport_microxrcedds_c/ament_cmake_python/rosidl_typesupport_microxrcedds_c/rosidl_typesupport_microxrcedds_c' because existing path cannot be removed: Is a directory
+[0.820s] [100%] Built target rosidl_typesupport_microxrcedds_c
+[0.820s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_rosidl_typesupport_microxrcedds_c.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_rosidl_typesupport_microxrcedds_c] Error 1
+[0.822s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/ament_cmake_python_symlink_rosidl_typesupport_microxrcedds_c.dir/all] Error 2
+[0.823s] gmake[1]: *** Waiting for unfinished jobs....
+[0.824s] gmake: *** [Makefile:146: all] Error 2
+[0.826s] Invoked command in '/home/ubuntu/microros_ws/build/rosidl_typesupport_microxrcedds_c' returned '2': CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/microcdr:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/rosidl_typesupport_microxrcedds_c -- -j4 -l4

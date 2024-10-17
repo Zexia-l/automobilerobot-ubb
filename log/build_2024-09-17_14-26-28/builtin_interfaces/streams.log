@@ -1,0 +1,237 @@
+[0.316s] Invoking command in '/home/ubuntu/microros_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake /home/ubuntu/microros_ws/src/ros2/rcl_interfaces/builtin_interfaces -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/builtin_interfaces
+[0.754s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.847s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.914s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.956s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.491s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.797s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[12.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[17.099s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.332s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[17.554s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[17.554s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[17.555s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[18.125s] -- Configuring done
+[19.767s] -- Generating done
+[19.786s] -- Build files have been written to: /home/ubuntu/microros_ws/build/builtin_interfaces
+[19.848s] Invoked command in '/home/ubuntu/microros_ws/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake /home/ubuntu/microros_ws/src/ros2/rcl_interfaces/builtin_interfaces -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/builtin_interfaces
+[19.850s] Invoking command in '/home/ubuntu/microros_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/microros_ws/build/builtin_interfaces -- -j4 -l4
+[21.113s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_generator_c[0m
+[21.321s] [  8%] Built target builtin_interfaces__rosidl_generator_c
+[21.923s] [  8%] Built target ament_cmake_python_copy_builtin_interfaces
+[22.100s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_microxrcedds_c[0m
+[22.307s] [ 16%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_c
+[22.467s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_fastrtps_c[0m
+[22.749s] [ 24%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c
+[22.947s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_introspection_c[0m
+[23.207s] [ 32%] Built target builtin_interfaces__rosidl_typesupport_introspection_c
+[27.918s] running egg_info
+[27.926s] writing builtin_interfaces.egg-info/PKG-INFO
+[27.930s] writing dependency_links to builtin_interfaces.egg-info/dependency_links.txt
+[27.934s] writing top-level names to builtin_interfaces.egg-info/top_level.txt
+[27.948s] reading manifest file 'builtin_interfaces.egg-info/SOURCES.txt'
+[27.954s] writing manifest file 'builtin_interfaces.egg-info/SOURCES.txt'
+[28.341s] [ 32%] Built target ament_cmake_python_build_builtin_interfaces_egg
+[28.671s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[32.085s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_c[0m
+[32.359s] [ 36%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/duration__type_support.cpp.o[0m
+[35.149s] [ 38%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/time__type_support.cpp.o[0m
+[35.617s] [ 40%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_c.so[0m
+[36.331s] [ 40%] Built target builtin_interfaces__rosidl_typesupport_c
+[36.777s] [ 42%] Built target builtin_interfaces__cpp
+[37.002s] [ 44%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[40.834s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_cpp[0m
+[41.089s] [ 46%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/builtin_interfaces/msg/duration__type_support.cpp.o[0m
+[44.066s] [ 48%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/builtin_interfaces/msg/time__type_support.cpp.o[0m
+[47.293s] [ 51%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_cpp.so[0m
+[47.809s] [ 51%] Built target builtin_interfaces__rosidl_typesupport_cpp
+[48.080s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_introspection_cpp[0m
+[48.289s] [ 59%] Built target builtin_interfaces__rosidl_typesupport_introspection_cpp
+[48.523s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[48.891s] [ 67%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_cpp
+[49.083s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_microxrcedds_cpp[0m
+[49.266s] [ 75%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_cpp
+[49.686s] [ 75%] Built target builtin_interfaces
+[50.107s] [ 77%] Built target builtin_interfaces__py
+[50.342s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_generator_py[0m
+[50.622s] [ 79%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/libbuiltin_interfaces__rosidl_generator_py.so[0m
+[51.339s] [ 83%] Built target builtin_interfaces__rosidl_generator_py
+[51.571s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_microxrcedds_c__pyext[0m
+[51.771s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so[0m
+[52.352s] [ 87%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_c__pyext
+[52.558s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_c__pyext[0m
+[52.760s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[53.402s] [ 91%] Built target builtin_interfaces__rosidl_typesupport_c__pyext
+[53.624s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[53.857s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[54.408s] [ 95%] Built target builtin_interfaces__rosidl_typesupport_introspection_c__pyext
+[54.524s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[54.663s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[55.203s] [100%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[55.446s] Invoked command in '/home/ubuntu/microros_ws/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/microros_ws/build/builtin_interfaces -- -j4 -l4
+[58.154s] Invoking command in '/home/ubuntu/microros_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/microros_ws/build/builtin_interfaces
+[58.287s] -- Install configuration: ""
+[58.289s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/ament_index/resource_index/rosidl_interfaces/builtin_interfaces
+[58.293s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[58.299s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[58.304s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/duration.h
+[58.306s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/time.h
+[58.308s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[58.312s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.h
+[58.314s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h
+[58.316s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__functions.h
+[58.325s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.h
+[58.327s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__functions.h
+[58.329s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.h
+[58.330s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__functions.c
+[58.332s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__functions.c
+[58.333s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h
+[58.335s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.sh
+[58.337s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.dsv
+[58.353s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so
+[58.370s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces
+[58.373s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg
+[58.379s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[58.382s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[58.386s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_microxrcedds_c.h
+[58.394s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_microxrcedds_c.h
+[58.397s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds
+[58.407s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_c.so
+[58.418s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[58.419s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[58.419s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[58.420s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[58.423s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_c.h
+[58.424s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_c.h
+[58.427s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+[58.428s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[58.428s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[58.429s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[58.430s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_c.h
+[58.430s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_c.h
+[58.431s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.c
+[58.432s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.c
+[58.432s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[58.435s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+[58.447s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+[58.451s] -- Set runtime path of "/home/ubuntu/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so" to ""
+[58.452s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[58.452s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[58.454s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp
+[58.455s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/time.hpp
+[58.455s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[58.457s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp
+[58.460s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp
+[58.460s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp
+[58.460s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp
+[58.461s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp
+[58.461s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp
+[58.462s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces
+[58.468s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg
+[58.469s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[58.472s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[58.475s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_microxrcedds_cpp.hpp
+[58.475s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_microxrcedds_cpp.hpp
+[58.475s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds
+[58.478s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_cpp.cpp
+[58.479s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds/time__type_support_cpp.cpp
+[58.484s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_cpp.so
+[58.486s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[58.487s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[58.503s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[58.504s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[58.504s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_cpp.hpp
+[58.505s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/dds_fastrtps
+[58.505s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_cpp.hpp
+[58.527s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[58.535s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[58.536s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[58.559s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[58.563s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_cpp.hpp
+[58.563s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.cpp
+[58.564s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_cpp.hpp
+[58.564s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.cpp
+[58.564s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+[58.565s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+[58.565s] -- Set runtime path of "/home/ubuntu/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so" to ""
+[58.565s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.sh
+[58.566s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.dsv
+[58.566s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.1-py3.10.egg-info
+[58.567s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.1-py3.10.egg-info/SOURCES.txt
+[58.567s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.1-py3.10.egg-info/dependency_links.txt
+[58.568s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.1-py3.10.egg-info/PKG-INFO
+[58.568s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.1-py3.10.egg-info/top_level.txt
+[58.569s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces
+[58.569s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/__init__.py
+[58.580s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_microxrcedds_c.c
+[58.581s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[58.581s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[58.582s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[58.583s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/libbuiltin_interfaces__rosidl_generator_py.so
+[58.583s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_c.c
+[58.585s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg
+[58.594s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/__init__.py
+[58.595s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_duration_s.c
+[58.596s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_time_s.c
+[58.596s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_duration.py
+[58.597s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_time.py
+[58.597s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[58.620s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[58.620s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[59.121s] Listing '/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces'...
+[59.124s] Compiling '/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/__init__.py'...
+[59.125s] Listing '/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg'...
+[59.171s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[59.175s] -- Set runtime path of "/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so" to ""
+[59.177s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[59.181s] -- Set runtime path of "/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[59.184s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[59.189s] -- Set runtime path of "/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[59.192s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[59.196s] -- Set runtime path of "/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[59.221s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_py.so
+[59.223s] -- Set runtime path of "/home/ubuntu/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_py.so" to ""
+[59.232s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl
+[59.236s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl
+[59.238s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.msg
+[59.241s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.msg
+[59.244s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/ament_index/resource_index/package_run_dependencies/builtin_interfaces
+[59.249s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/share/ament_index/resource_index/parent_prefix_path/builtin_interfaces
+[59.252s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.sh
+[59.254s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.dsv
+[59.256s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/path.sh
+[59.258s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/path.dsv
+[59.261s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.bash
+[59.263s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.sh
+[59.265s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.zsh
+[59.268s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.dsv
+[59.271s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/package.dsv
+[59.276s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/ament_index/resource_index/packages/builtin_interfaces
+[59.281s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cExport.cmake
+[59.283s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cExport-noconfig.cmake
+[59.286s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[59.288s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[59.291s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[59.293s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[59.305s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport.cmake
+[59.309s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[59.313s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cppExport.cmake
+[59.317s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[59.318s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[59.323s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[59.325s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[59.338s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport.cmake
+[59.340s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[59.346s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_pyExport.cmake
+[59.348s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[59.350s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake-extras.cmake
+[59.352s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[59.355s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[59.358s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[59.359s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[59.361s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[59.362s] -- Installing: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[59.367s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake
+[59.369s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig-version.cmake
+[59.371s] -- Up-to-date: /home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/package.xml
+[59.387s] Invoked command in '/home/ubuntu/microros_ws/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/microros_ws/build/builtin_interfaces

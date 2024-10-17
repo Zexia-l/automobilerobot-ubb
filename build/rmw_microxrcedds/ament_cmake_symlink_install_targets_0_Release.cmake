@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/microros_ws/build/rmw_microxrcedds/librmw_microxrcedds.so" "TARGETS" "rmw_microxrcedds" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

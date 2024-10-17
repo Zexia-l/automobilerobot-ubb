@@ -1,0 +1,45 @@
+[0.176s] Invoking command in '/home/ubuntu/microros_ws/build/stereo_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/stereo_msgs -- -j4 -l4
+[0.559s] [  3%] Built target stereo_msgs__cpp
+[0.753s] [  3%] Built target ament_cmake_python_symlink_stereo_msgs
+[0.860s] [35m[1mConsolidate compiler generated dependencies of target stereo_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.975s] [ 12%] Built target stereo_msgs__rosidl_typesupport_fastrtps_cpp
+[1.093s] [35m[1mConsolidate compiler generated dependencies of target stereo_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.185s] [ 22%] Built target stereo_msgs__rosidl_typesupport_introspection_cpp
+[3.132s] running egg_info
+[3.138s] writing stereo_msgs.egg-info/PKG-INFO
+[3.138s] writing dependency_links to stereo_msgs.egg-info/dependency_links.txt
+[3.139s] writing top-level names to stereo_msgs.egg-info/top_level.txt
+[3.161s] reading manifest file 'stereo_msgs.egg-info/SOURCES.txt'
+[3.170s] writing manifest file 'stereo_msgs.egg-info/SOURCES.txt'
+[3.352s] [ 22%] Built target ament_cmake_python_build_stereo_msgs_egg
+[3.419s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.909s] [35m[1mConsolidate compiler generated dependencies of target stereo_msgs__rosidl_typesupport_cpp[0m
+[4.980s] [ 29%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stereo_msgs/msg/disparity_image__type_support.cpp.o[0m
+[6.513s] [ 32%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_cpp.so[0m
+[6.702s] [ 32%] Built target stereo_msgs__rosidl_typesupport_cpp
+[6.756s] [35m[1mConsolidate compiler generated dependencies of target stereo_msgs__rosidl_generator_c[0m
+[6.821s] [ 41%] Built target stereo_msgs__rosidl_generator_c
+[6.875s] [35m[1mConsolidate compiler generated dependencies of target stereo_msgs__rosidl_typesupport_fastrtps_c[0m
+[6.947s] [ 51%] Built target stereo_msgs__rosidl_typesupport_fastrtps_c
+[7.013s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.470s] [35m[1mConsolidate compiler generated dependencies of target stereo_msgs__rosidl_typesupport_c[0m
+[8.528s] [ 58%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/stereo_msgs/msg/disparity_image__type_support.cpp.o[0m
+[8.726s] [ 61%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_c.so[0m
+[8.930s] [ 61%] Built target stereo_msgs__rosidl_typesupport_c
+[8.990s] [35m[1mConsolidate compiler generated dependencies of target stereo_msgs__rosidl_typesupport_introspection_c[0m
+[9.057s] [ 70%] Built target stereo_msgs__rosidl_typesupport_introspection_c
+[9.168s] [ 70%] Built target stereo_msgs
+[9.322s] [ 74%] Built target stereo_msgs__py
+[9.373s] [35m[1mConsolidate compiler generated dependencies of target stereo_msgs__rosidl_generator_py[0m
+[9.442s] [ 77%] [32m[1mLinking C shared library rosidl_generator_py/stereo_msgs/libstereo_msgs__rosidl_generator_py.so[0m
+[9.686s] [ 80%] Built target stereo_msgs__rosidl_generator_py
+[9.749s] [35m[1mConsolidate compiler generated dependencies of target stereo_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[9.821s] [ 83%] [32m[1mLinking C shared library rosidl_generator_py/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[10.121s] [ 87%] Built target stereo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[10.177s] [35m[1mConsolidate compiler generated dependencies of target stereo_msgs__rosidl_typesupport_c__pyext[0m
+[10.250s] [ 90%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[10.856s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[11.133s] [ 93%] Built target stereo_msgs__rosidl_typesupport_c__pyext
+[11.185s] [35m[1mConsolidate compiler generated dependencies of target stereo_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[11.257s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[11.553s] [100%] Built target stereo_msgs__rosidl_typesupport_introspection_c__pyext

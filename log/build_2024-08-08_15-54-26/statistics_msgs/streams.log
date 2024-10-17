@@ -1,0 +1,323 @@
+[0.064s] Invoking command in '/home/ubuntu/microros_ws/build/statistics_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/microros_ws/src/ros2/rcl_interfaces/statistics_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/statistics_msgs
+[0.408s] -- The C compiler identification is GNU 11.4.0
+[0.706s] -- The CXX compiler identification is GNU 11.4.0
+[0.738s] -- Detecting C compiler ABI info
+[1.152s] -- Detecting C compiler ABI info - done
+[1.184s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.187s] -- Detecting C compile features
+[1.190s] -- Detecting C compile features - done
+[1.207s] -- Detecting CXX compiler ABI info
+[1.716s] -- Detecting CXX compiler ABI info - done
+[1.754s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.755s] -- Detecting CXX compile features
+[1.756s] -- Detecting CXX compile features - done
+[1.788s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.894s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.632s] -- Found builtin_interfaces: 1.2.1 (/home/ubuntu/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[4.021s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.086s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.171s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.290s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.510s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.705s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.455s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[8.894s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.098s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.251s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[10.278s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[10.448s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[10.450s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.452s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.453s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[10.610s] -- Found PythonExtra: .so  
+[10.911s] -- Configuring done
+[11.240s] -- Generating done
+[11.259s] -- Build files have been written to: /home/ubuntu/microros_ws/build/statistics_msgs
+[11.292s] Invoked command in '/home/ubuntu/microros_ws/build/statistics_msgs' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/microros_ws/src/ros2/rcl_interfaces/statistics_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/statistics_msgs
+[11.294s] Invoking command in '/home/ubuntu/microros_ws/build/statistics_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/statistics_msgs -- -j4 -l4
+[11.563s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[14.650s] [  1%] Built target statistics_msgs__cpp
+[14.815s] [  1%] Built target ament_cmake_python_copy_statistics_msgs
+[14.876s] [  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[17.697s] [  5%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/statistics_msgs/msg/detail/dds_fastrtps/metrics_message__type_support.cpp.o[0m
+[20.632s] [  6%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/statistics_msgs/msg/detail/dds_fastrtps/statistic_data_point__type_support.cpp.o[0m
+[23.401s] [  8%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/statistics_msgs/msg/detail/dds_fastrtps/statistic_data_type__type_support.cpp.o[0m
+[26.006s] [ 10%] [32m[1mLinking CXX shared library libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[26.448s] [ 10%] Built target statistics_msgs__rosidl_typesupport_fastrtps_cpp
+[26.506s] [ 11%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[29.466s] [ 13%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/statistics_msgs/msg/detail/microxrcedds/metrics_message__type_support_cpp.cpp.o[0m
+[31.768s] [ 15%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/statistics_msgs/msg/detail/microxrcedds/statistic_data_point__type_support_cpp.cpp.o[0m
+[33.793s] [ 16%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/statistics_msgs/msg/detail/microxrcedds/statistic_data_type__type_support_cpp.cpp.o[0m
+[35.950s] [ 18%] [32m[1mLinking CXX shared library libstatistics_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[36.404s] [ 18%] Built target statistics_msgs__rosidl_typesupport_microxrcedds_cpp
+[36.462s] [ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[39.176s] [ 22%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/statistics_msgs/msg/detail/metrics_message__type_support.cpp.o[0m
+[41.905s] [ 23%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/statistics_msgs/msg/detail/statistic_data_point__type_support.cpp.o[0m
+[44.475s] [ 25%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/statistics_msgs/msg/detail/statistic_data_type__type_support.cpp.o[0m
+[46.843s] [ 27%] [32m[1mLinking CXX shared library libstatistics_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[47.243s] [ 27%] Built target statistics_msgs__rosidl_typesupport_introspection_cpp
+[49.332s] running egg_info
+[49.337s] creating statistics_msgs.egg-info
+[49.338s] writing statistics_msgs.egg-info/PKG-INFO
+[49.339s] writing dependency_links to statistics_msgs.egg-info/dependency_links.txt
+[49.341s] writing top-level names to statistics_msgs.egg-info/top_level.txt
+[49.343s] writing manifest file 'statistics_msgs.egg-info/SOURCES.txt'
+[49.358s] reading manifest file 'statistics_msgs.egg-info/SOURCES.txt'
+[49.362s] writing manifest file 'statistics_msgs.egg-info/SOURCES.txt'
+[49.540s] [ 27%] Built target ament_cmake_python_build_statistics_msgs_egg
+[49.596s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[52.273s] [ 30%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/statistics_msgs/msg/metrics_message__type_support.cpp.o[0m
+[53.948s] [ 32%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/statistics_msgs/msg/statistic_data_type__type_support.cpp.o[0m
+[55.734s] [ 33%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/statistics_msgs/msg/statistic_data_point__type_support.cpp.o[0m
+[57.602s] [ 35%] [32m[1mLinking CXX shared library libstatistics_msgs__rosidl_typesupport_cpp.so[0m
+[57.815s] [ 35%] Built target statistics_msgs__rosidl_typesupport_cpp
+[57.874s] [ 37%] [34m[1mGenerating C code for ROS interfaces[0m
+[61.293s] [ 38%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_c.dir/rosidl_generator_c/statistics_msgs/msg/detail/metrics_message__functions.c.o[0m
+[61.626s] [ 40%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_c.dir/rosidl_generator_c/statistics_msgs/msg/detail/statistic_data_type__functions.c.o[0m
+[61.938s] [ 42%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_c.dir/rosidl_generator_c/statistics_msgs/msg/detail/statistic_data_point__functions.c.o[0m
+[62.284s] [ 44%] [32m[1mLinking C shared library libstatistics_msgs__rosidl_generator_c.so[0m
+[62.505s] [ 44%] Built target statistics_msgs__rosidl_generator_c
+[62.559s] [ 45%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[65.536s] [ 47%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/statistics_msgs/msg/detail/metrics_message__type_support_c.cpp.o[0m
+[67.986s] [ 49%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/statistics_msgs/msg/detail/statistic_data_point__type_support_c.cpp.o[0m
+[70.067s] [ 50%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/statistics_msgs/msg/detail/statistic_data_type__type_support_c.cpp.o[0m
+[72.191s] [ 52%] [32m[1mLinking CXX shared library libstatistics_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[72.607s] [ 52%] Built target statistics_msgs__rosidl_typesupport_fastrtps_c
+[72.668s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[75.118s] [ 55%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/statistics_msgs/msg/metrics_message__type_support.cpp.o[0m
+[75.301s] [ 57%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/statistics_msgs/msg/statistic_data_point__type_support.cpp.o[0m
+[75.494s] [ 59%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/statistics_msgs/msg/statistic_data_type__type_support.cpp.o[0m
+[75.686s] [ 61%] [32m[1mLinking CXX shared library libstatistics_msgs__rosidl_typesupport_c.so[0m
+[75.888s] [ 61%] Built target statistics_msgs__rosidl_typesupport_c
+[75.942s] [ 62%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[78.872s] [ 64%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/statistics_msgs/msg/detail/metrics_message__type_support.c.o[0m
+[79.119s] [ 66%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/statistics_msgs/msg/detail/statistic_data_type__type_support.c.o[0m
+[79.334s] [ 67%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/statistics_msgs/msg/detail/statistic_data_point__type_support.c.o[0m
+[79.571s] [ 69%] [32m[1mLinking C shared library libstatistics_msgs__rosidl_typesupport_introspection_c.so[0m
+[79.761s] [ 69%] Built target statistics_msgs__rosidl_typesupport_introspection_c
+[79.822s] [ 71%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[82.751s] [ 72%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/statistics_msgs/msg/detail/microxrcedds/metrics_message__type_support_c.c.o[0m
+[83.104s] [ 74%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/statistics_msgs/msg/detail/microxrcedds/statistic_data_type__type_support_c.c.o[0m
+[83.430s] [ 76%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/statistics_msgs/msg/detail/microxrcedds/statistic_data_point__type_support_c.c.o[0m
+[83.723s] [ 77%] [32m[1mLinking C shared library libstatistics_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[83.984s] [ 77%] Built target statistics_msgs__rosidl_typesupport_microxrcedds_c
+[84.109s] [ 77%] Built target statistics_msgs
+[84.237s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[89.058s] [ 79%] Built target statistics_msgs__py
+[89.192s] [ 81%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_py.dir/rosidl_generator_py/statistics_msgs/msg/_metrics_message_s.c.o[0m
+[89.857s] [ 83%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_py.dir/rosidl_generator_py/statistics_msgs/msg/_statistic_data_type_s.c.o[0m
+[90.486s] [ 84%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_py.dir/rosidl_generator_py/statistics_msgs/msg/_statistic_data_point_s.c.o[0m
+[91.087s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/statistics_msgs/libstatistics_msgs__rosidl_generator_py.so[0m
+[91.323s] [ 86%] Built target statistics_msgs__rosidl_generator_py
+[91.431s] [ 88%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[92.162s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/statistics_msgs/statistics_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so[0m
+[92.460s] [ 89%] Built target statistics_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[92.604s] [ 91%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[93.303s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/statistics_msgs/statistics_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[93.545s] [ 93%] Built target statistics_msgs__rosidl_typesupport_c__pyext
+[93.659s] [ 94%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[94.305s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/statistics_msgs/statistics_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[94.572s] [ 96%] Built target statistics_msgs__rosidl_typesupport_introspection_c__pyext
+[94.701s] [ 98%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[95.420s] [100%] [32m[1mLinking C shared library rosidl_generator_py/statistics_msgs/statistics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[95.692s] [100%] Built target statistics_msgs__rosidl_typesupport_fastrtps_c__pyext
+[95.783s] Invoked command in '/home/ubuntu/microros_ws/build/statistics_msgs' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/statistics_msgs -- -j4 -l4
+[96.765s] Invoking command in '/home/ubuntu/microros_ws/build/statistics_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/microros_ws/build/statistics_msgs
+[96.818s] -- Install configuration: ""
+[96.821s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/ament_index/resource_index/rosidl_interfaces/statistics_msgs
+[96.824s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[96.827s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[96.829s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/metrics_message.h
+[96.832s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/statistic_data_type.h
+[96.835s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/statistic_data_point.h
+[96.838s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[96.841s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__functions.h
+[96.844s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__type_support.h
+[96.847s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__functions.c
+[96.850s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__functions.c
+[96.854s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__functions.c
+[96.857s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.h
+[96.861s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__functions.h
+[96.864s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__functions.h
+[96.868s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__struct.h
+[96.871s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.h
+[96.875s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.h
+[96.881s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__type_support.h
+[96.885s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_c__visibility_control.h
+[96.892s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/environment/library_path.sh
+[96.898s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/environment/library_path.dsv
+[96.904s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/lib/libstatistics_msgs__rosidl_generator_c.so
+[96.912s] -- Set runtime path of "/home/ubuntu/microros_ws/install/statistics_msgs/lib/libstatistics_msgs__rosidl_generator_c.so" to ""
+[96.916s] -- Up-to-date: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[96.921s] -- Up-to-date: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[96.923s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[96.926s] -- Up-to-date: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[96.929s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_fastrtps_c.h
+[96.932s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_fastrtps_c.h
+[96.936s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_fastrtps_c.h
+[96.941s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so
+[96.947s] -- Set runtime path of "/home/ubuntu/microros_ws/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[96.949s] -- Up-to-date: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[96.951s] -- Up-to-date: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[96.954s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/statistic_data_type.hpp
+[96.957s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp
+[96.960s] -- Up-to-date: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[96.962s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp
+[96.966s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp
+[96.970s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__struct.hpp
+[96.973s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__builder.hpp
+[96.976s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp
+[96.979s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp
+[96.982s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__builder.hpp
+[96.985s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp
+[96.988s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__traits.hpp
+[96.991s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/statistic_data_point.hpp
+[96.994s] -- Up-to-date: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[96.996s] -- Up-to-date: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[96.998s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[97.001s] -- Up-to-date: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[97.003s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_fastrtps_cpp.hpp
+[97.006s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_fastrtps_cpp.hpp
+[97.010s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/dds_fastrtps
+[97.013s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_fastrtps_cpp.hpp
+[97.017s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
+[97.025s] -- Set runtime path of "/home/ubuntu/microros_ws/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[97.027s] -- Up-to-date: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs
+[97.029s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/msg
+[97.034s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[97.039s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/msg/detail
+[97.042s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_microxrcedds_c.h
+[97.047s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_microxrcedds_c.h
+[97.051s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/msg/detail/microxrcedds
+[97.054s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_microxrcedds_c.h
+[97.057s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_microxrcedds_c.so
+[97.063s] -- Set runtime path of "/home/ubuntu/microros_ws/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[97.065s] -- Up-to-date: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[97.067s] -- Up-to-date: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[97.069s] -- Up-to-date: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[97.071s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_introspection_c.h
+[97.075s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__type_support.c
+[97.079s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.c
+[97.083s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__type_support.c
+[97.087s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_introspection_c.h
+[97.090s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_introspection_c.h
+[97.093s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[97.096s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
+[97.101s] -- Set runtime path of "/home/ubuntu/microros_ws/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so" to ""
+[97.104s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_c.so
+[97.109s] -- Set runtime path of "/home/ubuntu/microros_ws/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_c.so" to ""
+[97.111s] -- Up-to-date: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs
+[97.113s] -- Up-to-date: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/msg
+[97.115s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[97.121s] -- Up-to-date: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/msg/detail
+[97.125s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_microxrcedds_cpp.hpp
+[97.130s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_microxrcedds_cpp.hpp
+[97.138s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_microxrcedds_cpp.hpp
+[97.145s] -- Up-to-date: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/msg/detail/microxrcedds
+[97.146s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/msg/detail/microxrcedds/statistic_data_type__type_support_cpp.cpp
+[97.146s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/msg/detail/microxrcedds/statistic_data_point__type_support_cpp.cpp
+[97.147s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/msg/detail/microxrcedds/metrics_message__type_support_cpp.cpp
+[97.148s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[97.155s] -- Set runtime path of "/home/ubuntu/microros_ws/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[97.156s] -- Up-to-date: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[97.157s] -- Up-to-date: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[97.158s] -- Up-to-date: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[97.158s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_introspection_cpp.hpp
+[97.159s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__type_support.cpp
+[97.160s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.cpp
+[97.162s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__type_support.cpp
+[97.163s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_introspection_cpp.hpp
+[97.163s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_introspection_cpp.hpp
+[97.165s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
+[97.169s] -- Set runtime path of "/home/ubuntu/microros_ws/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[97.171s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
+[97.174s] -- Set runtime path of "/home/ubuntu/microros_ws/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_cpp.so" to ""
+[97.175s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/environment/pythonpath.sh
+[97.178s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/environment/pythonpath.dsv
+[97.179s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.1-py3.10.egg-info
+[97.181s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.1-py3.10.egg-info/SOURCES.txt
+[97.183s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.1-py3.10.egg-info/dependency_links.txt
+[97.185s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.1-py3.10.egg-info/PKG-INFO
+[97.187s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.1-py3.10.egg-info/top_level.txt
+[97.189s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs
+[97.190s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/__init__.py
+[97.192s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[97.194s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[97.196s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[97.198s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_c.c
+[97.200s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[97.203s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[97.205s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[97.207s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/libstatistics_msgs__rosidl_generator_py.so
+[97.209s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg
+[97.211s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/__init__.py
+[97.213s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_point_s.c
+[97.215s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_metrics_message_s.c
+[97.218s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_point.py
+[97.219s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_type_s.c
+[97.222s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_type.py
+[97.224s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_metrics_message.py
+[97.226s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[97.496s] Listing '/home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs'...
+[97.497s] Compiling '/home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/__init__.py'...
+[97.498s] Listing '/home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg'...
+[97.499s] Compiling '/home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/__init__.py'...
+[97.500s] Compiling '/home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_metrics_message.py'...
+[97.500s] Compiling '/home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_point.py'...
+[97.502s] Compiling '/home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_type.py'...
+[97.554s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[97.556s] -- Set runtime path of "/home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so" to ""
+[97.559s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[97.564s] -- Set runtime path of "/home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[97.568s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[97.571s] -- Set runtime path of "/home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[97.573s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[97.579s] -- Set runtime path of "/home/ubuntu/microros_ws/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[97.580s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/lib/libstatistics_msgs__rosidl_generator_py.so
+[97.584s] -- Set runtime path of "/home/ubuntu/microros_ws/install/statistics_msgs/lib/libstatistics_msgs__rosidl_generator_py.so" to ""
+[97.586s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/msg/MetricsMessage.idl
+[97.588s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataPoint.idl
+[97.590s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataType.idl
+[97.592s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/msg/MetricsMessage.msg
+[97.595s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataPoint.msg
+[97.601s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataType.msg
+[97.603s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/ament_index/resource_index/package_run_dependencies/statistics_msgs
+[97.608s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/ament_index/resource_index/parent_prefix_path/statistics_msgs
+[97.612s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/environment/ament_prefix_path.sh
+[97.615s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/environment/ament_prefix_path.dsv
+[97.616s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/environment/path.sh
+[97.622s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/environment/path.dsv
+[97.627s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/local_setup.bash
+[97.628s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/local_setup.sh
+[97.633s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/local_setup.zsh
+[97.638s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/local_setup.dsv
+[97.638s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/package.dsv
+[97.639s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/ament_index/resource_index/packages/statistics_msgs
+[97.642s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_cExport.cmake
+[97.643s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_cExport-noconfig.cmake
+[97.644s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[97.648s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[97.648s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_cppExport.cmake
+[97.649s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[97.651s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[97.653s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cExport.cmake
+[97.655s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[97.657s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cExport.cmake
+[97.658s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[97.660s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[97.662s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[97.664s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cppExport.cmake
+[97.666s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[97.673s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_pyExport.cmake
+[97.674s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_pyExport-noconfig.cmake
+[97.685s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/rosidl_cmake-extras.cmake
+[97.686s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[97.687s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[97.688s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[97.689s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[97.690s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[97.691s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[97.692s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgsConfig.cmake
+[97.693s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgsConfig-version.cmake
+[97.694s] -- Installing: /home/ubuntu/microros_ws/install/statistics_msgs/share/statistics_msgs/package.xml
+[97.711s] Invoked command in '/home/ubuntu/microros_ws/build/statistics_msgs' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/microros_ws/build/statistics_msgs

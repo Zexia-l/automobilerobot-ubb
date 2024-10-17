@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/build/unique_identifier_msgs/rosidl_generator_py/unique_identifier_msgs/__init__.py

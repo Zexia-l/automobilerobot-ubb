@@ -1,0 +1,108 @@
+[0.102s] Invoking command in '/home/ubuntu/microros_ws/build/rmw_microxrcedds': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/microros_ws/src/uros/rmw_microxrcedds/rmw_microxrcedds_c -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DRMW_UXRCE_TRANSPORT=udp -DRMW_UXRCE_DEFAULT_UDP_IP=127.0.0.1 -DRMW_UXRCE_DEFAULT_UDP_PORT=8888 -DRMW_UXRCE_MAX_NODES=15 -DRMW_UXRCE_MAX_PUBLISHERS=15 -DRMW_UXRCE_MAX_SUBSCRIPTIONS=15 -DRMW_UXRCE_MAX_SERVICES=15 -DRMW_UXRCE_MAX_CLIENTS=15 -DRMW_UXRCE_STREAM_HISTORY=32 -DRMW_UXRCE_MAX_HISTORY=10 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/rmw_microxrcedds
+[0.475s] -- The C compiler identification is GNU 11.4.0
+[0.513s] -- Detecting C compiler ABI info
+[0.998s] -- Detecting C compiler ABI info - done
+[1.030s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.032s] -- Detecting C compile features
+[1.034s] -- Detecting C compile features - done
+[1.063s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.339s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.272s] -- Found rcutils: 5.1.6 (/opt/ros/humble/share/rcutils/cmake)
+[3.410s] -- Found rosidl_runtime_c: 3.1.5 (/opt/ros/humble/share/rosidl_runtime_c/cmake)
+[3.512s] -- Found rmw: 6.1.2 (/opt/ros/humble/share/rmw/cmake)
+[3.535s] -- Found rosidl_typesupport_microxrcedds_c: 3.0.1 (/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake)
+[3.607s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.142s] -- Configuring done
+[4.229s] -- Generating done
+[4.240s] -- Build files have been written to: /home/ubuntu/microros_ws/build/rmw_microxrcedds
+[4.277s] Invoked command in '/home/ubuntu/microros_ws/build/rmw_microxrcedds' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/microros_ws/src/uros/rmw_microxrcedds/rmw_microxrcedds_c -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DRMW_UXRCE_TRANSPORT=udp -DRMW_UXRCE_DEFAULT_UDP_IP=127.0.0.1 -DRMW_UXRCE_DEFAULT_UDP_PORT=8888 -DRMW_UXRCE_MAX_NODES=15 -DRMW_UXRCE_MAX_PUBLISHERS=15 -DRMW_UXRCE_MAX_SUBSCRIPTIONS=15 -DRMW_UXRCE_MAX_SERVICES=15 -DRMW_UXRCE_MAX_CLIENTS=15 -DRMW_UXRCE_STREAM_HISTORY=32 -DRMW_UXRCE_MAX_HISTORY=10 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/rmw_microxrcedds
+[4.281s] Invoking command in '/home/ubuntu/microros_ws/build/rmw_microxrcedds': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/rmw_microxrcedds -- -j4 -l4
+[4.611s] [  2%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/identifiers.c.o[0m
+[4.746s] [  4%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_compare_gids_equal.c.o[0m
+[5.081s] [  6%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_count.c.o[0m
+[5.568s] [  8%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_event.c.o[0m
+[5.875s] [ 10%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_features.c.o[0m
+[6.151s] [ 13%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_get_gid_for_publisher.c.o[0m
+[6.616s] [ 15%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_get_implementation_identifier.c.o[0m
+[7.063s] [ 17%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_get_serialization_format.c.o[0m
+[7.517s] [ 19%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_get_topic_endpoint_info.c.o[0m
+[7.986s] [ 21%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_get_endpoint_network_flow.c.o[0m
+[8.305s] [ 23%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_qos_profile_check_compatible.c.o[0m
+[8.610s] [ 26%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_guard_condition.c.o[0m
+[9.051s] [ 28%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_init.c.o[0m
+[9.631s] [ 30%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_logging.c.o[0m
+[9.983s] [ 32%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_microxrcedds_topic.c.o[0m
+[10.451s] [ 34%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_node.c.o[0m
+[10.898s] [ 36%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_node_info_and_types.c.o[0m
+[11.342s] [ 39%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_node_names.c.o[0m
+[11.809s] [ 41%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_publish.c.o[0m
+[12.283s] [ 43%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_publisher.c.o[0m
+[12.798s] [ 45%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_request.c.o[0m
+[13.278s] [ 47%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_response.c.o[0m
+[13.712s] [ 50%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_serialize.c.o[0m
+[14.041s] [ 52%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_service.c.o[0m
+[14.549s] [ 54%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_service_names_and_types.c.o[0m
+[15.012s] [ 56%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_service_server_is_available.c.o[0m
+[15.337s] [ 58%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_subscription.c.o[0m
+[15.823s] [ 60%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_take.c.o[0m
+[16.241s] [ 63%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_topic_names_and_types.c.o[0m
+[16.687s] [ 65%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_trigger_guard_condition.c.o[0m
+[17.157s] [ 67%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_wait.c.o[0m
+[17.698s] [ 69%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_wait_set.c.o[0m
+[18.180s] [ 71%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/types.c.o[0m
+[18.743s] [ 73%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/utils.c.o[0m
+[19.254s] [ 76%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/callbacks.c.o[0m
+[19.746s] [ 78%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_event_callbacks.c.o[0m
+[20.074s] [ 80%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_uxrce_transports.c.o[0m
+[20.549s] [ 82%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_microros/continous_serialization.c.o[0m
+[21.004s] [ 84%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_microros/init_options.c.o[0m
+[21.439s] [ 86%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_microros/time_sync.c.o[0m
+[21.894s] [ 89%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_microros/ping.c.o[0m
+[22.344s] [ 91%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_microros/timing.c.o[0m
+[22.793s] [ 93%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_microros/discovery.c.o[0m
+[23.269s] [ 95%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_client.c.o[0m
+[23.764s] [ 97%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/memory.c.o[0m
+[24.135s] [100%] [32m[1mLinking C shared library librmw_microxrcedds.so[0m
+[24.446s] [100%] Built target rmw_microxrcedds
+[24.509s] Invoked command in '/home/ubuntu/microros_ws/build/rmw_microxrcedds' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/rmw_microxrcedds -- -j4 -l4
+[25.550s] Invoking command in '/home/ubuntu/microros_ws/build/rmw_microxrcedds': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/microros_ws/build/rmw_microxrcedds
+[25.602s] -- Install configuration: ""
+[25.605s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/environment/library_path.sh
+[25.608s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/environment/library_path.dsv
+[25.613s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/share/ament_index/resource_index/rmw_typesupport_c/rmw_microxrcedds
+[25.617s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/share/ament_index/resource_index/rmw_typesupport/rmw_microxrcedds
+[25.621s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/share/ament_index/resource_index/package_run_dependencies/rmw_microxrcedds
+[25.624s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/share/ament_index/resource_index/parent_prefix_path/rmw_microxrcedds
+[25.628s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/environment/ament_prefix_path.sh
+[25.631s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/environment/ament_prefix_path.dsv
+[25.634s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/environment/path.sh
+[25.637s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/environment/path.dsv
+[25.640s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/local_setup.bash
+[25.643s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/local_setup.sh
+[25.646s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/local_setup.zsh
+[25.649s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/local_setup.dsv
+[25.653s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/package.dsv
+[25.656s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/share/ament_index/resource_index/packages/rmw_microxrcedds
+[25.660s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.663s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake/ament_cmake_export_libraries-extras.cmake
+[25.668s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.672s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake/rmw_microxrceddsConfig.cmake
+[25.675s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake/rmw_microxrceddsConfig-version.cmake
+[25.678s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/package.xml
+[25.681s] -- Up-to-date: /home/ubuntu/microros_ws/install/rmw_microxrcedds/include
+[25.683s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/include/rmw_microxrcedds_c
+[25.686s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/include/rmw_microxrcedds_c/rmw_c_macros.h
+[25.689s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/include/rmw_microros
+[25.691s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/include/rmw_microros/error_handling.h
+[25.695s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/include/rmw_microros/time_sync.h
+[25.698s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/include/rmw_microros/continous_serialization.h
+[25.701s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/include/rmw_microros/init_options.h
+[25.704s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/include/rmw_microros/rmw_microros.h
+[25.708s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/include/rmw_microros/timing.h
+[25.712s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/include/rmw_microros/custom_transport.h
+[25.715s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/include/rmw_microros/discovery.h
+[25.719s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/include/rmw_microros/ping.h
+[25.722s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/include/rmw_microxrcedds_c/config.h
+[25.726s] -- Installing: /home/ubuntu/microros_ws/install/rmw_microxrcedds/lib/librmw_microxrcedds.so
+[25.732s] -- Set runtime path of "/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib/librmw_microxrcedds.so" to ""
+[25.751s] Invoked command in '/home/ubuntu/microros_ws/build/rmw_microxrcedds' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/microros_ws/build/rmw_microxrcedds

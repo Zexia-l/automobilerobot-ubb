@@ -1,0 +1,210 @@
+[0.053s] Invoking command in '/home/ubuntu/microros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/microros_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/micro_ros_setup
+[0.940s] -- The C compiler identification is GNU 11.4.0
+[1.878s] -- The CXX compiler identification is GNU 11.4.0
+[1.934s] -- Detecting C compiler ABI info
+[2.340s] -- Detecting C compiler ABI info - done
+[2.366s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.370s] -- Detecting C compile features
+[2.373s] -- Detecting C compile features - done
+[2.391s] -- Detecting CXX compiler ABI info
+[2.818s] -- Detecting CXX compiler ABI info - done
+[2.849s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.851s] -- Detecting CXX compile features
+[2.852s] -- Detecting CXX compile features - done
+[2.887s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.833s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.589s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.200s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.468s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.503s] -- Added test 'lint_cmake' to check CMake code style
+[5.526s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.668s] -- Added test 'xmllint' to check XML markup files
+[5.681s] -- Configuring done
+[5.712s] -- Generating done
+[5.718s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_setup
+[5.736s] Invoked command in '/home/ubuntu/microros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/microros_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/micro_ros_setup
+[5.744s] Invoking command in '/home/ubuntu/microros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/microros_ws/build/micro_ros_setup -- -j4 -l4
+[5.919s] Invoked command in '/home/ubuntu/microros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/microros_ws/build/micro_ros_setup -- -j4 -l4
+[6.068s] Invoking command in '/home/ubuntu/microros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/microros_ws/build/micro_ros_setup
+[6.127s] -- Install configuration: ""
+[6.131s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[6.132s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[6.134s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[6.135s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[6.137s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[6.138s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[6.140s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[6.141s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[6.143s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[6.144s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[6.145s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[6.147s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[6.149s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[6.150s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[6.154s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[6.156s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config
+[6.157s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/generate_lib
+[6.159s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/generate_lib/generic
+[6.163s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[6.163s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[6.164s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[6.165s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[6.166s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[6.167s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[6.168s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[6.169s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[6.170s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[6.171s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/raspbian
+[6.173s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/raspbian/generic
+[6.176s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[6.176s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[6.177s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[6.178s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[6.184s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[6.185s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[6.186s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[6.187s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[6.188s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[6.188s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/renesas_ra
+[6.189s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5
+[6.190s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh
+[6.195s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos
+[6.196s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh
+[6.196s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos
+[6.197s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh
+[6.197s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta
+[6.198s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh
+[6.198s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos
+[6.199s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt
+[6.199s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh
+[6.200s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos
+[6.200s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[6.201s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[6.202s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[6.203s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[6.206s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[6.207s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[6.211s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[6.212s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[6.212s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[6.213s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[6.214s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[6.214s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[6.215s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[6.215s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[6.216s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[6.216s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[6.217s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[6.218s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[6.219s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[6.220s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[6.221s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[6.223s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[6.224s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[6.226s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[6.227s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[6.227s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[6.228s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[6.230s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/esp32
+[6.231s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/esp32/README.md
+[6.232s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[6.233s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[6.234s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[6.236s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[6.237s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[6.238s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[6.238s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[6.240s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[6.241s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[6.242s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[6.243s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[6.244s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[6.246s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[6.247s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[6.248s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[6.249s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[6.250s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[6.251s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[6.253s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[6.254s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/list_apps.sh
+[6.255s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21
+[6.257s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[6.258s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[6.259s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[6.261s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[6.262s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[6.263s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[6.263s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[6.265s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[6.266s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[6.267s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[6.268s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[6.270s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[6.273s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[6.275s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[6.277s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[6.279s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[6.280s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[6.283s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/mbed
+[6.285s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/mbed/generic
+[6.286s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/mbed/generic/create.sh
+[6.288s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/mbed/generic/package.xml
+[6.289s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/mbed/generic/board.repos
+[6.291s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/mbed/generic/flash.sh
+[6.293s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos
+[6.295s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/mbed/generic/build.sh
+[6.296s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/mbed/generic/supported_platforms
+[6.298s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos
+[6.299s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt
+[6.300s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/mbed/list_apps.sh
+[6.301s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/host
+[6.302s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/host/generic
+[6.303s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[6.304s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/host/generic/create.sh
+[6.305s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[6.307s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/host/generic/package.xml
+[6.308s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/host/generic/flash.sh
+[6.309s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/host/generic/build.sh
+[6.311s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[6.312s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[6.313s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[6.315s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/client_uros_packages.repos
+[6.317s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/client_ros2_packages.txt
+[6.318s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[6.319s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/utils.sh
+[6.320s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/agent_uros_packages.repos
+[6.321s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/android
+[6.322s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/android/generic
+[6.323s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/android/generic/create.sh
+[6.324s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/android/generic/package.xml
+[6.325s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/android/generic/flash.sh
+[6.327s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos
+[6.328s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/android/generic/build.sh
+[6.329s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta
+[6.331s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos
+[6.331s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt
+[6.332s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/zephyr
+[6.333s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/zephyr/generic
+[6.334s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[6.336s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[6.337s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[6.338s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[6.343s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[6.343s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[6.344s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[6.344s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[6.345s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[6.346s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[6.346s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[6.348s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[6.349s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[6.350s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[6.352s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[6.353s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[6.354s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[6.356s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[6.357s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[6.358s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[6.360s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[6.361s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/component
+[6.368s] Invoked command in '/home/ubuntu/microros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/microros_ws/build/micro_ros_setup

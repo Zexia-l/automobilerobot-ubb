@@ -1,0 +1,49 @@
+[0.102s] Invoking command in '/home/ubuntu/microros_ws/build/action_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/action_msgs -- -j4 -l4
+[0.417s] [ 10%] Built target action_msgs__rosidl_generator_c
+[0.561s] [ 10%] Built target ament_cmake_python_symlink_action_msgs
+[0.642s] [35m[1mConsolidate compiler generated dependencies of target action_msgs__rosidl_typesupport_introspection_c[0m
+[0.735s] [ 21%] Built target action_msgs__rosidl_typesupport_introspection_c
+[0.801s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.061s] [35m[1mConsolidate compiler generated dependencies of target action_msgs__rosidl_typesupport_c[0m
+[4.152s] [ 25%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/msg/goal_info__type_support.cpp.o[0m
+[4.963s] [ 27%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/msg/goal_status__type_support.cpp.o[0m
+[5.177s] [ 29%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/msg/goal_status_array__type_support.cpp.o[0m
+[5.431s] [ 30%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/srv/cancel_goal__type_support.cpp.o[0m
+[5.628s] [ 32%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_c.so[0m
+[5.827s] [ 32%] Built target action_msgs__rosidl_typesupport_c
+[7.095s] running egg_info
+[7.099s] writing action_msgs.egg-info/PKG-INFO
+[7.100s] writing dependency_links to action_msgs.egg-info/dependency_links.txt
+[7.101s] writing top-level names to action_msgs.egg-info/top_level.txt
+[7.112s] reading manifest file 'action_msgs.egg-info/SOURCES.txt'
+[7.121s] writing manifest file 'action_msgs.egg-info/SOURCES.txt'
+[7.280s] [ 32%] Built target ament_cmake_python_build_action_msgs_egg
+[7.343s] [35m[1mConsolidate compiler generated dependencies of target action_msgs__rosidl_typesupport_fastrtps_c[0m
+[7.433s] [ 43%] Built target action_msgs__rosidl_typesupport_fastrtps_c
+[7.535s] [ 45%] Built target action_msgs__cpp
+[7.592s] [35m[1mConsolidate compiler generated dependencies of target action_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[7.676s] [ 56%] Built target action_msgs__rosidl_typesupport_fastrtps_cpp
+[7.731s] [ 58%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.135s] [35m[1mConsolidate compiler generated dependencies of target action_msgs__rosidl_typesupport_cpp[0m
+[10.207s] [ 60%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/msg/goal_info__type_support.cpp.o[0m
+[11.769s] [ 61%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/msg/goal_status_array__type_support.cpp.o[0m
+[13.042s] [ 63%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/srv/cancel_goal__type_support.cpp.o[0m
+[14.327s] [ 65%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/msg/goal_status__type_support.cpp.o[0m
+[15.635s] [ 67%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_cpp.so[0m
+[15.820s] [ 67%] Built target action_msgs__rosidl_typesupport_cpp
+[15.878s] [35m[1mConsolidate compiler generated dependencies of target action_msgs__rosidl_typesupport_introspection_cpp[0m
+[15.956s] [ 78%] Built target action_msgs__rosidl_typesupport_introspection_cpp
+[16.059s] [ 78%] Built target action_msgs
+[16.158s] [ 80%] Built target action_msgs__py
+[16.215s] [35m[1mConsolidate compiler generated dependencies of target action_msgs__rosidl_generator_py[0m
+[16.302s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/action_msgs/libaction_msgs__rosidl_generator_py.so[0m
+[16.532s] [ 89%] Built target action_msgs__rosidl_generator_py
+[16.584s] [35m[1mConsolidate compiler generated dependencies of target action_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[16.655s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/action_msgs/action_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[16.933s] [ 92%] Built target action_msgs__rosidl_typesupport_fastrtps_c__pyext
+[16.992s] [35m[1mConsolidate compiler generated dependencies of target action_msgs__rosidl_typesupport_c__pyext[0m
+[17.084s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/action_msgs/action_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[17.353s] [ 96%] Built target action_msgs__rosidl_typesupport_c__pyext
+[17.408s] [35m[1mConsolidate compiler generated dependencies of target action_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[17.486s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/action_msgs/action_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[17.815s] [100%] Built target action_msgs__rosidl_typesupport_introspection_c__pyext

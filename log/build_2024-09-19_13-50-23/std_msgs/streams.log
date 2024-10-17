@@ -1,0 +1,132 @@
+[0.160s] Invoking command in '/home/ubuntu/microros_ws/build/std_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/std_msgs -- -j4 -l4
+[0.645s] [  0%] Built target std_msgs__cpp
+[0.656s] [ 12%] Built target std_msgs__rosidl_generator_c
+[0.690s] [ 12%] Built target ament_cmake_python_symlink_std_msgs
+[0.742s] [ 13%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.940s] [35m[1mConsolidate compiler generated dependencies of target std_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.046s] [35m[1mConsolidate compiler generated dependencies of target std_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.342s] [ 25%] Built target std_msgs__rosidl_typesupport_fastrtps_cpp
+[1.380s] [ 38%] Built target std_msgs__rosidl_typesupport_introspection_cpp
+[10.191s] [35m[1mConsolidate compiler generated dependencies of target std_msgs__rosidl_typesupport_cpp[0m
+[10.345s] [ 38%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/bool__type_support.cpp.o[0m
+[11.806s] [ 38%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/byte__type_support.cpp.o[0m
+[13.391s] [ 39%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/byte_multi_array__type_support.cpp.o[0m
+[15.353s] [ 39%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/char__type_support.cpp.o[0m
+[16.999s] [ 39%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/color_rgba__type_support.cpp.o[0m
+[18.559s] [ 40%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/empty__type_support.cpp.o[0m
+[19.971s] [ 40%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/float32__type_support.cpp.o[0m
+[21.234s] [ 41%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/float32_multi_array__type_support.cpp.o[0m
+[21.345s] [ 42%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[22.664s] [ 42%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/float64__type_support.cpp.o[0m
+[23.479s] [ 55%] Built target std_msgs__rosidl_typesupport_introspection_c
+[23.535s] [ 55%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/float64_multi_array__type_support.cpp.o[0m
+[23.682s] [35m[1mConsolidate compiler generated dependencies of target std_msgs__rosidl_typesupport_fastrtps_c[0m
+[23.999s] [ 67%] Built target std_msgs__rosidl_typesupport_fastrtps_c
+[24.436s] [ 68%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/header__type_support.cpp.o[0m
+[25.892s] [ 68%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int16__type_support.cpp.o[0m
+[26.556s] running egg_info
+[26.561s] writing std_msgs.egg-info/PKG-INFO
+[26.563s] writing dependency_links to std_msgs.egg-info/dependency_links.txt
+[26.565s] writing top-level names to std_msgs.egg-info/top_level.txt
+[26.589s] reading manifest file 'std_msgs.egg-info/SOURCES.txt'
+[26.599s] writing manifest file 'std_msgs.egg-info/SOURCES.txt'
+[26.820s] [ 68%] Built target ament_cmake_python_build_std_msgs_egg
+[27.658s] [ 69%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int32__type_support.cpp.o[0m
+[29.298s] [ 69%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int32_multi_array__type_support.cpp.o[0m
+[30.217s] [35m[1mConsolidate compiler generated dependencies of target std_msgs__rosidl_typesupport_c[0m
+[30.295s] [ 69%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/bool__type_support.cpp.o[0m
+[30.488s] [ 69%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/byte__type_support.cpp.o[0m
+[30.665s] [ 70%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/byte_multi_array__type_support.cpp.o[0m
+[30.856s] [ 71%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int64__type_support.cpp.o[0m
+[30.910s] [ 71%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/char__type_support.cpp.o[0m
+[31.135s] [ 71%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/color_rgba__type_support.cpp.o[0m
+[31.307s] [ 72%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/empty__type_support.cpp.o[0m
+[31.481s] [ 72%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/float32__type_support.cpp.o[0m
+[31.659s] [ 73%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/float32_multi_array__type_support.cpp.o[0m
+[31.835s] [ 73%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/float64__type_support.cpp.o[0m
+[32.224s] [ 73%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/float64_multi_array__type_support.cpp.o[0m
+[32.479s] [ 74%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/header__type_support.cpp.o[0m
+[32.646s] [ 74%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/int16__type_support.cpp.o[0m
+[32.670s] [ 74%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int64_multi_array__type_support.cpp.o[0m
+[32.842s] [ 75%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/int16_multi_array__type_support.cpp.o[0m
+[33.125s] [ 75%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/int32__type_support.cpp.o[0m
+[33.485s] [ 75%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/int32_multi_array__type_support.cpp.o[0m
+[33.891s] [ 76%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/int64__type_support.cpp.o[0m
+[34.091s] [ 76%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/int64_multi_array__type_support.cpp.o[0m
+[34.263s] [ 76%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/int8__type_support.cpp.o[0m
+[34.433s] [ 77%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/int8_multi_array__type_support.cpp.o[0m
+[34.590s] [ 77%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int8__type_support.cpp.o[0m
+[34.608s] [ 77%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/multi_array_dimension__type_support.cpp.o[0m
+[34.765s] [ 78%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/multi_array_layout__type_support.cpp.o[0m
+[34.933s] [ 78%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/string__type_support.cpp.o[0m
+[35.117s] [ 78%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/u_int16__type_support.cpp.o[0m
+[35.286s] [ 79%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/u_int16_multi_array__type_support.cpp.o[0m
+[35.462s] [ 79%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/u_int32__type_support.cpp.o[0m
+[35.633s] [ 79%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/u_int32_multi_array__type_support.cpp.o[0m
+[35.812s] [ 80%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/u_int64__type_support.cpp.o[0m
+[36.449s] [ 81%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/u_int64_multi_array__type_support.cpp.o[0m
+[36.451s] [ 81%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int8_multi_array__type_support.cpp.o[0m
+[36.620s] [ 82%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/u_int8__type_support.cpp.o[0m
+[36.775s] [ 82%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_msgs/msg/u_int8_multi_array__type_support.cpp.o[0m
+[36.951s] [ 82%] [32m[1mLinking CXX shared library libstd_msgs__rosidl_typesupport_c.so[0m
+[37.188s] [ 82%] Built target std_msgs__rosidl_typesupport_c
+[37.852s] [ 83%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/multi_array_layout__type_support.cpp.o[0m
+[39.121s] [ 83%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/string__type_support.cpp.o[0m
+[40.678s] [ 83%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/u_int16__type_support.cpp.o[0m
+[41.720s] [ 84%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/u_int16_multi_array__type_support.cpp.o[0m
+[42.072s] [ 84%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/multi_array_dimension__type_support.cpp.o[0m
+[43.135s] [ 84%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/u_int32__type_support.cpp.o[0m
+[43.306s] [ 84%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int16_multi_array__type_support.cpp.o[0m
+[43.719s] [ 84%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/u_int32_multi_array__type_support.cpp.o[0m
+[44.832s] [ 85%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/u_int64__type_support.cpp.o[0m
+[45.053s] [ 85%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/u_int64_multi_array__type_support.cpp.o[0m
+[45.217s] [ 86%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/u_int8__type_support.cpp.o[0m
+[45.816s] [ 86%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/u_int8_multi_array__type_support.cpp.o[0m
+[47.958s] [ 86%] [32m[1mLinking CXX shared library libstd_msgs__rosidl_typesupport_cpp.so[0m
+[48.217s] [ 86%] Built target std_msgs__rosidl_typesupport_cpp
+[48.332s] [ 86%] Built target std_msgs
+[49.630s] [ 86%] Built target std_msgs__py
+[49.720s] [35m[1mConsolidate compiler generated dependencies of target std_msgs__rosidl_generator_py[0m
+[49.901s] [ 87%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_bool_s.c.o[0m
+[49.903s] [ 87%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_byte_s.c.o[0m
+[50.954s] [ 87%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_char_s.c.o[0m
+[51.061s] [ 88%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_byte_multi_array_s.c.o[0m
+[51.063s] [ 88%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_color_rgba_s.c.o[0m
+[51.518s] [ 89%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_empty_s.c.o[0m
+[51.630s] [ 89%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_float32_s.c.o[0m
+[51.647s] [ 89%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_float32_multi_array_s.c.o[0m
+[52.123s] [ 90%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_float64_s.c.o[0m
+[52.235s] [ 90%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_float64_multi_array_s.c.o[0m
+[52.259s] [ 91%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_header_s.c.o[0m
+[52.812s] [ 91%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_int16_s.c.o[0m
+[52.962s] [ 91%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_int16_multi_array_s.c.o[0m
+[52.972s] [ 92%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_int32_s.c.o[0m
+[53.026s] [ 92%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_int32_multi_array_s.c.o[0m
+[53.622s] [ 93%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_int64_s.c.o[0m
+[53.905s] [ 93%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_int64_multi_array_s.c.o[0m
+[53.968s] [ 93%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_int8_s.c.o[0m
+[54.012s] [ 94%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_int8_multi_array_s.c.o[0m
+[54.327s] [ 94%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_multi_array_dimension_s.c.o[0m
+[54.560s] [ 94%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_multi_array_layout_s.c.o[0m
+[54.687s] [ 95%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_string_s.c.o[0m
+[54.746s] [ 95%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_u_int16_s.c.o[0m
+[55.023s] [ 96%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_u_int16_multi_array_s.c.o[0m
+[55.331s] [ 96%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_u_int32_s.c.o[0m
+[55.367s] [ 96%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_u_int32_multi_array_s.c.o[0m
+[55.539s] [ 97%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_u_int64_s.c.o[0m
+[55.956s] [ 97%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_u_int64_multi_array_s.c.o[0m
+[56.158s] [ 97%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_u_int8_s.c.o[0m
+[56.241s] [ 98%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_py.dir/rosidl_generator_py/std_msgs/msg/_u_int8_multi_array_s.c.o[0m
+[56.849s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/std_msgs/libstd_msgs__rosidl_generator_py.so[0m
+[57.111s] [ 98%] Built target std_msgs__rosidl_generator_py
+[57.164s] [35m[1mConsolidate compiler generated dependencies of target std_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[57.164s] [35m[1mConsolidate compiler generated dependencies of target std_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[57.237s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/std_msgs/std_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[57.238s] [ 98%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/std_msgs/_std_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[57.474s] [ 99%] Built target std_msgs__rosidl_typesupport_fastrtps_c__pyext
+[57.527s] [35m[1mConsolidate compiler generated dependencies of target std_msgs__rosidl_typesupport_c__pyext[0m
+[57.601s] [100%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/std_msgs/_std_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[58.304s] [100%] [32m[1mLinking C shared library rosidl_generator_py/std_msgs/std_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[58.570s] [100%] Built target std_msgs__rosidl_typesupport_introspection_c__pyext
+[58.738s] [100%] [32m[1mLinking C shared library rosidl_generator_py/std_msgs/std_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[58.999s] [100%] Built target std_msgs__rosidl_typesupport_c__pyext

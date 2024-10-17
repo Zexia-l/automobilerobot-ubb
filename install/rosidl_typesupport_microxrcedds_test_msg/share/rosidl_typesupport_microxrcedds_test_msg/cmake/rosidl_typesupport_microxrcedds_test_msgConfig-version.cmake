@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/build/rosidl_typesupport_microxrcedds_test_msg/ament_cmake_core/rosidl_typesupport_microxrcedds_test_msgConfig-version.cmake

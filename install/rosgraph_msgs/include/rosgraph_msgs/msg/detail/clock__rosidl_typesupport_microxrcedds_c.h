@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/build/rosgraph_msgs/rosidl_typesupport_microxrcedds_c/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_microxrcedds_c.h

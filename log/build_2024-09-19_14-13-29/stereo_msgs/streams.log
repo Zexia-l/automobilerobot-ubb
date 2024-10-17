@@ -1,0 +1,127 @@
+[0.190s] Invoking command in '/home/ubuntu/microros_ws/build/stereo_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/stereo_msgs -- -j4 -l4
+[0.583s] [  3%] Built target stereo_msgs__cpp
+[0.803s] [  3%] Built target ament_cmake_python_symlink_stereo_msgs
+[0.942s] [ 12%] Built target stereo_msgs__rosidl_typesupport_fastrtps_cpp
+[1.091s] [ 22%] Built target stereo_msgs__rosidl_typesupport_introspection_cpp
+[3.905s] running egg_info
+[3.911s] writing stereo_msgs.egg-info/PKG-INFO
+[4.071s] writing dependency_links to stereo_msgs.egg-info/dependency_links.txt
+[4.073s] writing top-level names to stereo_msgs.egg-info/top_level.txt
+[4.087s] reading manifest file 'stereo_msgs.egg-info/SOURCES.txt'
+[4.101s] writing manifest file 'stereo_msgs.egg-info/SOURCES.txt'
+[4.358s] [ 22%] Built target ament_cmake_python_build_stereo_msgs_egg
+[4.422s] [35m[1mConsolidate compiler generated dependencies of target stereo_msgs__rosidl_typesupport_cpp[0m
+[4.502s] [ 32%] Built target stereo_msgs__rosidl_typesupport_cpp
+[4.681s] [ 41%] Built target stereo_msgs__rosidl_generator_c
+[4.845s] [ 51%] Built target stereo_msgs__rosidl_typesupport_fastrtps_c
+[4.909s] [35m[1mConsolidate compiler generated dependencies of target stereo_msgs__rosidl_typesupport_c[0m
+[4.996s] [ 61%] Built target stereo_msgs__rosidl_typesupport_c
+[5.145s] [ 70%] Built target stereo_msgs__rosidl_typesupport_introspection_c
+[5.282s] [ 70%] Built target stereo_msgs
+[5.474s] [ 74%] Built target stereo_msgs__py
+[5.592s] [ 80%] Built target stereo_msgs__rosidl_generator_py
+[5.768s] [ 87%] Built target stereo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.900s] [35m[1mConsolidate compiler generated dependencies of target stereo_msgs__rosidl_typesupport_c__pyext[0m
+[6.031s] [ 93%] Built target stereo_msgs__rosidl_typesupport_c__pyext
+[6.189s] [100%] Built target stereo_msgs__rosidl_typesupport_introspection_c__pyext
+[7.693s] Invoked command in '/home/ubuntu/microros_ws/build/stereo_msgs' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/stereo_msgs -- -j4 -l4
+[8.671s] Invoking command in '/home/ubuntu/microros_ws/build/stereo_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/microros_ws/build/stereo_msgs
+[8.715s] -- Install configuration: ""
+[8.718s] -- Execute custom install script
+[8.732s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/ament_index/resource_index/rosidl_interfaces/stereo_msgs
+[8.802s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__functions.h
+[8.875s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__struct.h
+[8.932s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.h
+[8.995s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/disparity_image.h
+[9.051s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_generator_c__visibility_control.h
+[9.106s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/environment/library_path.sh
+[9.162s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/environment/library_path.dsv
+[9.211s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_fastrtps_c.h
+[9.276s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.332s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_introspection_c.h
+[9.396s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.454s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__builder.hpp
+[9.505s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__struct.hpp
+[9.571s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__traits.hpp
+[9.618s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/disparity_image.hpp
+[9.682s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_fastrtps_cpp.hpp
+[9.747s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.800s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_introspection_cpp.hpp
+[9.857s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/environment/pythonpath.sh
+[9.904s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/environment/pythonpath.dsv
+[9.968s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs-4.2.4-py3.10.egg-info/PKG-INFO
+[10.044s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs-4.2.4-py3.10.egg-info/SOURCES.txt
+[10.089s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs-4.2.4-py3.10.egg-info/dependency_links.txt
+[10.129s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs-4.2.4-py3.10.egg-info/top_level.txt
+[10.202s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/__init__.py
+[10.275s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_c.c
+[10.325s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.377s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[10.425s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[10.481s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/libstereo_msgs__rosidl_generator_py.so
+[10.534s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/msg/__init__.py
+[10.583s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/msg/_disparity_image.py
+[10.636s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/msg/_disparity_image_s.c
+[10.685s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[10.757s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[10.832s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[10.902s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[10.955s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[10.959s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[10.963s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[10.966s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/msg/DisparityImage.idl
+[11.017s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/msg/DisparityImage.msg
+[11.076s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/ament_index/resource_index/package_run_dependencies/stereo_msgs
+[11.127s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/ament_index/resource_index/parent_prefix_path/stereo_msgs
+[11.215s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/environment/ament_prefix_path.sh
+[11.261s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/environment/ament_prefix_path.dsv
+[11.310s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/environment/path.sh
+[11.360s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/environment/path.dsv
+[11.409s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/local_setup.bash
+[11.469s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/local_setup.sh
+[11.549s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/local_setup.zsh
+[11.654s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/local_setup.dsv
+[11.754s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/package.dsv
+[11.830s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/ament_index/resource_index/packages/stereo_msgs
+[11.917s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/rosidl_cmake-extras.cmake
+[11.989s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.081s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.185s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[12.273s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[12.355s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.413s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.471s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgsConfig.cmake
+[12.515s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgsConfig-version.cmake
+[12.564s] -- Symlinking: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/package.xml
+[12.618s] -- Up-to-date: /home/ubuntu/microros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_generator_c.so
+[12.624s] -- Up-to-date: /home/ubuntu/microros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_fastrtps_c.so
+[12.629s] -- Up-to-date: /home/ubuntu/microros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_introspection_c.so
+[12.636s] -- Installing: /home/ubuntu/microros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_c.so
+[12.641s] -- Set runtime path of "/home/ubuntu/microros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_c.so" to ""
+[12.649s] -- Up-to-date: /home/ubuntu/microros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[12.661s] -- Up-to-date: /home/ubuntu/microros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_introspection_cpp.so
+[12.670s] -- Installing: /home/ubuntu/microros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_cpp.so
+[12.674s] -- Set runtime path of "/home/ubuntu/microros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_cpp.so" to ""
+[12.913s] Listing '/home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs'...
+[12.914s] Compiling '/home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/__init__.py'...
+[12.914s] Listing '/home/ubuntu/microros_ws/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/msg'...
+[12.962s] -- Installing: /home/ubuntu/microros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_generator_py.so
+[12.966s] -- Set runtime path of "/home/ubuntu/microros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_generator_py.so" to ""
+[12.971s] -- Up-to-date: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cExport.cmake
+[12.973s] -- Up-to-date: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cExport-noconfig.cmake
+[12.976s] -- Up-to-date: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[12.979s] -- Up-to-date: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.982s] -- Up-to-date: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[12.984s] -- Up-to-date: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.987s] -- Up-to-date: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cExport.cmake
+[12.988s] -- Up-to-date: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[12.992s] -- Up-to-date: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cppExport.cmake
+[12.995s] -- Up-to-date: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.997s] -- Up-to-date: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.000s] -- Up-to-date: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[13.001s] -- Up-to-date: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.004s] -- Up-to-date: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cppExport.cmake
+[13.006s] -- Up-to-date: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[13.009s] -- Up-to-date: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_pyExport.cmake
+[13.011s] -- Up-to-date: /home/ubuntu/microros_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[13.028s] Invoked command in '/home/ubuntu/microros_ws/build/stereo_msgs' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/microros_ws/build/stereo_msgs

@@ -1,0 +1,190 @@
+[0.176s] Invoking command in '/home/ubuntu/microros_ws/build/diagnostic_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/diagnostic_msgs -- -j4 -l4
+[0.524s] [  1%] Built target diagnostic_msgs__cpp
+[0.683s] [  1%] Built target ament_cmake_python_symlink_diagnostic_msgs
+[0.862s] [ 12%] Built target diagnostic_msgs__rosidl_typesupport_fastrtps_cpp
+[1.066s] [ 23%] Built target diagnostic_msgs__rosidl_typesupport_introspection_cpp
+[3.619s] running egg_info
+[3.625s] writing diagnostic_msgs.egg-info/PKG-INFO
+[3.626s] writing dependency_links to diagnostic_msgs.egg-info/dependency_links.txt
+[3.629s] writing top-level names to diagnostic_msgs.egg-info/top_level.txt
+[3.642s] reading manifest file 'diagnostic_msgs.egg-info/SOURCES.txt'
+[3.648s] writing manifest file 'diagnostic_msgs.egg-info/SOURCES.txt'
+[3.877s] [ 23%] Built target ament_cmake_python_build_diagnostic_msgs_egg
+[4.030s] [ 34%] Built target diagnostic_msgs__rosidl_typesupport_cpp
+[4.187s] [ 46%] Built target diagnostic_msgs__rosidl_generator_c
+[4.348s] [ 57%] Built target diagnostic_msgs__rosidl_typesupport_fastrtps_c
+[4.480s] [ 68%] Built target diagnostic_msgs__rosidl_typesupport_c
+[4.666s] [ 79%] Built target diagnostic_msgs__rosidl_typesupport_introspection_c
+[4.783s] [ 79%] Built target diagnostic_msgs
+[4.905s] [ 80%] Built target diagnostic_msgs__py
+[5.046s] [ 90%] Built target diagnostic_msgs__rosidl_generator_py
+[5.188s] [ 93%] Built target diagnostic_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.317s] [ 96%] Built target diagnostic_msgs__rosidl_typesupport_c__pyext
+[5.450s] [100%] Built target diagnostic_msgs__rosidl_typesupport_introspection_c__pyext
+[5.524s] Invoked command in '/home/ubuntu/microros_ws/build/diagnostic_msgs' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/diagnostic_msgs -- -j4 -l4
+[6.568s] Invoking command in '/home/ubuntu/microros_ws/build/diagnostic_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/microros_ws/build/diagnostic_msgs
+[6.624s] -- Install configuration: ""
+[6.628s] -- Execute custom install script
+[6.631s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/ament_index/resource_index/rosidl_interfaces/diagnostic_msgs
+[6.637s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__functions.h
+[6.642s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__struct.h
+[6.644s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.h
+[6.645s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__functions.h
+[6.646s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__struct.h
+[6.648s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.h
+[6.649s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__functions.h
+[6.650s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.h
+[6.652s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.h
+[6.654s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_array.h
+[6.655s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_status.h
+[6.655s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/key_value.h
+[6.656s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.658s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/add_diagnostics.h
+[6.658s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__functions.h
+[6.659s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__struct.h
+[6.660s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.h
+[6.661s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__functions.h
+[6.663s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__struct.h
+[6.663s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.h
+[6.664s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/self_test.h
+[6.667s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/library_path.sh
+[6.667s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/library_path.dsv
+[6.672s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_fastrtps_c.h
+[6.674s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_fastrtps_c.h
+[6.675s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_c.h
+[6.675s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.677s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_fastrtps_c.h
+[6.679s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_fastrtps_c.h
+[6.682s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_introspection_c.h
+[6.683s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_introspection_c.h
+[6.685s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_introspection_c.h
+[6.686s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.688s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_introspection_c.h
+[6.690s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_introspection_c.h
+[6.695s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__builder.hpp
+[6.697s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__struct.hpp
+[6.698s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__traits.hpp
+[6.700s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__builder.hpp
+[6.702s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__struct.hpp
+[6.703s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__traits.hpp
+[6.705s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__builder.hpp
+[6.708s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp
+[6.712s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__traits.hpp
+[6.714s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_array.hpp
+[6.715s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_status.hpp
+[6.718s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/key_value.hpp
+[6.718s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/add_diagnostics.hpp
+[6.720s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__builder.hpp
+[6.722s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__struct.hpp
+[6.724s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__traits.hpp
+[6.727s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__builder.hpp
+[6.730s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__struct.hpp
+[6.733s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__traits.hpp
+[6.734s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/self_test.hpp
+[6.741s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_fastrtps_cpp.hpp
+[6.743s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_fastrtps_cpp.hpp
+[6.744s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_cpp.hpp
+[6.746s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.747s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_fastrtps_cpp.hpp
+[6.748s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_fastrtps_cpp.hpp
+[6.752s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_introspection_cpp.hpp
+[6.753s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_introspection_cpp.hpp
+[6.755s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_introspection_cpp.hpp
+[6.757s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_introspection_cpp.hpp
+[6.759s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_introspection_cpp.hpp
+[6.760s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/pythonpath.sh
+[6.761s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/pythonpath.dsv
+[6.764s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs-4.2.4-py3.10.egg-info/PKG-INFO
+[6.766s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs-4.2.4-py3.10.egg-info/SOURCES.txt
+[6.767s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs-4.2.4-py3.10.egg-info/dependency_links.txt
+[6.768s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs-4.2.4-py3.10.egg-info/top_level.txt
+[6.776s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/__init__.py
+[6.779s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_c.c
+[6.780s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.782s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.783s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[6.786s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.787s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.788s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.791s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[6.792s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/libdiagnostic_msgs__rosidl_generator_py.so
+[6.794s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/__init__.py
+[6.796s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_diagnostic_array.py
+[6.798s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_diagnostic_array_s.c
+[6.799s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_diagnostic_status.py
+[6.800s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_diagnostic_status_s.c
+[6.801s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_key_value.py
+[6.804s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_key_value_s.c
+[6.804s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/__init__.py
+[6.808s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/_add_diagnostics.py
+[6.809s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/_add_diagnostics_s.c
+[6.811s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/_self_test.py
+[6.813s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/_self_test_s.c
+[6.817s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.830s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.831s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.833s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticArray.idl
+[6.834s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticStatus.idl
+[6.835s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/KeyValue.idl
+[6.837s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics.idl
+[6.837s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest.idl
+[6.839s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticArray.msg
+[6.839s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticStatus.msg
+[6.840s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/KeyValue.msg
+[6.841s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics.srv
+[6.842s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics_Request.msg
+[6.845s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics_Response.msg
+[6.846s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest.srv
+[6.847s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest_Request.msg
+[6.849s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest_Response.msg
+[6.850s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/ament_index/resource_index/package_run_dependencies/diagnostic_msgs
+[6.860s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/ament_index/resource_index/parent_prefix_path/diagnostic_msgs
+[6.860s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/ament_prefix_path.sh
+[6.861s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/ament_prefix_path.dsv
+[6.861s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/path.sh
+[6.862s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/path.dsv
+[6.863s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.bash
+[6.863s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.sh
+[6.864s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.zsh
+[6.865s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.dsv
+[6.866s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/package.dsv
+[6.867s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/ament_index/resource_index/packages/diagnostic_msgs
+[6.869s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/rosidl_cmake-extras.cmake
+[6.871s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.873s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.874s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.876s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.877s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.880s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.882s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgsConfig.cmake
+[6.882s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgsConfig-version.cmake
+[6.884s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/package.xml
+[6.886s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_generator_c.so
+[6.889s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_c.so
+[6.892s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_c.so
+[6.894s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_c.so
+[6.897s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.900s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_cpp.so
+[6.902s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_cpp.so
+[7.121s] Listing '/home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs'...
+[7.122s] Listing '/home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg'...
+[7.124s] Listing '/home/ubuntu/microros_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv'...
+[7.156s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_generator_py.so
+[7.159s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cExport.cmake
+[7.160s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.162s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.164s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.166s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.167s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.168s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cExport.cmake
+[7.169s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.170s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cppExport.cmake
+[7.171s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.172s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.173s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.174s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.175s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cppExport.cmake
+[7.176s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.176s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_pyExport.cmake
+[7.177s] -- Up-to-date: /home/ubuntu/microros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.204s] Invoked command in '/home/ubuntu/microros_ws/build/diagnostic_msgs' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/microros_ws/build/diagnostic_msgs

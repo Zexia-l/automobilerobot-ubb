@@ -1,0 +1,1413 @@
+[0.301s] Invoking command in '/home/ubuntu/microros_ws/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/complex_msgs:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/complex_msgs:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/visualization_msgs/lib:/home/ubuntu/microros_ws/install/rclc_parameter/lib:/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/microros_ws/install/rclc/lib:/home/ubuntu/microros_ws/install/test_msgs/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/example_interfaces/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/complex_msgs/lib:/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_utilities/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ubuntu/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/microros_ws/src/uros/micro-ROS-demos/rclc -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/micro_ros_demos_rclc
+[0.633s] -- The C compiler identification is GNU 11.4.0
+[0.937s] -- The CXX compiler identification is GNU 11.4.0
+[0.972s] -- Detecting C compiler ABI info
+[1.429s] -- Detecting C compiler ABI info - done
+[1.454s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.455s] -- Detecting C compile features
+[1.457s] -- Detecting C compile features - done
+[1.469s] -- Detecting CXX compiler ABI info
+[1.961s] -- Detecting CXX compiler ABI info - done
+[1.986s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.986s] -- Detecting CXX compile features
+[1.988s] -- Detecting CXX compile features - done
+[2.037s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.097s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.144s] -- Configuring done
+[5.324s] -- Generating done
+[5.339s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc
+[5.391s] Invoked command in '/home/ubuntu/microros_ws/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/complex_msgs:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/complex_msgs:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/visualization_msgs/lib:/home/ubuntu/microros_ws/install/rclc_parameter/lib:/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/microros_ws/install/rclc/lib:/home/ubuntu/microros_ws/install/test_msgs/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/example_interfaces/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/complex_msgs/lib:/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_utilities/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ubuntu/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/microros_ws/src/uros/micro-ROS-demos/rclc -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/micro_ros_demos_rclc
+[5.400s] Invoking command in '/home/ubuntu/microros_ws/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/complex_msgs:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/complex_msgs:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/visualization_msgs/lib:/home/ubuntu/microros_ws/install/rclc_parameter/lib:/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/microros_ws/install/rclc/lib:/home/ubuntu/microros_ws/install/test_msgs/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/example_interfaces/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/complex_msgs/lib:/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_utilities/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ubuntu/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/micro_ros_demos_rclc -- -j4 -l4
+[5.737s] [  1%] [34m[1mCreating directories for 'subscription_count'[0m
+[5.743s] [  2%] [34m[1mCreating directories for 'graph_visualizer'[0m
+[5.745s] [  2%] [34m[1mCreating directories for 'publisher_count'[0m
+[5.747s] [  2%] [34m[1mCreating directories for 'int32_publisher'[0m
+[6.259s] [  3%] [34m[1mNo download step for 'subscription_count'[0m
+[6.262s] [  4%] [34m[1mNo download step for 'graph_visualizer'[0m
+[6.273s] [  4%] [34m[1mNo download step for 'publisher_count'[0m
+[6.288s] [  4%] [34m[1mNo download step for 'int32_publisher'[0m
+[6.446s] [  5%] [34m[1mNo update step for 'graph_visualizer'[0m
+[6.449s] [  6%] [34m[1mNo update step for 'subscription_count'[0m
+[6.463s] [  6%] [34m[1mNo update step for 'publisher_count'[0m
+[6.472s] [  6%] [34m[1mNo update step for 'int32_publisher'[0m
+[6.630s] [  6%] [34m[1mNo patch step for 'subscription_count'[0m
+[6.631s] [  6%] [34m[1mNo patch step for 'graph_visualizer'[0m
+[6.655s] [  8%] [34m[1mNo patch step for 'publisher_count'[0m
+[6.656s] [  8%] [34m[1mNo patch step for 'int32_publisher'[0m
+[6.810s] [  8%] [34m[1mPerforming configure step for 'graph_visualizer'[0m
+[6.812s] [  8%] [34m[1mPerforming configure step for 'subscription_count'[0m
+[6.839s] [  9%] [34m[1mPerforming configure step for 'int32_publisher'[0m
+[6.844s] [ 10%] [34m[1mPerforming configure step for 'publisher_count'[0m
+[6.879s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/graph_introspection/graph_visualizer/tmp/graph_visualizer-cache-.cmake
+[6.884s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/graph_introspection/subscription_count/tmp/subscription_count-cache-.cmake
+[6.906s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/int32_publisher/tmp/int32_publisher-cache-.cmake
+[6.912s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/graph_introspection/publisher_count/tmp/publisher_count-cache-.cmake
+[7.244s] -- The C compiler identification is GNU 11.4.0
+[7.257s] -- The C compiler identification is GNU 11.4.0
+[7.272s] -- The C compiler identification is GNU 11.4.0
+[7.277s] -- The C compiler identification is GNU 11.4.0
+[7.287s] -- Detecting C compiler ABI info
+[7.300s] -- Detecting C compiler ABI info
+[7.308s] -- Detecting C compiler ABI info
+[7.314s] -- Detecting C compiler ABI info
+[7.830s] -- Detecting C compiler ABI info - done
+[7.832s] -- Detecting C compiler ABI info - done
+[7.848s] -- Detecting C compiler ABI info - done
+[7.861s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.862s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.863s] -- Detecting C compile features
+[7.864s] -- Detecting C compile features
+[7.864s] -- Detecting C compiler ABI info - done
+[7.865s] -- Detecting C compile features - done
+[7.865s] -- Detecting C compile features - done
+[7.881s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.883s] -- Detecting C compile features
+[7.885s] -- Detecting C compile features - done
+[7.890s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.891s] -- Detecting C compile features
+[7.892s] -- Detecting C compile features - done
+[7.914s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.914s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.939s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.943s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[9.308s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[9.353s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[9.391s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[9.408s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[10.515s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[10.538s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[10.575s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[10.599s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[11.089s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[11.098s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[11.137s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[11.166s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[11.191s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[11.196s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[11.235s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[11.263s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[11.308s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[11.310s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[11.347s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[11.382s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[11.446s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.455s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.485s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.523s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.711s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.729s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.748s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.787s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.337s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[12.369s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[12.372s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[12.391s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.423s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[12.425s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.426s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.476s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[13.287s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[13.333s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[13.344s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[13.385s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[13.586s] -- Found FastRTPS: /opt/ros/humble/include  
+[13.629s] -- Found FastRTPS: /opt/ros/humble/include  
+[13.640s] -- Found FastRTPS: /opt/ros/humble/include  
+[13.686s] -- Found FastRTPS: /opt/ros/humble/include  
+[14.089s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.139s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.148s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.185s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.299s] -- Looking for pthread.h
+[14.350s] -- Looking for pthread.h
+[14.353s] -- Looking for pthread.h
+[14.393s] -- Looking for pthread.h
+[14.811s] -- Looking for pthread.h - found
+[14.815s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.893s] -- Looking for pthread.h - found
+[14.897s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.921s] -- Looking for pthread.h - found
+[14.922s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.942s] -- Looking for pthread.h - found
+[14.944s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.392s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.401s] -- Found Threads: TRUE  
+[15.445s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.448s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.450s] -- Found Threads: TRUE  
+[15.455s] -- Found Threads: TRUE  
+[15.477s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.482s] -- Found Threads: TRUE  
+[15.491s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[15.522s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[15.528s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[15.557s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[15.979s] -- Found rmw_microxrcedds: 3.0.3 (/home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[16.013s] -- Found std_msgs: 4.2.4 (/home/ubuntu/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[16.034s] -- Configuring done
+[16.037s] -- Found std_msgs: 4.2.4 (/home/ubuntu/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[16.062s] -- Found rmw_microxrcedds: 3.0.3 (/home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[16.110s] -- Generating done
+[16.120s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/graph_introspection/subscription_count/src/subscription_count-build
+[16.124s] -- Configuring done
+[16.178s] -- Found rmw_microxrcedds: 3.0.3 (/home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[16.200s] -- Found rmw_microxrcedds: 3.0.3 (/home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[16.205s] -- Generating done
+[16.217s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/graph_introspection/publisher_count/src/publisher_count-build
+[16.236s] -- Configuring done
+[16.268s] -- Configuring done
+[16.295s] [ 10%] [34m[1mPerforming build step for 'subscription_count'[0m
+[16.318s] -- Generating done
+[16.327s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/int32_publisher/src/int32_publisher-build
+[16.362s] -- Generating done
+[16.374s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/graph_introspection/graph_visualizer/src/graph_visualizer-build
+[16.412s] [ 10%] [34m[1mPerforming build step for 'publisher_count'[0m
+[16.506s] [ 10%] [34m[1mPerforming build step for 'int32_publisher'[0m
+[16.544s] [ 11%] [34m[1mPerforming build step for 'graph_visualizer'[0m
+[16.632s] [ 50%] [32mBuilding C object CMakeFiles/subscription_count.dir/main.c.o[0m
+[16.740s] [ 50%] [32mBuilding C object CMakeFiles/publisher_count.dir/main.c.o[0m
+[16.835s] [ 50%] [32mBuilding C object CMakeFiles/int32_publisher.dir/main.c.o[0m
+[16.884s] [ 50%] [32mBuilding C object CMakeFiles/graph_visualizer.dir/main.c.o[0m
+[17.240s] [100%] [32m[1mLinking C executable subscription_count[0m
+[17.323s] [100%] [32m[1mLinking C executable publisher_count[0m
+[17.414s] [100%] [32m[1mLinking C executable graph_visualizer[0m
+[17.426s] [100%] [32m[1mLinking C executable int32_publisher[0m
+[17.833s] [100%] Built target subscription_count
+[17.909s] [100%] Built target publisher_count
+[17.994s] [ 11%] [34m[1mPerforming install step for 'subscription_count'[0m
+[18.006s] [100%] Built target graph_visualizer
+[18.031s] [100%] Built target int32_publisher
+[18.041s] [ 12%] [34m[1mPerforming install step for 'publisher_count'[0m
+[18.136s] [ 12%] [34m[1mPerforming install step for 'graph_visualizer'[0m
+[18.181s] [ 13%] [34m[1mPerforming install step for 'int32_publisher'[0m
+[18.257s] [35m[1mConsolidate compiler generated dependencies of target subscription_count[0m
+[18.314s] [35m[1mConsolidate compiler generated dependencies of target publisher_count[0m
+[18.361s] [100%] Built target subscription_count
+[18.389s] [35m[1mConsolidate compiler generated dependencies of target graph_visualizer[0m
+[18.409s] [100%] Built target publisher_count
+[18.450s] [35m[1mConsolidate compiler generated dependencies of target int32_publisher[0m
+[18.485s] [100%] Built target graph_visualizer
+[18.509s] [36mInstall the project...[0m
+[18.545s] [36mInstall the project...[0m
+[18.547s] [100%] Built target int32_publisher
+[18.571s] -- Install configuration: ""
+[18.571s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/subscription_count/subscription_count
+[18.574s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/subscription_count/subscription_count" to ""
+[18.607s] -- Install configuration: ""
+[18.609s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/publisher_count/publisher_count
+[18.613s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/publisher_count/publisher_count" to ""
+[18.629s] [36mInstall the project...[0m
+[18.679s] [36mInstall the project...[0m
+[18.693s] -- Install configuration: ""
+[18.695s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/graph_visualizer/graph_visualizer
+[18.699s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/graph_visualizer/graph_visualizer" to ""
+[18.713s] [ 14%] [34m[1mCompleted 'subscription_count'[0m
+[18.738s] -- Install configuration: ""
+[18.739s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher/int32_publisher
+[18.743s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher/int32_publisher" to ""
+[18.746s] [ 15%] [34m[1mCompleted 'publisher_count'[0m
+[18.851s] [ 15%] [34m[1mCompleted 'graph_visualizer'[0m
+[18.878s] [ 16%] [34m[1mCompleted 'int32_publisher'[0m
+[18.962s] [ 16%] Built target subscription_count
+[18.987s] [ 16%] Built target publisher_count
+[19.116s] [ 17%] [34m[1mCreating directories for 'int32_subscriber'[0m
+[19.118s] [ 17%] Built target int32_publisher
+[19.119s] [ 17%] Built target graph_visualizer
+[19.146s] [ 18%] [34m[1mCreating directories for 'configured_publisher'[0m
+[19.273s] [ 19%] [34m[1mCreating directories for 'configured_subscriber'[0m
+[19.276s] [ 19%] [34m[1mCreating directories for 'addtwoints_server'[0m
+[19.666s] [ 20%] [34m[1mNo download step for 'int32_subscriber'[0m
+[19.680s] [ 21%] [34m[1mNo download step for 'configured_publisher'[0m
+[19.801s] [ 21%] [34m[1mNo download step for 'addtwoints_server'[0m
+[19.822s] [ 22%] [34m[1mNo download step for 'configured_subscriber'[0m
+[19.858s] [ 23%] [34m[1mNo update step for 'configured_publisher'[0m
+[19.859s] [ 23%] [34m[1mNo update step for 'int32_subscriber'[0m
+[19.983s] [ 24%] [34m[1mNo update step for 'addtwoints_server'[0m
+[20.014s] [ 24%] [34m[1mNo update step for 'configured_subscriber'[0m
+[20.040s] [ 24%] [34m[1mNo patch step for 'configured_publisher'[0m
+[20.041s] [ 24%] [34m[1mNo patch step for 'int32_subscriber'[0m
+[20.162s] [ 24%] [34m[1mNo patch step for 'addtwoints_server'[0m
+[20.201s] [ 24%] [34m[1mNo patch step for 'configured_subscriber'[0m
+[20.220s] [ 24%] [34m[1mPerforming configure step for 'configured_publisher'[0m
+[20.234s] [ 24%] [34m[1mPerforming configure step for 'int32_subscriber'[0m
+[20.286s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/configuration_example/configured_publisher/tmp/configured_publisher-cache-.cmake
+[20.302s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/int32_subscriber/tmp/int32_subscriber-cache-.cmake
+[20.346s] [ 25%] [34m[1mPerforming configure step for 'addtwoints_server'[0m
+[20.388s] [ 25%] [34m[1mPerforming configure step for 'configured_subscriber'[0m
+[20.423s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/addtwoints_server/tmp/addtwoints_server-cache-.cmake
+[20.470s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/configuration_example/configured_subscriber/tmp/configured_subscriber-cache-.cmake
+[20.630s] -- The C compiler identification is GNU 11.4.0
+[20.644s] -- The C compiler identification is GNU 11.4.0
+[20.667s] -- Detecting C compiler ABI info
+[20.681s] -- Detecting C compiler ABI info
+[20.775s] -- The C compiler identification is GNU 11.4.0
+[20.812s] -- The C compiler identification is GNU 11.4.0
+[20.820s] -- Detecting C compiler ABI info
+[20.849s] -- Detecting C compiler ABI info
+[21.211s] -- Detecting C compiler ABI info - done
+[21.217s] -- Detecting C compiler ABI info - done
+[21.239s] -- Check for working C compiler: /usr/bin/cc - skipped
+[21.240s] -- Detecting C compile features
+[21.241s] -- Detecting C compile features - done
+[21.250s] -- Check for working C compiler: /usr/bin/cc - skipped
+[21.253s] -- Detecting C compile features
+[21.255s] -- Detecting C compile features - done
+[21.297s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[21.314s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[21.353s] -- Detecting C compiler ABI info - done
+[21.380s] -- Check for working C compiler: /usr/bin/cc - skipped
+[21.382s] -- Detecting C compile features
+[21.383s] -- Detecting C compiler ABI info - done
+[21.384s] -- Detecting C compile features - done
+[21.411s] -- Check for working C compiler: /usr/bin/cc - skipped
+[21.413s] -- Detecting C compile features
+[21.415s] -- Detecting C compile features - done
+[21.436s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[21.481s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[22.724s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[22.736s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[22.856s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[22.922s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[23.969s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[23.990s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[24.017s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[24.078s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[24.537s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[24.563s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[24.586s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[24.638s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[24.643s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[24.661s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[24.686s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[24.741s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[24.755s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[24.774s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[24.800s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[24.854s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[24.896s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[24.914s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[24.941s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[24.993s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[25.165s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[25.183s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[25.209s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[25.257s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[25.800s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[25.824s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[25.841s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[25.854s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[25.877s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[25.885s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[25.894s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[25.937s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[26.760s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[26.792s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[26.816s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[26.843s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[27.059s] -- Found FastRTPS: /opt/ros/humble/include  
+[27.093s] -- Found FastRTPS: /opt/ros/humble/include  
+[27.110s] -- Found FastRTPS: /opt/ros/humble/include  
+[27.136s] -- Found FastRTPS: /opt/ros/humble/include  
+[27.570s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[27.611s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[27.623s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[27.662s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[27.780s] -- Looking for pthread.h
+[27.818s] -- Looking for pthread.h
+[27.831s] -- Looking for pthread.h
+[27.873s] -- Looking for pthread.h
+[28.324s] -- Looking for pthread.h - found
+[28.327s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[28.344s] -- Looking for pthread.h - found
+[28.347s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[28.398s] -- Looking for pthread.h - found
+[28.401s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[28.435s] -- Looking for pthread.h - found
+[28.436s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[28.869s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[28.875s] -- Found Threads: TRUE  
+[28.890s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[28.896s] -- Found Threads: TRUE  
+[28.957s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[28.962s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[28.963s] -- Found Threads: TRUE  
+[28.984s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[29.009s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[29.013s] -- Found Threads: TRUE  
+[29.036s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[29.088s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[29.476s] -- Found std_msgs: 4.2.4 (/home/ubuntu/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[29.513s] -- Found std_msgs: 4.2.4 (/home/ubuntu/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[29.549s] -- Found example_interfaces: 0.9.3 (/home/ubuntu/microros_ws/install/example_interfaces/share/example_interfaces/cmake)
+[29.599s] -- Found std_msgs: 4.2.4 (/home/ubuntu/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[29.629s] -- Found rmw_microxrcedds: 3.0.3 (/home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[29.686s] -- Configuring done
+[29.695s] -- Found rmw_microxrcedds: 3.0.3 (/home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[29.728s] -- Configuring done
+[29.750s] -- Found rmw_microxrcedds: 3.0.3 (/home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[29.765s] -- Generating done
+[29.773s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/int32_subscriber/src/int32_subscriber-build
+[29.801s] -- Configuring done
+[29.815s] -- Configuring done
+[29.818s] -- Generating done
+[29.828s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/configuration_example/configured_publisher/src/configured_publisher-build
+[29.884s] -- Generating done
+[29.892s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/addtwoints_server/src/addtwoints_server-build
+[29.925s] -- Generating done
+[29.940s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/configuration_example/configured_subscriber/src/configured_subscriber-build
+[29.960s] [ 26%] [34m[1mPerforming build step for 'int32_subscriber'[0m
+[30.017s] [ 27%] [34m[1mPerforming build step for 'configured_publisher'[0m
+[30.073s] [ 27%] [34m[1mPerforming build step for 'addtwoints_server'[0m
+[30.113s] [ 28%] [34m[1mPerforming build step for 'configured_subscriber'[0m
+[30.301s] [ 50%] [32mBuilding C object CMakeFiles/int32_subscriber.dir/main.c.o[0m
+[30.354s] [ 50%] [32mBuilding C object CMakeFiles/configured_publisher.dir/main.c.o[0m
+[30.402s] [ 50%] [32mBuilding C object CMakeFiles/addtwoints_server.dir/main.c.o[0m
+[30.446s] [ 50%] [32mBuilding C object CMakeFiles/configured_subscriber.dir/main.c.o[0m
+[30.853s] [100%] [32m[1mLinking C executable int32_subscriber[0m
+[30.923s] [100%] [32m[1mLinking C executable configured_publisher[0m
+[30.965s] [100%] [32m[1mLinking C executable addtwoints_server[0m
+[31.020s] [100%] [32m[1mLinking C executable configured_subscriber[0m
+[31.465s] [100%] Built target int32_subscriber
+[31.555s] [100%] Built target configured_publisher
+[31.575s] [100%] Built target addtwoints_server
+[31.614s] [ 28%] [34m[1mPerforming install step for 'int32_subscriber'[0m
+[31.652s] [100%] Built target configured_subscriber
+[31.697s] [ 28%] [34m[1mPerforming install step for 'configured_publisher'[0m
+[31.705s] [ 29%] [34m[1mPerforming install step for 'addtwoints_server'[0m
+[31.777s] [ 29%] [34m[1mPerforming install step for 'configured_subscriber'[0m
+[31.878s] [35m[1mConsolidate compiler generated dependencies of target int32_subscriber[0m
+[31.946s] [35m[1mConsolidate compiler generated dependencies of target configured_publisher[0m
+[31.966s] [35m[1mConsolidate compiler generated dependencies of target addtwoints_server[0m
+[31.978s] [100%] Built target int32_subscriber
+[32.033s] [35m[1mConsolidate compiler generated dependencies of target configured_subscriber[0m
+[32.041s] [100%] Built target configured_publisher
+[32.068s] [100%] Built target addtwoints_server
+[32.115s] [36mInstall the project...[0m
+[32.134s] [100%] Built target configured_subscriber
+[32.174s] -- Install configuration: ""
+[32.175s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_subscriber/int32_subscriber
+[32.177s] [36mInstall the project...[0m
+[32.181s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_subscriber/int32_subscriber" to ""
+[32.212s] [36mInstall the project...[0m
+[32.239s] -- Install configuration: ""
+[32.241s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/configured_publisher/configured_publisher
+[32.247s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/configured_publisher/configured_publisher" to ""
+[32.279s] -- Install configuration: ""
+[32.281s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_server/addtwoints_server
+[32.285s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_server/addtwoints_server" to ""
+[32.288s] [36mInstall the project...[0m
+[32.316s] [ 29%] [34m[1mCompleted 'int32_subscriber'[0m
+[32.350s] -- Install configuration: ""
+[32.352s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/configured_subscriber/configured_subscriber
+[32.355s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/configured_subscriber/configured_subscriber" to ""
+[32.391s] [ 29%] [34m[1mCompleted 'configured_publisher'[0m
+[32.420s] [ 30%] [34m[1mCompleted 'addtwoints_server'[0m
+[32.489s] [ 30%] [34m[1mCompleted 'configured_subscriber'[0m
+[32.556s] [ 30%] Built target int32_subscriber
+[32.650s] [ 30%] Built target configured_publisher
+[32.664s] [ 30%] Built target addtwoints_server
+[32.717s] [ 30%] [34m[1mCreating directories for 'addtwoints_client'[0m
+[32.736s] [ 30%] Built target configured_subscriber
+[32.809s] [ 31%] [34m[1mCreating directories for 'fibonacci_action_server'[0m
+[32.820s] [ 32%] [34m[1mCreating directories for 'fibonacci_action_client'[0m
+[32.889s] [ 32%] [34m[1mCreating directories for 'int32_multinode'[0m
+[33.267s] [ 32%] [34m[1mNo download step for 'addtwoints_client'[0m
+[33.349s] [ 33%] [34m[1mNo download step for 'fibonacci_action_client'[0m
+[33.350s] [ 33%] [34m[1mNo download step for 'fibonacci_action_server'[0m
+[33.429s] [ 34%] [34m[1mNo download step for 'int32_multinode'[0m
+[33.454s] [ 34%] [34m[1mNo update step for 'addtwoints_client'[0m
+[33.528s] [ 35%] [34m[1mNo update step for 'fibonacci_action_client'[0m
+[33.539s] [ 36%] [34m[1mNo update step for 'fibonacci_action_server'[0m
+[33.625s] [ 36%] [34m[1mNo update step for 'int32_multinode'[0m
+[33.657s] [ 37%] [34m[1mNo patch step for 'addtwoints_client'[0m
+[33.705s] [ 37%] [34m[1mNo patch step for 'fibonacci_action_client'[0m
+[33.725s] [ 37%] [34m[1mNo patch step for 'fibonacci_action_server'[0m
+[33.821s] [ 38%] [34m[1mNo patch step for 'int32_multinode'[0m
+[33.847s] [ 39%] [34m[1mPerforming configure step for 'addtwoints_client'[0m
+[33.887s] [ 40%] [34m[1mPerforming configure step for 'fibonacci_action_client'[0m
+[33.909s] [ 40%] [34m[1mPerforming configure step for 'fibonacci_action_server'[0m
+[33.918s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/addtwoints_client/tmp/addtwoints_client-cache-.cmake
+[33.953s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/fibonacci_action_client/tmp/fibonacci_action_client-cache-.cmake
+[33.979s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/fibonacci_action_server/tmp/fibonacci_action_server-cache-.cmake
+[34.004s] [ 40%] [34m[1mPerforming configure step for 'int32_multinode'[0m
+[34.075s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/int32_multinode/tmp/int32_multinode-cache-.cmake
+[34.236s] -- The C compiler identification is GNU 11.4.0
+[34.297s] -- Detecting C compiler ABI info
+[34.316s] -- The C compiler identification is GNU 11.4.0
+[34.346s] -- The C compiler identification is GNU 11.4.0
+[34.353s] -- Detecting C compiler ABI info
+[34.388s] -- Detecting C compiler ABI info
+[34.446s] -- The C compiler identification is GNU 11.4.0
+[34.495s] -- Detecting C compiler ABI info
+[34.845s] -- Detecting C compiler ABI info - done
+[34.889s] -- Detecting C compiler ABI info - done
+[34.892s] -- Check for working C compiler: /usr/bin/cc - skipped
+[34.893s] -- Detecting C compile features
+[34.894s] -- Detecting C compile features - done
+[34.917s] -- Detecting C compiler ABI info - done
+[34.923s] -- Check for working C compiler: /usr/bin/cc - skipped
+[34.923s] -- Detecting C compile features
+[34.925s] -- Detecting C compile features - done
+[34.948s] -- Check for working C compiler: /usr/bin/cc - skipped
+[34.948s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[34.950s] -- Detecting C compile features
+[34.953s] -- Detecting C compile features - done
+[34.977s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[35.009s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[35.032s] -- Detecting C compiler ABI info - done
+[35.058s] -- Check for working C compiler: /usr/bin/cc - skipped
+[35.059s] -- Detecting C compile features
+[35.061s] -- Detecting C compile features - done
+[35.125s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[36.333s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[36.430s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[36.479s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[36.584s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[37.571s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[37.597s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[37.656s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[37.749s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[38.131s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[38.168s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[38.226s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[38.228s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[38.294s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[38.318s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[38.324s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[38.340s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[38.389s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[38.421s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[38.438s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[38.476s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[38.527s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[38.538s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[38.578s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[38.685s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[38.738s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[38.793s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[38.844s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[38.955s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[39.360s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[39.412s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[39.424s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[39.475s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[39.476s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[39.527s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[39.598s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[39.675s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[40.307s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[40.385s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[40.440s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[40.599s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[40.605s] -- Found FastRTPS: /opt/ros/humble/include  
+[40.701s] -- Found FastRTPS: /opt/ros/humble/include  
+[40.732s] -- Found FastRTPS: /opt/ros/humble/include  
+[40.901s] -- Found FastRTPS: /opt/ros/humble/include  
+[41.101s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[41.210s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[41.229s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[41.314s] -- Looking for pthread.h
+[41.417s] -- Looking for pthread.h
+[41.419s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[41.436s] -- Looking for pthread.h
+[41.648s] -- Looking for pthread.h
+[41.818s] -- Looking for pthread.h - found
+[41.819s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[41.950s] -- Looking for pthread.h - found
+[41.952s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[41.964s] -- Looking for pthread.h - found
+[41.966s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[42.228s] -- Looking for pthread.h - found
+[42.231s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[42.377s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[42.385s] -- Found Threads: TRUE  
+[42.473s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[42.476s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[42.481s] -- Found Threads: TRUE  
+[42.532s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[42.537s] -- Found Threads: TRUE  
+[42.566s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[42.614s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[42.765s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[42.770s] -- Found Threads: TRUE  
+[42.846s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[42.985s] -- Found example_interfaces: 0.9.3 (/home/ubuntu/microros_ws/install/example_interfaces/share/example_interfaces/cmake)
+[43.080s] -- Found example_interfaces: 0.9.3 (/home/ubuntu/microros_ws/install/example_interfaces/share/example_interfaces/cmake)
+[43.140s] -- Found example_interfaces: 0.9.3 (/home/ubuntu/microros_ws/install/example_interfaces/share/example_interfaces/cmake)
+[43.220s] -- Configuring done
+[43.302s] -- Generating done
+[43.312s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/addtwoints_client/src/addtwoints_client-build
+[43.334s] -- Configuring done
+[43.380s] -- Found std_msgs: 4.2.4 (/home/ubuntu/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[43.403s] -- Configuring done
+[43.407s] -- Generating done
+[43.417s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/fibonacci_action_server/src/fibonacci_action_server-build
+[43.488s] -- Generating done
+[43.494s] [ 40%] [34m[1mPerforming build step for 'addtwoints_client'[0m
+[43.498s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/fibonacci_action_client/src/fibonacci_action_client-build
+[43.570s] -- Configuring done
+[43.599s] [ 41%] [34m[1mPerforming build step for 'fibonacci_action_server'[0m
+[43.642s] -- Generating done
+[43.651s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/int32_multinode/src/int32_multinode-build
+[43.679s] [ 41%] [34m[1mPerforming build step for 'fibonacci_action_client'[0m
+[43.827s] [ 42%] [34m[1mPerforming build step for 'int32_multinode'[0m
+[43.842s] [ 50%] [32mBuilding C object CMakeFiles/addtwoints_client.dir/main.c.o[0m
+[43.966s] [ 50%] [32mBuilding C object CMakeFiles/fibonacci_action_server.dir/main.c.o[0m
+[44.013s] [ 50%] [32mBuilding C object CMakeFiles/fibonacci_action_client.dir/main.c.o[0m
+[44.160s] [ 50%] [32mBuilding C object CMakeFiles/int32_multinode.dir/main.c.o[0m
+[44.405s] [100%] [32m[1mLinking C executable addtwoints_client[0m
+[44.592s] [100%] [32m[1mLinking C executable fibonacci_action_server[0m
+[44.652s] [100%] [32m[1mLinking C executable fibonacci_action_client[0m
+[44.769s] [100%] [32m[1mLinking C executable int32_multinode[0m
+[44.960s] [100%] Built target addtwoints_client
+[45.134s] [ 43%] [34m[1mPerforming install step for 'addtwoints_client'[0m
+[45.178s] [100%] Built target fibonacci_action_server
+[45.234s] [100%] Built target fibonacci_action_client
+[45.318s] [ 43%] [34m[1mPerforming install step for 'fibonacci_action_server'[0m
+[45.346s] [100%] Built target int32_multinode
+[45.370s] [ 43%] [34m[1mPerforming install step for 'fibonacci_action_client'[0m
+[45.394s] [35m[1mConsolidate compiler generated dependencies of target addtwoints_client[0m
+[45.474s] [ 43%] [34m[1mPerforming install step for 'int32_multinode'[0m
+[45.495s] [100%] Built target addtwoints_client
+[45.585s] [35m[1mConsolidate compiler generated dependencies of target fibonacci_action_server[0m
+[45.632s] [36mInstall the project...[0m
+[45.633s] [35m[1mConsolidate compiler generated dependencies of target fibonacci_action_client[0m
+[45.681s] [100%] Built target fibonacci_action_server
+[45.690s] -- Install configuration: ""
+[45.691s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_client/addtwoints_client
+[45.694s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_client/addtwoints_client" to ""
+[45.721s] [35m[1mConsolidate compiler generated dependencies of target int32_multinode[0m
+[45.739s] [100%] Built target fibonacci_action_client
+[45.817s] [100%] Built target int32_multinode
+[45.826s] [36mInstall the project...[0m
+[45.832s] [ 43%] [34m[1mCompleted 'addtwoints_client'[0m
+[45.872s] [36mInstall the project...[0m
+[45.891s] -- Install configuration: ""
+[45.892s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_server/fibonacci_action_server
+[45.895s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_server/fibonacci_action_server" to ""
+[45.930s] -- Install configuration: ""
+[45.932s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_client/fibonacci_action_client
+[45.935s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_client/fibonacci_action_client" to ""
+[45.950s] [36mInstall the project...[0m
+[46.010s] -- Install configuration: ""
+[46.010s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_multinode/int32_multinode
+[46.014s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_multinode/int32_multinode" to ""
+[46.035s] [ 43%] [34m[1mCompleted 'fibonacci_action_server'[0m
+[46.074s] [ 44%] [34m[1mCompleted 'fibonacci_action_client'[0m
+[46.082s] [ 44%] Built target addtwoints_client
+[46.159s] [ 44%] [34m[1mCompleted 'int32_multinode'[0m
+[46.236s] [ 45%] [34m[1mCreating directories for 'int32_publisher_subscriber'[0m
+[46.278s] [ 45%] Built target fibonacci_action_server
+[46.323s] [ 45%] Built target fibonacci_action_client
+[46.418s] [ 45%] Built target int32_multinode
+[46.441s] [ 46%] [34m[1mCreating directories for 'ping_pong'[0m
+[46.486s] [ 46%] [34m[1mCreating directories for 'ping_uros_agent'[0m
+[46.585s] [ 46%] [34m[1mCreating directories for 'fragmented_publication'[0m
+[46.772s] [ 47%] [34m[1mNo download step for 'int32_publisher_subscriber'[0m
+[46.953s] [ 48%] [34m[1mNo update step for 'int32_publisher_subscriber'[0m
+[46.986s] [ 49%] [34m[1mNo download step for 'ping_pong'[0m
+[47.032s] [ 49%] [34m[1mNo download step for 'ping_uros_agent'[0m
+[47.114s] [ 49%] [34m[1mNo download step for 'fragmented_publication'[0m
+[47.139s] [ 49%] [34m[1mNo patch step for 'int32_publisher_subscriber'[0m
+[47.167s] [ 50%] [34m[1mNo update step for 'ping_pong'[0m
+[47.222s] [ 50%] [34m[1mNo update step for 'ping_uros_agent'[0m
+[47.298s] [ 50%] [34m[1mNo update step for 'fragmented_publication'[0m
+[47.327s] [ 50%] [34m[1mPerforming configure step for 'int32_publisher_subscriber'[0m
+[47.348s] [ 50%] [34m[1mNo patch step for 'ping_pong'[0m
+[47.393s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/int32_publisher_subscriber/tmp/int32_publisher_subscriber-cache-.cmake
+[47.418s] [ 51%] [34m[1mNo patch step for 'ping_uros_agent'[0m
+[47.483s] [ 52%] [34m[1mNo patch step for 'fragmented_publication'[0m
+[47.523s] [ 52%] [34m[1mPerforming configure step for 'ping_pong'[0m
+[47.601s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/ping_pong/tmp/ping_pong-cache-.cmake
+[47.605s] [ 52%] [34m[1mPerforming configure step for 'ping_uros_agent'[0m
+[47.681s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/ping_uros_agent/tmp/ping_uros_agent-cache-.cmake
+[47.690s] [ 53%] [34m[1mPerforming configure step for 'fragmented_publication'[0m
+[47.723s] -- The C compiler identification is GNU 11.4.0
+[47.759s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/fragmented_publication/tmp/fragmented_publication-cache-.cmake
+[47.769s] -- Detecting C compiler ABI info
+[47.957s] -- The C compiler identification is GNU 11.4.0
+[48.012s] -- Detecting C compiler ABI info
+[48.029s] -- The C compiler identification is GNU 11.4.0
+[48.072s] -- Detecting C compiler ABI info
+[48.115s] -- The C compiler identification is GNU 11.4.0
+[48.153s] -- Detecting C compiler ABI info
+[48.320s] -- Detecting C compiler ABI info - done
+[48.359s] -- Check for working C compiler: /usr/bin/cc - skipped
+[48.360s] -- Detecting C compile features
+[48.361s] -- Detecting C compile features - done
+[48.413s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[48.543s] -- Detecting C compiler ABI info - done
+[48.578s] -- Check for working C compiler: /usr/bin/cc - skipped
+[48.581s] -- Detecting C compile features
+[48.586s] -- Detecting C compile features - done
+[48.653s] -- Detecting C compiler ABI info - done
+[48.657s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[48.672s] -- Detecting C compiler ABI info - done
+[48.686s] -- Check for working C compiler: /usr/bin/cc - skipped
+[48.687s] -- Detecting C compile features
+[48.690s] -- Detecting C compile features - done
+[48.700s] -- Check for working C compiler: /usr/bin/cc - skipped
+[48.701s] -- Detecting C compile features
+[48.703s] -- Detecting C compile features - done
+[48.744s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[48.756s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[49.804s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[50.090s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[50.195s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[50.197s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[51.072s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[51.260s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[51.343s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[51.346s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[51.646s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[51.744s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[51.828s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[51.861s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[51.909s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[51.916s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[51.927s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[51.998s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[52.007s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[52.017s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[52.042s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[52.121s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[52.135s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[52.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[52.260s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[52.261s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[52.276s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[52.448s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[52.528s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[52.547s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[52.897s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[52.950s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[53.080s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[53.133s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[53.171s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[53.199s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[53.224s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[53.251s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[53.863s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[54.054s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[54.152s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[54.152s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[54.170s] -- Found FastRTPS: /opt/ros/humble/include  
+[54.347s] -- Found FastRTPS: /opt/ros/humble/include  
+[54.449s] -- Found FastRTPS: /opt/ros/humble/include  
+[54.450s] -- Found FastRTPS: /opt/ros/humble/include  
+[54.670s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[54.849s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[54.877s] -- Looking for pthread.h
+[54.955s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[54.958s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[55.061s] -- Looking for pthread.h
+[55.170s] -- Looking for pthread.h
+[55.170s] -- Looking for pthread.h
+[55.366s] -- Looking for pthread.h - found
+[55.369s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[55.596s] -- Looking for pthread.h - found
+[55.598s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[55.709s] -- Looking for pthread.h - found
+[55.712s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[55.713s] -- Looking for pthread.h - found
+[55.715s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[55.922s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[55.927s] -- Found Threads: TRUE  
+[56.005s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[56.163s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[56.169s] -- Found Threads: TRUE  
+[56.230s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[56.236s] -- Found Threads: TRUE  
+[56.255s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[56.258s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[56.261s] -- Found Threads: TRUE  
+[56.310s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[56.336s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[56.537s] -- Found std_msgs: 4.2.4 (/home/ubuntu/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[56.689s] -- Found rmw_microxrcedds: 3.0.3 (/home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[56.743s] -- Configuring done
+[56.755s] -- Found std_msgs: 4.2.4 (/home/ubuntu/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[56.818s] -- Found rmw_microxrcedds: 3.0.3 (/home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[56.826s] -- Generating done
+[56.835s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/int32_publisher_subscriber/src/int32_publisher_subscriber-build
+[56.846s] -- Found std_msgs: 4.2.4 (/home/ubuntu/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[56.884s] -- Found std_msgs: 4.2.4 (/home/ubuntu/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[56.913s] -- Found rmw_microxrcedds: 3.0.3 (/home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[56.975s] -- Configuring done
+[56.996s] [ 53%] [34m[1mPerforming build step for 'int32_publisher_subscriber'[0m
+[57.011s] -- Found rmw_microxrcedds: 3.0.3 (/home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[57.053s] -- Generating done
+[57.056s] -- Configuring done
+[57.062s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/ping_pong/src/ping_pong-build
+[57.073s] -- Configuring done
+[57.140s] -- Generating done
+[57.151s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/ping_uros_agent/src/ping_uros_agent-build
+[57.163s] -- Generating done
+[57.182s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-build
+[57.244s] [ 54%] [34m[1mPerforming build step for 'ping_pong'[0m
+[57.330s] [ 55%] [34m[1mPerforming build step for 'ping_uros_agent'[0m
+[57.359s] [ 55%] [34m[1mPerforming build step for 'fragmented_publication'[0m
+[57.361s] [ 50%] [32mBuilding C object CMakeFiles/int32_publisher_subscriber.dir/main.c.o[0m
+[57.585s] [ 50%] [32mBuilding C object CMakeFiles/ping_pong.dir/main.c.o[0m
+[57.657s] [ 50%] [32mBuilding C object CMakeFiles/ping_uros_agent.dir/main.c.o[0m
+[57.698s] [ 50%] [32mBuilding C object CMakeFiles/fragmented_publication.dir/main.c.o[0m
+[57.921s] [100%] [32m[1mLinking C executable int32_publisher_subscriber[0m
+[58.224s] [100%] [32m[1mLinking C executable ping_pong[0m
+[58.283s] [100%] [32m[1mLinking C executable ping_uros_agent[0m
+[58.306s] [100%] [32m[1mLinking C executable fragmented_publication[0m
+[58.420s] [100%] Built target int32_publisher_subscriber
+[58.601s] [ 55%] [34m[1mPerforming install step for 'int32_publisher_subscriber'[0m
+[58.800s] [100%] Built target ping_pong
+[58.889s] [100%] Built target ping_uros_agent
+[58.904s] [100%] Built target fragmented_publication
+[58.906s] [35m[1mConsolidate compiler generated dependencies of target int32_publisher_subscriber[0m
+[58.941s] [ 55%] [34m[1mPerforming install step for 'ping_pong'[0m
+[58.998s] [100%] Built target int32_publisher_subscriber
+[59.016s] [ 56%] [34m[1mPerforming install step for 'ping_uros_agent'[0m
+[59.036s] [ 57%] [34m[1mPerforming install step for 'fragmented_publication'[0m
+[59.138s] [36mInstall the project...[0m
+[59.194s] [35m[1mConsolidate compiler generated dependencies of target ping_pong[0m
+[59.198s] -- Install configuration: ""
+[59.199s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher_subscriber/int32_publisher_subscriber
+[59.203s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher_subscriber/int32_publisher_subscriber" to ""
+[59.265s] [35m[1mConsolidate compiler generated dependencies of target ping_uros_agent[0m
+[59.290s] [100%] Built target ping_pong
+[59.291s] [35m[1mConsolidate compiler generated dependencies of target fragmented_publication[0m
+[59.334s] [ 58%] [34m[1mCompleted 'int32_publisher_subscriber'[0m
+[59.363s] [100%] Built target ping_uros_agent
+[59.392s] [100%] Built target fragmented_publication
+[59.439s] [36mInstall the project...[0m
+[59.499s] -- Install configuration: ""
+[59.500s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/ping_pong/ping_pong
+[59.504s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/ping_pong/ping_pong" to ""
+[59.506s] [36mInstall the project...[0m
+[59.533s] [36mInstall the project...[0m
+[59.571s] -- Install configuration: ""
+[59.573s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/ping_uros_agent/ping_uros_agent
+[59.577s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/ping_uros_agent/ping_uros_agent" to ""
+[59.579s] [ 58%] Built target int32_publisher_subscriber
+[59.599s] -- Install configuration: ""
+[59.601s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/fragmented_publication/fragmented_publication
+[59.605s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/fragmented_publication/fragmented_publication" to ""
+[59.637s] [ 58%] [34m[1mCompleted 'ping_pong'[0m
+[59.713s] [ 58%] [34m[1mCompleted 'ping_uros_agent'[0m
+[59.736s] [ 58%] [34m[1mCreating directories for 'fragmented_subscription'[0m
+[59.753s] [ 58%] [34m[1mCompleted 'fragmented_publication'[0m
+[59.878s] [ 58%] Built target ping_pong
+[59.974s] [ 58%] Built target ping_uros_agent
+[59.994s] [ 58%] Built target fragmented_publication
+[60.033s] [ 58%] [34m[1mCreating directories for 'complex_msg_publisher'[0m
+[60.128s] [ 58%] [34m[1mCreating directories for 'complex_msg_subscriber'[0m
+[60.162s] [ 59%] [34m[1mCreating directories for 'timer'[0m
+[60.273s] [ 59%] [34m[1mNo download step for 'fragmented_subscription'[0m
+[60.456s] [ 60%] [34m[1mNo update step for 'fragmented_subscription'[0m
+[60.572s] [ 60%] [34m[1mNo download step for 'complex_msg_publisher'[0m
+[60.647s] [ 60%] [34m[1mNo patch step for 'fragmented_subscription'[0m
+[60.686s] [ 60%] [34m[1mNo download step for 'complex_msg_subscriber'[0m
+[60.693s] [ 61%] [34m[1mNo download step for 'timer'[0m
+[60.753s] [ 61%] [34m[1mNo update step for 'complex_msg_publisher'[0m
+[60.834s] [ 62%] [34m[1mPerforming configure step for 'fragmented_subscription'[0m
+[60.864s] [ 62%] [34m[1mNo update step for 'complex_msg_subscriber'[0m
+[60.878s] [ 63%] [34m[1mNo update step for 'timer'[0m
+[60.904s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/fragmented_subscription/tmp/fragmented_subscription-cache-.cmake
+[60.931s] [ 64%] [34m[1mNo patch step for 'complex_msg_publisher'[0m
+[61.054s] [ 65%] [34m[1mNo patch step for 'complex_msg_subscriber'[0m
+[61.084s] [ 65%] [34m[1mNo patch step for 'timer'[0m
+[61.117s] [ 65%] [34m[1mPerforming configure step for 'complex_msg_publisher'[0m
+[61.195s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/complex_msg_publisher/tmp/complex_msg_publisher-cache-.cmake
+[61.234s] -- The C compiler identification is GNU 11.4.0
+[61.270s] [ 66%] [34m[1mPerforming configure step for 'complex_msg_subscriber'[0m
+[61.276s] -- Detecting C compiler ABI info
+[61.279s] [ 66%] [34m[1mPerforming configure step for 'timer'[0m
+[61.339s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/complex_msg_subscriber/tmp/complex_msg_subscriber-cache-.cmake
+[61.349s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/timer/tmp/timer-cache-.cmake
+[61.532s] -- The C compiler identification is GNU 11.4.0
+[61.570s] -- Detecting C compiler ABI info
+[61.682s] -- The C compiler identification is GNU 11.4.0
+[61.686s] -- The C compiler identification is GNU 11.4.0
+[61.744s] -- Detecting C compiler ABI info
+[61.751s] -- Detecting C compiler ABI info
+[61.808s] -- Detecting C compiler ABI info - done
+[61.836s] -- Check for working C compiler: /usr/bin/cc - skipped
+[61.839s] -- Detecting C compile features
+[61.841s] -- Detecting C compile features - done
+[61.898s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[62.138s] -- Detecting C compiler ABI info - done
+[62.168s] -- Check for working C compiler: /usr/bin/cc - skipped
+[62.171s] -- Detecting C compile features
+[62.174s] -- Detecting C compile features - done
+[62.238s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[62.292s] -- Detecting C compiler ABI info - done
+[62.306s] -- Detecting C compiler ABI info - done
+[62.320s] -- Check for working C compiler: /usr/bin/cc - skipped
+[62.321s] -- Detecting C compile features
+[62.322s] -- Detecting C compile features - done
+[62.336s] -- Check for working C compiler: /usr/bin/cc - skipped
+[62.338s] -- Detecting C compile features
+[62.340s] -- Detecting C compile features - done
+[62.375s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[62.396s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[63.240s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[63.660s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[63.805s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[63.858s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[64.510s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[64.827s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[64.914s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[64.960s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[65.078s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[65.178s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[65.292s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[65.403s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[65.430s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[65.477s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[65.508s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[65.522s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[65.574s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[65.618s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[65.624s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[65.687s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[65.695s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[65.733s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[65.764s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[65.827s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[65.870s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[66.039s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[66.095s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[66.135s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[66.322s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[66.380s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[66.675s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[66.722s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[66.728s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[66.753s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[66.774s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[66.805s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[67.268s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[67.583s] -- Found FastRTPS: /opt/ros/humble/include  
+[67.651s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[67.691s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[67.735s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[67.950s] -- Found FastRTPS: /opt/ros/humble/include  
+[67.990s] -- Found FastRTPS: /opt/ros/humble/include  
+[68.029s] -- Found FastRTPS: /opt/ros/humble/include  
+[68.093s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[68.299s] -- Looking for pthread.h
+[68.464s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[68.511s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[68.532s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[68.693s] -- Looking for pthread.h
+[68.723s] -- Looking for pthread.h
+[68.748s] -- Looking for pthread.h
+[68.768s] -- Looking for pthread.h - found
+[68.771s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[69.242s] -- Looking for pthread.h - found
+[69.247s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[69.297s] -- Looking for pthread.h - found
+[69.300s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[69.308s] -- Looking for pthread.h - found
+[69.310s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[69.314s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[69.318s] -- Found Threads: TRUE  
+[69.395s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[69.812s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[69.819s] -- Found Threads: TRUE  
+[69.833s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[69.838s] -- Found Threads: TRUE  
+[69.841s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[69.845s] -- Found Threads: TRUE  
+[69.892s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[69.915s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[69.917s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[69.961s] -- Found std_msgs: 4.2.4 (/home/ubuntu/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[70.112s] -- Found rmw_microxrcedds: 3.0.3 (/home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[70.167s] -- Configuring done
+[70.249s] -- Generating done
+[70.259s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/fragmented_subscription/src/fragmented_subscription-build
+[70.410s] -- Found complex_msgs: 3.0.2 (/home/ubuntu/microros_ws/install/complex_msgs/share/complex_msgs/cmake)
+[70.430s] [ 66%] [34m[1mPerforming build step for 'fragmented_subscription'[0m
+[70.440s] -- Found std_msgs: 4.2.4 (/home/ubuntu/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[70.448s] -- Found complex_msgs: 3.0.2 (/home/ubuntu/microros_ws/install/complex_msgs/share/complex_msgs/cmake)
+[70.572s] -- Found rmw_microxrcedds: 3.0.3 (/home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[70.593s] -- Found rmw_microxrcedds: 3.0.3 (/home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[70.608s] -- Found rmw_microxrcedds: 3.0.3 (/home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[70.626s] -- Configuring done
+[70.648s] -- Configuring done
+[70.663s] -- Configuring done
+[70.709s] -- Generating done
+[70.718s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/complex_msg_publisher/src/complex_msg_publisher-build
+[70.729s] -- Generating done
+[70.740s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/timer/src/timer-build
+[70.746s] -- Generating done
+[70.760s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/complex_msg_subscriber/src/complex_msg_subscriber-build
+[70.795s] [ 50%] [32mBuilding C object CMakeFiles/fragmented_subscription.dir/main.c.o[0m
+[70.902s] [ 67%] [34m[1mPerforming build step for 'complex_msg_publisher'[0m
+[70.923s] [ 68%] [34m[1mPerforming build step for 'timer'[0m
+[70.942s] [ 68%] [34m[1mPerforming build step for 'complex_msg_subscriber'[0m
+[71.233s] [ 50%] [32mBuilding C object CMakeFiles/complex_msg_publisher.dir/main.c.o[0m
+[71.258s] [ 50%] [32mBuilding C object CMakeFiles/timer.dir/main.c.o[0m
+[71.281s] [ 50%] [32mBuilding C object CMakeFiles/complex_msg_subscriber.dir/main.c.o[0m
+[71.365s] [100%] [32m[1mLinking C executable fragmented_subscription[0m
+[71.847s] [100%] Built target fragmented_subscription
+[71.852s] [100%] [32m[1mLinking C executable complex_msg_publisher[0m
+[71.853s] [100%] [32m[1mLinking C executable timer[0m
+[71.868s] [100%] [32m[1mLinking C executable complex_msg_subscriber[0m
+[71.971s] [ 69%] [34m[1mPerforming install step for 'fragmented_subscription'[0m
+[72.329s] [35m[1mConsolidate compiler generated dependencies of target fragmented_subscription[0m
+[72.428s] [100%] Built target timer
+[72.429s] [100%] Built target fragmented_subscription
+[72.433s] [100%] Built target complex_msg_publisher
+[72.443s] [100%] Built target complex_msg_subscriber
+[72.561s] [ 69%] [34m[1mPerforming install step for 'timer'[0m
+[72.571s] [ 70%] [34m[1mPerforming install step for 'complex_msg_publisher'[0m
+[72.572s] [36mInstall the project...[0m
+[72.573s] [ 71%] [34m[1mPerforming install step for 'complex_msg_subscriber'[0m
+[72.629s] -- Install configuration: ""
+[72.630s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/fragmented_subscription/fragmented_subscription
+[72.634s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/fragmented_subscription/fragmented_subscription" to ""
+[72.771s] [ 72%] [34m[1mCompleted 'fragmented_subscription'[0m
+[72.809s] [35m[1mConsolidate compiler generated dependencies of target timer[0m
+[72.837s] [35m[1mConsolidate compiler generated dependencies of target complex_msg_publisher[0m
+[72.838s] [35m[1mConsolidate compiler generated dependencies of target complex_msg_subscriber[0m
+[72.907s] [100%] Built target timer
+[72.931s] [100%] Built target complex_msg_subscriber
+[72.932s] [100%] Built target complex_msg_publisher
+[73.027s] [ 72%] Built target fragmented_subscription
+[73.043s] [36mInstall the project...[0m
+[73.066s] [36mInstall the project...[0m
+[73.067s] [36mInstall the project...[0m
+[73.104s] -- Install configuration: ""
+[73.105s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/timer/timer
+[73.108s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/timer/timer" to ""
+[73.130s] -- Install configuration: ""
+[73.131s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_publisher/complex_msg_publisher
+[73.135s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_publisher/complex_msg_publisher" to ""
+[73.136s] -- Install configuration: ""
+[73.138s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_subscriber/complex_msg_subscriber
+[73.143s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_subscriber/complex_msg_subscriber" to ""
+[73.187s] [ 72%] [34m[1mCreating directories for 'string_publisher'[0m
+[73.246s] [ 72%] [34m[1mCompleted 'timer'[0m
+[73.279s] [ 72%] [34m[1mCompleted 'complex_msg_publisher'[0m
+[73.285s] [ 73%] [34m[1mCompleted 'complex_msg_subscriber'[0m
+[73.517s] [ 73%] Built target timer
+[73.525s] [ 73%] Built target complex_msg_publisher
+[73.530s] [ 73%] Built target complex_msg_subscriber
+[73.673s] [ 73%] [34m[1mCreating directories for 'string_subscriber'[0m
+[73.689s] [ 74%] [34m[1mCreating directories for 'autodiscover_agent'[0m
+[73.708s] [ 75%] [34m[1mCreating directories for 'static_type_handling'[0m
+[73.730s] [ 76%] [34m[1mNo download step for 'string_publisher'[0m
+[73.910s] [ 76%] [34m[1mNo update step for 'string_publisher'[0m
+[74.095s] [ 77%] [34m[1mNo patch step for 'string_publisher'[0m
+[74.205s] [ 77%] [34m[1mNo download step for 'string_subscriber'[0m
+[74.224s] [ 78%] [34m[1mNo download step for 'autodiscover_agent'[0m
+[74.250s] [ 79%] [34m[1mNo download step for 'static_type_handling'[0m
+[74.279s] [ 79%] [34m[1mPerforming configure step for 'string_publisher'[0m
+[74.345s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/string_publisher/tmp/string_publisher-cache-.cmake
+[74.393s] [ 79%] [34m[1mNo update step for 'string_subscriber'[0m
+[74.407s] [ 80%] [34m[1mNo update step for 'autodiscover_agent'[0m
+[74.437s] [ 81%] [34m[1mNo update step for 'static_type_handling'[0m
+[74.594s] [ 82%] [34m[1mNo patch step for 'string_subscriber'[0m
+[74.601s] [ 82%] [34m[1mNo patch step for 'autodiscover_agent'[0m
+[74.648s] [ 82%] [34m[1mNo patch step for 'static_type_handling'[0m
+[74.656s] -- The C compiler identification is GNU 11.4.0
+[74.695s] -- Detecting C compiler ABI info
+[74.784s] [ 83%] [34m[1mPerforming configure step for 'string_subscriber'[0m
+[74.807s] [ 83%] [34m[1mPerforming configure step for 'autodiscover_agent'[0m
+[74.828s] [ 83%] [34m[1mPerforming configure step for 'static_type_handling'[0m
+[74.853s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/string_subscriber/tmp/string_subscriber-cache-.cmake
+[74.879s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/autodiscover_agent/tmp/autodiscover_agent-cache-.cmake
+[74.902s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/static_type_handling/tmp/static_type_handling-cache-.cmake
+[75.194s] -- The C compiler identification is GNU 11.4.0
+[75.226s] -- Detecting C compiler ABI info - done
+[75.245s] -- Detecting C compiler ABI info
+[75.247s] -- The C compiler identification is GNU 11.4.0
+[75.263s] -- Check for working C compiler: /usr/bin/cc - skipped
+[75.265s] -- Detecting C compile features
+[75.272s] -- Detecting C compile features - done
+[75.276s] -- The C compiler identification is GNU 11.4.0
+[75.286s] -- Detecting C compiler ABI info
+[75.311s] -- Detecting C compiler ABI info
+[75.324s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[75.773s] -- Detecting C compiler ABI info - done
+[75.798s] -- Detecting C compiler ABI info - done
+[75.809s] -- Check for working C compiler: /usr/bin/cc - skipped
+[75.812s] -- Detecting C compile features
+[75.816s] -- Detecting C compile features - done
+[75.830s] -- Check for working C compiler: /usr/bin/cc - skipped
+[75.833s] -- Detecting C compile features
+[75.836s] -- Detecting C compile features - done
+[75.869s] -- Detecting C compiler ABI info - done
+[75.883s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[75.894s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[75.899s] -- Check for working C compiler: /usr/bin/cc - skipped
+[75.901s] -- Detecting C compile features
+[75.903s] -- Detecting C compile features - done
+[75.956s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[76.692s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[77.257s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[77.320s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[77.365s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[77.989s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[78.389s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[78.446s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[78.477s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[78.565s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[78.647s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[78.760s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[78.897s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[78.962s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[79.017s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[79.046s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[79.063s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[79.120s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[79.144s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[79.157s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[79.180s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[79.233s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[79.260s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[79.321s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[79.373s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[79.401s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[79.599s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[79.649s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[79.670s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[79.775s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[79.827s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[80.231s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[80.274s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[80.285s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[80.298s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[80.326s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[80.350s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[80.722s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[81.018s] -- Found FastRTPS: /opt/ros/humble/include  
+[81.200s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[81.252s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[81.261s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[81.495s] -- Found FastRTPS: /opt/ros/humble/include  
+[81.528s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[81.553s] -- Found FastRTPS: /opt/ros/humble/include  
+[81.557s] -- Found FastRTPS: /opt/ros/humble/include  
+[81.735s] -- Looking for pthread.h
+[82.019s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[82.059s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[82.062s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[82.205s] -- Looking for pthread.h - found
+[82.206s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[82.248s] -- Looking for pthread.h
+[82.271s] -- Looking for pthread.h
+[82.280s] -- Looking for pthread.h
+[82.709s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[82.719s] -- Found Threads: TRUE  
+[82.802s] -- Looking for pthread.h - found
+[82.804s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[82.809s] -- Looking for pthread.h - found
+[82.811s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[82.825s] -- Looking for pthread.h - found
+[82.827s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[82.832s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[83.337s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[83.343s] -- Found Threads: TRUE  
+[83.344s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[83.353s] -- Found Threads: TRUE  
+[83.359s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[83.364s] -- Found Threads: TRUE  
+[83.396s] -- Found std_msgs: 4.2.4 (/home/ubuntu/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[83.418s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[83.425s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[83.442s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[83.543s] -- Found rmw_microxrcedds: 3.0.3 (/home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[83.595s] -- Configuring done
+[83.675s] -- Generating done
+[83.684s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/string_publisher/src/string_publisher-build
+[83.894s] [ 84%] [34m[1mPerforming build step for 'string_publisher'[0m
+[83.926s] -- Found std_msgs: 4.2.4 (/home/ubuntu/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[83.931s] -- Found std_msgs: 4.2.4 (/home/ubuntu/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[84.002s] -- Found visualization_msgs: 4.2.4 (/home/ubuntu/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake)
+[84.085s] -- Found rmw_microxrcedds: 3.0.3 (/home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[84.108s] -- Found rmw_microxrcedds: 3.0.3 (/home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[84.142s] -- Configuring done
+[84.145s] -- Configuring done
+[84.223s] -- Generating done
+[84.229s] [ 50%] [32mBuilding C object CMakeFiles/string_publisher.dir/main.c.o[0m
+[84.230s] -- Generating done
+[84.238s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/string_subscriber/src/string_subscriber-build
+[84.240s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/autodiscover_agent/src/autodiscover_agent-build
+[84.426s] [ 84%] [34m[1mPerforming build step for 'string_subscriber'[0m
+[84.435s] [ 85%] [34m[1mPerforming build step for 'autodiscover_agent'[0m
+[84.758s] [ 50%] [32mBuilding C object CMakeFiles/string_subscriber.dir/main.c.o[0m
+[84.789s] [ 50%] [32mBuilding C object CMakeFiles/autodiscover_agent.dir/main.c.o[0m
+[84.842s] [100%] [32m[1mLinking C executable string_publisher[0m
+[85.329s] [100%] Built target string_publisher
+[85.335s] [100%] [32m[1mLinking C executable string_subscriber[0m
+[85.418s] [100%] [32m[1mLinking C executable autodiscover_agent[0m
+[85.461s] [ 85%] [34m[1mPerforming install step for 'string_publisher'[0m
+[85.499s] -- Found rmw_microxrcedds: 3.0.3 (/home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[85.574s] -- Found micro_ros_utilities: 3.0.2 (/home/ubuntu/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake)
+[85.621s] -- Configuring done
+[85.751s] [35m[1mConsolidate compiler generated dependencies of target string_publisher[0m
+[85.766s] -- Generating done
+[85.778s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/static_type_handling/src/static_type_handling-build
+[85.868s] [100%] Built target string_publisher
+[85.875s] [100%] Built target string_subscriber
+[85.967s] [100%] Built target autodiscover_agent
+[85.969s] [ 86%] [34m[1mPerforming build step for 'static_type_handling'[0m
+[86.003s] [ 87%] [34m[1mPerforming install step for 'string_subscriber'[0m
+[86.020s] [36mInstall the project...[0m
+[86.084s] -- Install configuration: ""
+[86.087s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/string_publisher/string_publisher
+[86.091s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/string_publisher/string_publisher" to ""
+[86.095s] [ 87%] [34m[1mPerforming install step for 'autodiscover_agent'[0m
+[86.228s] [ 87%] [34m[1mCompleted 'string_publisher'[0m
+[86.258s] [35m[1mConsolidate compiler generated dependencies of target string_subscriber[0m
+[86.320s] [ 50%] [32mBuilding C object CMakeFiles/static_type_handling.dir/main.c.o[0m
+[86.342s] [35m[1mConsolidate compiler generated dependencies of target autodiscover_agent[0m
+[86.366s] [100%] Built target string_subscriber
+[86.443s] [100%] Built target autodiscover_agent
+[86.471s] [ 87%] Built target string_publisher
+[86.505s] [36mInstall the project...[0m
+[86.561s] -- Install configuration: ""
+[86.564s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/string_subscriber/string_subscriber
+[86.568s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/string_subscriber/string_subscriber" to ""
+[86.584s] [36mInstall the project...[0m
+[86.626s] [ 87%] [34m[1mCreating directories for 'epoch_synchronization'[0m
+[86.648s] -- Install configuration: ""
+[86.651s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/autodiscover_agent/autodiscover_agent
+[86.655s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/autodiscover_agent/autodiscover_agent" to ""
+[86.718s] [ 88%] [34m[1mCompleted 'string_subscriber'[0m
+[86.790s] [ 88%] [34m[1mCompleted 'autodiscover_agent'[0m
+[86.972s] [ 88%] Built target string_subscriber
+[87.001s] [100%] [32m[1mLinking C executable static_type_handling[0m
+[87.066s] [ 88%] Built target autodiscover_agent
+[87.127s] [ 89%] [34m[1mCreating directories for 'parameter_server'[0m
+[87.165s] [ 89%] [34m[1mNo download step for 'epoch_synchronization'[0m
+[87.257s] [ 89%] [34m[1mCreating directories for 'multithread_publisher_subscriber'[0m
+[87.376s] [ 89%] [34m[1mNo update step for 'epoch_synchronization'[0m
+[87.552s] [100%] Built target static_type_handling
+[87.574s] [ 90%] [34m[1mNo patch step for 'epoch_synchronization'[0m
+[87.680s] [ 90%] [34m[1mPerforming install step for 'static_type_handling'[0m
+[87.720s] [ 90%] [34m[1mNo download step for 'parameter_server'[0m
+[87.753s] [ 91%] [34m[1mPerforming configure step for 'epoch_synchronization'[0m
+[87.818s] [ 91%] [34m[1mNo download step for 'multithread_publisher_subscriber'[0m
+[87.820s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/epoch_synchronization/tmp/epoch_synchronization-cache-.cmake
+[87.912s] [ 92%] [34m[1mNo update step for 'parameter_server'[0m
+[87.929s] [35m[1mConsolidate compiler generated dependencies of target static_type_handling[0m
+[88.010s] [ 92%] [34m[1mNo update step for 'multithread_publisher_subscriber'[0m
+[88.029s] [100%] Built target static_type_handling
+[88.129s] [ 92%] [34m[1mNo patch step for 'parameter_server'[0m
+[88.140s] -- The C compiler identification is GNU 11.4.0
+[88.174s] [36mInstall the project...[0m
+[88.180s] -- Detecting C compiler ABI info
+[88.209s] [ 93%] [34m[1mNo patch step for 'multithread_publisher_subscriber'[0m
+[88.235s] -- Install configuration: ""
+[88.236s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/static_type_handling/static_type_handling
+[88.240s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/static_type_handling/static_type_handling" to ""
+[88.312s] [ 94%] [34m[1mPerforming configure step for 'parameter_server'[0m
+[88.373s] [ 94%] [34m[1mCompleted 'static_type_handling'[0m
+[88.385s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/parameter_server/tmp/parameter_server-cache-.cmake
+[88.404s] [ 95%] [34m[1mPerforming configure step for 'multithread_publisher_subscriber'[0m
+[88.472s] loading initial cache file /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/multithread_publisher_subscriber/tmp/multithread_publisher_subscriber-cache-.cmake
+[88.634s] [ 95%] Built target static_type_handling
+[88.691s] -- Detecting C compiler ABI info - done
+[88.716s] -- The C compiler identification is GNU 11.4.0
+[88.719s] -- Check for working C compiler: /usr/bin/cc - skipped
+[88.720s] -- Detecting C compile features
+[88.722s] -- Detecting C compile features - done
+[88.751s] -- Detecting C compiler ABI info
+[88.776s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[88.814s] -- The C compiler identification is GNU 11.4.0
+[88.846s] -- Detecting C compiler ABI info
+[89.237s] -- Detecting C compiler ABI info - done
+[89.268s] -- Check for working C compiler: /usr/bin/cc - skipped
+[89.269s] -- Detecting C compile features
+[89.271s] -- Detecting C compile features - done
+[89.327s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[89.346s] -- Detecting C compiler ABI info - done
+[89.373s] -- Check for working C compiler: /usr/bin/cc - skipped
+[89.374s] -- Detecting C compile features
+[89.375s] -- Detecting C compile features - done
+[89.429s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[89.971s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[90.552s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[90.661s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[91.147s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[91.610s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[91.705s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[91.706s] -- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+[91.804s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[91.914s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[92.051s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[92.164s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[92.260s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[92.266s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[92.310s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[92.363s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[92.373s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[92.476s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[92.508s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[92.612s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[92.767s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[92.879s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[92.922s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[92.976s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[93.380s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[93.432s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[93.496s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[93.550s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[93.843s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[94.130s] -- Found FastRTPS: /opt/ros/humble/include  
+[94.313s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[94.433s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[94.606s] -- Found FastRTPS: /opt/ros/humble/include  
+[94.628s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[94.721s] -- Found FastRTPS: /opt/ros/humble/include  
+[94.830s] -- Looking for pthread.h
+[95.111s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[95.226s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[95.279s] -- Looking for pthread.h - found
+[95.280s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[95.325s] -- Looking for pthread.h
+[95.439s] -- Looking for pthread.h
+[95.754s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[95.759s] -- Found Threads: TRUE  
+[95.801s] -- Looking for pthread.h - found
+[95.803s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[95.836s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[95.936s] -- Looking for pthread.h - found
+[95.938s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[96.276s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[96.281s] -- Found Threads: TRUE  
+[96.357s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[96.361s] -- Found std_msgs: 4.2.4 (/home/ubuntu/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[96.416s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[96.420s] -- Found Threads: TRUE  
+[96.490s] -- Found rclc: 4.0.2 (/home/ubuntu/microros_ws/install/rclc/share/rclc/cmake)
+[96.511s] -- Found rmw_microxrcedds: 3.0.3 (/home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[96.562s] -- Configuring done
+[96.638s] -- Generating done
+[96.647s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/epoch_synchronization/src/epoch_synchronization-build
+[96.814s] [ 95%] [34m[1mPerforming build step for 'epoch_synchronization'[0m
+[96.864s] -- Found std_msgs: 4.2.4 (/home/ubuntu/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[96.992s] -- Found std_msgs: 4.2.4 (/home/ubuntu/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[97.015s] -- Found rclc_parameter: 4.0.2 (/home/ubuntu/microros_ws/install/rclc_parameter/share/rclc_parameter/cmake)
+[97.048s] -- Found rmw_microxrcedds: 3.0.3 (/home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[97.102s] -- Configuring done
+[97.131s] [ 50%] [32mBuilding C object CMakeFiles/epoch_synchronization.dir/main.c.o[0m
+[97.144s] -- Found rmw_microxrcedds: 3.0.3 (/home/ubuntu/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[97.186s] -- Generating done
+[97.195s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/parameter_server/src/parameter_server-build
+[97.207s] -- Found micro_ros_utilities: 3.0.2 (/home/ubuntu/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake)
+[97.252s] -- Configuring done
+[97.335s] -- Generating done
+[97.344s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/multithread_publisher_subscriber/src/multithread_publisher_subscriber-build
+[97.371s] [ 95%] [34m[1mPerforming build step for 'parameter_server'[0m
+[97.505s] [ 95%] [34m[1mPerforming build step for 'multithread_publisher_subscriber'[0m
+[97.689s] [ 50%] [32mBuilding C object CMakeFiles/parameter_server.dir/main.c.o[0m
+[97.709s] [100%] [32m[1mLinking C executable epoch_synchronization[0m
+[97.819s] [ 50%] [32mBuilding C object CMakeFiles/multithread_publisher_subscriber.dir/main.c.o[0m
+[98.165s] [100%] Built target epoch_synchronization
+[98.289s] [ 96%] [34m[1mPerforming install step for 'epoch_synchronization'[0m
+[98.379s] [100%] [32m[1mLinking C executable parameter_server[0m
+[98.478s] [100%] [32m[1mLinking C executable multithread_publisher_subscriber[0m
+[98.535s] [35m[1mConsolidate compiler generated dependencies of target epoch_synchronization[0m
+[98.641s] [100%] Built target epoch_synchronization
+[98.804s] [36mInstall the project...[0m
+[98.874s] [100%] Built target parameter_server
+[98.876s] -- Install configuration: ""
+[98.877s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/epoch_synchronization/epoch_synchronization
+[98.880s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/epoch_synchronization/epoch_synchronization" to ""
+[98.972s] [100%] Built target multithread_publisher_subscriber
+[98.996s] [ 96%] [34m[1mPerforming install step for 'parameter_server'[0m
+[99.012s] [ 97%] [34m[1mCompleted 'epoch_synchronization'[0m
+[99.097s] [ 98%] [34m[1mPerforming install step for 'multithread_publisher_subscriber'[0m
+[99.230s] [35m[1mConsolidate compiler generated dependencies of target parameter_server[0m
+[99.239s] [ 98%] Built target epoch_synchronization
+[99.327s] [100%] Built target parameter_server
+[99.334s] [35m[1mConsolidate compiler generated dependencies of target multithread_publisher_subscriber[0m
+[99.425s] [100%] Built target multithread_publisher_subscriber
+[99.451s] [36mInstall the project...[0m
+[99.506s] -- Install configuration: ""
+[99.507s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/parameter_server/parameter_server
+[99.510s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/parameter_server/parameter_server" to ""
+[99.548s] [36mInstall the project...[0m
+[99.602s] -- Install configuration: ""
+[99.603s] -- Installing: /home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/multithread_publisher_subscriber/multithread_publisher_subscriber
+[99.606s] -- Set runtime path of "/home/ubuntu/microros_ws/build/micro_ros_demos_rclc/temp_install/multithread_publisher_subscriber/multithread_publisher_subscriber" to ""
+[99.635s] [ 99%] [34m[1mCompleted 'parameter_server'[0m
+[99.731s] [100%] [34m[1mCompleted 'multithread_publisher_subscriber'[0m
+[99.857s] [100%] Built target parameter_server
+[99.949s] [100%] Built target multithread_publisher_subscriber
+[100.021s] Invoked command in '/home/ubuntu/microros_ws/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/complex_msgs:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/complex_msgs:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/visualization_msgs/lib:/home/ubuntu/microros_ws/install/rclc_parameter/lib:/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/microros_ws/install/rclc/lib:/home/ubuntu/microros_ws/install/test_msgs/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/example_interfaces/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/complex_msgs/lib:/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_utilities/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ubuntu/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/micro_ros_demos_rclc -- -j4 -l4
+[100.320s] Invoking command in '/home/ubuntu/microros_ws/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/complex_msgs:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/complex_msgs:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/visualization_msgs/lib:/home/ubuntu/microros_ws/install/rclc_parameter/lib:/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/microros_ws/install/rclc/lib:/home/ubuntu/microros_ws/install/test_msgs/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/example_interfaces/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/complex_msgs/lib:/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_utilities/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ubuntu/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/microros_ws/build/micro_ros_demos_rclc
+[100.370s] -- Install configuration: ""
+[100.370s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc
+[100.371s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription
+[100.371s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription/fragmented_subscription
+[100.373s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server
+[100.373s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server/addtwoints_server
+[100.375s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/parameter_server
+[100.375s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/parameter_server/parameter_server
+[100.376s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent
+[100.377s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent/autodiscover_agent
+[100.378s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber
+[100.379s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber/string_subscriber
+[100.380s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/static_type_handling
+[100.381s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/static_type_handling/static_type_handling
+[100.382s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/multithread_publisher_subscriber
+[100.382s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/multithread_publisher_subscriber/multithread_publisher_subscriber
+[100.384s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client
+[100.385s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client/fibonacci_action_client
+[100.386s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode
+[100.386s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode/int32_multinode
+[100.388s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher
+[100.388s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher/complex_msg_publisher
+[100.389s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher
+[100.390s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher/string_publisher
+[100.391s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count
+[100.392s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count/subscription_count
+[100.393s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber
+[100.394s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber/complex_msg_subscriber
+[100.395s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher
+[100.395s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher/configured_publisher
+[100.397s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server
+[100.397s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server/fibonacci_action_server
+[100.399s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber
+[100.399s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber/int32_publisher_subscriber
+[100.400s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber
+[100.401s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber/int32_subscriber
+[100.402s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer
+[100.403s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer/timer
+[100.404s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber
+[100.404s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber/configured_subscriber
+[100.406s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher
+[100.406s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher/int32_publisher
+[100.408s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client
+[100.408s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client/addtwoints_client
+[100.409s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/epoch_synchronization
+[100.410s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/epoch_synchronization/epoch_synchronization
+[100.411s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent
+[100.412s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent/ping_uros_agent
+[100.413s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count
+[100.414s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count/publisher_count
+[100.415s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication
+[100.416s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication/fragmented_publication
+[100.417s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer
+[100.417s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer/graph_visualizer
+[100.419s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong
+[100.420s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong/ping_pong
+[100.422s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/package_run_dependencies/micro_ros_demos_rclc
+[100.423s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/parent_prefix_path/micro_ros_demos_rclc
+[100.425s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.sh
+[100.426s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.dsv
+[100.427s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.sh
+[100.429s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.dsv
+[100.430s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.bash
+[100.431s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.sh
+[100.432s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.zsh
+[100.433s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.dsv
+[100.434s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.dsv
+[100.436s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/packages/micro_ros_demos_rclc
+[100.437s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig.cmake
+[100.438s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig-version.cmake
+[100.440s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.xml
+[100.447s] Invoked command in '/home/ubuntu/microros_ws/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/complex_msgs:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/visualization_msgs:/home/ubuntu/microros_ws/install/rclc_parameter:/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/rmw_microxrcedds:/home/ubuntu/microros_ws/install/rclc:/home/ubuntu/microros_ws/install/test_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/example_interfaces:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/rcl_interfaces:/home/ubuntu/microros_ws/install/microxrcedds_client:/home/ubuntu/microros_ws/install/complex_msgs:/home/ubuntu/microros_ws/install/action_msgs:/home/ubuntu/microros_ws/install/unique_identifier_msgs:/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/micro_ros_utilities:/home/ubuntu/microros_ws/install/micro_ros_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/home/ubuntu/microros_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/visualization_msgs/lib:/home/ubuntu/microros_ws/install/rclc_parameter/lib:/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/microros_ws/install/rclc/lib:/home/ubuntu/microros_ws/install/test_msgs/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/example_interfaces/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/microros_ws/install/rcl_interfaces/lib:/home/ubuntu/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/microros_ws/install/complex_msgs/lib:/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/micro_ros_utilities/lib:/home/ubuntu/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ubuntu/microros_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/microros_ws/build/micro_ros_demos_rclc

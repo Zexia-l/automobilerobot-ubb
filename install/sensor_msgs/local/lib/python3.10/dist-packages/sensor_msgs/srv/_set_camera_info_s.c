@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/build/sensor_msgs/rosidl_generator_py/sensor_msgs/srv/_set_camera_info_s.c

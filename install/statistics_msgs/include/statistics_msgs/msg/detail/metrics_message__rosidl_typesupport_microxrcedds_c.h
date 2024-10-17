@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/build/statistics_msgs/rosidl_typesupport_microxrcedds_c/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_microxrcedds_c.h

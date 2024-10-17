@@ -1,0 +1,60 @@
+[0.119s] Invoking command in '/home/ubuntu/microros_ws/build/nav_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/nav_msgs -- -j4 -l4
+[0.432s] [  1%] Built target nav_msgs__cpp
+[0.597s] [  1%] Built target ament_cmake_python_symlink_nav_msgs
+[0.713s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.885s] [ 12%] Built target nav_msgs__rosidl_typesupport_fastrtps_cpp
+[1.031s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.156s] [ 24%] Built target nav_msgs__rosidl_typesupport_introspection_cpp
+[3.532s] running egg_info
+[3.536s] writing nav_msgs.egg-info/PKG-INFO
+[3.537s] writing dependency_links to nav_msgs.egg-info/dependency_links.txt
+[3.544s] writing top-level names to nav_msgs.egg-info/top_level.txt
+[3.557s] reading manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[3.564s] writing manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[3.801s] [ 24%] Built target ament_cmake_python_build_nav_msgs_egg
+[3.880s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.748s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_typesupport_cpp[0m
+[8.879s] [ 26%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/grid_cells__type_support.cpp.o[0m
+[11.055s] [ 27%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/occupancy_grid__type_support.cpp.o[0m
+[13.132s] [ 28%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/odometry__type_support.cpp.o[0m
+[14.933s] [ 29%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/path__type_support.cpp.o[0m
+[16.481s] [ 30%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/get_map__type_support.cpp.o[0m
+[18.116s] [ 31%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/get_plan__type_support.cpp.o[0m
+[19.699s] [ 32%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/load_map__type_support.cpp.o[0m
+[21.268s] [ 33%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/set_map__type_support.cpp.o[0m
+[22.839s] [ 34%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/map_meta_data__type_support.cpp.o[0m
+[24.408s] [ 35%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_cpp.so[0m
+[24.615s] [ 35%] Built target nav_msgs__rosidl_typesupport_cpp
+[24.684s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_generator_c[0m
+[24.765s] [ 47%] Built target nav_msgs__rosidl_generator_c
+[24.842s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_typesupport_fastrtps_c[0m
+[24.955s] [ 58%] Built target nav_msgs__rosidl_typesupport_fastrtps_c
+[25.014s] [ 60%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[29.344s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_typesupport_c[0m
+[29.413s] [ 61%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/grid_cells__type_support.cpp.o[0m
+[29.611s] [ 62%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/occupancy_grid__type_support.cpp.o[0m
+[29.815s] [ 63%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/odometry__type_support.cpp.o[0m
+[30.012s] [ 64%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/path__type_support.cpp.o[0m
+[30.211s] [ 65%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/get_map__type_support.cpp.o[0m
+[30.414s] [ 66%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/get_plan__type_support.cpp.o[0m
+[30.617s] [ 67%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/load_map__type_support.cpp.o[0m
+[30.836s] [ 68%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/set_map__type_support.cpp.o[0m
+[31.049s] [ 69%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/map_meta_data__type_support.cpp.o[0m
+[31.246s] [ 70%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_c.so[0m
+[31.475s] [ 70%] Built target nav_msgs__rosidl_typesupport_c
+[31.560s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_typesupport_introspection_c[0m
+[31.649s] [ 82%] Built target nav_msgs__rosidl_typesupport_introspection_c
+[31.759s] [ 82%] Built target nav_msgs
+[31.878s] [ 83%] Built target nav_msgs__py
+[31.948s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_generator_py[0m
+[32.051s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/nav_msgs/libnav_msgs__rosidl_generator_py.so[0m
+[32.607s] [ 93%] Built target nav_msgs__rosidl_generator_py
+[32.662s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[32.741s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[33.098s] [ 95%] Built target nav_msgs__rosidl_typesupport_fastrtps_c__pyext
+[33.185s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_typesupport_c__pyext[0m
+[33.272s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[33.542s] [ 97%] Built target nav_msgs__rosidl_typesupport_c__pyext
+[33.604s] [35m[1mConsolidate compiler generated dependencies of target nav_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[33.688s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[33.956s] [100%] Built target nav_msgs__rosidl_typesupport_introspection_c__pyext

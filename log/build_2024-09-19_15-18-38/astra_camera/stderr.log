@@ -1,0 +1,8 @@
+[01m[K/home/ubuntu/microros_ws/src/ros2_astra_camera/astra_camera/src/ob_camera_info.cpp:14:10:[m[K [01;31m[Kfatal error: [m[Knlohmann/json.hpp: No such file or directory
+   14 | #include [01;31m[K<nlohmann/json.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/astra_camera.dir/build.make:132: CMakeFiles/astra_camera.dir/src/ob_camera_info.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/astra_camera.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

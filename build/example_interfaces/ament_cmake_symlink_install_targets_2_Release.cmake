@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/microros_ws/build/example_interfaces/rosidl_generator_py/example_interfaces/example_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so" "TARGETS" "example_interfaces__rosidl_typesupport_microxrcedds_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/example_interfaces")

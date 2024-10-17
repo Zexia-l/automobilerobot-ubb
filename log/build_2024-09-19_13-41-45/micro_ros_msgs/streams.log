@@ -1,0 +1,16 @@
+[0.135s] Invoking command in '/home/ubuntu/microros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/microros_ws/build/micro_ros_msgs -- -j4 -l4
+[0.535s] [  1%] Built target micro_ros_msgs__cpp
+[0.570s] failed to create symbolic link '/home/ubuntu/microros_ws/build/micro_ros_msgs/ament_cmake_python/micro_ros_msgs/micro_ros_msgs' because existing path cannot be removed: Is a directory
+[0.577s] [ 10%] Built target micro_ros_msgs__rosidl_generator_c
+[0.634s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_micro_ros_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_micro_ros_msgs] Error 1
+[0.658s] gmake[1]: *** [CMakeFiles/Makefile2:481: CMakeFiles/ament_cmake_python_symlink_micro_ros_msgs.dir/all] Error 2
+[0.659s] gmake[1]: *** Waiting for unfinished jobs....
+[0.772s] [35m[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_cpp[0m
+[0.794s] [35m[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_microxrcedds_cpp[0m
+[0.867s] [35m[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.914s] [ 18%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[1.048s] [ 20%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[1.131s] [ 28%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[1.977s] [ 35%] Built target micro_ros_msgs__rosidl_typesupport_microxrcedds_cpp
+[1.982s] gmake: *** [Makefile:146: all] Error 2
+[2.054s] Invoked command in '/home/ubuntu/microros_ws/build/micro_ros_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/microros_ws/build/micro_ros_msgs -- -j4 -l4

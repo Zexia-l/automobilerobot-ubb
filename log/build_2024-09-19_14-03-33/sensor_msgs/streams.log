@@ -1,0 +1,98 @@
+[0.155s] Invoking command in '/home/ubuntu/microros_ws/build/sensor_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/sensor_msgs -- -j4 -l4
+[0.535s] [  0%] Built target sensor_msgs__cpp
+[0.709s] [  0%] Built target ament_cmake_python_symlink_sensor_msgs
+[0.851s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.074s] [ 12%] Built target sensor_msgs__rosidl_typesupport_fastrtps_cpp
+[1.258s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.523s] [ 25%] Built target sensor_msgs__rosidl_typesupport_introspection_cpp
+[3.757s] running egg_info
+[3.762s] writing sensor_msgs.egg-info/PKG-INFO
+[3.766s] writing dependency_links to sensor_msgs.egg-info/dependency_links.txt
+[3.767s] writing top-level names to sensor_msgs.egg-info/top_level.txt
+[3.780s] reading manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[3.808s] writing manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[4.005s] [ 25%] Built target ament_cmake_python_build_sensor_msgs_egg
+[4.111s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[17.819s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_typesupport_cpp[0m
+[17.980s] [ 26%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/camera_info__type_support.cpp.o[0m
+[17.981s] [ 26%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/battery_state__type_support.cpp.o[0m
+[17.984s] [ 27%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/channel_float32__type_support.cpp.o[0m
+[19.653s] [ 27%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/compressed_image__type_support.cpp.o[0m
+[19.680s] [ 28%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/fluid_pressure__type_support.cpp.o[0m
+[19.778s] [ 28%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/illuminance__type_support.cpp.o[0m
+[21.334s] [ 28%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/image__type_support.cpp.o[0m
+[21.399s] [ 29%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/imu__type_support.cpp.o[0m
+[21.452s] [ 29%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joint_state__type_support.cpp.o[0m
+[23.068s] [ 30%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy__type_support.cpp.o[0m
+[23.089s] [ 30%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy_feedback__type_support.cpp.o[0m
+[23.186s] [ 30%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy_feedback_array__type_support.cpp.o[0m
+[24.762s] [ 31%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/laser_echo__type_support.cpp.o[0m
+[24.812s] [ 31%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/laser_scan__type_support.cpp.o[0m
+[24.882s] [ 32%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/magnetic_field__type_support.cpp.o[0m
+[26.450s] [ 32%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/multi_dof_joint_state__type_support.cpp.o[0m
+[26.475s] [ 32%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/multi_echo_laser_scan__type_support.cpp.o[0m
+[26.586s] [ 33%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/nav_sat_fix__type_support.cpp.o[0m
+[28.126s] [ 33%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/nav_sat_status__type_support.cpp.o[0m
+[28.144s] [ 34%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_cloud__type_support.cpp.o[0m
+[28.299s] [ 34%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_cloud2__type_support.cpp.o[0m
+[29.789s] [ 34%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_field__type_support.cpp.o[0m
+[29.841s] [ 35%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/range__type_support.cpp.o[0m
+[30.039s] [ 35%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/region_of_interest__type_support.cpp.o[0m
+[31.473s] [ 36%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/relative_humidity__type_support.cpp.o[0m
+[31.532s] [ 36%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/temperature__type_support.cpp.o[0m
+[31.732s] [ 36%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/time_reference__type_support.cpp.o[0m
+[33.125s] [ 37%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/srv/set_camera_info__type_support.cpp.o[0m
+[34.455s] [ 37%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_cpp.so[0m
+[34.674s] [ 37%] Built target sensor_msgs__rosidl_typesupport_cpp
+[34.871s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_generator_c[0m
+[34.981s] [ 49%] Built target sensor_msgs__rosidl_generator_c
+[35.038s] [ 50%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35.095s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_typesupport_introspection_c[0m
+[35.100s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_typesupport_fastrtps_c[0m
+[35.212s] [ 63%] Built target sensor_msgs__rosidl_typesupport_introspection_c
+[35.293s] [ 75%] Built target sensor_msgs__rosidl_typesupport_fastrtps_c
+[49.757s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_typesupport_c[0m
+[49.849s] [ 75%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/camera_info__type_support.cpp.o[0m
+[49.854s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/channel_float32__type_support.cpp.o[0m
+[49.863s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/battery_state__type_support.cpp.o[0m
+[49.878s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/compressed_image__type_support.cpp.o[0m
+[50.084s] [ 77%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/fluid_pressure__type_support.cpp.o[0m
+[50.113s] [ 77%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/illuminance__type_support.cpp.o[0m
+[50.121s] [ 77%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/image__type_support.cpp.o[0m
+[50.151s] [ 78%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/imu__type_support.cpp.o[0m
+[50.413s] [ 78%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joint_state__type_support.cpp.o[0m
+[50.427s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy__type_support.cpp.o[0m
+[50.444s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy_feedback__type_support.cpp.o[0m
+[50.509s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy_feedback_array__type_support.cpp.o[0m
+[50.683s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/laser_echo__type_support.cpp.o[0m
+[50.690s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/laser_scan__type_support.cpp.o[0m
+[50.764s] [ 81%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/magnetic_field__type_support.cpp.o[0m
+[50.799s] [ 81%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/multi_dof_joint_state__type_support.cpp.o[0m
+[50.908s] [ 81%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/multi_echo_laser_scan__type_support.cpp.o[0m
+[50.936s] [ 82%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/nav_sat_fix__type_support.cpp.o[0m
+[51.012s] [ 82%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/nav_sat_status__type_support.cpp.o[0m
+[51.067s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_cloud__type_support.cpp.o[0m
+[51.153s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_cloud2__type_support.cpp.o[0m
+[51.227s] [ 84%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_field__type_support.cpp.o[0m
+[51.253s] [ 84%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/range__type_support.cpp.o[0m
+[51.362s] [ 84%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/region_of_interest__type_support.cpp.o[0m
+[51.468s] [ 85%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/relative_humidity__type_support.cpp.o[0m
+[51.508s] [ 85%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/temperature__type_support.cpp.o[0m
+[51.541s] [ 86%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/time_reference__type_support.cpp.o[0m
+[51.613s] [ 86%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/srv/set_camera_info__type_support.cpp.o[0m
+[51.812s] [ 86%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_c.so[0m
+[52.125s] [ 86%] Built target sensor_msgs__rosidl_typesupport_c
+[52.241s] [ 86%] Built target sensor_msgs
+[52.360s] [ 86%] Built target sensor_msgs__py
+[52.482s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_generator_py[0m
+[52.663s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/libsensor_msgs__rosidl_generator_py.so[0m
+[52.983s] [ 98%] Built target sensor_msgs__rosidl_generator_py
+[53.039s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[53.042s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[53.056s] [35m[1mConsolidate compiler generated dependencies of target sensor_msgs__rosidl_typesupport_c__pyext[0m
+[53.130s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[53.134s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[53.136s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[53.556s] [ 99%] Built target sensor_msgs__rosidl_typesupport_introspection_c__pyext
+[53.557s] [ 99%] Built target sensor_msgs__rosidl_typesupport_fastrtps_c__pyext
+[53.568s] [100%] Built target sensor_msgs__rosidl_typesupport_c__pyext

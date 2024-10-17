@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/build/lifecycle_msgs/rosidl_cmake/srv/GetAvailableTransitions_Response.msg

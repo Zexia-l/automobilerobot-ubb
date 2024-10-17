@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/src/ros2/common_interfaces/shape_msgs/msg/MeshTriangle.msg

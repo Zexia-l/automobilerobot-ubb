@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/build/rclc/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,57 @@
+[0.172s] Invoking command in '/home/ubuntu/microros_ws/build/micro_ros_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/microros_ws/src/uros/micro_ros_utilities -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/micro_ros_utilities
+[1.411s] -- The C compiler identification is GNU 11.4.0
+[2.498s] -- The CXX compiler identification is GNU 11.4.0
+[2.602s] -- Detecting C compiler ABI info
+[4.141s] -- Detecting C compiler ABI info - done
+[4.343s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.346s] -- Detecting C compile features
+[4.350s] -- Detecting C compile features - done
+[4.450s] -- Detecting CXX compiler ABI info
+[5.654s] -- Detecting CXX compiler ABI info - done
+[5.688s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.689s] -- Detecting CXX compile features
+[5.692s] -- Detecting CXX compile features - done
+[5.735s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.284s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[10.205s] -- Found rosidl_typesupport_introspection_c: 3.1.5 (/opt/ros/humble/share/rosidl_typesupport_introspection_c/cmake)
+[10.506s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[12.385s] -- Configuring done
+[12.483s] -- Generating done
+[12.512s] -- Build files have been written to: /home/ubuntu/microros_ws/build/micro_ros_utilities
+[12.604s] Invoked command in '/home/ubuntu/microros_ws/build/micro_ros_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/microros_ws/src/uros/micro_ros_utilities -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/micro_ros_utilities
+[12.606s] Invoking command in '/home/ubuntu/microros_ws/build/micro_ros_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/microros_ws/build/micro_ros_utilities -- -j4 -l4
+[13.210s] [ 33%] [32mBuilding C object CMakeFiles/micro_ros_utilities.dir/src/string_utilities.c.o[0m
+[13.741s] [ 66%] [32mBuilding C object CMakeFiles/micro_ros_utilities.dir/src/type_utilities.c.o[0m
+[14.424s] [100%] [32m[1mLinking C shared library libmicro_ros_utilities.so[0m
+[14.969s] [100%] Built target micro_ros_utilities
+[15.120s] Invoked command in '/home/ubuntu/microros_ws/build/micro_ros_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/microros_ws/build/micro_ros_utilities -- -j4 -l4
+[15.800s] Invoking command in '/home/ubuntu/microros_ws/build/micro_ros_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/microros_ws/build/micro_ros_utilities
+[15.878s] -- Install configuration: ""
+[15.879s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/include
+[15.880s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/include/micro_ros_utilities
+[15.881s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/include/micro_ros_utilities/string_utilities.h
+[15.884s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/include/micro_ros_utilities/type_utilities.h
+[15.895s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/include/micro_ros_utilities/visibility_control.h
+[15.898s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/lib/libmicro_ros_utilities.so
+[15.902s] -- Set runtime path of "/home/ubuntu/microros_ws/install/micro_ros_utilities/lib/libmicro_ros_utilities.so" to ""
+[15.904s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/library_path.sh
+[15.906s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/library_path.dsv
+[15.923s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/share/ament_index/resource_index/package_run_dependencies/micro_ros_utilities
+[15.926s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/share/ament_index/resource_index/parent_prefix_path/micro_ros_utilities
+[15.928s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/ament_prefix_path.sh
+[15.930s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/ament_prefix_path.dsv
+[15.932s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/path.sh
+[15.934s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/path.dsv
+[15.937s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.bash
+[15.949s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.sh
+[15.951s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.zsh
+[15.953s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.dsv
+[15.955s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/package.dsv
+[15.957s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/share/ament_index/resource_index/packages/micro_ros_utilities
+[15.960s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.968s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/ament_cmake_export_libraries-extras.cmake
+[15.971s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.981s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/micro_ros_utilitiesConfig.cmake
+[15.983s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/micro_ros_utilitiesConfig-version.cmake
+[15.985s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/package.xml
+[16.011s] Invoked command in '/home/ubuntu/microros_ws/build/micro_ros_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/microros_ws/build/micro_ros_utilities

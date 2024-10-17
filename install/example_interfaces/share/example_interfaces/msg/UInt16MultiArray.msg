@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/src/ros2/example_interfaces/msg/UInt16MultiArray.msg

@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/build/nav_msgs/rosidl_generator_py/nav_msgs/msg/_path_s.c

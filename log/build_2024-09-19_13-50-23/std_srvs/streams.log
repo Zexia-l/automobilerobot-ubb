@@ -1,0 +1,7 @@
+[0.064s] Invoking command in '/home/ubuntu/microros_ws/build/std_srvs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/microros_ws/build/std_srvs -- -j4 -l4
+[0.348s] [  2%] Built target std_srvs__cpp
+[0.484s] failed to create symbolic link '/home/ubuntu/microros_ws/build/std_srvs/ament_cmake_python/std_srvs/std_srvs' because existing path cannot be removed: Is a directory
+[0.488s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_std_srvs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_std_srvs] Error 1
+[0.490s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_std_srvs.dir/all] Error 2
+[0.490s] gmake: *** [Makefile:146: all] Error 2
+[0.503s] Invoked command in '/home/ubuntu/microros_ws/build/std_srvs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/microros_ws/build/std_srvs -- -j4 -l4

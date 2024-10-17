@@ -1,0 +1,10 @@
+[0.236s] Invoking command in '/home/ubuntu/microros_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/microros_ws/build/builtin_interfaces -- -j4 -l4
+[0.926s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_generator_c[0m
+[0.955s] failed to create symbolic link '/home/ubuntu/microros_ws/build/builtin_interfaces/ament_cmake_python/builtin_interfaces/builtin_interfaces' because existing path cannot be removed: Is a directory
+[0.966s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_builtin_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_builtin_interfaces] Error 1
+[0.967s] gmake[1]: *** [CMakeFiles/Makefile2:481: CMakeFiles/ament_cmake_python_symlink_builtin_interfaces.dir/all] Error 2
+[0.968s] gmake[1]: *** Waiting for unfinished jobs....
+[1.061s] [  8%] Built target builtin_interfaces__rosidl_generator_c
+[1.093s] [ 10%] Built target builtin_interfaces__cpp
+[1.094s] gmake: *** [Makefile:146: all] Error 2
+[1.104s] Invoked command in '/home/ubuntu/microros_ws/build/builtin_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/microros_ws/build/builtin_interfaces -- -j4 -l4

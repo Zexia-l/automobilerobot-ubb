@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/build/diagnostic_msgs/rosidl_typesupport_microxrcedds_cpp/diagnostic_msgs/srv/detail/microxrcedds/self_test__type_support_cpp.cpp

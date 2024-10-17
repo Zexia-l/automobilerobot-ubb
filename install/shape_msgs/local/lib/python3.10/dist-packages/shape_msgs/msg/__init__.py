@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/build/shape_msgs/rosidl_generator_py/shape_msgs/msg/__init__.py

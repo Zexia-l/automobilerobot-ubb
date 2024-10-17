@@ -1,0 +1,77 @@
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found rcl: 5.3.8 (/opt/ros/humble/share/rcl/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rcl_action: 5.3.8 (/opt/ros/humble/share/rcl_action/cmake)
+-- Found rcl version 5.3.8, which belongs to Foxy or later
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/microros_ws/build/rclc
+/usr/bin/cmake -S/home/ubuntu/microros_ws/src/uros/rclc/rclc -B/home/ubuntu/microros_ws/build/rclc --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/ubuntu/microros_ws/build/rclc/CMakeFiles /home/ubuntu/microros_ws/build/rclc//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[1]: Entering directory '/home/ubuntu/microros_ws/build/rclc'
+/usr/bin/gmake  -f CMakeFiles/rclc.dir/build.make CMakeFiles/rclc.dir/depend
+gmake[2]: Entering directory '/home/ubuntu/microros_ws/build/rclc'
+cd /home/ubuntu/microros_ws/build/rclc && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/microros_ws/src/uros/rclc/rclc /home/ubuntu/microros_ws/src/uros/rclc/rclc /home/ubuntu/microros_ws/build/rclc /home/ubuntu/microros_ws/build/rclc /home/ubuntu/microros_ws/build/rclc/CMakeFiles/rclc.dir/DependInfo.cmake --color=
+[35m[1mConsolidate compiler generated dependencies of target rclc[0m
+gmake[2]: Leaving directory '/home/ubuntu/microros_ws/build/rclc'
+/usr/bin/gmake  -f CMakeFiles/rclc.dir/build.make CMakeFiles/rclc.dir/build
+gmake[2]: Entering directory '/home/ubuntu/microros_ws/build/rclc'
+[  7%] [32m[1mLinking C shared library librclc.so[0m
+/usr/bin/cmake -E cmake_link_script CMakeFiles/rclc.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -shared -Wl,-soname,librclc.so -o librclc.so CMakeFiles/rclc.dir/src/rclc/init.c.o CMakeFiles/rclc.dir/src/rclc/publisher.c.o CMakeFiles/rclc.dir/src/rclc/subscription.c.o CMakeFiles/rclc.dir/src/rclc/client.c.o CMakeFiles/rclc.dir/src/rclc/service.c.o CMakeFiles/rclc.dir/src/rclc/timer.c.o CMakeFiles/rclc.dir/src/rclc/action_client.c.o CMakeFiles/rclc.dir/src/rclc/action_server.c.o CMakeFiles/rclc.dir/src/rclc/action_goal_handle.c.o CMakeFiles/rclc.dir/src/rclc/node.c.o CMakeFiles/rclc.dir/src/rclc/executor_handle.c.o CMakeFiles/rclc.dir/src/rclc/executor.c.o CMakeFiles/rclc.dir/src/rclc/sleep.c.o  -Wl,-rpath,/home/ubuntu/microros_ws/install/action_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:/home/ubuntu/microros_ws/install/unique_identifier_msgs/lib:/opt/ros/humble/lib: /opt/ros/humble/lib/librcl_action.so /opt/ros/humble/lib/librcl.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so /opt/ros/humble/lib/librcl_yaml_param_parser.so /opt/ros/humble/lib/libyaml.so /opt/ros/humble/lib/librmw_implementation.so /opt/ros/humble/lib/librcl_logging_spdlog.so /opt/ros/humble/lib/librcl_logging_interface.so /opt/ros/humble/lib/libtracetools.so /home/ubuntu/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so /home/ubuntu/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so /home/ubuntu/microros_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so /home/ubuntu/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so /home/ubuntu/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so /home/ubuntu/microros_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librmw.so /opt/ros/humble/lib/libfastcdr.so.1.0.24 /home/ubuntu/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_introspection_c.so /home/ubuntu/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so /home/ubuntu/microros_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so /home/ubuntu/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so /home/ubuntu/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so /home/ubuntu/microros_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so /home/ubuntu/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_cpp.so /home/ubuntu/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so /home/ubuntu/microros_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so /home/ubuntu/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_generator_py.so /home/ubuntu/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_c.so /home/ubuntu/microros_ws/install/action_msgs/lib/libaction_msgs__rosidl_generator_c.so /home/ubuntu/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_py.so /home/ubuntu/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so /home/ubuntu/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so /home/ubuntu/microros_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_generator_py.so /usr/lib/aarch64-linux-gnu/libpython3.10.so /home/ubuntu/microros_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_c.so /home/ubuntu/microros_ws/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_generator_c.so /opt/ros/humble/lib/librosidl_runtime_c.so /opt/ros/humble/lib/librcutils.so -ldl -Wl,-rpath-link,/opt/ros/humble/lib 
+gmake[2]: Leaving directory '/home/ubuntu/microros_ws/build/rclc'
+[100%] Built target rclc
+gmake[1]: Leaving directory '/home/ubuntu/microros_ws/build/rclc'
+/usr/bin/cmake -E cmake_progress_start /home/ubuntu/microros_ws/build/rclc/CMakeFiles 0
+-- Install configuration: ""
+-- Installing: /home/ubuntu/microros_ws/install/rclc/lib/librclc.so
+-- Set runtime path of "/home/ubuntu/microros_ws/install/rclc/lib/librclc.so" to ""
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/include
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/include/rclc
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/include/rclc/executor_handle.h
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/include/rclc/action_client.h
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/include/rclc/action_server.h
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/include/rclc/publisher.h
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/include/rclc/subscription.h
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/include/rclc/types.h
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/include/rclc/action_goal_handle.h
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/include/rclc/timer.h
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/include/rclc/visibility_control.h
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/include/rclc/service.h
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/include/rclc/rclc.h
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/include/rclc/node.h
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/include/rclc/init.h
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/include/rclc/client.h
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/include/rclc/executor.h
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/include/rclc/sleep.h
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/share/rclc/environment/library_path.sh
+-- Installing: /home/ubuntu/microros_ws/install/rclc/share/rclc/environment/library_path.dsv
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/share/ament_index/resource_index/package_run_dependencies/rclc
+-- Installing: /home/ubuntu/microros_ws/install/rclc/share/ament_index/resource_index/parent_prefix_path/rclc
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/share/rclc/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/microros_ws/install/rclc/share/rclc/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/share/rclc/environment/path.sh
+-- Installing: /home/ubuntu/microros_ws/install/rclc/share/rclc/environment/path.dsv
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/share/rclc/local_setup.bash
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/share/rclc/local_setup.sh
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/share/rclc/local_setup.zsh
+-- Installing: /home/ubuntu/microros_ws/install/rclc/share/rclc/local_setup.dsv
+-- Installing: /home/ubuntu/microros_ws/install/rclc/share/rclc/package.dsv
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/share/ament_index/resource_index/packages/rclc
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/share/rclc/cmake/rclcExport.cmake
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/share/rclc/cmake/rclcExport-noconfig.cmake
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/share/rclc/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/share/rclc/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/share/rclc/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/share/rclc/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/share/rclc/cmake/rclcConfig.cmake
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/share/rclc/cmake/rclcConfig-version.cmake
+-- Up-to-date: /home/ubuntu/microros_ws/install/rclc/share/rclc/package.xml

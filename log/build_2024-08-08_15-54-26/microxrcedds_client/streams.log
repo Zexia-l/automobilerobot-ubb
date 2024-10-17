@@ -1,0 +1,140 @@
+[0.040s] Invoking command in '/home/ubuntu/microros_ws/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/micro_ros_setup LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ubuntu/microros_ws/src/eProsima/Micro-XRCE-DDS-Client -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DUCLIENT_ISOLATED_INSTALL=OFF -DUCLIENT_SUPERBUILD=OFF -DBUILD_SHARED_LIBS=ON -DUCLIENT_PROFILE_MULTITHREAD=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/microxrcedds_client
+[0.335s] -- The C compiler identification is GNU 11.4.0
+[0.375s] -- Detecting C compiler ABI info
+[0.864s] -- Detecting C compiler ABI info - done
+[0.898s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.900s] -- Detecting C compile features
+[0.904s] -- Detecting C compile features - done
+[0.909s] -- Setting build type to 'Release' as none was specified.
+[0.939s] -- Looking for pthread.h
+[1.474s] -- Looking for pthread.h - found
+[1.477s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.025s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.031s] -- Found Threads: TRUE  
+[2.048s] -- Configuring done
+[2.100s] -- Generating done
+[2.103s] [33mCMake Warning:
+[2.104s]   Manually-specified variables were not used by the project:
+[2.105s] 
+[2.107s]     BUILD_TESTING
+[2.108s] 
+[2.111s] [0m
+[2.116s] -- Build files have been written to: /home/ubuntu/microros_ws/build/microxrcedds_client
+[2.133s] Invoked command in '/home/ubuntu/microros_ws/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/micro_ros_setup LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ubuntu/microros_ws/src/eProsima/Micro-XRCE-DDS-Client -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DUCLIENT_ISOLATED_INSTALL=OFF -DUCLIENT_SUPERBUILD=OFF -DBUILD_SHARED_LIBS=ON -DUCLIENT_PROFILE_MULTITHREAD=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/microxrcedds_client
+[2.135s] Invoking command in '/home/ubuntu/microros_ws/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/micro_ros_setup LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/microros_ws/build/microxrcedds_client -- -j4 -l4
+[2.443s] [  2%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_best_effort_stream.c.o[0m
+[2.467s] [  5%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_reliable_stream.c.o[0m
+[2.496s] [ 11%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_best_effort_stream.c.o[0m
+[2.497s] [ 11%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_reliable_stream.c.o[0m
+[2.886s] [ 14%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_storage.c.o[0m
+[3.002s] [ 17%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_id.c.o[0m
+[3.422s] [ 20%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/seq_num.c.o[0m
+[3.508s] [ 22%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session.c.o[0m
+[3.559s] [ 25%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session_info.c.o[0m
+[3.638s] [ 28%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/submessage.c.o[0m
+[3.853s] [ 31%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/object_id.c.o[0m
+[4.117s] [ 34%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_types.c.o[0m
+[4.188s] [ 37%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_header.c.o[0m
+[4.254s] [ 40%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_subheader.c.o[0m
+[4.614s] [ 42%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/time.c.o[0m
+[4.691s] [ 45%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/ping.c.o[0m
+[5.074s] [ 48%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/common_create_entities.c.o[0m
+[5.541s] [ 51%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_ref.c.o[0m
+[5.698s] [ 54%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_xml.c.o[0m
+[6.000s] [ 57%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_bin.c.o[0m
+[6.345s] [ 60%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/read_access.c.o[0m
+[6.481s] [ 62%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/write_access.c.o[0m
+[6.817s] [ 65%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/multithread/multithread.c.o[0m
+[6.947s] [ 68%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/stream_framing/stream_framing_protocol.c.o[0m
+[7.414s] [ 71%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport.c.o[0m
+[7.513s] [ 74%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport_posix.c.o[0m
+[7.994s] [ 77%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport.c.o[0m
+[8.123s] [ 80%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport_posix.c.o[0m
+[8.375s] [ 82%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport.c.o[0m
+[8.823s] [ 85%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/ip_posix.c.o[0m
+[8.830s] [ 88%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport_posix.c.o[0m
+[8.955s] [ 91%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/discovery.c.o[0m
+[9.093s] [ 94%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/transport/udp_transport_datagram_posix.c.o[0m
+[9.358s] [ 97%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/custom/custom_transport.c.o[0m
+[9.780s] [100%] [32m[1mLinking C shared library libmicroxrcedds_client.so[0m
+[10.153s] [100%] Built target microxrcedds_client
+[10.202s] Invoked command in '/home/ubuntu/microros_ws/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/micro_ros_setup LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/microros_ws/build/microxrcedds_client -- -j4 -l4
+[12.680s] Invoking command in '/home/ubuntu/microros_ws/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/micro_ros_setup LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/microros_ws/build/microxrcedds_client
+[12.728s] -- Install configuration: "Release"
+[12.730s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/lib/libmicroxrcedds_client.so.2.4.2
+[12.740s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/lib/libmicroxrcedds_client.so.2.4
+[12.743s] -- Set runtime path of "/home/ubuntu/microros_ws/install/microxrcedds_client/lib/libmicroxrcedds_client.so.2.4.2" to ""
+[12.744s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/lib/libmicroxrcedds_client.so
+[12.745s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client
+[12.746s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile
+[12.747s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/multithread
+[12.748s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/multithread/multithread.h
+[12.750s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/discovery
+[12.751s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/discovery/discovery.h
+[12.753s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport
+[12.754s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/custom
+[12.755s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/custom/custom_transport.h
+[12.757s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip
+[12.761s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp
+[12.761s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h
+[12.768s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h
+[12.769s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h
+[12.770s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h
+[12.770s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix_nopoll.h
+[12.771s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h
+[12.772s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp
+[12.786s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h
+[12.788s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h
+[12.789s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h
+[12.791s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h
+[12.792s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport.h
+[12.794s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h
+[12.795s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/ip.h
+[12.797s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/serial
+[12.798s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport_rtems_bsd_net.h
+[12.799s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport_platform.h
+[12.801s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport_posix.h
+[12.802s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport.h
+[12.804s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/can
+[12.805s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/can/can_transport.h
+[12.807s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/can/can_transport_posix.h
+[12.821s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/stream_framing
+[12.822s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h
+[12.822s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/util
+[12.823s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/util/time.h
+[12.824s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/util/ping.h
+[12.824s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core
+[12.825s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/session
+[12.825s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/create_entities_bin.h
+[12.826s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/time_sync.h
+[12.828s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/object_id.h
+[12.829s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/session.h
+[12.829s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/read_access.h
+[12.830s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream
+[12.830s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/input_best_effort_stream.h
+[12.831s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/reliable_stream.h
+[12.831s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/input_reliable_stream.h
+[12.842s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/seq_num.h
+[12.843s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/output_best_effort_stream.h
+[12.846s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/stream_id.h
+[12.848s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/output_reliable_stream.h
+[12.849s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/stream_storage.h
+[12.850s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/write_access.h
+[12.852s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/common_create_entities.h
+[12.869s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/create_entities_ref.h
+[12.877s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/session_info.h
+[12.877s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/create_entities_xml.h
+[12.883s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/type
+[12.884s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/type/xrce_types.h
+[12.886s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/communication
+[12.894s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/core/communication/communication.h
+[12.895s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/visibility.h
+[12.897s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/transport.h
+[12.906s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/defines.h
+[12.908s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/client.h
+[12.919s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/include/uxr/client/config.h
+[12.921s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake
+[12.923s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientTargets-release.cmake
+[12.935s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake
+[12.946s] -- Installing: /home/ubuntu/microros_ws/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake
+[12.970s] Invoked command in '/home/ubuntu/microros_ws/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/microcdr:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/microros_ws/install/micro_ros_setup LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/microcdr/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/microros_ws/build/microxrcedds_client

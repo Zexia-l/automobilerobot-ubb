@@ -1,0 +1,182 @@
+[0.196s] Invoking command in '/home/ubuntu/microros_ws/build/shape_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/shape_msgs -- -j4 -l4
+[0.578s] [  1%] Built target shape_msgs__cpp
+[0.780s] [  1%] Built target ament_cmake_python_symlink_shape_msgs
+[0.954s] [ 12%] Built target shape_msgs__rosidl_typesupport_fastrtps_cpp
+[1.125s] [ 23%] Built target shape_msgs__rosidl_typesupport_introspection_cpp
+[3.127s] running egg_info
+[3.132s] writing shape_msgs.egg-info/PKG-INFO
+[3.134s] writing dependency_links to shape_msgs.egg-info/dependency_links.txt
+[3.137s] writing top-level names to shape_msgs.egg-info/top_level.txt
+[3.149s] reading manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[3.153s] writing manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[3.339s] [ 23%] Built target ament_cmake_python_build_shape_msgs_egg
+[3.404s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_typesupport_cpp[0m
+[3.502s] [ 34%] Built target shape_msgs__rosidl_typesupport_cpp
+[3.657s] [ 45%] Built target shape_msgs__rosidl_generator_c
+[3.817s] [ 56%] Built target shape_msgs__rosidl_typesupport_fastrtps_c
+[3.878s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_typesupport_c[0m
+[3.945s] [ 67%] Built target shape_msgs__rosidl_typesupport_c
+[4.091s] [ 78%] Built target shape_msgs__rosidl_typesupport_introspection_c
+[4.209s] [ 78%] Built target shape_msgs
+[4.324s] [ 80%] Built target shape_msgs__py
+[4.381s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_generator_py[0m
+[4.462s] [ 89%] Built target shape_msgs__rosidl_generator_py
+[4.573s] [ 92%] Built target shape_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.634s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_typesupport_c__pyext[0m
+[4.734s] [ 96%] Built target shape_msgs__rosidl_typesupport_c__pyext
+[4.791s] [35m[1mConsolidate compiler generated dependencies of target shape_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[4.859s] [100%] Built target shape_msgs__rosidl_typesupport_introspection_c__pyext
+[4.926s] Invoked command in '/home/ubuntu/microros_ws/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/shape_msgs -- -j4 -l4
+[6.310s] Invoking command in '/home/ubuntu/microros_ws/build/shape_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/microros_ws/build/shape_msgs
+[6.360s] -- Install configuration: ""
+[6.360s] -- Execute custom install script
+[6.361s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/ament_index/resource_index/rosidl_interfaces/shape_msgs
+[6.403s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__functions.h
+[6.466s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__struct.h
+[6.513s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.h
+[6.577s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__functions.h
+[6.627s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__struct.h
+[6.687s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.h
+[6.732s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__functions.h
+[6.795s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__struct.h
+[6.862s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.h
+[6.909s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__functions.h
+[6.988s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.h
+[7.062s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.h
+[7.112s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh.h
+[7.189s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh_triangle.h
+[7.261s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/plane.h
+[7.364s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.416s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/solid_primitive.h
+[7.468s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/environment/library_path.sh
+[7.508s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/environment/library_path.dsv
+[7.567s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_fastrtps_c.h
+[7.611s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_fastrtps_c.h
+[7.660s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_fastrtps_c.h
+[7.704s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_fastrtps_c.h
+[7.751s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.805s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__builder.hpp
+[7.858s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__struct.hpp
+[7.899s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__traits.hpp
+[7.955s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__builder.hpp
+[7.997s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__struct.hpp
+[8.041s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__traits.hpp
+[8.092s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__builder.hpp
+[8.136s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__struct.hpp
+[8.189s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__traits.hpp
+[8.230s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__builder.hpp
+[8.283s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.hpp
+[8.325s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__traits.hpp
+[8.391s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh.hpp
+[8.433s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh_triangle.hpp
+[8.493s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/plane.hpp
+[8.596s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/solid_primitive.hpp
+[8.648s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_fastrtps_cpp.hpp
+[8.716s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_fastrtps_cpp.hpp
+[8.787s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_fastrtps_cpp.hpp
+[8.835s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_fastrtps_cpp.hpp
+[8.889s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.935s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_introspection_c.h
+[8.999s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_introspection_c.h
+[9.060s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_introspection_c.h
+[9.103s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_introspection_c.h
+[9.173s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.223s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_introspection_cpp.hpp
+[9.290s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_introspection_cpp.hpp
+[9.339s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_introspection_cpp.hpp
+[9.397s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_introspection_cpp.hpp
+[9.441s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/environment/pythonpath.sh
+[9.502s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/environment/pythonpath.dsv
+[9.562s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs-4.2.4-py3.10.egg-info/PKG-INFO
+[9.622s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs-4.2.4-py3.10.egg-info/SOURCES.txt
+[9.671s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs-4.2.4-py3.10.egg-info/dependency_links.txt
+[9.715s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs-4.2.4-py3.10.egg-info/top_level.txt
+[9.772s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/__init__.py
+[9.819s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_c.c
+[9.872s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.918s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[9.988s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[10.036s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/libshape_msgs__rosidl_generator_py.so
+[10.096s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/__init__.py
+[10.145s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_mesh.py
+[10.204s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_mesh_s.c
+[10.264s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_mesh_triangle.py
+[10.306s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_mesh_triangle_s.c
+[10.354s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_plane.py
+[10.401s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_plane_s.c
+[10.453s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_solid_primitive.py
+[10.499s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_solid_primitive_s.c
+[10.549s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[10.594s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[10.638s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[10.688s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[10.732s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[10.734s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[10.737s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[10.793s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/msg/Mesh.idl
+[10.839s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/msg/MeshTriangle.idl
+[10.901s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/msg/Plane.idl
+[10.949s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/msg/SolidPrimitive.idl
+[11.011s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/msg/Mesh.msg
+[11.071s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/msg/MeshTriangle.msg
+[11.119s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/msg/Plane.msg
+[11.199s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/msg/SolidPrimitive.msg
+[11.248s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/ament_index/resource_index/package_run_dependencies/shape_msgs
+[11.306s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/ament_index/resource_index/parent_prefix_path/shape_msgs
+[11.361s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/environment/ament_prefix_path.sh
+[11.423s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/environment/ament_prefix_path.dsv
+[11.491s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/environment/path.sh
+[11.589s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/environment/path.dsv
+[11.662s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/local_setup.bash
+[11.714s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/local_setup.sh
+[11.760s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/local_setup.zsh
+[11.804s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/local_setup.dsv
+[11.856s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/package.dsv
+[11.943s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/ament_index/resource_index/packages/shape_msgs
+[12.007s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake-extras.cmake
+[12.058s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.105s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.149s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[12.195s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[12.237s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.283s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.436s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgsConfig.cmake
+[12.492s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgsConfig-version.cmake
+[12.544s] -- Symlinking: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/package.xml
+[12.696s] -- Up-to-date: /home/ubuntu/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_generator_c.so
+[12.701s] -- Up-to-date: /home/ubuntu/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_c.so
+[12.709s] -- Up-to-date: /home/ubuntu/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_cpp.so
+[12.716s] -- Up-to-date: /home/ubuntu/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_c.so
+[12.721s] -- Installing: /home/ubuntu/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_c.so
+[12.726s] -- Set runtime path of "/home/ubuntu/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_c.so" to ""
+[12.731s] -- Up-to-date: /home/ubuntu/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_cpp.so
+[12.741s] -- Installing: /home/ubuntu/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_cpp.so
+[12.747s] -- Set runtime path of "/home/ubuntu/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_cpp.so" to ""
+[13.038s] Listing '/home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs'...
+[13.040s] Compiling '/home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/__init__.py'...
+[13.041s] Listing '/home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg'...
+[13.043s] Compiling '/home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/__init__.py'...
+[13.044s] Compiling '/home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_mesh.py'...
+[13.051s] Compiling '/home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_mesh_triangle.py'...
+[13.053s] Compiling '/home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_plane.py'...
+[13.055s] Compiling '/home/ubuntu/microros_ws/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_solid_primitive.py'...
+[13.086s] -- Installing: /home/ubuntu/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_generator_py.so
+[13.090s] -- Set runtime path of "/home/ubuntu/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_generator_py.so" to ""
+[13.092s] -- Up-to-date: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cExport.cmake
+[13.095s] -- Up-to-date: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cExport-noconfig.cmake
+[13.096s] -- Up-to-date: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[13.097s] -- Up-to-date: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.104s] -- Up-to-date: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cppExport.cmake
+[13.106s] -- Up-to-date: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.107s] -- Up-to-date: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.109s] -- Up-to-date: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cExport.cmake
+[13.110s] -- Up-to-date: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.112s] -- Up-to-date: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cExport.cmake
+[13.112s] -- Up-to-date: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[13.115s] -- Up-to-date: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[13.118s] -- Up-to-date: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.121s] -- Up-to-date: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cppExport.cmake
+[13.123s] -- Up-to-date: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[13.127s] -- Up-to-date: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_pyExport.cmake
+[13.129s] -- Up-to-date: /home/ubuntu/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_pyExport-noconfig.cmake
+[13.151s] Invoked command in '/home/ubuntu/microros_ws/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/microros_ws/build/shape_msgs

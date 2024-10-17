@@ -1,0 +1,39 @@
+[4.661s] Invoking command in '/home/ubuntu/microros_ws/src/ros2/common_interfaces/sensor_msgs_py': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/build/sensor_msgs_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/microros_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/sensor_msgs_py build --build-base /home/ubuntu/microros_ws/build/sensor_msgs_py/build install --record /home/ubuntu/microros_ws/build/sensor_msgs_py/install.log --single-version-externally-managed install_data
+[6.254s] running egg_info
+[6.257s] creating ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info
+[6.258s] writing ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/PKG-INFO
+[6.260s] writing dependency_links to ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/dependency_links.txt
+[6.261s] writing requirements to ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/requires.txt
+[6.261s] writing top-level names to ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/top_level.txt
+[6.263s] writing manifest file '../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[6.272s] reading manifest file '../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[6.273s] adding license file 'LICENSE'
+[6.276s] writing manifest file '../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[6.276s] running build
+[6.277s] running build_py
+[6.278s] creating /home/ubuntu/microros_ws/build/sensor_msgs_py/build
+[6.279s] creating /home/ubuntu/microros_ws/build/sensor_msgs_py/build/lib
+[6.279s] creating /home/ubuntu/microros_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[6.280s] copying sensor_msgs_py/__init__.py -> /home/ubuntu/microros_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[6.280s] copying sensor_msgs_py/numpy_compat.py -> /home/ubuntu/microros_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[6.281s] copying sensor_msgs_py/point_cloud2.py -> /home/ubuntu/microros_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[6.282s] running install
+[6.283s] running install_lib
+[6.287s] creating /home/ubuntu/microros_ws/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py
+[6.288s] copying /home/ubuntu/microros_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py/__init__.py -> /home/ubuntu/microros_ws/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py
+[6.289s] copying /home/ubuntu/microros_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py/numpy_compat.py -> /home/ubuntu/microros_ws/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py
+[6.290s] copying /home/ubuntu/microros_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py/point_cloud2.py -> /home/ubuntu/microros_ws/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py
+[6.293s] byte-compiling /home/ubuntu/microros_ws/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py/__init__.py to __init__.cpython-310.pyc
+[6.295s] byte-compiling /home/ubuntu/microros_ws/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py/numpy_compat.py to numpy_compat.cpython-310.pyc
+[6.300s] byte-compiling /home/ubuntu/microros_ws/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py/point_cloud2.py to point_cloud2.cpython-310.pyc
+[6.306s] running install_data
+[6.307s] creating /home/ubuntu/microros_ws/install/sensor_msgs_py/share/ament_index
+[6.308s] creating /home/ubuntu/microros_ws/install/sensor_msgs_py/share/ament_index/resource_index
+[6.308s] creating /home/ubuntu/microros_ws/install/sensor_msgs_py/share/ament_index/resource_index/packages
+[6.309s] copying resource/sensor_msgs_py -> /home/ubuntu/microros_ws/install/sensor_msgs_py/share/ament_index/resource_index/packages
+[6.310s] copying package.xml -> /home/ubuntu/microros_ws/install/sensor_msgs_py/share/sensor_msgs_py
+[6.310s] running install_egg_info
+[6.318s] Copying ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info to /home/ubuntu/microros_ws/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py-4.2.4-py3.10.egg-info
+[6.325s] running install_scripts
+[6.425s] writing list of installed files to '/home/ubuntu/microros_ws/build/sensor_msgs_py/install.log'
+[6.592s] Invoked command in '/home/ubuntu/microros_ws/src/ros2/common_interfaces/sensor_msgs_py' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/sensor_msgs:/home/ubuntu/microros_ws/install/geometry_msgs:/home/ubuntu/microros_ws/install/std_msgs:/home/ubuntu/microros_ws/install/builtin_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/sensor_msgs/lib:/home/ubuntu/microros_ws/install/geometry_msgs/lib:/home/ubuntu/microros_ws/install/std_msgs/lib:/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/build/sensor_msgs_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/microros_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/ubuntu/microros_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/sensor_msgs_py build --build-base /home/ubuntu/microros_ws/build/sensor_msgs_py/build install --record /home/ubuntu/microros_ws/build/sensor_msgs_py/install.log --single-version-externally-managed install_data

@@ -1,0 +1,1 @@
+/home/ubuntu/microros_ws/src/ros2/rcl_interfaces/lifecycle_msgs/msg/TransitionDescription.msg

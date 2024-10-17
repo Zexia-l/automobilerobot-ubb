@@ -1,0 +1,184 @@
+[0.125s] Invoking command in '/home/ubuntu/microros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/microros_ws/build/micro_ros_msgs -- -j4 -l4
+[1.071s] [  2%] Built target micro_ros_msgs__cpp
+[1.149s] [ 12%] Built target micro_ros_msgs__rosidl_generator_c
+[1.331s] [35m[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_cpp[0m
+[1.400s] [ 12%] Built target ament_cmake_python_copy_micro_ros_msgs
+[1.544s] [ 23%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[1.647s] [ 34%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[1.711s] [ 44%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[1.989s] [35m[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_c[0m
+[2.010s] [ 55%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[2.166s] [ 65%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[2.237s] [ 76%] Built target micro_ros_msgs__rosidl_typesupport_c
+[2.596s] [ 76%] Built target micro_ros_msgs
+[3.090s] [ 78%] Built target micro_ros_msgs__py
+[3.627s] [ 87%] Built target micro_ros_msgs__rosidl_generator_py
+[4.120s] [ 91%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.191s] [ 95%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[4.195s] [100%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext
+[4.775s] running egg_info
+[4.780s] writing micro_ros_msgs.egg-info/PKG-INFO
+[4.783s] writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt
+[4.785s] writing top-level names to micro_ros_msgs.egg-info/top_level.txt
+[4.801s] reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[4.811s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[5.113s] [100%] Built target ament_cmake_python_build_micro_ros_msgs_egg
+[5.204s] Invoked command in '/home/ubuntu/microros_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/microros_ws/build/micro_ros_msgs -- -j4 -l4
+[6.743s] Invoking command in '/home/ubuntu/microros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/microros_ws/build/micro_ros_msgs
+[6.859s] -- Install configuration: ""
+[6.861s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs
+[6.867s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[6.872s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[6.874s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h
+[6.875s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h
+[6.876s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h
+[6.876s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[6.878s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h
+[6.879s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h
+[6.880s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h
+[6.880s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c
+[6.881s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c
+[6.881s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h
+[6.882s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h
+[6.883s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h
+[6.883s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h
+[6.883s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c
+[6.884s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h
+[6.884s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h
+[6.884s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.885s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh
+[6.885s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv
+[6.887s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so
+[6.888s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[6.889s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[6.890s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.890s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[6.891s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[6.892s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[6.892s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[6.895s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[6.897s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[6.898s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[6.898s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[6.899s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c
+[6.900s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[6.900s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c
+[6.901s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c
+[6.901s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[6.901s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[6.902s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.907s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so
+[6.909s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so
+[6.910s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[6.912s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[6.914s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp
+[6.915s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp
+[6.918s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp
+[6.919s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[6.921s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp
+[6.924s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp
+[6.927s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp
+[6.929s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp
+[6.942s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp
+[6.943s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp
+[6.943s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp
+[6.945s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp
+[6.946s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp
+[6.947s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[6.949s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[6.950s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.952s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[6.953s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[6.953s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps
+[6.953s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[6.954s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[6.954s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.955s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[6.955s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[6.955s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[6.956s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp
+[6.956s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp
+[6.957s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[6.957s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[6.957s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[6.958s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp
+[6.958s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[6.958s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so
+[6.961s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh
+[6.962s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv
+[6.963s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info
+[6.964s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/SOURCES.txt
+[6.966s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/dependency_links.txt
+[6.970s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/PKG-INFO
+[6.971s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/top_level.txt
+[6.972s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs
+[6.972s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py
+[6.973s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so
+[6.973s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.974s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.974s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.975s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[6.976s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[6.976s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c
+[6.977s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.977s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg
+[6.977s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py
+[6.978s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py
+[6.978s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity_s.c
+[6.978s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph_s.c
+[6.979s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py
+[6.979s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py
+[6.980s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node_s.c
+[6.980s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.293s] Listing '/home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs'...
+[7.295s] Listing '/home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg'...
+[7.330s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.347s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.348s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.349s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so
+[7.352s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl
+[7.352s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl
+[7.353s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl
+[7.355s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg
+[7.357s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg
+[7.360s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg
+[7.361s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs
+[7.362s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs
+[7.363s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh
+[7.364s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv
+[7.365s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh
+[7.368s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv
+[7.371s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash
+[7.374s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh
+[7.375s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh
+[7.375s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv
+[7.376s] -- Installing: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv
+[7.377s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs
+[7.382s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake
+[7.383s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.385s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.386s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.388s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.389s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.392s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake
+[7.392s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.395s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake
+[7.398s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.399s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.402s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.403s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.408s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake
+[7.410s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.412s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake
+[7.412s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.413s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[7.414s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.415s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.416s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.416s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.417s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.418s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.419s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake
+[7.419s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake
+[7.421s] -- Up-to-date: /home/ubuntu/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml
+[7.451s] Invoked command in '/home/ubuntu/microros_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/microros_ws/build/micro_ros_msgs

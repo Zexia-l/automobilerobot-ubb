@@ -1,0 +1,120 @@
+[0.078s] Invoking command in '/home/ubuntu/microros_ws/build/rosgraph_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/rosgraph_msgs -- -j4 -l4
+[0.372s] [  3%] Built target rosgraph_msgs__cpp
+[0.542s] [  3%] Built target ament_cmake_python_symlink_rosgraph_msgs
+[0.708s] [ 12%] Built target rosgraph_msgs__rosidl_typesupport_introspection_cpp
+[0.843s] [ 22%] Built target rosgraph_msgs__rosidl_typesupport_cpp
+[2.993s] running egg_info
+[2.999s] writing rosgraph_msgs.egg-info/PKG-INFO
+[3.001s] writing dependency_links to rosgraph_msgs.egg-info/dependency_links.txt
+[3.003s] writing top-level names to rosgraph_msgs.egg-info/top_level.txt
+[3.022s] reading manifest file 'rosgraph_msgs.egg-info/SOURCES.txt'
+[3.024s] writing manifest file 'rosgraph_msgs.egg-info/SOURCES.txt'
+[3.241s] [ 22%] Built target ament_cmake_python_build_rosgraph_msgs_egg
+[3.381s] [ 32%] Built target rosgraph_msgs__rosidl_typesupport_fastrtps_cpp
+[3.573s] [ 41%] Built target rosgraph_msgs__rosidl_generator_c
+[3.716s] [ 51%] Built target rosgraph_msgs__rosidl_typesupport_introspection_c
+[3.861s] [ 61%] Built target rosgraph_msgs__rosidl_typesupport_fastrtps_c
+[3.979s] [ 70%] Built target rosgraph_msgs__rosidl_typesupport_c
+[4.084s] [ 70%] Built target rosgraph_msgs
+[4.185s] [ 74%] Built target rosgraph_msgs__py
+[4.304s] [ 80%] Built target rosgraph_msgs__rosidl_generator_py
+[4.427s] [ 87%] Built target rosgraph_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.552s] [ 93%] Built target rosgraph_msgs__rosidl_typesupport_c__pyext
+[4.692s] [100%] Built target rosgraph_msgs__rosidl_typesupport_introspection_c__pyext
+[4.822s] Invoked command in '/home/ubuntu/microros_ws/build/rosgraph_msgs' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/microros_ws/build/rosgraph_msgs -- -j4 -l4
+[5.335s] Invoking command in '/home/ubuntu/microros_ws/build/rosgraph_msgs': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/microros_ws/build/rosgraph_msgs
+[5.410s] -- Install configuration: ""
+[5.413s] -- Execute custom install script
+[5.414s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/ament_index/resource_index/rosidl_interfaces/rosgraph_msgs
+[5.418s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/clock.h
+[5.419s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__functions.h
+[5.420s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__struct.h
+[5.421s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__type_support.h
+[5.422s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.424s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/environment/library_path.sh
+[5.426s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/environment/library_path.dsv
+[5.430s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_fastrtps_c.h
+[5.430s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.433s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/clock.hpp
+[5.434s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__builder.hpp
+[5.435s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__struct.hpp
+[5.436s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__traits.hpp
+[5.440s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_fastrtps_cpp.hpp
+[5.441s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.444s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_introspection_c.h
+[5.449s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.450s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_introspection_cpp.hpp
+[5.451s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/environment/pythonpath.sh
+[5.452s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/environment/pythonpath.dsv
+[5.455s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs-1.2.1-py3.10.egg-info/PKG-INFO
+[5.456s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs-1.2.1-py3.10.egg-info/SOURCES.txt
+[5.457s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs-1.2.1-py3.10.egg-info/dependency_links.txt
+[5.458s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs-1.2.1-py3.10.egg-info/top_level.txt
+[5.465s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/__init__.py
+[5.465s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/_rosgraph_msgs_s.ep.rosidl_typesupport_c.c
+[5.466s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/_rosgraph_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.467s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/_rosgraph_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.468s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/_rosgraph_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[5.472s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/librosgraph_msgs__rosidl_generator_py.so
+[5.472s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/msg/__init__.py
+[5.473s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/msg/_clock.py
+[5.474s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/msg/_clock_s.c
+[5.476s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.478s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.478s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.479s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[5.481s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.483s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.486s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.490s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/msg/Clock.idl
+[5.490s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/msg/Clock.msg
+[5.492s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/ament_index/resource_index/package_run_dependencies/rosgraph_msgs
+[5.493s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/ament_index/resource_index/parent_prefix_path/rosgraph_msgs
+[5.496s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/environment/ament_prefix_path.sh
+[5.498s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/environment/ament_prefix_path.dsv
+[5.499s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/environment/path.sh
+[5.499s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/environment/path.dsv
+[5.500s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/local_setup.bash
+[5.501s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/local_setup.sh
+[5.502s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/local_setup.zsh
+[5.503s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/local_setup.dsv
+[5.504s] -- Symlinking: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/package.dsv
+[5.550s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/ament_index/resource_index/packages/rosgraph_msgs
+[5.552s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosidl_cmake-extras.cmake
+[5.553s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.555s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.558s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.561s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.563s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.566s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.568s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake
+[5.570s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake
+[5.574s] -- Up-to-date symlink: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/package.xml
+[5.576s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_generator_c.so
+[5.580s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
+[5.584s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.587s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
+[5.591s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_c.so
+[5.595s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so
+[5.599s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_cpp.so
+[5.801s] Listing '/home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs'...
+[5.804s] Listing '/home/ubuntu/microros_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/msg'...
+[5.833s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_generator_py.so
+[5.837s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_generator_cExport.cmake
+[5.839s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.841s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.843s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.846s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_generator_cppExport.cmake
+[5.851s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.852s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.854s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.856s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.859s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_cExport.cmake
+[5.861s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.864s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.865s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.868s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_cppExport.cmake
+[5.870s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.873s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_generator_pyExport.cmake
+[5.875s] -- Up-to-date: /home/ubuntu/microros_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.892s] Invoked command in '/home/ubuntu/microros_ws/build/rosgraph_msgs' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/microros_ws/build/rosgraph_msgs

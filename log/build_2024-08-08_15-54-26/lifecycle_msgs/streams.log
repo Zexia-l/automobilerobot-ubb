@@ -1,0 +1,516 @@
+[0.045s] Invoking command in '/home/ubuntu/microros_ws/build/lifecycle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/microros_ws/src/ros2/rcl_interfaces/lifecycle_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/lifecycle_msgs
+[0.382s] -- The C compiler identification is GNU 11.4.0
+[0.715s] -- The CXX compiler identification is GNU 11.4.0
+[0.774s] -- Detecting C compiler ABI info
+[1.322s] -- Detecting C compiler ABI info - done
+[1.359s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.362s] -- Detecting C compile features
+[1.366s] -- Detecting C compile features - done
+[1.384s] -- Detecting CXX compiler ABI info
+[1.859s] -- Detecting CXX compiler ABI info - done
+[1.895s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.897s] -- Detecting CXX compile features
+[1.900s] -- Detecting CXX compile features - done
+[1.937s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.107s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.894s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.931s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.029s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.523s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.863s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[8.451s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.520s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.676s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[10.708s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[10.882s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[10.884s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.885s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.887s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[11.053s] -- Found PythonExtra: .so  
+[11.329s] -- Configuring done
+[11.737s] -- Generating done
+[11.757s] -- Build files have been written to: /home/ubuntu/microros_ws/build/lifecycle_msgs
+[11.798s] Invoked command in '/home/ubuntu/microros_ws/build/lifecycle_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/microros_ws/src/ros2/rcl_interfaces/lifecycle_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/microros_ws/install/lifecycle_msgs
+[11.800s] Invoking command in '/home/ubuntu/microros_ws/build/lifecycle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/microros_ws/build/lifecycle_msgs -- -j4 -l4
+[12.137s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[20.119s] [  0%] Built target lifecycle_msgs__cpp
+[20.287s] [  0%] Built target ament_cmake_python_copy_lifecycle_msgs
+[20.356s] [  1%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[27.197s] [  2%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/msg/detail/microxrcedds/state__type_support_cpp.cpp.o[0m
+[29.174s] [  3%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/msg/detail/microxrcedds/transition__type_support_cpp.cpp.o[0m
+[31.207s] [  4%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/msg/detail/microxrcedds/transition_description__type_support_cpp.cpp.o[0m
+[33.104s] [  5%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/msg/detail/microxrcedds/transition_event__type_support_cpp.cpp.o[0m
+[35.106s] [  6%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/change_state__type_support_cpp.cpp.o[0m
+[37.135s] [  7%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_states__type_support_cpp.cpp.o[0m
+[39.434s] [  8%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_transitions__type_support_cpp.cpp.o[0m
+[41.775s] [  9%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_state__type_support_cpp.cpp.o[0m
+[43.745s] [ 10%] [32m[1mLinking CXX shared library liblifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[44.175s] [ 10%] Built target lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp
+[44.230s] [ 11%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[51.084s] [ 12%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/msg/detail/dds_fastrtps/state__type_support.cpp.o[0m
+[53.747s] [ 13%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/msg/detail/dds_fastrtps/transition__type_support.cpp.o[0m
+[56.422s] [ 14%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/msg/detail/dds_fastrtps/transition_description__type_support.cpp.o[0m
+[58.996s] [ 15%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/msg/detail/dds_fastrtps/transition_event__type_support.cpp.o[0m
+[61.668s] [ 15%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/srv/detail/dds_fastrtps/change_state__type_support.cpp.o[0m
+[64.427s] [ 16%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/srv/detail/dds_fastrtps/get_available_states__type_support.cpp.o[0m
+[67.540s] [ 17%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/srv/detail/dds_fastrtps/get_available_transitions__type_support.cpp.o[0m
+[70.634s] [ 18%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/srv/detail/dds_fastrtps/get_state__type_support.cpp.o[0m
+[73.354s] [ 19%] [32m[1mLinking CXX shared library liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[73.836s] [ 19%] Built target lifecycle_msgs__rosidl_typesupport_fastrtps_cpp
+[73.893s] [ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[80.730s] [ 21%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/msg/detail/state__type_support.cpp.o[0m
+[83.405s] [ 22%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/msg/detail/transition__type_support.cpp.o[0m
+[85.878s] [ 23%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/msg/detail/transition_description__type_support.cpp.o[0m
+[88.356s] [ 24%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/msg/detail/transition_event__type_support.cpp.o[0m
+[90.744s] [ 25%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/srv/detail/change_state__type_support.cpp.o[0m
+[93.213s] [ 26%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/srv/detail/get_available_states__type_support.cpp.o[0m
+[95.871s] [ 26%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/srv/detail/get_available_transitions__type_support.cpp.o[0m
+[98.583s] [ 27%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/srv/detail/get_state__type_support.cpp.o[0m
+[101.043s] [ 28%] [32m[1mLinking CXX shared library liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[101.454s] [ 28%] Built target lifecycle_msgs__rosidl_typesupport_introspection_cpp
+[103.396s] running egg_info
+[103.400s] creating lifecycle_msgs.egg-info
+[103.401s] writing lifecycle_msgs.egg-info/PKG-INFO
+[103.402s] writing dependency_links to lifecycle_msgs.egg-info/dependency_links.txt
+[103.403s] writing top-level names to lifecycle_msgs.egg-info/top_level.txt
+[103.405s] writing manifest file 'lifecycle_msgs.egg-info/SOURCES.txt'
+[103.416s] reading manifest file 'lifecycle_msgs.egg-info/SOURCES.txt'
+[103.419s] writing manifest file 'lifecycle_msgs.egg-info/SOURCES.txt'
+[103.609s] [ 28%] Built target ament_cmake_python_build_lifecycle_msgs_egg
+[103.666s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[109.346s] [ 30%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/msg/state__type_support.cpp.o[0m
+[111.100s] [ 30%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/msg/transition_description__type_support.cpp.o[0m
+[112.802s] [ 31%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/msg/transition_event__type_support.cpp.o[0m
+[114.757s] [ 32%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/srv/change_state__type_support.cpp.o[0m
+[116.590s] [ 33%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/srv/get_available_states__type_support.cpp.o[0m
+[118.542s] [ 34%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/srv/get_available_transitions__type_support.cpp.o[0m
+[120.370s] [ 35%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/srv/get_state__type_support.cpp.o[0m
+[122.168s] [ 36%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/msg/transition__type_support.cpp.o[0m
+[123.904s] [ 37%] [32m[1mLinking CXX shared library liblifecycle_msgs__rosidl_typesupport_cpp.so[0m
+[124.122s] [ 37%] Built target lifecycle_msgs__rosidl_typesupport_cpp
+[124.181s] [ 38%] [34m[1mGenerating C code for ROS interfaces[0m
+[132.268s] [ 39%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/msg/detail/state__functions.c.o[0m
+[132.571s] [ 40%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/msg/detail/transition_event__functions.c.o[0m
+[132.868s] [ 41%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/srv/detail/change_state__functions.c.o[0m
+[133.219s] [ 42%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/srv/detail/get_available_states__functions.c.o[0m
+[133.576s] [ 43%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/srv/detail/get_available_transitions__functions.c.o[0m
+[133.937s] [ 44%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/srv/detail/get_state__functions.c.o[0m
+[134.290s] [ 45%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/msg/detail/transition_description__functions.c.o[0m
+[134.585s] [ 46%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/msg/detail/transition__functions.c.o[0m
+[134.875s] [ 47%] [32m[1mLinking C shared library liblifecycle_msgs__rosidl_generator_c.so[0m
+[135.116s] [ 47%] Built target lifecycle_msgs__rosidl_generator_c
+[135.171s] [ 48%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[141.558s] [ 49%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/lifecycle_msgs/msg/detail/microxrcedds/state__type_support_c.c.o[0m
+[141.818s] [ 50%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/lifecycle_msgs/msg/detail/microxrcedds/transition__type_support_c.c.o[0m
+[142.097s] [ 51%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/lifecycle_msgs/msg/detail/microxrcedds/transition_description__type_support_c.c.o[0m
+[142.349s] [ 52%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/lifecycle_msgs/msg/detail/microxrcedds/transition_event__type_support_c.c.o[0m
+[142.602s] [ 53%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/lifecycle_msgs/srv/detail/microxrcedds/change_state__type_support_c.c.o[0m
+[142.914s] [ 54%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/lifecycle_msgs/srv/detail/microxrcedds/get_available_states__type_support_c.c.o[0m
+[143.245s] [ 55%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/lifecycle_msgs/srv/detail/microxrcedds/get_available_transitions__type_support_c.c.o[0m
+[143.535s] [ 56%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/lifecycle_msgs/srv/detail/microxrcedds/get_state__type_support_c.c.o[0m
+[143.806s] [ 56%] [32m[1mLinking C shared library liblifecycle_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[144.042s] [ 56%] Built target lifecycle_msgs__rosidl_typesupport_microxrcedds_c
+[144.096s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[149.605s] [ 58%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/msg/state__type_support.cpp.o[0m
+[149.806s] [ 59%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/msg/transition__type_support.cpp.o[0m
+[150.017s] [ 59%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/msg/transition_description__type_support.cpp.o[0m
+[150.218s] [ 60%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/msg/transition_event__type_support.cpp.o[0m
+[150.428s] [ 61%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/srv/change_state__type_support.cpp.o[0m
+[150.624s] [ 62%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/srv/get_available_states__type_support.cpp.o[0m
+[150.818s] [ 63%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/srv/get_available_transitions__type_support.cpp.o[0m
+[150.996s] [ 64%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/srv/get_state__type_support.cpp.o[0m
+[151.164s] [ 65%] [32m[1mLinking CXX shared library liblifecycle_msgs__rosidl_typesupport_c.so[0m
+[151.358s] [ 65%] Built target lifecycle_msgs__rosidl_typesupport_c
+[151.418s] [ 66%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[158.265s] [ 67%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/msg/detail/state__type_support.c.o[0m
+[158.472s] [ 68%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/msg/detail/transition_description__type_support.c.o[0m
+[158.709s] [ 69%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/msg/detail/transition_event__type_support.c.o[0m
+[158.936s] [ 70%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/srv/detail/change_state__type_support.c.o[0m
+[159.191s] [ 71%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/srv/detail/get_available_states__type_support.c.o[0m
+[159.454s] [ 71%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/srv/detail/get_available_transitions__type_support.c.o[0m
+[159.720s] [ 72%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/srv/detail/get_state__type_support.c.o[0m
+[159.960s] [ 73%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/msg/detail/transition__type_support.c.o[0m
+[160.183s] [ 74%] [32m[1mLinking C shared library liblifecycle_msgs__rosidl_typesupport_introspection_c.so[0m
+[160.397s] [ 74%] Built target lifecycle_msgs__rosidl_typesupport_introspection_c
+[160.468s] [ 75%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[167.244s] [ 76%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/msg/detail/state__type_support_c.cpp.o[0m
+[169.397s] [ 77%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/msg/detail/transition_event__type_support_c.cpp.o[0m
+[171.495s] [ 77%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/srv/detail/change_state__type_support_c.cpp.o[0m
+[173.701s] [ 78%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/srv/detail/get_available_states__type_support_c.cpp.o[0m
+[175.978s] [ 79%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/srv/detail/get_available_transitions__type_support_c.cpp.o[0m
+[178.201s] [ 80%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/srv/detail/get_state__type_support_c.cpp.o[0m
+[180.394s] [ 81%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/msg/detail/transition_description__type_support_c.cpp.o[0m
+[182.519s] [ 82%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/msg/detail/transition__type_support_c.cpp.o[0m
+[184.657s] [ 83%] [32m[1mLinking CXX shared library liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[185.104s] [ 83%] Built target lifecycle_msgs__rosidl_typesupport_fastrtps_c
+[185.228s] [ 83%] Built target lifecycle_msgs
+[185.361s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[198.256s] [ 84%] Built target lifecycle_msgs__py
+[198.382s] [ 84%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/msg/_state_s.c.o[0m
+[199.013s] [ 85%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/msg/_transition_event_s.c.o[0m
+[199.679s] [ 86%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/srv/_change_state_s.c.o[0m
+[200.372s] [ 87%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/srv/_get_available_states_s.c.o[0m
+[201.016s] [ 88%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/srv/_get_available_transitions_s.c.o[0m
+[201.599s] [ 89%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/srv/_get_state_s.c.o[0m
+[202.285s] [ 90%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/msg/_transition_description_s.c.o[0m
+[202.950s] [ 91%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/msg/_transition_s.c.o[0m
+[203.467s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/lifecycle_msgs/liblifecycle_msgs__rosidl_generator_py.so[0m
+[203.720s] [ 92%] Built target lifecycle_msgs__rosidl_generator_py
+[203.856s] [ 93%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[204.777s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so[0m
+[205.011s] [ 94%] Built target lifecycle_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[205.134s] [ 95%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[205.875s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[206.089s] [ 96%] Built target lifecycle_msgs__rosidl_typesupport_c__pyext
+[206.204s] [ 97%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[207.058s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[207.283s] [ 98%] Built target lifecycle_msgs__rosidl_typesupport_introspection_c__pyext
+[207.403s] [ 99%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[208.215s] [100%] [32m[1mLinking C shared library rosidl_generator_py/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[208.478s] [100%] Built target lifecycle_msgs__rosidl_typesupport_fastrtps_c__pyext
+[208.560s] Invoked command in '/home/ubuntu/microros_ws/build/lifecycle_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/microros_ws/build/lifecycle_msgs -- -j4 -l4
+[210.580s] Invoking command in '/home/ubuntu/microros_ws/build/lifecycle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/microros_ws/build/lifecycle_msgs
+[210.641s] -- Install configuration: ""
+[210.642s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/ament_index/resource_index/rosidl_interfaces/lifecycle_msgs
+[210.644s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[210.645s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[210.647s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/change_state.h
+[210.648s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_transitions.h
+[210.650s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_state.h
+[210.652s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[210.653s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__type_support.h
+[210.654s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__type_support.h
+[210.656s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__struct.h
+[210.658s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__functions.c
+[210.659s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__type_support.h
+[210.661s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__struct.h
+[210.663s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__functions.h
+[210.665s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__functions.h
+[210.667s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__functions.c
+[210.669s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__functions.c
+[210.674s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__type_support.h
+[210.687s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__struct.h
+[210.689s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__struct.h
+[210.690s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__functions.h
+[210.691s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__functions.h
+[210.692s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__functions.c
+[210.693s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_states.h
+[210.694s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[210.695s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/state.h
+[210.696s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_description.h
+[210.707s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h
+[210.708s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition.h
+[210.709s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[210.710s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__functions.h
+[210.711s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h
+[210.712s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__functions.h
+[210.712s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__struct.h
+[210.716s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.c
+[210.717s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__functions.c
+[210.726s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h
+[210.727s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h
+[210.728s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h
+[210.729s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.h
+[210.730s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__type_support.h
+[210.731s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__functions.h
+[210.732s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h
+[210.733s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__functions.c
+[210.742s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__functions.c
+[210.743s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.h
+[210.744s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h
+[210.744s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/library_path.sh
+[210.745s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/library_path.dsv
+[210.746s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_generator_c.so
+[210.747s] -- Set runtime path of "/home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_generator_c.so" to ""
+[210.748s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs
+[210.748s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv
+[210.759s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail
+[210.760s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_microxrcedds_c.h
+[210.761s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_microxrcedds_c.h
+[210.762s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_microxrcedds_c.h
+[210.763s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds
+[210.764s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_microxrcedds_c.h
+[210.765s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg
+[210.774s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[210.776s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail
+[210.777s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_microxrcedds_c.h
+[210.778s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_microxrcedds_c.h
+[210.779s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_microxrcedds_c.h
+[210.780s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds
+[210.781s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/state__rosidl_typesupport_microxrcedds_c.h
+[210.782s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_microxrcedds_c.so
+[210.796s] -- Set runtime path of "/home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[210.797s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[210.798s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[210.800s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[210.801s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_fastrtps_c.h
+[210.802s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_fastrtps_c.h
+[210.812s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_fastrtps_c.h
+[210.813s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_fastrtps_c.h
+[210.814s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[210.814s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[210.815s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[210.816s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_fastrtps_c.h
+[210.817s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_fastrtps_c.h
+[210.819s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_fastrtps_c.h
+[210.820s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_fastrtps_c.h
+[210.821s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so
+[210.829s] -- Set runtime path of "/home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[210.830s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[210.831s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[210.837s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[210.838s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__type_support.c
+[210.839s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_introspection_c.h
+[210.845s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_introspection_c.h
+[210.846s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_introspection_c.h
+[210.849s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__type_support.c
+[210.852s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_introspection_c.h
+[210.855s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__type_support.c
+[210.858s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__type_support.c
+[210.861s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[210.863s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[210.865s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_introspection_c.h
+[210.869s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.c
+[210.872s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_introspection_c.h
+[210.875s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.c
+[210.878s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.c
+[210.881s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__type_support.c
+[210.885s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_introspection_c.h
+[210.889s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_introspection_c.h
+[210.893s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[210.898s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so
+[210.904s] -- Set runtime path of "/home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so" to ""
+[210.906s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_c.so
+[210.911s] -- Set runtime path of "/home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_c.so" to ""
+[210.913s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[210.915s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[210.917s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_transitions.hpp
+[210.921s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_state.hpp
+[210.924s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_states.hpp
+[210.927s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/change_state.hpp
+[210.929s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[210.931s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__traits.hpp
+[210.935s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__struct.hpp
+[210.938s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__builder.hpp
+[210.941s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__traits.hpp
+[210.944s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__traits.hpp
+[210.947s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__builder.hpp
+[210.951s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__struct.hpp
+[210.954s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__builder.hpp
+[210.957s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__struct.hpp
+[210.960s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__builder.hpp
+[210.963s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__traits.hpp
+[210.966s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__struct.hpp
+[210.969s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[210.971s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp
+[210.974s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp
+[210.977s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.hpp
+[210.980s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_description.hpp
+[210.983s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[210.985s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__traits.hpp
+[210.988s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__builder.hpp
+[210.991s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__traits.hpp
+[210.994s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__struct.hpp
+[210.999s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__builder.hpp
+[211.002s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__traits.hpp
+[211.005s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp
+[211.008s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__builder.hpp
+[211.014s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp
+[211.018s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp
+[211.021s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.hpp
+[211.024s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.hpp
+[211.027s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs
+[211.029s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv
+[211.031s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail
+[211.033s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_microxrcedds_cpp.hpp
+[211.036s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_microxrcedds_cpp.hpp
+[211.039s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds
+[211.041s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds/get_available_transitions__type_support_cpp.cpp
+[211.045s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds/change_state__type_support_cpp.cpp
+[211.048s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds/get_available_states__type_support_cpp.cpp
+[211.051s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds/get_state__type_support_cpp.cpp
+[211.054s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_microxrcedds_cpp.hpp
+[211.057s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_microxrcedds_cpp.hpp
+[211.060s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg
+[211.062s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[211.065s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail
+[211.067s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/state__rosidl_typesupport_microxrcedds_cpp.hpp
+[211.071s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_microxrcedds_cpp.hpp
+[211.073s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_microxrcedds_cpp.hpp
+[211.076s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds
+[211.078s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds/transition__type_support_cpp.cpp
+[211.081s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds/transition_description__type_support_cpp.cpp
+[211.085s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds/state__type_support_cpp.cpp
+[211.088s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds/transition_event__type_support_cpp.cpp
+[211.091s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_microxrcedds_cpp.hpp
+[211.095s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[211.102s] -- Set runtime path of "/home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[211.105s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[211.107s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[211.110s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[211.112s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_fastrtps_cpp.hpp
+[211.116s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_fastrtps_cpp.hpp
+[211.119s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/dds_fastrtps
+[211.121s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_fastrtps_cpp.hpp
+[211.125s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_fastrtps_cpp.hpp
+[211.128s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[211.130s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[211.133s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[211.135s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_fastrtps_cpp.hpp
+[211.138s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_fastrtps_cpp.hpp
+[211.142s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_fastrtps_cpp.hpp
+[211.145s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_fastrtps_cpp.hpp
+[211.148s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/dds_fastrtps
+[211.151s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so
+[211.157s] -- Set runtime path of "/home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[211.159s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[211.161s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[211.163s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[211.165s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__type_support.cpp
+[211.168s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_introspection_cpp.hpp
+[211.172s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__type_support.cpp
+[211.175s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_introspection_cpp.hpp
+[211.179s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_introspection_cpp.hpp
+[211.182s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__type_support.cpp
+[211.185s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__type_support.cpp
+[211.189s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_introspection_cpp.hpp
+[211.192s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[211.194s] -- Up-to-date: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[211.198s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.cpp
+[211.201s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_introspection_cpp.hpp
+[211.204s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_introspection_cpp.hpp
+[211.208s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__type_support.cpp
+[211.211s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_introspection_cpp.hpp
+[211.215s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_introspection_cpp.hpp
+[211.218s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.cpp
+[211.223s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.cpp
+[211.227s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so
+[211.233s] -- Set runtime path of "/home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[211.235s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so
+[211.240s] -- Set runtime path of "/home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so" to ""
+[211.242s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/pythonpath.sh
+[211.245s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/pythonpath.dsv
+[211.248s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs-1.2.1-py3.10.egg-info
+[211.251s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs-1.2.1-py3.10.egg-info/SOURCES.txt
+[211.255s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs-1.2.1-py3.10.egg-info/dependency_links.txt
+[211.258s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs-1.2.1-py3.10.egg-info/PKG-INFO
+[211.261s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs-1.2.1-py3.10.egg-info/top_level.txt
+[211.264s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs
+[211.267s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/__init__.py
+[211.272s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[211.275s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[211.279s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[211.282s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[211.284s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[211.286s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[211.288s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv
+[211.289s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_change_state_s.c
+[211.291s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/__init__.py
+[211.292s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_state_s.c
+[211.293s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_state.py
+[211.295s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_available_transitions.py
+[211.297s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_available_states.py
+[211.298s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_available_transitions_s.c
+[211.300s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_change_state.py
+[211.302s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_available_states_s.c
+[211.304s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/liblifecycle_msgs__rosidl_generator_py.so
+[211.306s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[211.308s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg
+[211.309s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/__init__.py
+[211.311s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_event_s.c
+[211.312s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_s.c
+[211.314s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_description.py
+[211.315s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_state.py
+[211.317s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition.py
+[211.319s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_event.py
+[211.321s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_description_s.c
+[211.322s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_state_s.c
+[211.324s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_c.c
+[211.590s] Listing '/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs'...
+[211.592s] Compiling '/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/__init__.py'...
+[211.593s] Listing '/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg'...
+[211.595s] Compiling '/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/__init__.py'...
+[211.596s] Compiling '/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_state.py'...
+[211.607s] Compiling '/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition.py'...
+[211.616s] Compiling '/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_description.py'...
+[211.617s] Compiling '/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/msg/_transition_event.py'...
+[211.618s] Listing '/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv'...
+[211.619s] Compiling '/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/__init__.py'...
+[211.620s] Compiling '/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_change_state.py'...
+[211.621s] Compiling '/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_available_states.py'...
+[211.634s] Compiling '/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_available_transitions.py'...
+[211.635s] Compiling '/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/srv/_get_state.py'...
+[211.636s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so
+[211.636s] -- Set runtime path of "/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-aarch64-linux-gnu.so" to ""
+[211.637s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[211.638s] -- Set runtime path of "/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[211.638s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[211.641s] -- Set runtime path of "/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[211.643s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[211.647s] -- Set runtime path of "/home/ubuntu/microros_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[211.648s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_generator_py.so
+[211.652s] -- Set runtime path of "/home/ubuntu/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_generator_py.so" to ""
+[211.653s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/State.idl
+[211.655s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/Transition.idl
+[211.657s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionDescription.idl
+[211.659s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionEvent.idl
+[211.662s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState.idl
+[211.664s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates.idl
+[211.666s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions.idl
+[211.668s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState.idl
+[211.670s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/State.msg
+[211.672s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/Transition.msg
+[211.674s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionDescription.msg
+[211.675s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionEvent.msg
+[211.677s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState.srv
+[211.678s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState_Request.msg
+[211.680s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState_Response.msg
+[211.683s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates.srv
+[211.684s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates_Request.msg
+[211.686s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates_Response.msg
+[211.688s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions.srv
+[211.690s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions_Request.msg
+[211.692s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions_Response.msg
+[211.693s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState.srv
+[211.696s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState_Request.msg
+[211.698s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState_Response.msg
+[211.700s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/ament_index/resource_index/package_run_dependencies/lifecycle_msgs
+[211.703s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/ament_index/resource_index/parent_prefix_path/lifecycle_msgs
+[211.704s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/ament_prefix_path.sh
+[211.706s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/ament_prefix_path.dsv
+[211.708s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/path.sh
+[211.710s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/path.dsv
+[211.712s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.bash
+[211.713s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.sh
+[211.715s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.zsh
+[211.717s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.dsv
+[211.719s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/package.dsv
+[211.721s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/ament_index/resource_index/packages/lifecycle_msgs
+[211.723s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_cExport.cmake
+[211.725s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_cExport-noconfig.cmake
+[211.728s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[211.730s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[211.732s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cExport.cmake
+[211.734s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[211.736s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cExport.cmake
+[211.739s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[211.742s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_cppExport.cmake
+[211.744s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[211.746s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[211.749s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[211.751s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[211.753s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cppExport.cmake
+[211.755s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[211.757s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_pyExport.cmake
+[211.759s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_pyExport-noconfig.cmake
+[211.762s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/rosidl_cmake-extras.cmake
+[211.763s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[211.765s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[211.767s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[211.769s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[211.771s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[211.773s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[211.775s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgsConfig.cmake
+[211.776s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgsConfig-version.cmake
+[211.778s] -- Installing: /home/ubuntu/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/package.xml
+[211.791s] Invoked command in '/home/ubuntu/microros_ws/build/lifecycle_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/microros_ws/build/lifecycle_msgs
