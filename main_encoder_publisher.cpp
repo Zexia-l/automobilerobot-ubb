@@ -151,7 +151,7 @@ void loop() {
     // Motor Reverse
     controlMotor(i, 0, speedValue, delayTime);
     delay(500);
-    controlMotor(i, 0, 0, delayTime);
+    controlMotor(i, 0, 0, delayTime); 
   }
 
   // Slow down motors step by step
