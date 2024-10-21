@@ -1,9 +1,12 @@
 #include <Arduino.h>
+#include <MadgwickAHRS.h>
+#include <movingAvg.h>
 #include "Wire.h"
 #include "I2Cdev.h"
 #include "MPU6050.h"
 #include "HMC5883L.h"
 
+Madgwick filter;
 HMC5883L mag;
 MPU6050 accelgyro;
 
@@ -53,6 +56,8 @@ void setup(){
     while (!SerialUSB){
       ;
     }
+
+    filter.begin(50);
     
     SerialUSB.println("Memulai I2C....");
     mag.initialize();
@@ -68,6 +73,7 @@ void setup(){
 void loop(){
     // read raw heading measurements from device
     // read raw accel/gyro measurements from device
+    float roll, pitch, yaw;
     accelgyro.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
     mag.getHeading(&mx, &my, &mz);
 
@@ -86,10 +92,6 @@ void loop(){
     SerialUSB.print(mz); SerialUSB.print("\t");
     */
 // To calculate heading in degrees. 0 degree indicates North
-
-    float pitch = atan2(ay, az) * 180 / M_PI; // Convert to degrees
-    float roll = atan2(-ax, sqrt(ay * ay + az * az)) * 180 / M_PI; // Convert to degrees
-
     float heading = atan2(my, mx);
     if(heading < 0)
       heading += 2 * M_PI;
@@ -97,9 +99,23 @@ void loop(){
     SerialUSB.print("heading:\t");
     SerialUSB.println(heading * 180/M_PI);
     */
-    SerialUSB.print("Pitch: "); SerialUSB.print(pitch);
-    SerialUSB.print("\tRoll: "); SerialUSB.print(roll);
-    SerialUSB.print("\tYaw: "); SerialUSB.println(heading * 180/M_PI);
+
+    filter.update(gx, gy, gz, ax, ay, az, mx, my, mz);
+
+    roll = filter.getRoll();
+    pitch = filter.getPitch();
+    yaw = filter.getYaw();
+    
+
+    SerialUSB.print("pitch: ");
+    SerialUSB.print(pitch);
+    SerialUSB.print(" roll: ");
+    SerialUSB.print(roll);
+    SerialUSB.print(" yaw: ");
+    SerialUSB.print(yaw);
+    SerialUSB.print(" heading: ");
+    SerialUSB.println(heading * 180/M_PI);
+    
     /*
     SerialUSB.print("a/g:\t");
     SerialUSB.print(ax); SerialUSB.print("\t");
@@ -114,7 +130,5 @@ void loop(){
     // blink LED to indicate activity
     blinkState = !blinkState;
     digitalWrite(LED_PIN, blinkState);
-
-    delay(100);
 
 }
