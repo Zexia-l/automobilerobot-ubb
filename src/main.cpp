@@ -1,120 +1,171 @@
 #include <Arduino.h>
-#include "Wire.h"
-#include "I2Cdev.h"
-#include "MPU6050.h"
-#include "HMC5883L.h"
+#include <MovingAverageFilter.h>
+#include <PID_v1.h>
+#include <Wire.h>
+#include <I2Cdev.h>
+#include <MPU6050.h>
 
-HMC5883L mag;
-MPU6050 accelgyro;
+MovingAverageFilter M1SpeedFilter(25);
+MovingAverageFilter M2SpeedFilter(25);
+MovingAverageFilter M3SpeedFilter(25);
+MovingAverageFilter M4SpeedFilter(25);
 
-int16_t mx, my, mz;
 int16_t ax, ay, az;
 int16_t gx, gy, gz;
+float Ax, Ay, Az;
+float Gx, Gy, Gz;
 
-float ax_offset = 0, ay_offset = 0, az_offset = 0;
-float gx_offset = 0, gy_offset = 0, gz_offset = 0;
+// Pin definitions for motors
+//const int R_IS[] = {38, 42, 46, 50};
+//const int L_IS[] = {40, 44, 48, 52};
+const int R_EN[] = {22, 26, 30, 34};
+const int L_EN[] = {24, 28, 32, 36};
+const int RPWM[] = {2, 4, 6, 8};
+const int LPWM[] = {3, 5, 7, 9};
+const int ENC_A[] = {27, 31, 35, 39};
+const int ENC_B[] = {29, 33, 37, 41};
 
-#define OUTPUT_READABLE_ACCELGYRO
-//mengatur output keluaran yang dapat dibaca oleh manusia, data yang dihasilkan mungkin akan sulit jika diparsing dan berjalan dengan lambat saat UART
+/*
+const int R_IS[] = {38, 42, 46, 50};
+const int L_IS[] = {40, 44, 48, 52};
+const int R_EN[] = {22, 26, 30, 34};
+const int L_EN[] = {24, 28, 32, 36};
+const int RPWM[] = {2, 4, 6, 8};
+const int LPWM[] = {3, 5, 7, 9};
+*/
 
+int left_CPR = 412;
+int right_CPR = 412;
 
-#define LED_PIN 13
-bool blinkState = false;
+const int motorCount = 4;
+const int speedValue = 150;
+const int delayTime = 2000;
+const int decelerationStep = 10; // Step for gradual slowing down
+const int decelerationDelay = 50; // Delay between each deceleration step
 
-void calibrate(int samples = 1000){
-    long ax_sum = 0, ay_sum = 0, az_sum = 0;
-    long gx_sum = 0, gy_sum = 0, gz_sum = 0;
+volatile long encoderCount[motorCount] = {0, 0, 0, 0};
 
-    for(int i = 0; i < samples; i++){
-        //accelgyro.getRotation(&gx, &gy, &gz);
-        accelgyro.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
-        ax_sum += ax;
-        ay_sum += ay;
-        az_sum += az;
-        gx_sum += gx;
-        gy_sum += gy;
-        gz_sum += gz;
-        delay(2);
-    }
-    ax_offset = ax_sum / samples;
-    ay_offset = ay_sum / samples;
-    az_offset = az_sum / samples;
-    gx_offset = gx_sum / samples;
-    gy_offset = gy_sum / samples;
-    gz_offset = gz_sum / samples;
-
-    SerialUSB.println("MPU6050 calibrated");
+void readEncoder(int motorIndex) {
+  // Check direction based on the value of ENC_B
+  int b = digitalRead(ENC_B[motorIndex]);
+  if (b > 0) {
+    encoderCount[motorIndex]++;  // CW rotation
+  } else {
+    encoderCount[motorIndex]--;  // CCW rotation
+  }
 }
 
-void setup(){
-    Wire.begin();
-    SerialUSB.begin(38400);
+void encoderISR0() { readEncoder(0); }
+void encoderISR1() { readEncoder(1); }
+void encoderISR2() { readEncoder(2); }
+void encoderISR3() { readEncoder(3); }
 
-    while (!SerialUSB){
-      ;
-    }
-    
-    SerialUSB.println("Memulai I2C....");
-    mag.initialize();
-    accelgyro.initialize();
+// Function to control motor direction
+void controlMotor(int motorIndex, int rpwmValue, int lpwmValue, int duration) {
+  //analogWriteResolution(10);
+  analogWrite(RPWM[motorIndex], rpwmValue);
+  analogWrite(LPWM[motorIndex], lpwmValue);
 
-    SerialUSB.println(mag.testConnection() ? "HMC5883L succes" : "HMC5883L failed");
-    SerialUSB.println(accelgyro.testConnection() ? "MPU6050 succes" : "MPU6050 failed");
-    calibrate();
-    pinMode(LED_PIN, OUTPUT);
-    delay(2000);
+  // Display the PWM values on the SerialUSB Monitor
+  SerialUSB.print("Motor ");
+  SerialUSB.print(motorIndex + 1);
+  SerialUSB.print(" - RPWM: ");
+  SerialUSB.print(rpwmValue);
+  SerialUSB.print(", LPWM: ");
+  SerialUSB.print(lpwmValue);
+  for (int i = 0; i < motorCount; i++) {
+    SerialUSB.print("  Motor ");
+    SerialUSB.print(i + 1);
+    SerialUSB.print(": ");
+    SerialUSB.print(encoderCount[i]);
+  }
+  SerialUSB.println();
+  delay(duration);
 }
 
-void loop(){
-    // read raw heading measurements from device
-    // read raw accel/gyro measurements from device
-    accelgyro.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
-    mag.getHeading(&mx, &my, &mz);
+void setup() {
+  SerialUSB.begin(115200);  // Initialize SerialUSB communication
+  // Set all pins as output and enable motors
+  for (int i = 0; i < motorCount; i++) {
+    //pinMode(R_IS[i], OUTPUT);
+    //pinMode(L_IS[i], OUTPUT);
+    pinMode(R_EN[i], OUTPUT);
+    pinMode(L_EN[i], OUTPUT);
+    pinMode(RPWM[i], OUTPUT);
+    pinMode(LPWM[i], OUTPUT);
+    pinMode(ENC_A[i], INPUT);  // Set encoder A as input with pullup
+    pinMode(ENC_B[i], INPUT);  // Set encoder B as input with pullup
 
-    //ax -= ax_offset;
-    //ay -= ay_offset;
-    //az -= az_offset;
-    gx -= gx_offset;
-    gy -= gy_offset;
-    gz -= gz_offset;
+    digitalWrite(R_EN[i], HIGH);
+    digitalWrite(L_EN[i], HIGH);
+  }
 
-    // display tab-separated gyro x/y/z values 
-    /*
-    SerialUSB.print("mag:\t");
-    SerialUSB.print(mx); SerialUSB.print("\t");
-    SerialUSB.print(my); SerialUSB.print("\t");
-    SerialUSB.print(mz); SerialUSB.print("\t");
-    */
-// To calculate heading in degrees. 0 degree indicates North
+  attachInterrupt(digitalPinToInterrupt(ENC_A[0]), encoderISR0, RISING);
+  attachInterrupt(digitalPinToInterrupt(ENC_A[1]), encoderISR1, RISING);
+  attachInterrupt(digitalPinToInterrupt(ENC_A[2]), encoderISR2, RISING);
+  attachInterrupt(digitalPinToInterrupt(ENC_A[3]), encoderISR3, RISING);
+}
 
-    float pitch = atan2(ay, az) * 180 / M_PI; // Convert to degrees
-    float roll = atan2(-ax, sqrt(ay * ay + az * az)) * 180 / M_PI; // Convert to degrees
+void loop() {
+  for (int i = 0; i < motorCount; i++) {
+    // Motor Forward
+    controlMotor(i, speedValue, 0, delayTime);
 
-    float heading = atan2(my, mx);
-    if(heading < 0)
-      heading += 2 * M_PI;
-    /*
-    SerialUSB.print("heading:\t");
-    SerialUSB.println(heading * 180/M_PI);
-    */
-    SerialUSB.print("Pitch: "); SerialUSB.print(pitch);
-    SerialUSB.print("\tRoll: "); SerialUSB.print(roll);
-    SerialUSB.print("\tYaw: "); SerialUSB.println(heading * 180/M_PI);
-    /*
-    SerialUSB.print("a/g:\t");
-    SerialUSB.print(ax); SerialUSB.print("\t");
-    SerialUSB.print(ay); SerialUSB.print("\t");
-    SerialUSB.print(az); SerialUSB.print("\t");
-    SerialUSB.print(gx); SerialUSB.print("\t");
-    SerialUSB.print(gy); SerialUSB.print("\t");
-    SerialUSBUSB.println(gz);
-    */
-    
+    delay(500);
+    controlMotor(i, 0, 0, delayTime);
 
-    // blink LED to indicate activity
-    blinkState = !blinkState;
-    digitalWrite(LED_PIN, blinkState);
+    // Motor Reverse
+    controlMotor(i, 0, speedValue, delayTime);
 
-    delay(100);
+    delay(500);
+    controlMotor(i, 0, 0, delayTime);
+  }
 
+  // Slow down motors step by step
+  for (int speed = speedValue; speed >= 0; speed -= 10) {
+    for (int i = 0; i < motorCount; i++) {
+      controlMotor(i, speed, 0, 500);
+    }
+  }
+
+  delay(1000);
+  /* program maju mundur 
+  for (int i = 0; i < motorCount; i++) {
+    digitalWrite(R_EN[i], HIGH);
+    digitalWrite(L_EN[i], HIGH);
+  }
+
+  controlMotor(0, speedValue, 0, 0);
+  controlMotor(1, speedValue, 0, 0);
+  controlMotor(2, 0, speedValue, 0);
+  controlMotor(3, 0, speedValue, 0);
+
+  delay(2000);
+
+  for (int i = 0; i < motorCount; i++) {
+    digitalWrite(R_EN[i], LOW);
+    digitalWrite(L_EN[i], LOW);
+  }
+
+  delay(2000);
+
+  for (int i = 0; i < motorCount; i++) {
+    digitalWrite(R_EN[i], HIGH);
+    digitalWrite(L_EN[i], HIGH);
+  }
+
+  controlMotor(0, 0, speedValue, 0);
+  controlMotor(1, 0, speedValue, 0);
+  controlMotor(2, speedValue, 0, 0);
+  controlMotor(3, speedValue, 0, 0);
+
+  delay(2000);
+
+  for (int i = 0; i < motorCount; i++) {
+    digitalWrite(R_EN[i], LOW);
+    digitalWrite(L_EN[i], LOW);
+  }
+
+  delay(2000);
+  */
 }
