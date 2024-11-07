@@ -37,13 +37,38 @@ const int LPWM[] = {3, 5, 7, 9};
 int left_CPR = 412;
 int right_CPR = 412;
 
+double vM1;
+double vM2;
+double vM3;
+double vM4;
+
+const int offsetM4 = 1;
+const int offsetM2 = 1;
+const int offsetM3 = 1;
+const int offsetM4 = 1;
+
 const int motorCount = 4;
 const int speedValue = 150;
-const int delayTime = 2000;
+const int delayTime = 1000;
 const int decelerationStep = 10; // Step for gradual slowing down
 const int decelerationDelay = 50; // Delay between each deceleration step
 
 volatile long encoderCount[motorCount] = {0, 0, 0, 0};
+
+double M1Setpoint, M1Input, M1Output;
+double M2Setpoint, M2Input, M2Output;
+double M3Setpoint, M3Input, M3Output;
+double M4Setpoint, M4Input, M4Output;
+
+double M1Kp=700.00, M1Ki=2000.1, M1Kd= 25.5;
+double M2Kp=700.00, M2Ki=2000.1, M2Kd= 25.5;
+double M3Kp=700.00, M3Ki=2000.1, M3Kd= 25.5;
+double M4Kp=700.00, M4Ki=2000.1, M4Kd= 25.5;
+
+PID M1_PID(&M1Input, &M1Output, &M1Setpoint, M1Kp, M1Ki, M1Kd, DIRECT);
+PID M2_PID(&M2Input, &M2Output, &M2Setpoint, M2Kp, M2Ki, M2Kd, DIRECT);
+PID M3_PID(&M3Input, &M3Output, &M3Setpoint, M3Kp, M3Ki, M3Kd, DIRECT);
+PID M4_PID(&M4Input, &M4Output, &M4Setpoint, M4Kp, M4Ki, M4Kd, DIRECT);
 
 void readEncoder(int motorIndex) {
   // Check direction based on the value of ENC_B
@@ -66,26 +91,28 @@ void controlMotor(int motorIndex, int rpwmValue, int lpwmValue, int duration) {
   analogWrite(RPWM[motorIndex], rpwmValue);
   analogWrite(LPWM[motorIndex], lpwmValue);
 
-  // Display the PWM values on the SerialUSB Monitor
-  SerialUSB.print("Motor ");
-  SerialUSB.print(motorIndex + 1);
-  SerialUSB.print(" - RPWM: ");
-  SerialUSB.print(rpwmValue);
-  SerialUSB.print(", LPWM: ");
-  SerialUSB.print(lpwmValue);
+  // Display the PWM values on the Serial Monitor
+  Serial.print("Motor ");
+  Serial.print(motorIndex + 1);
+  Serial.print(" - RPWM: ");
+  Serial.print(rpwmValue);
+  Serial.print(", LPWM: ");
+  Serial.print(lpwmValue);
   for (int i = 0; i < motorCount; i++) {
-    SerialUSB.print("  Motor ");
-    SerialUSB.print(i + 1);
-    SerialUSB.print(": ");
-    SerialUSB.print(encoderCount[i]);
+    Serial.print("  Motor ");
+    Serial.print(i + 1);
+    Serial.print(": ");
+    Serial.print(encoderCount[i]);
   }
-  SerialUSB.println();
+  Serial.println();
   delay(duration);
 }
 
 void setup() {
-  SerialUSB.begin(115200);  // Initialize SerialUSB communication
+  Wire.begin();
+  Serial.begin(115200);  // Initialize Serial communication
   // Set all pins as output and enable motors
+
   for (int i = 0; i < motorCount; i++) {
     //pinMode(R_IS[i], OUTPUT);
     //pinMode(L_IS[i], OUTPUT);
@@ -100,13 +127,38 @@ void setup() {
     digitalWrite(L_EN[i], HIGH);
   }
 
-  attachInterrupt(digitalPinToInterrupt(ENC_A[0]), encoderISR0, RISING);
-  attachInterrupt(digitalPinToInterrupt(ENC_A[1]), encoderISR1, RISING);
-  attachInterrupt(digitalPinToInterrupt(ENC_A[2]), encoderISR2, RISING);
-  attachInterrupt(digitalPinToInterrupt(ENC_A[3]), encoderISR3, RISING);
+  attachInterrupt(digitalPinToInterrupt(ENC_A[0]), encoderISR0, CHANGE);
+  attachInterrupt(digitalPinToInterrupt(ENC_A[1]), encoderISR1, CHANGE);
+  attachInterrupt(digitalPinToInterrupt(ENC_A[2]), encoderISR2, CHANGE);
+  attachInterrupt(digitalPinToInterrupt(ENC_A[3]), encoderISR3, CHANGE);
+
+  M1_PID.SetMode(AUTOMATIC);
+  M1_PID.SetOutputLimits(-1023, 1023);
+  M1_PID.SetSampleTime(10);
+
+  M2_PID.SetMode(AUTOMATIC);
+  M2_PID.SetOutputLimits(-1023, 1023);
+  M2_PID.SetSampleTime(10);
+
+  M3_PID.SetMode(AUTOMATIC);
+  M3_PID.SetOutputLimits(-1023, 1023);
+  M3_PID.SetSampleTime(10);
+
+  M4_PID.SetMode(AUTOMATIC);
+  M4_PID.SetOutputLimits(-1023, 1023);
+  M4_PID.SetSampleTime(10);
 }
 
 void loop() {
+  if (Serial.available() > 0) {
+    // Read the incoming string until newline
+    String inputString = Serial.readStringUntil('\n');
+
+    // Convert the string to a float
+    M1Setpoint = inputString.toFloat();
+    M2Setpoint = inputString.toFloat();
+  }
+
   for (int i = 0; i < motorCount; i++) {
     // Motor Forward
     controlMotor(i, speedValue, 0, delayTime);
