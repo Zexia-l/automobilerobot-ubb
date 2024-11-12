@@ -47,6 +47,8 @@ const int offsetM2 = 1;
 const int offsetM3 = 1;
 const int offsetM4 = 1;
 
+unsigned long current_time, last_time = 0;
+
 const int motorCount = 4;
 const int speedValue = 150;
 const int delayTime = 1000;
@@ -120,8 +122,8 @@ void setup() {
     pinMode(L_EN[i], OUTPUT);
     pinMode(RPWM[i], OUTPUT);
     pinMode(LPWM[i], OUTPUT);
-    pinMode(ENC_A[i], INPUT);  // Set encoder A as input with pullup
-    pinMode(ENC_B[i], INPUT);  // Set encoder B as input with pullup
+    pinMode(ENC_A[i], INPUT_PULLUP);  // Set encoder A as input with pullup
+    pinMode(ENC_B[i], INPUT_PULLUP);  // Set encoder B as input with pullup
 
     digitalWrite(R_EN[i], HIGH);
     digitalWrite(L_EN[i], HIGH);
@@ -147,6 +149,8 @@ void setup() {
   M4_PID.SetMode(AUTOMATIC);
   M4_PID.SetOutputLimits(-1023, 1023);
   M4_PID.SetSampleTime(10);
+
+  delay(1500);
 }
 
 void loop() {
@@ -157,6 +161,8 @@ void loop() {
     // Convert the string to a float
     M1Setpoint = inputString.toFloat();
     M2Setpoint = inputString.toFloat();
+    M3Setpoint = inputString.toFloat();
+    M4Setpoint = inputString.toFloat();
   }
 
   for (int i = 0; i < motorCount; i++) {
@@ -220,4 +226,24 @@ void loop() {
 
   delay(2000);
   */
+}
+
+void wheel_velocity_calculate(int left_tick_per_revolution, int right_tick_per_revolution,
+                              double *left_wheel_velocity, double *right_wheel_velocity)
+{
+  double WHEEL_RADIUS = 0.0335;
+  double wheelCircumference = 2 * PI * WHEEL_RADIUS;
+  current_time = millis();
+  unsigned long elapsed_time = current_time - last_time;
+  if(elapsed_time >=  30){
+    // Calculate revolutions
+    double left_revolutions = (double)Left_encoderPos / left_tick_per_revolution;
+    double right_revolutions = (double)Right_encoderPos / right_tick_per_revolution;
+    *left_wheel_velocity = (left_revolutions * wheelCircumference) / (elapsed_time/ 1000.0); // m/s
+    *right_wheel_velocity = (right_revolutions * wheelCircumference) / (elapsed_time/ 1000.0); // m/s
+    // Reset tick count and update lastTime
+    Left_encoderPos = 0;
+    Right_encoderPos = 0;
+    last_time = current_time;
+  }
 }
