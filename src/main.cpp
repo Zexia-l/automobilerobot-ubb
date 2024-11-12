@@ -34,13 +34,17 @@ const int RPWM[] = {2, 4, 6, 8};
 const int LPWM[] = {3, 5, 7, 9};
 */
 
-int left_CPR = 412;
-int right_CPR = 412;
+int M1_CPR = 150;
+int M2_CPR = 150;
+int M3_CPR = 150;
+int M4_CPR = 150;
 
 double vM1;
 double vM2;
 double vM3;
 double vM4;
+
+MPU6050 accelgyro;
 
 const int offsetM4 = 1;
 const int offsetM2 = 1;
@@ -115,6 +119,8 @@ void setup() {
   Serial.begin(115200);  // Initialize Serial communication
   // Set all pins as output and enable motors
 
+  IMU_Initialization();
+
   for (int i = 0; i < motorCount; i++) {
     //pinMode(R_IS[i], OUTPUT);
     //pinMode(L_IS[i], OUTPUT);
@@ -165,7 +171,37 @@ void loop() {
     M4Setpoint = inputString.toFloat();
   }
 
-  for (int i = 0; i < motorCount; i++) {
+  wheel_velocity_calculate(M1_CPR, M2_CPR, M3_CPR, M4_CPR, &vM1, &vM2, &vM3, &vM4);
+  double M1_filter = M1SpeedFilter.process(vM1);
+  double M2_filter = M2SpeedFilter.process(vM2);
+  double M3_filter = M3SpeedFilter.process(vM3);
+  double M4_filter = M4SpeedFilter.process(vM4);
+
+  M1Input = M1_filter;
+  M2Input = M2_filter;
+  M3Input = M3_filter;
+  M4Input = M4_filter;
+
+  M1_PID.Compute();
+  M2_PID.Compute();
+  M3_PID.Compute();
+  M4_PID.Compute();
+
+  controlMotor(0, M1Output, 0, 0);
+  controlMotor(1, M2Output, 0, 0);
+  controlMotor(2, 0, M3Output, 0);
+  controlMotor(3, 0, M4Output, 0);
+
+  Serial.print(M1Setpoint); Serial.print(" - ");
+  Serial.print(M2Setpoint); Serial.print(" - ");
+  Serial.print(M3Setpoint); Serial.print(" - ");
+  Serial.print(M4Setpoint); Serial.print(" - filter: ");
+  Serial.print(M1_filter); Serial.print(" - ");
+  Serial.print(M2_filter); Serial.print(" - ");
+  Serial.print(M3_filter); Serial.print(" - ");
+  Serial.println(M4_filter);
+
+  /* for (int i = 0; i < motorCount; i++) {
     // Motor Forward
     controlMotor(i, speedValue, 0, delayTime);
 
@@ -187,7 +223,7 @@ void loop() {
   }
 
   delay(1000);
-  /* program maju mundur 
+  //program maju mundur 
   for (int i = 0; i < motorCount; i++) {
     digitalWrite(R_EN[i], HIGH);
     digitalWrite(L_EN[i], HIGH);
@@ -228,22 +264,80 @@ void loop() {
   */
 }
 
-void wheel_velocity_calculate(int left_tick_per_revolution, int right_tick_per_revolution,
-                              double *left_wheel_velocity, double *right_wheel_velocity)
+void wheel_velocity_calculate(int front_left_tick_per_revolution, int back_left_tick_per_revolution,
+                              int front_right_tick_per_revolution, int back_right_tick_per_revolution,
+                              double *front_left_wheel_velocity, double *front_right_wheel_velocity,
+                              double *back_left_wheel_velocity, double *back_right_wheel_velocity)
 {
   double WHEEL_RADIUS = 0.0335;
   double wheelCircumference = 2 * PI * WHEEL_RADIUS;
-  current_time = millis();
+  unsigned long current_time = millis();
   unsigned long elapsed_time = current_time - last_time;
-  if(elapsed_time >=  30){
-    // Calculate revolutions
-    double left_revolutions = (double)Left_encoderPos / left_tick_per_revolution;
-    double right_revolutions = (double)Right_encoderPos / right_tick_per_revolution;
-    *left_wheel_velocity = (left_revolutions * wheelCircumference) / (elapsed_time/ 1000.0); // m/s
-    *right_wheel_velocity = (right_revolutions * wheelCircumference) / (elapsed_time/ 1000.0); // m/s
-    // Reset tick count and update lastTime
-    Left_encoderPos = 0;
-    Right_encoderPos = 0;
+  
+  if (elapsed_time >= 30) {
+    // Calculate revolutions for each wheel
+    double front_left_revolutions = (double)encoderCount[0] / front_left_tick_per_revolution;
+    double back_left_revolutions = (double)encoderCount[1] / back_left_tick_per_revolution;
+    double front_right_revolutions = (double)encoderCount[2] / front_right_tick_per_revolution;
+    double back_right_revolutions = (double)encoderCount[3] / back_right_tick_per_revolution;
+
+    // Calculate velocities for each wheel
+    *front_left_wheel_velocity = (front_left_revolutions * wheelCircumference) / (elapsed_time / 1000.0); // m/s
+    *front_right_wheel_velocity = (front_right_revolutions * wheelCircumference) / (elapsed_time / 1000.0); // m/s
+    *back_left_wheel_velocity = (back_left_revolutions * wheelCircumference) / (elapsed_time / 1000.0); // m/s
+    *back_right_wheel_velocity = (back_right_revolutions * wheelCircumference) / (elapsed_time / 1000.0); // m/s
+
+    // Reset tick count and update last time
+    encoderCount[0] = 0;
+    encoderCount[1] = 0;
+    encoderCount[2] = 0;
+    encoderCount[3] = 0;
     last_time = current_time;
   }
+}
+
+void InverseKinematics(float vx, float wz, float *front_left_wheel_velocity, float *back_left_wheel_velocity, 
+                        float *front_right_wheel_velocity, float *back_right_wheel_velocity)
+{
+  float WHEEL_RADIUS = 0.0335;
+  float WHEEL_BASE = 29.0; // Jarak antar roda kiri dan kanan (dalam cm), sesuaikan jika berbeda
+
+  // Hitung kecepatan untuk roda kiri depan dan belakang
+  *front_left_wheel_velocity = (vx - wz * WHEEL_BASE / 2.0) / WHEEL_RADIUS;
+  *back_left_wheel_velocity = (vx - wz * WHEEL_BASE / 2.0) / WHEEL_RADIUS;
+
+  // Hitung kecepatan untuk roda kanan depan dan belakang
+  *front_right_wheel_velocity = (vx + wz * WHEEL_BASE / 2.0) / WHEEL_RADIUS;
+  *back_right_wheel_velocity = (vx + wz * WHEEL_BASE / 2.0) / WHEEL_RADIUS;
+}
+
+void IMU_Initialization()
+{
+  // join I2C bus (I2Cdev library doesn't do this automatically)
+  #if I2CDEV_IMPLEMENTATION == I2CDEV_ARDUINO_WIRE
+      Wire.begin();
+  #elif I2CDEV_IMPLEMENTATION == I2CDEV_BUILTIN_FASTWIRE
+      Fastwire::setup(400, true);
+  #endif
+
+  // initialize device
+  Serial.println("Initializing I2C devices...");
+  accelgyro.initialize();
+
+  // verify connection
+  Serial.println("Testing device connections...");
+  Serial.println(accelgyro.testConnection() ? "MPU6050 connection successful" : "MPU6050 connection failed");
+}
+
+void IMU_Calculate()
+{
+  // read raw accel/gyro measurements from device
+  accelgyro.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
+   //turn accelerometer 16-bit data into Acceleration (G)
+  Ax = (float) ax / 16384.0;
+  Ay = (float) ay / 16384.0;
+  Az = (float) az / 16384.0;
+  Gx = (float) gx / 131.0;
+  Gy = (float) gy / 131.0;
+  Gz = (float) gz / 131.0;
 }
