@@ -214,6 +214,67 @@ void loop() {
   Serial.print(M3_filter); Serial.print(" - ");
   Serial.println(M4_filter);
 
+  /* for (int i = 0; i < motorCount; i++) {
+    // Motor Forward
+    controlMotor(i, speedValue, 0, delayTime);
+
+    delay(500);
+    controlMotor(i, 0, 0, delayTime);
+
+    // Motor Reverse
+    controlMotor(i, 0, speedValue, delayTime);
+
+    delay(500);
+    controlMotor(i, 0, 0, delayTime);
+  }
+
+  // Slow down motors step by step
+  for (int speed = speedValue; speed >= 0; speed -= 10) {
+    for (int i = 0; i < motorCount; i++) {
+      controlMotor(i, speed, 0, 500);
+    }
+  }
+
+  delay(1000);
+  //program maju mundur 
+  for (int i = 0; i < motorCount; i++) {
+    digitalWrite(R_EN[i], HIGH);
+    digitalWrite(L_EN[i], HIGH);
+  }
+
+  controlMotor(0, speedValue, 0, 0);
+  controlMotor(1, speedValue, 0, 0);
+  controlMotor(2, 0, speedValue, 0);
+  controlMotor(3, 0, speedValue, 0);
+
+  delay(2000);
+
+  for (int i = 0; i < motorCount; i++) {
+    digitalWrite(R_EN[i], LOW);
+    digitalWrite(L_EN[i], LOW);
+  }
+
+  delay(2000);
+
+  for (int i = 0; i < motorCount; i++) {
+    digitalWrite(R_EN[i], HIGH);
+    digitalWrite(L_EN[i], HIGH);
+  }
+
+  controlMotor(0, 0, speedValue, 0);
+  controlMotor(1, 0, speedValue, 0);
+  controlMotor(2, speedValue, 0, 0);
+  controlMotor(3, speedValue, 0, 0);
+
+  delay(2000);
+
+  for (int i = 0; i < motorCount; i++) {
+    digitalWrite(R_EN[i], LOW);
+    digitalWrite(L_EN[i], LOW);
+  }
+
+  delay(2000);
+  */
 }
 
 void wheel_velocity_calculate(int front_left_tick_per_revolution, int back_left_tick_per_revolution,
