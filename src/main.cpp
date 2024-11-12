@@ -46,7 +46,7 @@ double vM4;
 
 MPU6050 accelgyro;
 
-const int offsetM4 = 1;
+const int offsetM1 = 1;
 const int offsetM2 = 1;
 const int offsetM3 = 1;
 const int offsetM4 = 1;
@@ -113,6 +113,18 @@ void controlMotor(int motorIndex, int rpwmValue, int lpwmValue, int duration) {
   Serial.println();
   delay(duration);
 }
+
+
+
+void IMU_Initialization();
+void IMU_Calculate();
+void InverseKinematics(float vx, float wz, float *front_left_wheel_velocity, float *back_left_wheel_velocity, 
+                        float *front_right_wheel_velocity, float *back_right_wheel_velocity);
+
+void wheel_velocity_calculate(int front_left_tick_per_revolution, int back_left_tick_per_revolution,
+                              int front_right_tick_per_revolution, int back_right_tick_per_revolution,
+                              double *front_left_wheel_velocity, double *front_right_wheel_velocity,
+                              double *back_left_wheel_velocity, double *back_right_wheel_velocity);
 
 void setup() {
   Wire.begin();
