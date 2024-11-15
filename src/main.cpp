@@ -26,6 +26,7 @@ const int ENC_A[] = {27, 31, 35, 39};
 const int ENC_B[] = {29, 33, 37, 41};
 
 /*
+
 const int R_IS[] = {38, 42, 46, 50};
 const int L_IS[] = {40, 44, 48, 52};
 const int R_EN[] = {22, 26, 30, 34};
@@ -93,6 +94,9 @@ void encoderISR3() { readEncoder(3); }
 
 // Function to control motor direction
 void controlMotor(int motorIndex, int rpwmValue, int lpwmValue, int duration) {
+  int adjustedRpwmValue = constrain(rpwmValue, 0, 255);
+  int adjustedLpwmValue = constrain(lpwmValue, 0, 255);
+  
   analogWrite(RPWM[motorIndex], rpwmValue);
   analogWrite(LPWM[motorIndex], lpwmValue);
 
@@ -117,7 +121,7 @@ void controlMotor(int motorIndex, int rpwmValue, int lpwmValue, int duration) {
 
 void IMU_Initialization();
 void IMU_Calculate();
-void InverseKinematics(float vx, float wz, float *front_left_wheel_velocity, float *back_left_wheel_velocity, 
+void ForwardKinematics(float lx, float ly, float *front_left_wheel_velocity, float *back_left_wheel_velocity, 
                         float *front_right_wheel_velocity, float *back_right_wheel_velocity);
 
 void wheel_velocity_calculate(int front_left_tick_per_revolution, int back_left_tick_per_revolution,
@@ -154,19 +158,19 @@ void setup() {
   //analogWriteResolution(8);
 
   M1_PID.SetMode(AUTOMATIC);
-  M1_PID.SetOutputLimits(-1023, 1023);
+  M1_PID.SetOutputLimits(-255, 255);
   M1_PID.SetSampleTime(10);
 
   M2_PID.SetMode(AUTOMATIC);
-  M2_PID.SetOutputLimits(-1023, 1023);
+  M2_PID.SetOutputLimits(-255, 255);
   M2_PID.SetSampleTime(10);
 
   M3_PID.SetMode(AUTOMATIC);
-  M3_PID.SetOutputLimits(-1023, 1023);
+  M3_PID.SetOutputLimits(-255, 255);
   M3_PID.SetSampleTime(10);
 
   M4_PID.SetMode(AUTOMATIC);
-  M4_PID.SetOutputLimits(-1023, 1023);
+  M4_PID.SetOutputLimits(-255, 255);
   M4_PID.SetSampleTime(10);
 
   delay(1500);
@@ -221,7 +225,7 @@ void wheel_velocity_calculate(int front_left_tick_per_revolution, int back_left_
                               double *front_left_wheel_velocity, double *front_right_wheel_velocity,
                               double *back_left_wheel_velocity, double *back_right_wheel_velocity)
 {
-  double WHEEL_RADIUS = 0.0335;
+  double WHEEL_RADIUS = 0.03;
   double wheelCircumference = 2 * PI * WHEEL_RADIUS;
   unsigned long current_time = millis();
   unsigned long elapsed_time = current_time - last_time;
@@ -248,19 +252,35 @@ void wheel_velocity_calculate(int front_left_tick_per_revolution, int back_left_
   }
 }
 
-void InverseKinematics(float vx, float wz, float *front_left_wheel_velocity, float *back_left_wheel_velocity, 
+void ForwardKinematics(float lx, float ly, float angularZ, float *front_left_wheel_velocity, float *back_left_wheel_velocity, 
                         float *front_right_wheel_velocity, float *back_right_wheel_velocity)
 {
-  float WHEEL_RADIUS = 0.0335;
-  float WHEEL_BASE = 29.0; // Jarak antar roda kiri dan kanan (dalam cm), sesuaikan jika berbeda
+  float WHEEL_RADIUS = 0.03;
+  float WHEEL_BASE = 29.0;
+  float WHEEL_SEPARATION_WIDTH = 17.8;
+  float WHEEL_SEPARATION_LENGTH = 16.6;
 
   // Hitung kecepatan untuk roda kiri depan dan belakang
-  *front_left_wheel_velocity = (vx - wz * WHEEL_BASE / 2.0) / WHEEL_RADIUS;
-  *back_left_wheel_velocity = (vx - wz * WHEEL_BASE / 2.0) / WHEEL_RADIUS;
+  *front_left_wheel_velocity = (1/WHEEL_RADIUS) * (lx - ly - (WHEEL_SEPARATION_WIDTH + WHEEL_SEPARATION_LENGTH) * angularZ);
+  *front_right_wheel_velocity = (1/WHEEL_RADIUS) * (lx + ly + (WHEEL_SEPARATION_WIDTH + WHEEL_SEPARATION_LENGTH) * angularZ);
+  *back_left_wheel_velocity = (1/WHEEL_RADIUS) * (lx + ly - (WHEEL_SEPARATION_WIDTH + WHEEL_SEPARATION_LENGTH) * angularZ);
+  *back_right_wheel_velocity = (1/WHEEL_RADIUS) * (lx - ly + (WHEEL_SEPARATION_WIDTH + WHEEL_SEPARATION_LENGTH) * angularZ);
 
-  // Hitung kecepatan untuk roda kanan depan dan belakang
-  *front_right_wheel_velocity = (vx + wz * WHEEL_BASE / 2.0) / WHEEL_RADIUS;
-  *back_right_wheel_velocity = (vx + wz * WHEEL_BASE / 2.0) / WHEEL_RADIUS;
+  *front_right_wheel_velocity = -1 * *front_right_wheel_velocity;
+  *back_right_wheel_velocity = -1 * *back_right_wheel_velocity;
+}
+
+void InverseKinematics(float *front_left_wheel_velocity, float *back_left_wheel_velocity, 
+                        float *front_right_wheel_velocity, float *back_right_wheel_velocity)
+{
+  float WHEEL_RADIUS = 0.03;
+  float WHEEL_BASE = 29.0;
+  float WHEEL_SEPARATION_WIDTH = 17.8;
+  float WHEEL_SEPARATION_LENGTH = 16.6;
+  
+  float lx = (*front_left_wheel_velocity + *front_right_wheel_velocity + *back_left_wheel_velocity + *back_right_wheel_velocity) * (WHEEL_RADIUS / 4);
+  float ly = (*front_left_wheel_velocity + *front_right_wheel_velocity + *back_left_wheel_velocity + *back_right_wheel_velocity) * (WHEEL_RADIUS / 4);
+  float angularZ = (*front_left_wheel_velocity + *front_right_wheel_velocity + *back_left_wheel_velocity + *back_right_wheel_velocity) * (WHEEL_RADIUS / (4 * (WHEEL_SEPARATION_WIDTH + WHEEL_SEPARATION_LENGTH)));
 }
 
 void IMU_Initialization()
