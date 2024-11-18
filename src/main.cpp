@@ -4,6 +4,11 @@
 #include <Wire.h>
 #include <I2Cdev.h>
 #include <MPU6050.h>
+#include <micro_ros_platformio.h>
+#include <rcl/rcl.h>
+#include <rclc/rclc.h>
+#include <rclc/executor.h>
+#include <std_msgs/msg/int32_multi_array.h>
 
 MovingAverageFilter M1SpeedFilter(25);
 MovingAverageFilter M2SpeedFilter(25);
@@ -53,6 +58,8 @@ const int offsetM3 = 1;
 const int offsetM4 = 1;
 
 unsigned long current_time, last_time = 0;
+
+float lx, ly, angularZ;
 
 const int motorCount = 4;
 const int speedValue = 100;
@@ -124,8 +131,10 @@ void controlMotor(int motorIndex, int rpwmValue, int lpwmValue, int duration) {
 
 void IMU_Initialization();
 void IMU_Calculate();
-void ForwardKinematics(float lx, float ly, float *front_left_wheel_velocity, float *back_left_wheel_velocity, 
-                        float *front_right_wheel_velocity, float *back_right_wheel_velocity);
+void InverseKinematics(double *front_left_wheel_velocity, double *back_left_wheel_velocity, 
+                        double *front_right_wheel_velocity, double *back_right_wheel_velocity);
+void ForwardKinematics(float lx, float ly, float angularZ, double *front_left_wheel_velocity, double *back_left_wheel_velocity, 
+                        double *front_right_wheel_velocity, double *back_right_wheel_velocity);
 
 void wheel_velocity_calculate(int front_left_tick_per_revolution, int back_left_tick_per_revolution,
                               int front_right_tick_per_revolution, int back_right_tick_per_revolution,
@@ -196,6 +205,8 @@ void loop() {
   double M2_filter = M2SpeedFilter.process(vM2);
   double M3_filter = M3SpeedFilter.process(vM3);
   double M4_filter = M4SpeedFilter.process(vM4);
+  InverseKinematics(&vM1, &vM2, &vM3, &vM4);
+  ForwardKinematics(lx, ly, angularZ, &vM1, &vM2, &vM3, &vM4);
 
   M1Input = M1_filter;
   M2Input = M2_filter;
@@ -295,11 +306,11 @@ void wheel_velocity_calculate(int front_left_tick_per_revolution, int back_left_
   }
 }
 
-void ForwardKinematics(float lx, float ly, float angularZ, float *front_left_wheel_velocity, float *back_left_wheel_velocity, 
-                        float *front_right_wheel_velocity, float *back_right_wheel_velocity)
+void ForwardKinematics(float lx, float ly, float angularZ, double *front_left_wheel_velocity, double *back_left_wheel_velocity, 
+                        double *front_right_wheel_velocity, double *back_right_wheel_velocity)
 {
   float WHEEL_RADIUS = 0.03;
-  float WHEEL_BASE = 29.0;
+  //float WHEEL_BASE = 29.0;
   float WHEEL_SEPARATION_WIDTH = 17.8;
   float WHEEL_SEPARATION_LENGTH = 16.6;
 
@@ -313,17 +324,17 @@ void ForwardKinematics(float lx, float ly, float angularZ, float *front_left_whe
   *back_right_wheel_velocity = -1 * *back_right_wheel_velocity;
 }
 
-void InverseKinematics(float *front_left_wheel_velocity, float *back_left_wheel_velocity, 
-                        float *front_right_wheel_velocity, float *back_right_wheel_velocity)
+void InverseKinematics(double *front_left_wheel_velocity, double *back_left_wheel_velocity, 
+                        double *front_right_wheel_velocity, double *back_right_wheel_velocity)
 {
   float WHEEL_RADIUS = 0.03;
-  float WHEEL_BASE = 29.0;
+  //float WHEEL_BASE = 29.0;
   float WHEEL_SEPARATION_WIDTH = 17.8;
   float WHEEL_SEPARATION_LENGTH = 16.6;
   
-  float lx = (*front_left_wheel_velocity + *front_right_wheel_velocity + *back_left_wheel_velocity + *back_right_wheel_velocity) * (WHEEL_RADIUS / 4);
-  float ly = (*front_left_wheel_velocity + *front_right_wheel_velocity + *back_left_wheel_velocity + *back_right_wheel_velocity) * (WHEEL_RADIUS / 4);
-  float angularZ = (*front_left_wheel_velocity + *front_right_wheel_velocity + *back_left_wheel_velocity + *back_right_wheel_velocity) * (WHEEL_RADIUS / (4 * (WHEEL_SEPARATION_WIDTH + WHEEL_SEPARATION_LENGTH)));
+  lx = (*front_left_wheel_velocity + *front_right_wheel_velocity + *back_left_wheel_velocity + *back_right_wheel_velocity) * (WHEEL_RADIUS / 4);
+  ly = (*front_left_wheel_velocity + *front_right_wheel_velocity + *back_left_wheel_velocity + *back_right_wheel_velocity) * (WHEEL_RADIUS / 4);
+  angularZ = (*front_left_wheel_velocity + *front_right_wheel_velocity + *back_left_wheel_velocity + *back_right_wheel_velocity) * (WHEEL_RADIUS / (4 * (WHEEL_SEPARATION_WIDTH + WHEEL_SEPARATION_LENGTH)));
 }
 
 void IMU_Initialization()
