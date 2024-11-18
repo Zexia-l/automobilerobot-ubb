@@ -97,7 +97,7 @@ void controlMotor(int motorIndex, int rpwmValue, int lpwmValue, int duration) {
   analogWrite(LPWM[motorIndex], lpwmValue);
 
   // Display the PWM values on the Serial Monitor
-  /*Serial.print("Motor ");
+  Serial.print("Motor ");
   Serial.print(motorIndex + 1);
   Serial.print(" - RPWM: ");
   Serial.print(rpwmValue);
@@ -109,7 +109,8 @@ void controlMotor(int motorIndex, int rpwmValue, int lpwmValue, int duration) {
     Serial.print(": ");
     Serial.print(encoderCount[i]);
   }
-  Serial.println();*/
+  Serial.println();
+
   delay(duration);
 }
 
@@ -173,7 +174,7 @@ void setup() {
 }
 
 void loop() {
-  if (Serial.available() > 0) {
+  /*if (Serial.available() > 0) {
     // Read the incoming string until newline
     String inputString = Serial.readStringUntil('\n');
 
@@ -182,7 +183,7 @@ void loop() {
     M2Setpoint = inputString.toFloat();
     M3Setpoint = inputString.toFloat();
     M4Setpoint = inputString.toFloat();
-  }
+  }*/
 
   wheel_velocity_calculate(M1_CPR, M2_CPR, M3_CPR, M4_CPR, &vM1, &vM2, &vM3, &vM4);
   double M1_filter = M1SpeedFilter.process(vM1);
@@ -200,6 +201,7 @@ void loop() {
   M3_PID.Compute();
   M4_PID.Compute();
 
+  /*
   controlMotor(0, M1Output, 0, 0);
   controlMotor(1, M2Output, 0, 0);
   controlMotor(2, 0, M3Output, 0);
@@ -213,7 +215,7 @@ void loop() {
   Serial.print(M2_filter); Serial.print(" - ");
   Serial.print(M3_filter); Serial.print(" - ");
   Serial.println(M4_filter);
-
+  */
   /* for (int i = 0; i < motorCount; i++) {
     // Motor Forward
     controlMotor(i, speedValue, 0, delayTime);
@@ -236,6 +238,7 @@ void loop() {
   }
 
   delay(1000);
+  */
   //program maju mundur 
   for (int i = 0; i < motorCount; i++) {
     digitalWrite(R_EN[i], HIGH);
@@ -274,7 +277,6 @@ void loop() {
   }
 
   delay(2000);
-  */
 }
 
 void wheel_velocity_calculate(int front_left_tick_per_revolution, int back_left_tick_per_revolution,

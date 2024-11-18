@@ -55,7 +55,7 @@ const int offsetM4 = 1;
 unsigned long current_time, last_time = 0;
 
 const int motorCount = 4;
-const int speedValue = 150;
+const int speedValue = 100;
 const int delayTime = 1000;
 const int decelerationStep = 10; // Step for gradual slowing down
 const int decelerationDelay = 50; // Delay between each deceleration step
@@ -97,23 +97,26 @@ void controlMotor(int motorIndex, int rpwmValue, int lpwmValue, int duration) {
   int adjustedRpwmValue = constrain(rpwmValue, 0, 255);
   int adjustedLpwmValue = constrain(lpwmValue, 0, 255);
   
-  analogWrite(RPWM[motorIndex], rpwmValue);
-  analogWrite(LPWM[motorIndex], lpwmValue);
+  analogWrite(RPWM[motorIndex], adjustedRpwmValue);
+  analogWrite(LPWM[motorIndex], adjustedLpwmValue);
 
   // Display the PWM values on the Serial Monitor
-  /*Serial.print("Motor ");
+  /*
+  Serial.print("Motor ");
   Serial.print(motorIndex + 1);
   Serial.print(" - RPWM: ");
   Serial.print(rpwmValue);
   Serial.print(", LPWM: ");
   Serial.print(lpwmValue);
+  */
   for (int i = 0; i < motorCount; i++) {
     Serial.print("  Motor ");
     Serial.print(i + 1);
     Serial.print(": ");
     Serial.print(encoderCount[i]);
   }
-  Serial.println();*/
+  //Serial.println();
+
   delay(duration);
 }
 
@@ -150,10 +153,10 @@ void setup() {
     digitalWrite(L_EN[i], HIGH);
   }
 
-  attachInterrupt(digitalPinToInterrupt(ENC_A[0]), encoderISR0, CHANGE);
-  attachInterrupt(digitalPinToInterrupt(ENC_A[1]), encoderISR1, CHANGE);
-  attachInterrupt(digitalPinToInterrupt(ENC_A[2]), encoderISR2, CHANGE);
-  attachInterrupt(digitalPinToInterrupt(ENC_A[3]), encoderISR3, CHANGE);
+  attachInterrupt(digitalPinToInterrupt(ENC_A[0]), encoderISR0, RISING);
+  attachInterrupt(digitalPinToInterrupt(ENC_A[1]), encoderISR1, RISING);
+  attachInterrupt(digitalPinToInterrupt(ENC_A[2]), encoderISR2, RISING);
+  attachInterrupt(digitalPinToInterrupt(ENC_A[3]), encoderISR3, RISING);
 
   //analogWriteResolution(8);
 
@@ -187,7 +190,7 @@ void loop() {
     M3Setpoint = inputString.toFloat();
     M4Setpoint = inputString.toFloat();
   }
-
+  
   wheel_velocity_calculate(M1_CPR, M2_CPR, M3_CPR, M4_CPR, &vM1, &vM2, &vM3, &vM4);
   double M1_filter = M1SpeedFilter.process(vM1);
   double M2_filter = M2SpeedFilter.process(vM2);
@@ -203,11 +206,12 @@ void loop() {
   M2_PID.Compute();
   M3_PID.Compute();
   M4_PID.Compute();
-
+  
   controlMotor(0, M1Output, 0, 0);
   controlMotor(1, M2Output, 0, 0);
   controlMotor(2, 0, M3Output, 0);
   controlMotor(3, 0, M4Output, 0);
+  
 
   Serial.print(M1Setpoint); Serial.print(" - ");
   Serial.print(M2Setpoint); Serial.print(" - ");
@@ -217,6 +221,45 @@ void loop() {
   Serial.print(M2_filter); Serial.print(" - ");
   Serial.print(M3_filter); Serial.print(" - ");
   Serial.println(M4_filter);
+  
+
+  for (int i = 0; i < motorCount; i++) {
+    digitalWrite(R_EN[i], HIGH);
+    digitalWrite(L_EN[i], HIGH);
+  }
+
+  controlMotor(0, speedValue, 0, 0);
+  controlMotor(1, speedValue, 0, 0);
+  controlMotor(2, 0, speedValue, 0);
+  controlMotor(3, 0, speedValue, 0);
+
+  delay(2000);
+
+  for (int i = 0; i < motorCount; i++) {
+    digitalWrite(R_EN[i], LOW);
+    digitalWrite(L_EN[i], LOW);
+  }
+
+  delay(2000);
+
+  for (int i = 0; i < motorCount; i++) {
+    digitalWrite(R_EN[i], HIGH);
+    digitalWrite(L_EN[i], HIGH);
+  }
+
+  controlMotor(0, 0, speedValue, 0);
+  controlMotor(1, 0, speedValue, 0);
+  controlMotor(2, speedValue, 0, 0);
+  controlMotor(3, speedValue, 0, 0);
+
+  delay(2000);
+
+  for (int i = 0; i < motorCount; i++) {
+    digitalWrite(R_EN[i], LOW);
+    digitalWrite(L_EN[i], LOW);
+  }
+
+  delay(2000);
 
 }
 
