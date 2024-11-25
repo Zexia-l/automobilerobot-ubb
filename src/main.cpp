@@ -38,12 +38,18 @@ void setMotor(Motor motor, int speed) {
   if (speed > 0) {
     analogWrite(motor.RPWM, speed); // Maju
     analogWrite(motor.LPWM, 0);
+    digitalWrite(motor.REN, HIGH);  // Aktifkan enable
+    digitalWrite(motor.LEN, HIGH);
   } else if (speed < 0) {
     analogWrite(motor.RPWM, 0);
     analogWrite(motor.LPWM, -speed); // Mundur
+    digitalWrite(motor.REN, HIGH);  // Aktifkan enable
+    digitalWrite(motor.LEN, HIGH);
   } else {
     analogWrite(motor.RPWM, 0); // Berhenti
     analogWrite(motor.LPWM, 0);
+    digitalWrite(motor.REN, LOW);  // Aktifkan enable
+    digitalWrite(motor.LEN, LOW);
   }
 }
 
