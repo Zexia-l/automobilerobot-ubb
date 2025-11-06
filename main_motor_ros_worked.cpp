@@ -75,7 +75,7 @@ void loop() {
     int speeds[NUM_MOTORS];
 
     // Parsing data dari format "FL,BL,FR,BR\n"
-    sscanf(input.c_str(), "%d,%d,%d,%d", &speeds[0], &speeds[1], &speeds[2], &speeds[3]);
+    sscanf(input.c_str(), "%d,%d,%d,%d", &speeds[1], &speeds[0], &speeds[3], &speeds[2]);
 
     // Kontrol semua motor
     setAllMotors(speeds);
