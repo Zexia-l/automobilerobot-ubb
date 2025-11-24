@@ -1,0 +1,426 @@
+/*
+ * Program ros2_control Hardware Interface + IMU Sensor Fusion untuk Arduino Due (PlatformIO)
+ * Integrasi micro-ROS
+ * * Fitur Utama:
+ * 1. Publish Joint State (Posisi/Kecepatan Encoder) ke /raw_joint_states (50 Hz).
+ * 2. Subscribe Joint Command (Kecepatan Target) dari /diff_cont/commands.
+ * 3. Publish data sensor MPU6050 & HMC5883L (IMU & Magnetik) ke topic ROS 2.
+ * * Target: ROS 2 Humble dengan ros2_control & sensor_fusion.
+ */
+
+#include <Arduino.h>
+#include <micro_ros_platformio.h>
+#include <stdio.h>
+#include "Wire.h" // Diperlukan untuk I2C (MPU6050, HMC5883L)
+
+// Header ROS
+#include <rcl/rcl.h>
+#include <rosidl_runtime_c/string_functions.h> 
+#include <rclc/rclc.h>
+#include <rclc/executor.h>
+#include <rmw_microros/rmw_microros.h>
+
+// Header Tipe Pesan
+#include <sensor_msgs/msg/joint_state.h> 
+#include <sensor_msgs/msg/imu.h> // Pesan baru untuk Akselerometer dan Giroskop
+#include <sensor_msgs/msg/magnetic_field.h> // Pesan baru untuk Magnetometer
+
+// Header Sensor IMU
+#include "I2Cdev.h"
+#include "MPU6050.h"
+#include "HMC5883L.h"
+
+// =================================================================
+// KONFIGURASI PIN & STRUKTUR MOTOR (TIDAK BERUBAH)
+// =================================================================
+
+// Struktur Motor, Pin Encoder, Konstanta Robot
+// ... (Bagian ini sama dengan program sebelumnya) ...
+struct Motor {
+    int RPWM;
+    int LPWM;
+    int REN;
+    int LEN;
+};
+
+Motor motors[] = {
+    {3, 2, 24, 22},  // Motor 0: KIRI DEPAN (FRONT LEFT)
+    {5, 4, 28, 26},  // Motor 1: KANAN DEPAN (FRONT RIGHT)
+    {6, 7, 30, 32},  // Motor 2: KIRI BELAKANG (BACK LEFT)
+    {8, 9, 34, 36}   // Motor 3: KANAN BELAKANG (BACK RIGHT)
+};
+const int NUM_MOTORS = sizeof(motors) / sizeof(Motor);
+const char* joint_names[] = {"base_to_wheel_front_left", "base_to_wheel_front_right", "base_to_wheel_back_left", "base_to_wheel_back_right"};
+
+const int ENC_A[] = {27, 31, 35, 39};
+const int ENC_B[] = {29, 33, 37, 41};
+
+#define WHEEL_DIAMETER 0.03
+#define TICKS_PER_REV  2000
+#define PWM_DEADZONE 70 
+
+const double WHEEL_CIRCUMFERENCE = PI * WHEEL_DIAMETER;
+const double METERS_PER_TICK = WHEEL_CIRCUMFERENCE / TICKS_PER_REV;
+
+// =================================================================
+// Variabel Global ROS
+// =================================================================
+rclc_support_t support;
+rcl_allocator_t allocator;
+rcl_node_t node;
+rclc_executor_t executor;
+
+// Publisher & Message Joint State
+rcl_publisher_t joint_state_publisher;
+sensor_msgs__msg__JointState joint_state_msg;
+
+// Subscriber Joint Command
+rcl_subscription_t joint_command_subscriber;
+sensor_msgs__msg__JointState joint_command_msg; 
+
+// Publisher & Message IMU (Akselerometer & Giroskop)
+rcl_publisher_t imu_publisher;
+sensor_msgs__msg__Imu imu_msg;
+
+// Publisher & Message Magnetik
+rcl_publisher_t mag_publisher;
+sensor_msgs__msg__MagneticField mag_msg;
+
+// Timer
+rcl_timer_t control_timer;
+
+// =================================================================
+// Variabel Global Data Hardware
+// =================================================================
+volatile long encoderCount[NUM_MOTORS] = {0, 0, 0, 0}; 
+double joint_positions[NUM_MOTORS] = {0.0, 0.0, 0.0, 0.0}; 
+double joint_velocities[NUM_MOTORS] = {0.0, 0.0, 0.0, 0.0}; 
+double joint_commands[NUM_MOTORS] = {0.0, 0.0, 0.0, 0.0}; 
+
+long last_encoder_count[NUM_MOTORS] = {0, 0, 0, 0};
+unsigned long prev_control_time = 0;
+
+// =================================================================
+// Variabel Global IMU (BARU)
+// =================================================================
+MPU6050 accelgyro;
+HMC5883L mag;
+
+int16_t mx, my, mz; // Raw Magnetometer
+int16_t ax, ay, az; // Raw Akselerometer
+int16_t gx, gy, gz; // Raw Giroskop
+
+// Konstanta konversi MPU6050 (DEFAULT: +/- 2g dan +/- 250 deg/s)
+// Aksel: 9.80665 m/s^2 per LSB/16384 (jika FS=2g)
+// Gyro: radian/s per LSB/131.0 (jika FS=250 deg/s)
+#define ACCEL_SCALE_FACTOR (9.80665 / 24000.0) // m/s^2 per LSB
+#define GYRO_SCALE_FACTOR (0.0174532925 / 131.0) // rad/s per LSB (250 deg/s)
+
+// Konstanta konversi HMC5883L (DEFAULT: +/- 1.3 Ga, 1090 LSB/Gauss)
+#define MAG_SCALE_FACTOR (1.0 / 1090.0 * 0.0001) // Tesla per LSB (1 Gauss = 0.0001 Tesla)
+
+// =================================================================
+// Fungsi Utilitas Waktu
+// =================================================================
+
+void set_header_time(builtin_interfaces__msg__Time* time_msg) {
+    int64_t nanoseconds = rmw_uros_epoch_nanos();
+    time_msg->sec = (int32_t)(nanoseconds / 1000000000);
+    time_msg->nanosec = (uint32_t)(nanoseconds % 1000000000);
+}
+
+// =================================================================
+// Fungsi Kontrol Motor & Encoder (TIDAK BERUBAH)
+// =================================================================
+
+void setMotorVelocity(int motorIndex, double target_velocity_rad_s) {
+    // ... (Implementasi setMotorVelocity sama) ...
+    double max_vel_rad_s = 10.0;
+    int pwm = (int)(target_velocity_rad_s * 255.0 / max_vel_rad_s);
+    int direction = (pwm > 0) ? 1 : ((pwm < 0) ? -1 : 0);
+    int abs_pwm = abs(pwm);
+
+    if (abs_pwm > 0 && abs_pwm < PWM_DEADZONE) {
+        abs_pwm = PWM_DEADZONE;
+    }
+    
+    if (direction == 1) { 
+        analogWrite(motors[motorIndex].RPWM, abs_pwm);
+        analogWrite(motors[motorIndex].LPWM, 0);
+    } else if (direction == -1) { 
+        analogWrite(motors[motorIndex].RPWM, 0);
+        analogWrite(motors[motorIndex].LPWM, abs_pwm);
+    } else { 
+        analogWrite(motors[motorIndex].RPWM, 0);
+        analogWrite(motors[motorIndex].LPWM, 0);
+    }
+}
+
+// Fungsi ISR Encoder (SAMA)
+void readEncoder(int motorIndex) {
+    int b = digitalRead(ENC_B[motorIndex]);
+    if (b == LOW) { 
+        encoderCount[motorIndex]++;
+    } else {
+        encoderCount[motorIndex]--;
+    }
+}
+void encoderISR0() { readEncoder(0); }
+void encoderISR1() { readEncoder(1); }
+void encoderISR2() { readEncoder(2); }
+void encoderISR3() { readEncoder(3); }
+
+// =================================================================
+// Fungsi Inisialisasi Hardware (Diperbarui)
+// =================================================================
+
+void setup_motors() {
+    for (int i = 0; i < NUM_MOTORS; i++) {
+        pinMode(motors[i].RPWM, OUTPUT);
+        pinMode(motors[i].LPWM, OUTPUT);
+        pinMode(motors[i].REN, OUTPUT);
+        pinMode(motors[i].LEN, OUTPUT);
+        setMotorVelocity(i, 0.0);
+        digitalWrite(motors[i].REN, HIGH);
+        digitalWrite(motors[i].LEN, HIGH);
+    }
+}
+
+void setup_encoders() {
+    for (int i = 0; i < NUM_MOTORS; i++) {
+        pinMode(ENC_A[i], INPUT_PULLUP);
+        pinMode(ENC_B[i], INPUT_PULLUP);
+    }
+    attachInterrupt(digitalPinToInterrupt(ENC_A[0]), encoderISR0, RISING);
+    attachInterrupt(digitalPinToInterrupt(ENC_A[1]), encoderISR1, RISING);
+    attachInterrupt(digitalPinToInterrupt(ENC_A[2]), encoderISR2, RISING);
+    attachInterrupt(digitalPinToInterrupt(ENC_A[3]), encoderISR3, RISING);
+}
+
+void setup_imu() { // FUNGSI BARU UNTUK SETUP IMU
+    Wire.begin();
+    
+    // Inisialisasi sensor
+    mag.initialize();
+    accelgyro.initialize();
+    
+    Serial.println("--- Setup IMU ---");
+    // Cek koneksi
+    if (!mag.testConnection()) {
+        Serial.println("FATAL: HMC5883L failed.");
+    }
+    if (!accelgyro.testConnection()) {
+        Serial.println("FATAL: MPU6050 failed.");
+    }
+    
+    // Optional: Set range MPU6050 jika perlu (saat ini menggunakan default 2g, 250 deg/s)
+    // accelgyro.setFullScaleAccelRange(MPU6050_ACCEL_FS_2);
+    // accelgyro.setFullScaleGyroRange(MPU6050_GYRO_FS_250);
+}
+
+// =================================================================
+// Fungsi Inti micro-ROS
+// =================================================================
+
+// Callback saat Joint Command diterima (SAMA)
+void joint_command_callback(const void *msgin) {
+    const sensor_msgs__msg__JointState *msg = (const sensor_msgs__msg__JointState *)msgin;
+    
+    if (msg->velocity.size >= NUM_MOTORS) {
+        for (int i = 0; i < NUM_MOTORS; i++) {
+            joint_commands[i] = msg->velocity.data[i];
+        }
+    }
+}
+
+// Fungsi timer (Dipanggil secara berkala, 50 Hz/20ms)
+void control_timer_callback(rcl_timer_t *timer, int64_t last_call_time) {
+    if (timer == NULL) return;
+
+    unsigned long now = millis();
+    double dt = (now - prev_control_time) / 1000.0;
+    prev_control_time = now;
+
+    // --- 1. Baca Encoder, Hitung Posisi & Kecepatan ---
+    noInterrupts();
+    long current_encoder_count[NUM_MOTORS];
+    for (int i = 0; i < NUM_MOTORS; i++) {
+        current_encoder_count[i] = encoderCount[i];
+    }
+    interrupts();
+
+    for (int i = 0; i < NUM_MOTORS; i++) {
+        long delta_tick = current_encoder_count[i] - last_encoder_count[i];
+        
+        joint_positions[i] = ((double)current_encoder_count[i] / TICKS_PER_REV) * 2.0 * PI;
+        joint_velocities[i] = ((double)delta_tick / (dt == 0 ? 0.001 : dt)) * (2.0 * PI / TICKS_PER_REV); // dt guard
+        
+        last_encoder_count[i] = current_encoder_count[i];
+    }
+
+    // --- 2. Baca Sensor IMU (BARU) ---
+    accelgyro.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
+    mag.getHeading(&mx, &my, &mz);
+
+    // --- 3. Publish Joint State (Sensor Data) ---
+    builtin_interfaces__msg__Time current_time;
+    set_header_time(&current_time);
+
+    joint_state_msg.header.stamp = current_time;
+    for(int i=0; i<NUM_MOTORS; i++) {
+        joint_state_msg.position.data[i] = joint_positions[i];
+        joint_state_msg.velocity.data[i] = joint_velocities[i];
+    }
+    (void) rcl_publish(&joint_state_publisher, &joint_state_msg, NULL);
+
+    // --- 4. Publish IMU (BARU) ---
+    // Akselerometer: m/s^2, Giroskop: rad/s.
+    imu_msg.header.stamp = current_time;
+    imu_msg.header.frame_id.data = (char*)"imu_link"; 
+    
+    // Akselerasi (Linear Acceleration)
+    imu_msg.linear_acceleration.x = (double)ax * ACCEL_SCALE_FACTOR;
+    imu_msg.linear_acceleration.y = (double)ay * ACCEL_SCALE_FACTOR;
+    imu_msg.linear_acceleration.z = (double)az * ACCEL_SCALE_FACTOR;
+    
+    // Kecepatan Sudut (Angular Velocity)
+    imu_msg.angular_velocity.x = (double)gx * GYRO_SCALE_FACTOR;
+    imu_msg.angular_velocity.y = (double)gy * GYRO_SCALE_FACTOR;
+    imu_msg.angular_velocity.z = (double)gz * GYRO_SCALE_FACTOR;
+    
+    // Quaternion (Orientasi) - Biarkan nol, akan dihitung di ROS (sensor fusion)
+    imu_msg.orientation.w = 1.0; 
+    
+    // Matrix Kovariansi (Optional, untuk ketelitian) - diatur ke nol
+    memset(imu_msg.orientation_covariance, 0, sizeof(imu_msg.orientation_covariance));
+    memset(imu_msg.angular_velocity_covariance, 0, sizeof(imu_msg.angular_velocity_covariance));
+    memset(imu_msg.linear_acceleration_covariance, 0, sizeof(imu_msg.linear_acceleration_covariance));
+
+    (void) rcl_publish(&imu_publisher, &imu_msg, NULL);
+
+    // --- 5. Publish Magnetic Field (BARU) ---
+    // Magnetik: Tesla
+    mag_msg.header.stamp = current_time;
+    mag_msg.header.frame_id.data = (char*)"imu_link";
+
+    mag_msg.magnetic_field.x = (double)mx * MAG_SCALE_FACTOR;
+    mag_msg.magnetic_field.y = (double)my * MAG_SCALE_FACTOR;
+    mag_msg.magnetic_field.z = (double)mz * MAG_SCALE_FACTOR;
+
+    // Matrix Kovariansi (Optional) - diatur ke nol
+    memset(mag_msg.magnetic_field_covariance, 0, sizeof(mag_msg.magnetic_field_covariance));
+
+    (void) rcl_publish(&mag_publisher, &mag_msg, NULL);
+    
+    // --- 6. Terapkan Kontrol Motor ---
+    for (int i = 0; i < NUM_MOTORS; i++) {
+        setMotorVelocity(i, joint_commands[i]);
+    }
+}
+
+// =================================================================
+// Setup dan Loop Utama Arduino (Diperbarui)
+// =================================================================
+
+void setup_ros_messages() {
+    // Joint State Allocation (SAMA)
+    rosidl_runtime_c__String__Sequence__init(&joint_state_msg.name, NUM_MOTORS);
+    for(int i = 0; i < NUM_MOTORS; i++) {
+        if (!rosidl_runtime_c__String__assign(&joint_state_msg.name.data[i], joint_names[i])) {
+            Serial.println("FATAL: Gagal alokasi nama joint.");
+            while(1);
+        }
+    }
+    joint_state_msg.position.data = (double*)malloc(sizeof(double) * NUM_MOTORS);
+    joint_state_msg.position.size = NUM_MOTORS;
+    joint_state_msg.position.capacity = NUM_MOTORS;
+    joint_state_msg.velocity.data = (double*)malloc(sizeof(double) * NUM_MOTORS);
+    joint_state_msg.velocity.size = NUM_MOTORS;
+    joint_state_msg.velocity.capacity = NUM_MOTORS;
+    joint_command_msg.velocity.data = (double*)malloc(sizeof(double) * NUM_MOTORS);
+    joint_command_msg.velocity.capacity = NUM_MOTORS;
+
+    // IMU Message Allocation (BARU)
+    // Header frame_id dialokasikan
+    rosidl_runtime_c__String__assign(&imu_msg.header.frame_id, "imu_link");
+    rosidl_runtime_c__String__assign(&mag_msg.header.frame_id, "imu_link");
+}
+
+void setup() {
+    Serial.begin(115200);
+    set_microros_serial_transports(Serial);
+    delay(2000); 
+
+    // Setup hardware
+    setup_motors();
+    setup_encoders();
+    setup_imu(); // Panggil setup IMU
+    
+    prev_control_time = millis();
+    setup_ros_messages(); // Inisialisasi pesan
+
+    // Inisialisasi micro-ROS
+    allocator = rcl_get_default_allocator();
+    rclc_support_init(&support, 0, NULL, &allocator);
+    rclc_node_init_default(&node, "arduino_due_hw_interface", "", &support);
+
+    // Buat Publisher Joint State (SAMA)
+    rclc_publisher_init_default(
+        &joint_state_publisher,
+        &node,
+        ROSIDL_GET_MSG_TYPE_SUPPORT(sensor_msgs, msg, JointState),
+        "raw_joint_states"
+    );
+
+    // Buat Subscriber Joint Command (SAMA)
+    rclc_subscription_init_default(
+        &joint_command_subscriber,
+        &node,
+        ROSIDL_GET_MSG_TYPE_SUPPORT(sensor_msgs, msg, JointState),
+        "diff_cont/commands"
+    );
+
+    // Buat Publisher IMU (BARU)
+    rclc_publisher_init_default(
+        &imu_publisher,
+        &node,
+        ROSIDL_GET_MSG_TYPE_SUPPORT(sensor_msgs, msg, Imu),
+        "imu/data_raw" // Topik standar untuk data IMU mentah
+    );
+
+    // // Buat Publisher Magnetic Field (BARU)
+    // rclc_publisher_init_default(
+    //     &mag_publisher,
+    //     &node,
+    //     ROSIDL_GET_MSG_TYPE_SUPPORT(sensor_msgs, msg, MagneticField),
+    //     "imu/mag" // Topik standar untuk data magnetik
+    // );
+
+    // Buat Timer untuk loop kontrol (50 Hz / 20ms) (SAMA)
+    const unsigned long control_timeout_ms = 20; 
+    rclc_timer_init_default(
+        &control_timer,
+        &support,
+        RCL_MS_TO_NS(control_timeout_ms),
+        control_timer_callback
+    );
+
+    // Buat Executor
+    // Tambahkan 4 handle: Subscriber, Timer, Publisher IMU, Publisher Mag
+    rclc_executor_init(&executor, &support.context, 2 + 2, &allocator); // 2+2 handles
+    rclc_executor_add_subscription(
+        &executor, 
+        &joint_command_subscriber, 
+        &joint_command_msg, 
+        &joint_command_callback, 
+        ON_NEW_DATA
+    );
+    rclc_executor_add_timer(&executor, &control_timer);
+    // Publisher tidak perlu ditambahkan ke executor, hanya perlu dipanggil di timer
+    
+    Serial.println("--- Setup ROS Selesai ---");
+}
+
+void loop() {
+    rclc_executor_spin_some(&executor, RCL_MS_TO_NS(10));
+}

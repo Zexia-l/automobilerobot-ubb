@@ -1,0 +1,349 @@
+/*
+ * Program micro-ROS untuk Arduino Due (PlatformIO)
+ * * Fitur:
+ * 1. Subscribe ke /cmd_vel (geometry_msgs/Twist)
+ * 2. Menerapkan kecepatan ke 4 motor TERPISAH (differential drive)
+ * 3. Membaca encoder dari 4 motor TERPISAH
+ * 4. Publish ke /odom (nav_msgs/Odometry)
+ * * Target: ROS 2 Humble
+ * * KONTROL MOTOR DIINTEGRASIKAN DARI PROGRAM BARU
+ */
+
+#include <Arduino.h>
+#include <micro_ros_platformio.h>
+#include <stdio.h>
+
+// Header ROS
+#include <rcl/rcl.h>
+#include <rclc/rclc.h>
+#include <rclc/executor.h>
+
+// Header Tipe Pesan
+#include <geometry_msgs/msg/twist.h>
+#include <nav_msgs/msg/odometry.h>
+#include <builtin_interfaces/msg/time.h>
+
+// Untuk timestamp
+#include <sys/time.h>
+
+// =================================================================
+// KONFIGURASI PIN & STRUKTUR MOTOR BARU (Integrasi)
+// =================================================================
+
+// Struktur untuk menyimpan konfigurasi motor
+struct Motor {
+  int RPWM;  // Pin PWM (atau Direction 1)
+  int LPWM;  // Pin Direction 2 (atau PWM Negatif)
+  int REN;   // Pin Enable 1
+  int LEN;   // Pin Enable 2
+};
+
+// Konfigurasi semua motor (Disesuaikan dengan pinout Arduino Due)
+// Harap dicatat: Pin 2, 3, 4, 5, 6, 7, 8, 9, 22, 24, 26, 28, 30, 32, 34, 36 digunakan.
+// Harap pastikan pin ini kompatibel dengan driver motor (misalnya, pin PWM).
+Motor motors[] = {
+  {3, 2, 24, 22},  // Motor 0: KIRI DEPAN (FRONT LEFT) - Pin PWM: 3
+  {5, 4, 28, 26},  // Motor 1: KANAN DEPAN (FRONT RIGHT) - Pin PWM: 5
+  {6, 7, 30, 32},  // Motor 2: KIRI BELAKANG (BACK LEFT) - Pin PWM: 6
+  {8, 9, 34, 36}   // Motor 3: KANAN BELAKANG (BACK RIGHT) - Pin PWM: 8
+};
+
+// Jumlah motor
+const int NUM_MOTORS = sizeof(motors) / sizeof(Motor);
+
+// --- Pin Encoder ---
+const int ENC_A[] = {27, 31, 35, 39}; // Encoder A (HARUS pin interrupt)
+const int ENC_B[] = {29, 33, 37, 41}; // Encoder B
+
+// --- Konstanta Robot ---
+#define WHEEL_DIAMETER 0.10   // Diameter roda (meter)
+#define WHEEL_BASE     0.35   // Jarak antar roda kiri & kanan (meter)
+#define TICKS_PER_REV  2000   // Jumlah tick encoder per putaran roda
+
+// =================================================================
+// Variabel Global ROS
+// =================================================================
+rclc_support_t support;
+rcl_allocator_t allocator;
+rcl_node_t node;
+rclc_executor_t executor;
+
+// Publisher Odometry
+rcl_publisher_t odom_publisher;
+nav_msgs__msg__Odometry odom_msg;
+
+// Subscriber cmd_vel
+rcl_subscription_t cmd_vel_subscriber;
+geometry_msgs__msg__Twist cmd_vel_msg;
+
+// Timer
+rcl_timer_t control_timer; // Timer untuk publish odom & update motor
+
+// =================================================================
+// Variabel Global Odometry & Kontrol
+// =================================================================
+volatile long encoderCount[4] = {0, 0, 0, 0}; 
+
+long last_control_tick_left = 0;
+long last_control_tick_right = 0;
+
+double x_pos = 0.0;     // Posisi X robot (m)
+double y_pos = 0.0;     // Posisi Y robot (m)
+double theta = 0.0;     // Orientasi robot (rad)
+
+double target_linear_vel = 0.0;
+double target_angular_vel = 0.0;
+
+unsigned long prev_control_time = 0;
+
+// Konstanta turunan
+const double WHEEL_CIRCUMFERENCE = PI * WHEEL_DIAMETER;
+const double METERS_PER_TICK = WHEEL_CIRCUMFERENCE / TICKS_PER_REV;
+
+// =================================================================
+// Fungsi Kontrol Motor BARU
+// =================================================================
+
+/**
+ * @brief Mengontrol kecepatan satu motor.
+ * @note Pinout baru: RPWM dan LPWM digunakan untuk maju/mundur.
+ * Asumsi: Driver motor menggunakan 2 Pin PWM terpisah ATAU 1 PWM dan 1 Direction.
+ * Berdasarkan kode Anda, ini diasumsikan sebagai **Mode 2 Pin PWM (H-Bridge)**.
+ * Motor 0 & 2 (Kiri) dan Motor 1 & 3 (Kanan)
+ * @param motor Struktur Motor (pinout)
+ * @param speed Nilai kecepatan (-255 hingga 255)
+ */
+void setMotor(Motor motor, int speed) {
+  // Batasi nilai kecepatan
+  speed = constrain(speed, -255, 255);
+
+  if (speed > 0) {
+    // Maju
+    analogWrite(motor.RPWM, speed); // PWM di RPWM
+    analogWrite(motor.LPWM, 0);     // LPWM LOW (atau 0 PWM)
+    digitalWrite(motor.REN, HIGH);  // Aktifkan enable
+    digitalWrite(motor.LEN, HIGH);
+  } else if (speed < 0) {
+    // Mundur
+    analogWrite(motor.RPWM, 0);     // RPWM LOW (atau 0 PWM)
+    analogWrite(motor.LPWM, abs(speed)); // PWM di LPWM
+    digitalWrite(motor.REN, HIGH);  // Aktifkan enable
+    digitalWrite(motor.LEN, HIGH);
+  } else {
+    // Berhenti
+    analogWrite(motor.RPWM, 0); 
+    analogWrite(motor.LPWM, 0); 
+    digitalWrite(motor.REN, LOW);   // Nonaktifkan enable untuk pengereman
+    digitalWrite(motor.LEN, LOW);
+  }
+}
+
+
+// =================================================================
+// Prototipe Fungsi Encoder (ISR)
+// =================================================================
+
+void readEncoder(int motorIndex) {
+    int b = digitalRead(ENC_B[motorIndex]);
+    if (b == LOW) { 
+      encoderCount[motorIndex]++;
+    } else {
+      encoderCount[motorIndex]--;
+    }
+}
+
+void encoderISR0() { readEncoder(0); }
+void encoderISR1() { readEncoder(1); }
+void encoderISR2() { readEncoder(2); }
+void encoderISR3() { readEncoder(3); }
+
+// =================================================================
+// Fungsi Inti micro-ROS
+// =================================================================
+
+// Callback saat /cmd_vel diterima
+void cmd_vel_callback(const void *msgin) {
+    const geometry_msgs__msg__Twist *msg = (const geometry_msgs__msg__Twist *)msgin;
+    
+    // Simpan kecepatan yang diinginkan
+    target_linear_vel = msg->linear.x;
+    target_angular_vel = msg->angular.z;
+    // Serial.print("V: "); Serial.print(target_linear_vel);
+    // Serial.print(" | W: "); Serial.println(target_angular_vel);
+}
+
+// =================================================================
+// Fungsi Setup Hardware BARU
+// =================================================================
+
+void setup_motors() {
+    for (int i = 0; i < NUM_MOTORS; i++) {
+        pinMode(motors[i].RPWM, OUTPUT);
+        pinMode(motors[i].LPWM, OUTPUT);
+        pinMode(motors[i].REN, OUTPUT);
+        pinMode(motors[i].LEN, OUTPUT);
+
+        // Pastikan motor berhenti saat startup
+        setMotor(motors[i], 0);
+        
+        // Aktifkan Enable secara default (tergantung driver)
+        digitalWrite(motors[i].REN, HIGH);
+        digitalWrite(motors[i].LEN, HIGH);
+    }
+}
+
+void setup_encoders() {
+    for (int i = 0; i < 4; i++) {
+        pinMode(ENC_A[i], INPUT_PULLUP);
+        pinMode(ENC_B[i], INPUT_PULLUP);
+    }
+
+    attachInterrupt(digitalPinToInterrupt(ENC_A[0]), encoderISR0, RISING);
+    attachInterrupt(digitalPinToInterrupt(ENC_A[1]), encoderISR1, RISING);
+    attachInterrupt(digitalPinToInterrupt(ENC_A[2]), encoderISR2, RISING);
+    attachInterrupt(digitalPinToInterrupt(ENC_A[3]), encoderISR3, RISING);
+}
+
+// Fungsi timer (dipanggil secara berkala)
+void control_timer_callback(rcl_timer_t *timer, int64_t last_call_time) {
+    if (timer == NULL) {
+        return;
+    }
+
+    unsigned long now = millis();
+    double dt = (now - prev_control_time) / 1000.0;
+    if (dt == 0) return;
+    prev_control_time = now;
+
+    // --- 1. Hitung Odometry (Forward Kinematics) ---
+    // (Kode Odometry tidak berubah, tetap menggunakan array encoderCount[4])
+    long current_total_tick_left = 0;
+    long current_total_tick_right = 0;
+    
+    noInterrupts();
+    // Kiri: Motor 0 (FL) & Motor 2 (BL)
+    current_total_tick_left = encoderCount[0] + encoderCount[2];
+    // Kanan: Motor 1 (FR) & Motor 3 (BR)
+    current_total_tick_right = encoderCount[1] + encoderCount[3];
+    interrupts();
+
+    long delta_tick_left = (current_total_tick_left - last_control_tick_left) / 2;
+    long delta_tick_right = (current_total_tick_right - last_control_tick_right) / 2;
+
+    last_control_tick_left = current_total_tick_left;
+    last_control_tick_right = current_total_tick_right;
+
+    double dist_left = delta_tick_left * METERS_PER_TICK;
+    double dist_right = delta_tick_right * METERS_PER_TICK;
+    
+    double delta_dist = (dist_left + dist_right) / 2.0;
+    double delta_theta = (dist_right - dist_left) / WHEEL_BASE;
+
+    double current_linear_vel = delta_dist / dt;
+    double current_angular_vel = delta_theta / dt;
+
+    x_pos += delta_dist * cos(theta + delta_theta / 2.0);
+    y_pos += delta_dist * sin(theta + delta_theta / 2.0);
+    theta += delta_theta;
+    
+    if (theta > PI) theta -= 2.0 * PI;
+    if (theta < -PI) theta += 2.0 * PI;
+
+    // --- 2. Isi Pesan Odometry & Publish ---
+    odom_msg.header.frame_id.data = "odom";
+    odom_msg.child_frame_id.data = "base_link";
+    odom_msg.pose.pose.position.x = x_pos;
+    odom_msg.pose.pose.position.y = y_pos;
+    odom_msg.pose.pose.orientation.z = sin(theta / 2.0);
+    odom_msg.pose.pose.orientation.w = cos(theta / 2.0);
+    odom_msg.twist.twist.linear.x = current_linear_vel;
+    odom_msg.twist.twist.angular.z = current_angular_vel;
+    rcl_publish(&odom_publisher, &odom_msg, NULL);
+
+    // --- 3. Terapkan Kontrol Motor (Inverse Kinematics) ---
+    
+    // Kecepatan roda yang dibutuhkan (m/s)
+    double v_left = target_linear_vel - (target_angular_vel * WHEEL_BASE / 2.0);
+    double v_right = target_linear_vel + (target_angular_vel * WHEEL_BASE / 2.0);
+    
+    // Konversi kecepatan (m/s) ke nilai PWM (-255 hingga 255)
+    // Asumsi 1.0 m/s = PWM 255
+    int pwm_left = (int)(v_left * 255.0 / 1.0); 
+    int pwm_right = (int)(v_right * 255.0 / 1.0);
+
+    // Batasi nilai PWM (sudah dilakukan di setMotor, tapi untuk kejelasan:
+    // pwm_left = constrain(pwm_left, -255, 255);
+    // pwm_right = constrain(pwm_right, -255, 255);
+
+    // Terapkan PWM ke masing-masing motor menggunakan fungsi setMotor baru:
+    // Motor Kiri: Motor 0 (FL) & Motor 2 (BL)
+    setMotor(motors[0], pwm_left);
+    setMotor(motors[2], pwm_left);
+    
+    // Motor Kanan: Motor 1 (FR) & Motor 3 (BR)
+    setMotor(motors[1], pwm_right);
+    setMotor(motors[3], pwm_right);
+}
+
+// =================================================================
+// Setup dan Loop Utama Arduino
+// =================================================================
+
+void setup() {
+    Serial.begin(115200);
+    set_microros_serial_transports(Serial);
+    delay(2000); 
+
+    // Setup hardware
+    setup_motors(); // Menggunakan fungsi setup_motors BARU
+    setup_encoders();
+    prev_control_time = millis();
+
+    // Inisialisasi micro-ROS
+    allocator = rcl_get_default_allocator();
+    rclc_support_init(&support, 0, NULL, &allocator);
+
+    // Buat Node
+    rclc_node_init_default(&node, "arduino_due_node", "", &support);
+
+    // Buat Publisher Odometry
+    rclc_publisher_init_default(
+        &odom_publisher,
+        &node,
+        ROSIDL_GET_MSG_TYPE_SUPPORT(nav_msgs, msg, Odometry),
+        "odom"
+    );
+
+    // Buat Subscriber cmd_vel (Callback cmd_vel_callback akan dipanggil saat data diterima)
+    rclc_subscription_init_default(
+        &cmd_vel_subscriber,
+        &node,
+        ROSIDL_GET_MSG_TYPE_SUPPORT(geometry_msgs, msg, Twist),
+        "cmd_vel"
+    );
+
+    // Buat Timer untuk loop kontrol (10 Hz)
+    const unsigned long control_timeout_ms = 100;
+    rclc_timer_init_default(
+        &control_timer,
+        &support,
+        RCL_MS_TO_NS(control_timeout_ms),
+        control_timer_callback
+    );
+
+    // Buat Executor (memproses cmd_vel dan timer)
+    rclc_executor_init(&executor, &support.context, 2, &allocator);
+    rclc_executor_add_subscription(
+        &executor, 
+        &cmd_vel_subscriber, 
+        &cmd_vel_msg, 
+        &cmd_vel_callback, 
+        ON_NEW_DATA
+    );
+    rclc_executor_add_timer(&executor, &control_timer);
+}
+
+void loop() {
+    // Spin executor untuk memproses data masuk (cmd_vel) dan timer (odom)
+    rclc_executor_spin_some(&executor, RCL_MS_TO_NS(10));
+}

@@ -1,0 +1,409 @@
+/*
+ * Program ros2_control Hardware Interface untuk Arduino Due (PlatformIO)
+ * Integrasi micro-ROS
+ * * Fitur:
+ * 1. Publish Joint State (Posisi Encoder) dari 4 motor TERPISAH.
+ * 2. Subscribe Joint Command (Kecepatan Target) untuk 4 motor TERPISAH.
+ * 3. Mengimplementasikan fungsi kontrol motor level rendah.
+ * * Target: ROS 2 Humble dengan ros2_control.
+ */
+
+#include <Arduino.h>
+#include <micro_ros_platformio.h>
+#include <stdio.h>
+
+// Header ROS
+#include <rcl/rcl.h>
+#include <rosidl_runtime_c/string_functions.h> 
+#include <rclc/rclc.h>
+#include <rclc/executor.h>
+#include <rmw_microros/rmw_microros.h>
+
+// Header Tipe Pesan
+// Kami menggunakan JointState untuk membaca posisi/kecepatan (sensor)
+#include <sensor_msgs/msg/joint_state.h> 
+// JointCommand tidak ada di ROS 2 Foxy/Humble. Kami akan gunakan kustom atau 
+// langsung JointState untuk menyalurkan perintah (aktuator), atau Twist (jika tidak pakai ros2_control)
+// Karena targetnya ros2_control, kita akan meniru behaviornya.
+// Controller biasanya publish perintah sebagai JointState juga, tapi di topic berbeda.
+
+// Untuk memudahkan, kita akan membuat 2 JointState:
+// 1. JS (sensor) - Publish posisi/kecepatan
+// 2. JC (command) - Subscribe perintah kecepatan
+
+// =================================================================
+// KONFIGURASI PIN & STRUKTUR MOTOR (DIJAGA)
+// =================================================================
+
+// Struktur untuk menyimpan konfigurasi motor
+struct Motor {
+    int RPWM;
+    int LPWM;
+    int REN;
+    int LEN;
+};
+
+// Konfigurasi semua motor (sesuai spesifikasi)
+Motor motors[] = {
+    {3, 2, 24, 22},  // Motor 0: KIRI DEPAN (FRONT LEFT)
+    {5, 4, 28, 26},  // Motor 1: KANAN DEPAN (FRONT RIGHT)
+    {6, 7, 30, 32},  // Motor 2: KIRI BELAKANG (BACK LEFT)
+    {8, 9, 34, 36}   // Motor 3: KANAN BELAKANG (BACK RIGHT)
+};
+const int NUM_MOTORS = sizeof(motors) / sizeof(Motor);
+const char* joint_names[] = {"base_to_wheel_front_left", "base_to_wheel_front_right", "base_to_wheel_back_left", "base_to_wheel_back_right"};
+
+// --- Pin Encoder ---
+const int ENC_A[] = {27, 31, 35, 39};
+const int ENC_B[] = {29, 33, 37, 41};
+
+// --- Konstanta Robot (DIJAGA, tapi hanya dipakai untuk konversi) ---
+#define WHEEL_DIAMETER 0.03
+#define WHEEL_BASE     0.34
+#define TICKS_PER_REV  2000
+#define PWM_DEADZONE 70 // Nilai minimum PWM agar motor bergerak
+
+// Konstanta turunan
+const double WHEEL_CIRCUMFERENCE = PI * WHEEL_DIAMETER;
+const double METERS_PER_TICK = WHEEL_CIRCUMFERENCE / TICKS_PER_REV;
+
+// =================================================================
+// Variabel Global ROS
+// =================================================================
+rclc_support_t support;
+rcl_allocator_t allocator;
+rcl_node_t node;
+rclc_executor_t executor;
+
+// Publisher Joint State (Sensor)
+rcl_publisher_t joint_state_publisher;
+sensor_msgs__msg__JointState joint_state_msg;
+
+// Subscriber Joint Command (Aktuator)
+// Umumnya menggunakan topic /controller_name/commands
+rcl_subscription_t joint_command_subscriber;
+sensor_msgs__msg__JointState joint_command_msg; 
+
+// Timer
+rcl_timer_t control_timer;
+
+// =================================================================
+// Variabel Global Data Hardware
+// =================================================================
+volatile long encoderCount[NUM_MOTORS] = {0, 0, 0, 0}; // Posisi (ticks)
+double joint_positions[NUM_MOTORS] = {0.0, 0.0, 0.0, 0.0}; // Posisi (radian)
+double joint_velocities[NUM_MOTORS] = {0.0, 0.0, 0.0, 0.0}; // Kecepatan (rad/s)
+double joint_commands[NUM_MOTORS] = {0.0, 0.0, 0.0, 0.0}; // Perintah kecepatan target (rad/s)
+
+long last_encoder_count[NUM_MOTORS] = {0, 0, 0, 0};
+unsigned long prev_control_time = 0;
+
+// =================================================================
+// Fungsi Utilitas Waktu
+// =================================================================
+
+void set_header_time(builtin_interfaces__msg__Time* time_msg) {
+    int64_t nanoseconds = rmw_uros_epoch_nanos();
+    time_msg->sec = (int32_t)(nanoseconds / 1000000000);
+    time_msg->nanosec = (uint32_t)(nanoseconds % 1000000000);
+}
+
+// =================================================================
+// Fungsi Kontrol Motor (DIJAGA KODE LEVEL RENDAHNYA)
+// =================================================================
+
+// Menerima kecepatan dalam rad/s
+void setMotorVelocity(int motorIndex, double target_velocity_rad_s) {
+    // Konversi target_velocity_rad_s ke PWM
+    // Asumsi: Kecepatan sudut maksimum (misalnya 10 rad/s) = PWM 255
+    // Kecepatan linier maks: V_max = R * Omega_max = (D/2) * Omega_max = 0.05 * Omega_max
+    
+    // Konversi rad/s ke RPM
+    double rpm = target_velocity_rad_s * 60.0 / (2.0 * PI);
+    
+    // Konversi RPM ke PWM (Asumsi kalibrasi/mapping sederhana)
+    // Motor kalibrasi: max RPM 100, max PWM 255 -> PWM = RPM * 2.55
+    // Kita anggap 100 RPM ~= 10.47 rad/s (dibulatkan menjadi 10 rad/s)
+    // Faktor konversi PWM/rad_s: 255 / 10.0 = 25.5
+
+    // Skala sederhana: 
+    double max_vel_rad_s = 10.0; // Anggap kecepatan sudut maksimum motor 10 rad/s (Contoh)
+    
+    int pwm = (int)(target_velocity_rad_s * 255.0 / max_vel_rad_s);
+
+    // 2. Tentukan Arah
+    int direction = (pwm > 0) ? 1 : ((pwm < 0) ? -1 : 0);
+    int abs_pwm = abs(pwm);
+
+    // 3. IMPLEMENTASI DEADZONE (PENTING!)
+    if (abs_pwm > 0 && abs_pwm < PWM_DEADZONE) {
+        abs_pwm = PWM_DEADZONE; // Paksa nilai PWM ke minimum 70
+    }
+
+    Serial.print("Motor ");
+    Serial.print(motorIndex);
+    Serial.print(" | Final PWM: ");
+    Serial.println(abs_pwm);
+    
+    // 4. Terapkan nilai PWM
+    if (direction == 1) { // Maju
+        analogWrite(motors[motorIndex].RPWM, abs_pwm);
+        analogWrite(motors[motorIndex].LPWM, 0);
+    } else if (direction == -1) { // Mundur
+        analogWrite(motors[motorIndex].RPWM, 0);
+        analogWrite(motors[motorIndex].LPWM, abs_pwm);
+    } else { // Berhenti
+        analogWrite(motors[motorIndex].RPWM, 0);
+        analogWrite(motors[motorIndex].LPWM, 0);
+    }
+    
+    //     // Tambahkan Deadzone minimal
+    // if (pwm > 0 && pwm < 70) pwm = 70;       // Minimal PWM maju
+    // if (pwm < 0 && pwm > -70) pwm = -70;     // Minimal PWM mundur
+    
+    // // Batasi PWM
+    // pwm = constrain(pwm, -255, 255);
+
+    // Motor motor = motors[motorIndex];
+
+    // if (pwm > 0) {
+    //     // Maju
+    //     analogWrite(motor.RPWM, pwm);
+    //     analogWrite(motor.LPWM, 0);
+    //     digitalWrite(motor.REN, HIGH);
+    //     digitalWrite(motor.LEN, HIGH);
+    // } else if (pwm < 0) {
+    //     // Mundur
+    //     analogWrite(motor.RPWM, 0);
+    //     analogWrite(motor.LPWM, abs(pwm));
+    //     digitalWrite(motor.REN, HIGH);
+    //     digitalWrite(motor.LEN, HIGH);
+    // } else {
+    //     // Berhenti
+    //     analogWrite(motor.RPWM, 0); 
+    //     analogWrite(motor.LPWM, 0); 
+    //     digitalWrite(motor.REN, LOW); // Bisa HIGH juga, tergantung driver
+    //     digitalWrite(motor.LEN, LOW);
+    // }
+}
+
+// =================================================================
+// Fungsi Encoder (ISR) (DIJAGA KODE LEVEL RENDAHNYA)
+// =================================================================
+
+void readEncoder(int motorIndex) {
+    // Sesuai logika differential drive, kita asumsikan putaran CW adalah positif (maju)
+    // Tweak jika motor berputar terbalik
+    int b = digitalRead(ENC_B[motorIndex]);
+    if (b == LOW) { 
+        encoderCount[motorIndex]++;
+    } else {
+        encoderCount[motorIndex]--;
+    }
+}
+
+// Perlu 4 ISR terpisah untuk Arduino Due/SAM
+void encoderISR0() { readEncoder(0); }
+void encoderISR1() { readEncoder(1); }
+void encoderISR2() { readEncoder(2); }
+void encoderISR3() { readEncoder(3); }
+
+// =================================================================
+// Fungsi Inti micro-ROS
+// =================================================================
+
+// Callback saat Joint Command diterima
+void joint_command_callback(const void *msgin) {
+    const sensor_msgs__msg__JointState *msg = (const sensor_msgs__msg__JointState *)msgin;
+    
+    // Pesan JointState dari DiffDriveController hanya akan mengisi array 'velocity'
+    if (msg->velocity.size >= NUM_MOTORS) {
+        for (int i = 0; i < NUM_MOTORS; i++) {
+            // Perintah kecepatan dalam rad/s
+            joint_commands[i] = msg->velocity.data[i];
+        }
+    }
+}
+
+// Fungsi Setup Hardware (DIJAGA)
+void setup_motors() {
+    for (int i = 0; i < NUM_MOTORS; i++) {
+        pinMode(motors[i].RPWM, OUTPUT);
+        pinMode(motors[i].LPWM, OUTPUT);
+        pinMode(motors[i].REN, OUTPUT);
+        pinMode(motors[i].LEN, OUTPUT);
+        setMotorVelocity(i, 0.0); // Gunakan fungsi baru
+        // Set enable pin ke HIGH agar motor siap digunakan
+        digitalWrite(motors[i].REN, HIGH);
+        digitalWrite(motors[i].LEN, HIGH);
+    }
+}
+
+void setup_encoders() {
+    for (int i = 0; i < NUM_MOTORS; i++) {
+        pinMode(ENC_A[i], INPUT_PULLUP);
+        pinMode(ENC_B[i], INPUT_PULLUP);
+    }
+    // Asumsikan pin A adalah pin interupsi
+    attachInterrupt(digitalPinToInterrupt(ENC_A[0]), encoderISR0, RISING);
+    attachInterrupt(digitalPinToInterrupt(ENC_A[1]), encoderISR1, RISING);
+    attachInterrupt(digitalPinToInterrupt(ENC_A[2]), encoderISR2, RISING);
+    attachInterrupt(digitalPinToInterrupt(ENC_A[3]), encoderISR3, RISING);
+}
+
+// Fungsi timer (Dipanggil secara berkala, misal 50 Hz)
+void control_timer_callback(rcl_timer_t *timer, int64_t last_call_time) {
+    if (timer == NULL) {
+        return;
+    }
+
+    unsigned long now = millis();
+    double dt = (now - prev_control_time) / 1000.0;
+    if (dt == 0) return;
+    prev_control_time = now;
+
+    // --- 1. Baca Encoder, Hitung Posisi & Kecepatan (Sensor Reading) ---
+    // Konversi ke satuan ROS: radian (posisi) dan rad/s (kecepatan)
+
+    noInterrupts();
+    // Copy volatile data
+    long current_encoder_count[NUM_MOTORS];
+    for (int i = 0; i < NUM_MOTORS; i++) {
+        current_encoder_count[i] = encoderCount[i];
+    }
+    interrupts();
+
+    for (int i = 0; i < NUM_MOTORS; i++) {
+        long delta_tick = current_encoder_count[i] - last_encoder_count[i];
+
+        // Hitung Posisi (Radians)
+        // Posisi: (Total Ticks / TICKS_PER_REV) * 2 * PI
+        joint_positions[i] = ((double)current_encoder_count[i] / TICKS_PER_REV) * 2.0 * PI;
+        
+        // Hitung Kecepatan (rad/s)
+        // Kecepatan: (Delta Ticks / dt) * (2 * PI / TICKS_PER_REV)
+        joint_velocities[i] = ((double)delta_tick / dt) * (2.0 * PI / TICKS_PER_REV);
+
+        last_encoder_count[i] = current_encoder_count[i];
+    }
+
+    // --- 2. Publish Joint State (Sensor Data) ---
+    builtin_interfaces__msg__Time current_time;
+    set_header_time(&current_time);
+
+    joint_state_msg.header.stamp = current_time;
+    // Nama Joint sudah diset di setup
+    // joint_state_msg.position.data = joint_positions; // Sudah diisi di setup
+    // joint_state_msg.velocity.data = joint_velocities; // Sudah diisi di setup
+    
+    // Copy data ke pesan ROS
+    for(int i=0; i<NUM_MOTORS; i++) {
+        joint_state_msg.position.data[i] = joint_positions[i];
+        joint_state_msg.velocity.data[i] = joint_velocities[i];
+    }
+
+    (void) rcl_publish(&joint_state_publisher, &joint_state_msg, NULL);
+    // --- 3. Terapkan Kontrol Motor (Actuator Command) ---
+    // Gunakan perintah kecepatan dari subscriber (joint_commands)
+    for (int i = 0; i < NUM_MOTORS; i++) {
+        setMotorVelocity(i, joint_commands[i]);
+    }
+}
+
+// =================================================================
+// Setup dan Loop Utama Arduino
+// =================================================================
+
+void setup_ros_messages() {
+    // Alokasi memori untuk JointState message (4 joint)
+    
+    // --- PERBAIKAN ERROR ALOKASI NAMA JOINT ---
+    // 1. Alokasi sequence untuk 4 nama joint
+    rosidl_runtime_c__String__Sequence__init(&joint_state_msg.name, NUM_MOTORS);
+    
+    // 2. Isi setiap string di dalam sequence
+    for(int i = 0; i < NUM_MOTORS; i++) {
+        // Alokasi dan copy string nama joint
+        if (!rosidl_runtime_c__String__assign(&joint_state_msg.name.data[i], joint_names[i])) {
+            // Handle error jika gagal alokasi/assign
+            Serial.println("FATAL: Gagal alokasi nama joint.");
+            while(1);
+        }
+    }
+    // ------------------------------------------
+
+    // Alokasi Posisi (Position)
+    joint_state_msg.position.data = (double*)malloc(sizeof(double) * NUM_MOTORS);
+    joint_state_msg.position.size = NUM_MOTORS;
+    joint_state_msg.position.capacity = NUM_MOTORS;
+
+    // Alokasi Kecepatan (Velocity)
+    joint_state_msg.velocity.data = (double*)malloc(sizeof(double) * NUM_MOTORS);
+    joint_state_msg.velocity.size = NUM_MOTORS;
+    joint_state_msg.velocity.capacity = NUM_MOTORS;
+    
+    // Inisialisasi Kapasitas Command (hanya butuh velocity)
+    joint_command_msg.velocity.data = (double*)malloc(sizeof(double) * NUM_MOTORS);
+    joint_command_msg.velocity.size = 0; // Size awal 0, akan diisi saat pesan diterima
+    joint_command_msg.velocity.capacity = NUM_MOTORS;
+}
+
+void setup() {
+    Serial.begin(115200);
+    set_microros_serial_transports(Serial);
+    delay(2000); 
+
+    // Setup hardware
+    setup_motors();
+    setup_encoders();
+    prev_control_time = millis();
+    setup_ros_messages(); // Inisialisasi pesan
+
+    // Inisialisasi micro-ROS
+    allocator = rcl_get_default_allocator();
+    rclc_support_init(&support, 0, NULL, &allocator);
+    rclc_node_init_default(&node, "arduino_due_hw_interface", "", &support);
+
+    // Buat Publisher Joint State (Sensor Reading)
+    rclc_publisher_init_default(
+        &joint_state_publisher,
+        &node,
+        ROSIDL_GET_MSG_TYPE_SUPPORT(sensor_msgs, msg, JointState),
+        "raw_joint_states" // Topic standar untuk data sensor robot
+    );
+
+    // Buat Subscriber Joint Command (Actuator Command)
+    // DiffDriveController biasanya publish ke /diff_cont/commands
+    // Sesuaikan dengan nama controller Anda
+    rclc_subscription_init_default(
+        &joint_command_subscriber,
+        &node,
+        ROSIDL_GET_MSG_TYPE_SUPPORT(sensor_msgs, msg, JointState),
+        "diff_cont/commands" // Ganti dengan nama controller Anda
+    );
+
+    // Buat Timer untuk loop kontrol (50 Hz / 20ms)
+    const unsigned long control_timeout_ms = 20; 
+    rclc_timer_init_default(
+        &control_timer,
+        &support,
+        RCL_MS_TO_NS(control_timeout_ms),
+        control_timer_callback
+    );
+
+    // Buat Executor
+    // Tambahkan 2 handle: Subscriber dan Timer
+    rclc_executor_init(&executor, &support.context, 2, &allocator);
+    rclc_executor_add_subscription(
+        &executor, 
+        &joint_command_subscriber, 
+        &joint_command_msg, 
+        &joint_command_callback, 
+        ON_NEW_DATA
+    );
+    rclc_executor_add_timer(&executor, &control_timer);
+}
+
+void loop() {
+    rclc_executor_spin_some(&executor, RCL_MS_TO_NS(10));
+}
