@@ -4,7 +4,7 @@
 #include "MPU6050.h"
 #include "HMC5883L.h"
 
-HMC5883L mag;
+// HMC5883L mag;
 MPU6050 accelgyro;
 
 int16_t mx, my, mz;
@@ -23,10 +23,10 @@ void setup(){
     Serial.begin(38400);
 
     Serial.println("Memulai I2C....");
-    mag.initialize();
+    // mag.initialize();
     accelgyro.initialize();
 
-    Serial.println(mag.testConnection() ? "HMC5883L succes" : "HMC5883L failed");
+    // Serial.println(mag.testConnection() ? "HMC5883L succes" : "HMC5883L failed");
     Serial.println(accelgyro.testConnection() ? "MPU6050 succes" : "MPU6050 failed");
     pinMode(LED_PIN, OUTPUT);
 }
@@ -35,13 +35,13 @@ void loop(){
     // read raw heading measurements from device
     // read raw accel/gyro measurements from device
     accelgyro.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
-    mag.getHeading(&mx, &my, &mz);
+    // mag.getHeading(&mx, &my, &mz);
 
     // display tab-separated gyro x/y/z values
-    Serial.print("mag:\t");
-    Serial.print(mx); Serial.print("\t");
-    Serial.print(my); Serial.print("\t");
-    Serial.print(mz); Serial.print("\t");
+    // Serial.print("mag:\t");
+    // Serial.print(mx); Serial.print("\t");
+    // Serial.print(my); Serial.print("\t");
+    // Serial.print(mz); Serial.print("\t");
 // To calculate heading in degrees. 0 degree indicates North
     float heading = atan2(my, mx);
     if(heading < 0)

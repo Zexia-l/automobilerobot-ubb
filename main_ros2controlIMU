@@ -18,6 +18,8 @@
 #include <rosidl_runtime_c/string_functions.h> 
 #include <rclc/rclc.h>
 #include <rclc/executor.h>
+#include <rcl/error_handling.h>
+#include <rcutils/error_handling.h>
 #include <rmw_microros/rmw_microros.h>
 
 // Header Tipe Pesan
@@ -52,12 +54,12 @@ Motor motors[] = {
 const int NUM_MOTORS = sizeof(motors) / sizeof(Motor);
 const char* joint_names[] = {"base_to_wheel_front_left", "base_to_wheel_front_right", "base_to_wheel_back_left", "base_to_wheel_back_right"};
 
-const int ENC_A[] = {27, 31, 35, 39};
-const int ENC_B[] = {29, 33, 37, 41};
+const int ENC_A[] = {27, 31, 37, 41}; // {27, 31, 35, 39}; //old one
+const int ENC_B[] = {29, 33, 35, 39}; // {29, 33, 37, 41};
 
 #define WHEEL_DIAMETER 0.03
 #define TICKS_PER_REV  2000
-#define PWM_DEADZONE 70 
+#define PWM_DEADZONE 70
 
 const double WHEEL_CIRCUMFERENCE = PI * WHEEL_DIAMETER;
 const double METERS_PER_TICK = WHEEL_CIRCUMFERENCE / TICKS_PER_REV;
@@ -81,10 +83,6 @@ sensor_msgs__msg__JointState joint_command_msg;
 // Publisher & Message IMU (Akselerometer & Giroskop)
 rcl_publisher_t imu_publisher;
 sensor_msgs__msg__Imu imu_msg;
-
-// Publisher & Message Magnetik
-rcl_publisher_t mag_publisher;
-sensor_msgs__msg__MagneticField mag_msg;
 
 // Timer
 rcl_timer_t control_timer;
@@ -204,13 +202,13 @@ void setup_imu() { // FUNGSI BARU UNTUK SETUP IMU
     mag.initialize();
     accelgyro.initialize();
     
-    Serial.println("--- Setup IMU ---");
+    SerialUSB.println("--- Setup IMU ---");
     // Cek koneksi
     if (!mag.testConnection()) {
-        Serial.println("FATAL: HMC5883L failed.");
+        SerialUSB.println("FATAL: HMC5883L failed.");
     }
     if (!accelgyro.testConnection()) {
-        Serial.println("FATAL: MPU6050 failed.");
+        SerialUSB.println("FATAL: MPU6050 failed.");
     }
     
     // Optional: Set range MPU6050 jika perlu (saat ini menggunakan default 2g, 250 deg/s)
@@ -226,10 +224,15 @@ void setup_imu() { // FUNGSI BARU UNTUK SETUP IMU
 void joint_command_callback(const void *msgin) {
     const sensor_msgs__msg__JointState *msg = (const sensor_msgs__msg__JointState *)msgin;
     
+    // SerialUSB.println("Command Received! (Callback Executed)");
+
     if (msg->velocity.size >= NUM_MOTORS) {
         for (int i = 0; i < NUM_MOTORS; i++) {
             joint_commands[i] = msg->velocity.data[i];
+
         }
+    } else {
+        SerialUSB.println("ERROR: Command size mismatch!");
     }
 }
 
@@ -300,17 +303,17 @@ void control_timer_callback(rcl_timer_t *timer, int64_t last_call_time) {
 
     // --- 5. Publish Magnetic Field (BARU) ---
     // Magnetik: Tesla
-    mag_msg.header.stamp = current_time;
-    mag_msg.header.frame_id.data = (char*)"imu_link";
+    // mag_msg.header.stamp = current_time;
+    // mag_msg.header.frame_id.data = (char*)"imu_link";
 
-    mag_msg.magnetic_field.x = (double)mx * MAG_SCALE_FACTOR;
-    mag_msg.magnetic_field.y = (double)my * MAG_SCALE_FACTOR;
-    mag_msg.magnetic_field.z = (double)mz * MAG_SCALE_FACTOR;
+    // mag_msg.magnetic_field.x = (double)mx * MAG_SCALE_FACTOR;
+    // mag_msg.magnetic_field.y = (double)my * MAG_SCALE_FACTOR;
+    // mag_msg.magnetic_field.z = (double)mz * MAG_SCALE_FACTOR;
 
     // Matrix Kovariansi (Optional) - diatur ke nol
-    memset(mag_msg.magnetic_field_covariance, 0, sizeof(mag_msg.magnetic_field_covariance));
+    // memset(mag_msg.magnetic_field_covariance, 0, sizeof(mag_msg.magnetic_field_covariance));
 
-    (void) rcl_publish(&mag_publisher, &mag_msg, NULL);
+    // (void) rcl_publish(&mag_publisher, &mag_msg, NULL);
     
     // --- 6. Terapkan Kontrol Motor ---
     for (int i = 0; i < NUM_MOTORS; i++) {
@@ -327,7 +330,7 @@ void setup_ros_messages() {
     rosidl_runtime_c__String__Sequence__init(&joint_state_msg.name, NUM_MOTORS);
     for(int i = 0; i < NUM_MOTORS; i++) {
         if (!rosidl_runtime_c__String__assign(&joint_state_msg.name.data[i], joint_names[i])) {
-            Serial.println("FATAL: Gagal alokasi nama joint.");
+            SerialUSB.println("FATAL: Gagal alokasi nama joint.");
             while(1);
         }
     }
@@ -343,12 +346,13 @@ void setup_ros_messages() {
     // IMU Message Allocation (BARU)
     // Header frame_id dialokasikan
     rosidl_runtime_c__String__assign(&imu_msg.header.frame_id, "imu_link");
-    rosidl_runtime_c__String__assign(&mag_msg.header.frame_id, "imu_link");
 }
 
 void setup() {
-    Serial.begin(115200);
-    set_microros_serial_transports(Serial);
+    SerialUSB.begin(115200);
+    while (!SerialUSB);
+    SerialUSB.flush();
+    set_microros_serial_transports(SerialUSB);
     delay(2000); 
 
     // Setup hardware
@@ -388,14 +392,6 @@ void setup() {
         "imu/data_raw" // Topik standar untuk data IMU mentah
     );
 
-    // // Buat Publisher Magnetic Field (BARU)
-    // rclc_publisher_init_default(
-    //     &mag_publisher,
-    //     &node,
-    //     ROSIDL_GET_MSG_TYPE_SUPPORT(sensor_msgs, msg, MagneticField),
-    //     "imu/mag" // Topik standar untuk data magnetik
-    // );
-
     // Buat Timer untuk loop kontrol (50 Hz / 20ms) (SAMA)
     const unsigned long control_timeout_ms = 20; 
     rclc_timer_init_default(
@@ -418,7 +414,7 @@ void setup() {
     rclc_executor_add_timer(&executor, &control_timer);
     // Publisher tidak perlu ditambahkan ke executor, hanya perlu dipanggil di timer
     
-    Serial.println("--- Setup ROS Selesai ---");
+    SerialUSB.println("--- Setup ROS Selesai ---");
 }
 
 void loop() {
